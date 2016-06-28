@@ -1,0 +1,57 @@
+@charset "UTF-8";
+/*********************** new module Name Start **************************************
+ *@moduleName:
+ *@author:Mad-hu
+ *@desc:footer scss
+ *@time:2016/6/27 14:22
+ **/
+.indexFooter{
+  height: 205px;
+  .indexFooter1{
+    height: 157px;
+    background-color: #1f1f1f;
+  }
+  .indexFooter2{
+    height: 48px;
+    background-color: #111;
+  }
+  .footerContainer{
+    width: 1200px;
+    margin: 0 auto;
+    padding-top: 35px;
+  }
+
+  .fli{
+    float: left;
+    font-size: 14px;
+    color: #fff;
+  }
+
+  .flia{
+    margin-right: 60px;
+  }
+  .flia-1{
+    &:after{
+      content: '|';
+      position: absolute;
+      margin-left: 30px;
+    }
+  }
+
+  .flv21{
+    float: left;
+    color: #fff;
+    font-size: 14px;
+  }
+  .flv22{
+    float: left;
+    color: #fff;
+    font-size: 14px;
+  }
+  .flv23{
+    float: left;
+    color: #fff;
+    font-size: 14px;
+  }
+}
+/*********************** new module Name End **************************************/

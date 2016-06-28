@@ -1,0 +1,29 @@
+@import "normalize";
+@import "compass";
+
+$supported-browsers:chrome,firefox,ie,safari,opera;
+$browser-minimum-versions:("ie":"8");
+
+$lte-ie:true !default;
+.clearfix {
+  @if $lte-ie {
+    *zoom: 1;
+  }
+  &:before,
+  &:after{
+    content: "";
+    display: table;
+  }
+  &:before,
+  &:after{
+    clear: both;
+    overflow: hidden;
+  }
+}
+
+ul{
+  padding: 0px;
+}
+a{
+  @include unstyled-link();
+}

@@ -1,0 +1,78 @@
+@charset "UTF-8";
+/*********************** new module Name Start **************************************
+ *@moduleName:
+ *@author:Mad-hu
+ *@desc: header scss
+ *@time:2016/6/28 16:02
+ **/
+
+/*header top line color*/
+$headerTopLineColor:#1f1f1f;
+
+/*header tabbar current color */
+$headerTabberCurrentColor:#ff9933;
+
+/*placeholder color*/
+$placeholderColor:#999;
+
+.indexHeader{
+  .headerTopBlack{
+    height: 35px;
+    width: 100%;
+    background-color: $headerTopLineColor;
+  }
+  .headerContainer {
+    height: 90px;
+    width: 100%;
+    background-color: #fff;
+  }
+  .headerLists{
+    width: 1200px;
+    margin: 0 auto;
+  }
+  .headerLogo{
+    float: left;
+    margin: 23px 45px 0 0;
+  }
+  .headerTabbars{
+    float: left;
+    height: 90px;
+  }
+
+  .headerList{
+    display: block;
+    float: left;
+    padding: 35px 25px 0 25px;
+    text-align: center;
+    color: black;
+    text-decoration: none;
+    height: 31px;
+  }
+  .tabberCurrent{
+    color: $headerTabberCurrentColor;
+    border-bottom: 1px solid $headerTabberCurrentColor;
+    border-width: 4px;
+  }
+  .searchForm{
+    float: right;
+    margin-top: 32px;
+  }
+  .searchIcon{
+    position: relative;
+    left: 127px;
+    top: -26px;
+    color: #a2a2a2;
+  }
+  .headerSearch{
+    float: right;
+    width: 150px;
+    height: 90px;
+  }
+  .searchInput{
+    width: 141px;
+    height: 23px;
+    font-size: 12px;
+    color: $placeholderColor;
+  }
+}
+ /*********************** new module Name End **************************************/
