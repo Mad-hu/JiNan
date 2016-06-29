@@ -1,0 +1,118 @@
+@charset "UTF-8";
+@import "compass";
+/*********************** new module Name Start **************************************
+ *@moduleName:
+ *@author:Mad-hu
+ *@desc:login scss
+ *@time:2016/6/29 10:30
+ **/
+
+$loginBlue:#008aff;
+
+.loginbg{
+  height: 614px;
+  background: url("../img/loginBg.png") no-repeat;
+}
+.loginBox{
+  width: 324px;
+  height: 270px;
+  border-top: 4px solid #008aff;
+  float: right;
+  background-color: #fff;
+  margin-top: 87px;
+  padding: 33px 50px 93px 46px;
+
+  .ltLeft{
+    float: left;
+    font-size: 18px;
+    color: #302f2b;
+  }
+
+  .ltRight{
+    float: right;
+    margin-top: 4px;
+  }
+  .noNumberT{
+    font-size: 14px;
+    color: #999999;
+  }
+  .registerNumberT{
+    font-size: 14px;
+    color: #ff9933;
+  }
+
+  .loginTitleBox{
+    padding-bottom: 15px;
+    border-bottom: 1px solid #e5e5e5;
+  }
+}
+
+.formBox{
+  margin: 39px 0;
+  .formItems{
+    border: 1px solid #e5e5e5;
+    height: 38px;
+    margin-bottom: 21px;
+    @include border-radius(1px);
+    behavior: url(component/PIE/PIE.htc);
+  }
+
+  .formIconFont{
+    display: block;
+    float: left;
+    width: 34px;
+    height: 33px;
+    text-align: center;
+    font-size: 22px;
+    color: #a6a6a6;
+    padding: 5px 0 0 3px;
+    border-right: 1px solid #e5e5e5;
+    position: absolute;
+  }
+
+  .inputBox{
+    height: 36px;
+    width: 224px;
+    border: none;
+    padding-left: 53px;
+    padding-right: 45px;
+    font-size: 14px;
+    color: #ccc;
+    position: absolute;
+    left: 1px;
+  }
+
+  .formC{
+    position: relative;
+  }
+
+  .formIconFontEye{
+    display: block;
+    float: right;
+    width: 34px;
+    height: 30px;
+    text-align: center;
+    font-size: 22px;
+    color: #a6a6a6;
+    padding: 8px 0 0 3px;
+    border-right: 1px solid #e5e5e5;
+    position: absolute;
+    right: 0px;
+    cursor: pointer;
+  }
+
+}
+
+.formSubmitBtn{
+  width: 100%;
+  height: 40px;
+  background-color: #008aff;
+  text-align: center;
+  color: #fff;
+  cursor: pointer;
+  @include border-radius(3px);
+  behavior: url(component/PIE/PIE.htc);
+  border:none;
+
+}
+ /*********************** new module Name End **************************************/

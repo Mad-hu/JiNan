@@ -115,7 +115,8 @@ li {
 }
 
 #focus-bubble li.current {
-  background-color: #fff;
+  background-color: #ff9933;
+  border-color: #ff9933;
 }
 
 /*********************** new module Name End **************************************/
@@ -461,6 +462,50 @@ li {
   float: right;
   line-height: 45px;
   color: #999;
+}
+
+/*********************** new module Name End **************************************/
+/*********************** new module Name Start **************************************
+ *@moduleName:
+ *@author:Mad-hu
+ *@desc:rightMenu
+ *@time:2016/6/29 9:57
+ **/
+.rightMenu {
+  width: 46px;
+  height: 190px;
+  position: fixed;
+  top: 50%;
+  right: 10%;
+}
+.rightMenu .qqm {
+  font-size: 27px;
+  color: #fff;
+  position: relative;
+  top: 7px;
+}
+
+.rightMenu {
+  z-index: 30;
+}
+.rightMenu .menu {
+  width: 46px;
+  height: 46px;
+  margin-bottom: 1px;
+  background-color: #484848;
+  text-align: center;
+  cursor: pointer;
+}
+.rightMenu .menu:hover {
+  background-color: #f35027;
+}
+.rightMenu .menu .imoRight {
+  display: block;
+  width: 46px;
+  height: 25px;
+  background: url(../img/imoImg.png) 9px -23px no-repeat;
+  position: relative;
+  top: 11px;
 }
 
 /*********************** new module Name End **************************************/
