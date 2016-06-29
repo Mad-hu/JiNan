@@ -1,0 +1,226 @@
+/*********************** new module Name Start **************************************
+ *@moduleName:
+ *@author:Caorh
+ *@desc:yqgk-page
+ *@time:2016/6/29 15:27
+ **/
+/*********************** new module Name Start **************************************
+ *@moduleName:
+ *@author:Caorh
+ *@desc:yuqk_con
+ *@time:2016/6/29 15:19
+ **/
+.yqgk_con {
+  width: 100%;
+  height: 80px;
+  background: #f6f6f6;
+}
+
+.yqgk_title {
+  line-height: 40px;
+}
+.yqgk_title .yqgk_text {
+  font-size: 24px;
+  color: #302f2b;
+  float: left;
+}
+.yqgk_title .yqgk_text_f {
+  display: inline-block;
+  color: #a0a0a0;
+  font-size: 26px;
+  float: left;
+  margin-top: 24px;
+  margin-left: 9px;
+  text-transform: uppercase;
+}
+
+.daohang_right {
+  float: right;
+  line-height: 80px;
+  font-size: 14px;
+}
+.daohang_right .place-txt {
+  color: #a0a0a0;
+}
+.daohang_right .hove_dh {
+  color: #302f2b;
+}
+.daohang_right .hove_dh:hover {
+  color: #ff9933;
+  cursor: pointer;
+}
+.daohang_right .icon_dh {
+  color: #302f2b;
+}
+
+.yqgk_banner_img {
+  background: url("../img/banner_yq_02.jpg") no-repeat center center;
+  width: 100%;
+  height: 590px;
+}
+
+.banner-title-item {
+  float: left;
+  font-size: 24px;
+  color: #fff;
+}
+
+.line-item {
+  display: inline-block;
+  width: 600px;
+  height: 1px;
+  background: #fff;
+  float: left;
+  margin-top: 38px;
+  margin-left: 8px;
+}
+
+.mn-top_item {
+  margin-top: 115px;
+}
+
+.round_big {
+  border-radius: 50%;
+  width: 10px;
+  height: 10px;
+  border: 2px solid #fff;
+  display: inline-block;
+  text-align: center;
+  margin-top: 32px;
+}
+
+.round_small {
+  border-radius: 50%;
+  width: 5px;
+  height: 5px;
+  border: 1px solid #fff;
+  /* text-align: center; */
+  background: #fff;
+  display: inline-block;
+  /* margin-top: -73px; */
+  position: relative;
+  top: -6px;
+}
+
+.con-text-c {
+  width: 513px;
+  font-size: 14px;
+  color: #fff;
+  line-height: 24px;
+}
+
+.mn-60 {
+  margin-top: 40px;
+}
+.mn-60 .pd_10_b {
+  padding: 0 0 10px 0;
+}
+.mn-60 .yq_ln {
+  border: 1px solid #ff9933;
+  width: 510px;
+  min-height: 40px;
+  margin-top: 20px;
+}
+.mn-60 .yq_ln .bg_col {
+  background: #f93;
+  width: 70px;
+  text-align: center;
+  float: left;
+  /* padding: 5px 0; */
+  display: inline-block;
+  min-height: 40px;
+  font-size: 14px;
+  color: #fff;
+  line-height: 40px;
+}
+.mn-60 .yq_ln .pd_height_r {
+  padding: 0 0 10px 0px;
+}
+.mn-60 .yq_ln .li_text {
+  font-size: 14px;
+  color: #fff;
+  line-height: 24px;
+  display: inline-block;
+  float: left;
+  margin-left: 15px;
+  font-style: inherit;
+}
+.mn-60 .yq_ln .width_300 {
+  width: 413px;
+}
+
+.warp_ba_grey {
+  background: #f6f6f6;
+  height: 581px;
+}
+.warp_ba_grey .con_zhs {
+  text-align: center;
+}
+.warp_ba_grey .con_zhs .font_text {
+  font-size: 30px;
+  color: #008aff;
+  padding-top: 59px;
+  text-transform: uppercase;
+}
+.warp_ba_grey .con_zhs .font_text i {
+  color: #4b4b4b;
+  text-transform: uppercase;
+  font-style: inherit;
+}
+.warp_ba_grey .line_h1 {
+  width: 100%;
+  height: 1px;
+  background: #e1e1e1;
+  display: inline-block;
+  text-align: center;
+}
+.warp_ba_grey .line_h1 .middle_line {
+  background: #008aff;
+  height: 3px;
+  display: block;
+  width: 200px;
+  text-align: center;
+  margin: 0 auto;
+}
+.warp_ba_grey .zhsh_box_con {
+  margin-top: 70px;
+}
+.warp_ba_grey .zhsh_box_con li {
+  float: left;
+  text-align: center;
+  width: 229px;
+  height: 259px;
+  background: #fff;
+  border: 1px solid #e5e5e5;
+  margin-right: 9px;
+}
+.warp_ba_grey .zhsh_box_con li .text {
+  display: inline-block;
+  margin-top: 35px;
+  color: #302f2b;
+}
+.warp_ba_grey .zhsh_box_con li i {
+  background: url(../img/icons_gk1.jpg) no-repeat 9999px 9999px;
+  display: inline-block;
+  width: 54px;
+  height: 54px;
+  margin-top: 70px;
+}
+.warp_ba_grey .zhsh_box_con li i.gk_icons01 {
+  background-position: 0 0;
+}
+.warp_ba_grey .zhsh_box_con li i.gk_icons02 {
+  background-position: 0 -73px;
+}
+.warp_ba_grey .zhsh_box_con li i.gk_icons03 {
+  background-position: 0 -152px;
+}
+.warp_ba_grey .zhsh_box_con li i.gk_icons04 {
+  background-position: 0 -228px;
+}
+.warp_ba_grey .zhsh_box_con li i.gk_icons05 {
+  background-position: 0 -303px;
+}
+
+/*********************** new module Name End **************************************/
+/*********************** new module Name End **************************************/
