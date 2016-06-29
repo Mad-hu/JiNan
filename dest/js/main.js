@@ -1,3 +1,15 @@
+/*********************** new module Name Start **************************************
+ *@moduleName:
+ *@author:Mad-hu
+ *@desc:center.js
+ *@time:2016/6/28 16:28
+ **/
+
+function a(){
+    alert(123);
+}
+ /*********************** new module Name End **************************************/
+
 /**
  * Created by Administrator on 2016/6/26.
  */
@@ -67,3 +79,27 @@ $(function(){
         _timer=setInterval(function(){$nextBnt.click();},5000);
     }();
 });
+/**
+ * Created by Administrator on 2016/6/29.
+ */
+
+
+/*********************** new module Name Start **************************************
+ *@moduleName:
+ *@author:Mad-hu
+ *@desc:formIcon show password click js
+ *@time:2016/6/29 12:05
+ **/
+
+$(function(){
+    $('.formIconFontEye').click(function(){
+        var typeText = $(this).siblings('input').attr('type');
+        if (typeText == 'password'){
+            $(this).siblings('input').attr('type','text');
+        }else{
+            $(this).siblings('input').attr('type','password');
+        }
+    });
+});
+
+ /*********************** new module Name End **************************************/

@@ -1,0 +1,53 @@
+@charset "UTF-8";
+@import "compass";
+
+.registerBox{
+  margin: 0px auto;
+  width: 380px;
+  height: 390px;
+  border-top: 4px solid #008aff;
+  background-color: #fff;
+  padding: 50px 84px;
+  position: relative;
+  top: 55px;
+  .ltLeft{
+    float: left;
+    font-size: 18px;
+    color: #302f2b;
+  }
+
+  .ltRight{
+    float: right;
+    margin-top: 4px;
+  }
+  .noNumberT{
+    font-size: 14px;
+    color: #999999;
+  }
+  .registerNumberT{
+    font-size: 14px;
+    color: #ff9933;
+  }
+
+  .loginTitleBox{
+    padding-bottom: 15px;
+    border-bottom: 1px solid #e5e5e5;
+  }
+}
+
+.formItems2{
+  height: 40px;
+  margin-bottom: 21px;
+}
+
+.regCodeInput{
+  width: 157px !important;
+  border: 1px solid #e5e5e5 !important;
+
+}
+.imgCodeBox {
+  float: right;
+  border: 1px solid #e5e5e5;
+  @include border-radius(3px);
+  behavior: url(component/PIE/PIE.htc);
+}
