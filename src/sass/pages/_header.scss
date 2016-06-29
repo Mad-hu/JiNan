@@ -46,7 +46,7 @@ $placeholderColor:#999;
     text-align: center;
     color: black;
     text-decoration: none;
-    height: 31px;
+    height: 42px;
   }
   .tabberCurrent{
     color: $headerTabberCurrentColor;
@@ -73,6 +73,33 @@ $placeholderColor:#999;
     height: 23px;
     font-size: 12px;
     color: $placeholderColor;
+  }
+  .top-tell-tiem{
+    float: left;
+  }
+
+  .login-nav-con{
+    float: right;
+  }
+  .ttbord{
+    border-left:1px solid #363636;
+    border-right:1px solid #363636;
+  }
+  .ttiem1{
+    float: left;
+    height: 17px;
+    color: #a0a0a0;
+    padding: 9px 10px;
+    font-size: 12px;
+  }
+
+  .imoTop{
+    width: 16px;
+    margin-left: 10px;
+    height: 6px;
+    margin-top: 8px;
+    background: url(../img/imoImg.png) 0px 0px no-repeat;
+    overflow: hidden;
   }
 }
  /*********************** new module Name End **************************************/
