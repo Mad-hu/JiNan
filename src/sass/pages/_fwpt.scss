@@ -1,0 +1,111 @@
+@charset "UTF-8";
+@import "compass";
+/*********************** new module Name Start **************************************
+ *@moduleName:
+ *@author:Mad-hu
+ *@desc:service platform
+ *@time:2016/6/30 10:18
+ **/
+.fwqtTabs{
+  height: 45px;
+  width: 1200px;
+  margin:47px 0 39px 0;
+  .fwqtTab{
+    width: 33.3333333%;
+    height: inherit;
+    float: left;
+    text-align: center;
+    line-height: 43px;
+    font-size: 20px;
+  }
+
+  .tabbg1{
+    background-color: #007cea;
+  }
+  .tabbg2{
+    background-color: #5e5e5e;
+  }
+  .tabbg3{
+    background-color: #767575;
+  }
+
+  .tabT1{
+    color: #fff;
+  }
+
+  .tabT2{
+    color: #b5b4b4;
+  }
+}
+
+
+.proLists{
+  width: 1160px;
+  height: 200px;
+  border:1px solid #e5e5e5;
+  margin-bottom: 30px;
+
+  padding: 19px;
+  .leftImg{
+    float: left;
+    margin-right: 25px;
+  }
+  .leftTBox{
+    float: left;
+  }
+  .tabTBox{
+    width: auto;
+    height: auto;
+  }
+
+  .tbTitle{
+    font-size: 22px;
+    height: 43px;
+    color: #000;
+    line-height: 43px;
+    margin: 7px 0;
+  }
+  .tbContent{
+    width: 834px;
+    font-size: 14px;
+    color: #5e5e5e;
+    line-height: 25px;
+  }
+  .tbFoot{
+    font-size: 14px;
+    color: #000;
+    margin: 15px 0px;
+  }
+
+  .showInfoBtn{
+    width: 76px;
+    height: 26px;
+    float: right;
+    color: #008dfd;
+    background-color: #fff;
+    border:1px solid #e5e5e5;
+    text-align: center;
+    line-height: 26px;
+    cursor: pointer;
+    @include border-radius(3px);
+
+    &:hover{
+      background-color: #008dfd;
+      color: #fff;
+      border-color: #008dfd;
+    }
+  }
+}
+
+.showPageMore{
+  color: #1f1f1f;
+  font-size: 16px;
+  text-align: center;
+  line-height: 40px;
+  width: 180px;
+  height: 40px;
+  @include border-radius(3px);
+  border: 1px solid #e1e1e1;
+  margin: 45px auto;
+}
+ /*********************** new module Name End **************************************/
