@@ -316,6 +316,9 @@ address, cite, code, em, th, i {
 .indexFooter .fli {
   float: left;
   font-size: 14px;
+  color: #a0a0a0;
+}
+.indexFooter .fli:hover {
   color: #fff;
 }
 .indexFooter .flia {
@@ -328,18 +331,27 @@ address, cite, code, em, th, i {
 }
 .indexFooter .flv21 {
   float: left;
-  color: #fff;
+  color: #a0a0a0;
   font-size: 14px;
+}
+.indexFooter .flv21:hover {
+  color: #fff;
 }
 .indexFooter .flv22 {
   float: left;
-  color: #fff;
+  color: #a0a0a0;
   font-size: 14px;
+}
+.indexFooter .flv22:hover {
+  color: #fff;
 }
 .indexFooter .flv23 {
   float: left;
-  color: #fff;
+  color: #a0a0a0;
   font-size: 14px;
+}
+.indexFooter .flv23:hover {
+  color: #fff;
 }
 .indexFooter .footerList2 {
   margin-top: 20px;
@@ -364,6 +376,9 @@ address, cite, code, em, th, i {
 }
 .indexFooter .f2link {
   margin-right: 35px;
+}
+.indexFooter .f2link:hover {
+  color: #fff;
 }
 .indexFooter .footerList4 {
   float: right;
@@ -434,7 +449,12 @@ address, cite, code, em, th, i {
   text-align: center;
   color: black;
   text-decoration: none;
-  height: 42px;
+  height: 51px;
+}
+.indexHeader .headerList:hover {
+  color: #ff9933;
+  border-bottom: 1px solid #ff9933;
+  border-width: 4px;
 }
 .indexHeader .tabberCurrent {
   color: #ff9933;
@@ -478,6 +498,10 @@ address, cite, code, em, th, i {
   color: #a0a0a0;
   padding: 9px 10px;
   font-size: 12px;
+  cursor: pointer;
+}
+.indexHeader .ttiem1:hover {
+  color: #fff;
 }
 .indexHeader .imoTop {
   width: 16px;
@@ -511,6 +535,7 @@ address, cite, code, em, th, i {
   color: red;
   height: 30px;
   font-size: 14px !important;
+  float: left;
 }
 
 /*********************** new module Name End **************************************/

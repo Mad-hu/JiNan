@@ -157,6 +157,9 @@ li {
   box-shadow: 0px 1px 5px #0174db;
   /*兼容opera或ie9*/
 }
+.contentItem1 .coni2bg1:hover {
+  background-color: #0584f5;
+}
 .contentItem1 .coni2bg2 {
   background-color: #0174db;
   filter: progid:DXImageTransform.Microsoft.Shadow(color=#0174db,direction=120,strength=4);
@@ -167,6 +170,9 @@ li {
   /*兼容safari或chrome*/
   box-shadow: 0px 1px 5px #0174db;
   /*兼容opera或ie9*/
+}
+.contentItem1 .coni2bg2:hover {
+  background-color: #057ee9;
 }
 .contentItem1 .txtBox {
   margin: 20px 58px 0px 40px;
@@ -236,10 +242,20 @@ li {
 }
 
 .ci2Box {
+  position: relative;
   float: left;
   width: 388px;
   height: 258px;
   border: 1px solid #eaeaea;
+  overflow: hidden;
+}
+
+.ci2bbContent {
+  position: absolute;
+  top: 0px;
+  width: 388px;
+  height: 258px;
+  cursor: pointer;
 }
 
 .coni2txt2 {
@@ -337,10 +353,30 @@ li {
   text-align: center;
   cursor: pointer;
 }
+.ci2bbgItem4 .ci2bbgItem3Btn:hover {
+  background-color: rgba(255, 255, 255, 0.3);
+  border: none;
+}
 .ci2bbgItem4 .ci2bbgItem3BtnT {
   color: #fff;
   vertical-align: middle;
   font-size: 14px;
+}
+
+.moveLeftBox {
+  width: 777px;
+  height: 258px;
+  position: absolute;
+  left: -388px;
+}
+.moveLeftBox .mlb1 {
+  width: 388px;
+  height: 258px;
+  background-color: rgba(0, 0, 0, 0.6);
+}
+.moveLeftBox .mlb2 {
+  width: 388px;
+  height: 258px;
 }
 
 .ci2bgBottomBox {
@@ -443,6 +479,10 @@ li {
   margin-top: 17px;
   cursor: pointer;
 }
+.ci3lTitles .ci3TAddImg:hover {
+  color: #fd7800;
+  border: 1px solid #fd7800;
+}
 
 .ci3List .ci3li {
   height: 44px;
@@ -450,10 +490,16 @@ li {
   border-width: 1px;
   border-color: #e1e1e1;
 }
+.ci3List .ci3li:hover {
+  color: #fd7800;
+}
 .ci3List .ci3liT1 {
   float: left;
   line-height: 45px;
   color: #333;
+}
+.ci3List .ci3liT1:hover {
+  color: #fd7800;
 }
 .ci3List .ci3liT1Current {
   color: #fd7800;

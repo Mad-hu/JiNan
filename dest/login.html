@@ -2,10 +2,10 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="renderer" content="webkit|ie-comp|ie-stand">
     <title>登录</title>
-
     <script src="//cdn.bootcss.com/jquery/1.12.3/jquery.js"></script>
-    <script src="js/main.min.js"></script>
+    <script src="js/main.js"></script>
     <link rel="stylesheet" href="css/style.min.css">
     <link rel="stylesheet" href="css/iconfont/iconfont.css">
 
@@ -62,7 +62,7 @@
             <div class="headerLists">
                 <div class="headerLogo"><img src="img/indexLog.png" alt="山东新金融产业园"></div>
                 <div class="headerTabbars">
-                    <a class="headerList tabberCurrent" href="#">首页</a>
+                    <a class="headerList tabberCurrent" href="index.html">首页</a>
                     <a class="headerList" href="#">园区概括</a>
                     <a class="headerList" href="#">园区动态</a>
                     <a class="headerList" href="#">园区服务</a>
@@ -93,7 +93,7 @@
                     </div>
                     <div class="ltRight">
                         <a href="#" class="noNumberT">没有账号？</a>
-                        <a href="#" class="registerNumberT">立即注册</a>
+                        <a href="register.html" class="registerNumberT">立即注册</a>
                     </div>
                 </div>
                 <div class="formBox">
@@ -109,68 +109,19 @@
                         </div>
                         <div class="signMsgBox" style="display: none" id="signMsgID">
                             <i class="icon iconfont">&#xe611;</i>
-                            <span class="signMsg">不可谓空</span>
+                            <span class="signMsg">请检查数据</span>
                         </div>
                     </form>
                 </div>
 
                 <div>
-                    <input class="formSubmitBtn" type="button" value="登录">
+                    <input class="formSubmitBtn" type="button" id="loginSubmitBtn" value="登录">
                 </div>
             </div>
+            <script>
+
+            </script>
         </div>
-        <script>
-
-            ///验证用户名
-            var checkUserName = function(userName){
-                console.log(userName);
-                if(!/^1[1-9]\d{9}$/.test(userName)){
-                    return false;
-                }else{
-                    return true;
-                }
-            };
-            ///验证密码
-            var checkPassword = function(password){
-                console.log(password);
-                if(!/^1[1-9]\d{9}$/.test(password)){
-                    return false;
-                }else{
-                    return true;
-                }
-            };
-
-            function changeCheckCodeMsg (msg,id){
-                $(id).show();
-                $(id + ' span').text(msg);
-            }
-
-            $('.formSubmitBtn').click(function(){
-
-                var checkCodeSign = function () {
-                    var userNameValue = $('#userName').val();
-                    var passwordValue = $('#password1').val();
-
-                    var userCheck = checkUserName(userNameValue);
-                    var passCheck = checkPassword(passwordValue);
-
-                    if(!userCheck){
-                        changeCheckCodeMsg('用户名格式不正确','#signMsgID');
-                        return false;
-                    }
-                    if(!passCheck){
-                        changeCheckCodeMsg('密码格式不正确','#signMsgID')
-                        return false;
-                    }
-                    return true;
-                };
-
-                if(checkCodeSign()){
-                    $('#loginFormID').submit();
-                }
-
-            });
-        </script>
     </div>
     <div class="indexFooter">
         <div class="indexFooter1">

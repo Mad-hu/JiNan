@@ -2,10 +2,11 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="renderer" content="webkit|ie-comp|ie-stand">
     <title>注册</title>
 
     <script src="//cdn.bootcss.com/jquery/1.12.3/jquery.js"></script>
-    <script src="js/main.min.js"></script>
+    <script src="js/main.js"></script>
     <link rel="stylesheet" href="css/style.min.css">
     <link rel="stylesheet" href="css/iconfont/iconfont.css">
 
@@ -63,7 +64,7 @@
             <div class="headerLists">
                 <div class="headerLogo"><img src="img/indexLog.png" alt="山东新金融产业园"></div>
                 <div class="headerTabbars">
-                    <a class="headerList tabberCurrent" href="#">首页</a>
+                    <a class="headerList tabberCurrent" href="index.html">首页</a>
                     <a class="headerList" href="#">园区概括</a>
                     <a class="headerList" href="#">园区动态</a>
                     <a class="headerList" href="#">园区服务</a>
@@ -91,17 +92,17 @@
                     </div>
                     <div class="ltRight">
                         <a href="#" class="noNumberT">已有账号？</a>
-                        <a href="#" class="registerNumberT">立即登录</a>
+                        <a href="login.html" class="registerNumberT">立即登录</a>
                     </div>
                 </div>
                 <div class="formBox">
-                    <form class="formC" action="#">
+                    <form class="formC" action="index.html" method="post" id="registerFormID">
                         <div class="formItems">
-                            <input type="text" class="inputBox" placeholder="请输入您的手机号码">
+                            <input type="text" class="inputBox" placeholder="请输入您的手机号码" id="userName" style="width: 280px;">
                             <i class="icon iconfont formIconFont">&#xe60c;</i>
                         </div>
                         <div class="formItems2 clearfix">
-                            <input type="password" class="inputBox formItems regCodeInput" placeholder="请输入图中字符">
+                            <input type="password" class="inputBox formItems regCodeInput" placeholder="请输入图中字符" id="checkMsgTxtID">
                             <i class="icon iconfont formIconFont" style="padding-top: 7px;">&#xe610;</i>
                             <div class="imgCodeBox">
                                 <img src="img/codeImg.png" width="118px" height="38px" alt="验证码">
@@ -109,23 +110,23 @@
                         </div>
 
                         <div class="formItems">
-                            <input type="password" class="inputBox" placeholder="请设置6-16位字母与数字组合的登录密码" style="width: 258px;">
+                            <input type="password" class="inputBox" placeholder="请设置6-16位字母与数字组合的登录密码" style="width: 282px;" id="password1">
                             <i class="icon iconfont formIconFont">&#xe60e;</i>
                             <i class="icon iconfont formIconFontEye">&#xe60f;</i>
                         </div>
 
                         <div class="formItems">
-                            <input type="password" class="inputBox" placeholder="请再次输入登录密码">
+                            <input type="password" class="inputBox" placeholder="请再次输入登录密码" style="width: 282px;" id="password2">
                             <i class="icon iconfont formIconFont">&#xe60e;</i>
                             <i class="icon iconfont formIconFontEye">&#xe60f;</i>
                         </div>
 
-                        <div class="signMsgBox">
+                        <div class="signMsgBox" style="float: none;display: none;" id="signMsgID">
                             <i class="icon iconfont">&#xe611;</i>
-                            <span class="signMsg">不可谓空</span>
+                            <span class="signMsg">请检查数据</span>
                         </div>
-                        <div class="formSubmitBtn">
-                            <span>登录</span>
+                        <div class="">
+                            <input type="button" class="formSubmitBtn"  value="登录" id="registerSubmitBtn"/>
                         </div>
                     </form>
                 </div>
