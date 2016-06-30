@@ -6,6 +6,13 @@
 
     <script src="//cdn.bootcss.com/jquery/1.12.3/jquery.js"></script>
     <script src="js/main.min.js"></script>
+
+    <script type="text/javascript" src="../js/jquery.prettyPhoto.js"></script>
+    <!--新  -->
+    <script type="text/javascript" src="component/lunbo/jquery.silver_track.js" charset="utf-8"></script>
+    <script type="text/javascript" src="component/lunbo/jquery.silver_track.navigator.js" charset="utf-8"></script>
+    <script type="text/javascript" src="component/lunbo/jquery.silver_track.bullet_navigator.js" charset="utf-8"></script>
+
     <link rel="stylesheet" href="css/style.min.css">
     <link rel="stylesheet" href="css/iconfont/iconfont.css">
 
@@ -14,9 +21,7 @@
     <script type="text/javascript" src="//cdn.bootcss.com/html5shiv/r29/html5.min.js"></script>
     <script type="text/javascript" src="//cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
     <script src="component/PIE/PIE_IE678.js"></script>
-
-
-    <style>
+        <style>
         /*html5*/
         article, aside, dialog, footer, header, section, footer, nav, figure, menu {
             display: block
@@ -117,15 +122,27 @@
                     <div class="yq_ln">
                         <span class="bg_col id1_pf">园区理念</span> <i class="li_text" style="line-height: 36px;">发展新兴金融，助力创新创业</i>
                     </div>
-                    <div class="yq_ln pd_10_b blue-border " style="border: 1px solid #008aff;">
-                        <span class="bg_col pd_height_r blue" style="background:#008aff;">运作模式</span> <i
+                    <div class="yq_ln  " >
+                        <span class="bg_col " >运作模式</span> <i
                             class="li_text width_300">政府引导参与、市场主体运营、园区管理服务、企业互联共赢
                         成为省会城市群经济圈具有一定影响力的新兴金融产业发展高地</i>
                     </div>
                 </div>
             </div>
         </div>
+        <script>
+            $(document).ready(function () {
 
+                $('.zhsh_box_con li').hover(function () {
+                    //  tol = $(".zhsh_box_con li").length;
+                    //  alert(tol)
+                    $(".text_block", this).stop().animate({top: '200px', opacity: '0.9'}, 500);
+                },function () {
+                    $(".summary", this).hide().animate({top: '200px', opacity: '0.9'}, 500);
+
+                });
+            });
+        </script>
     </div>
     <div class="warp_ba_grey">
         <div class="con_zhs mainContentBox">
@@ -137,11 +154,37 @@
         <div class="mainContentBox clearfix">
             <ul class="zhsh_box_con">
                 <li><i class="gk_icons01"></i><br><span class="text">国家、省、市各级政府<br>
-                股权投资母基金</span></li>
-                <li><i class="gk_icons02"></i><br><span class="text">民间资本</span></li>
-                <li><i class="gk_icons03"></i><br><span class="text">民间投资</span></li>
-                <li><i class="gk_icons04"></i><br><span class="text">互联网金融</span></li>
-                <li><i class="gk_icons05"></i><br><span class="text">金融服务中间服务机构</span></li>
+                股权投资母基金</span>
+                    <div class="text_block" >
+                        国家、省、市各级股权投资引导母基金，母基金参股的产业投资基金、创业投资基金,
+                        各类私募股权投资基金
+                    </div>
+                </li>
+                <li><i class="gk_icons02"></i><br><span class="text">民间资本</span>
+                    <div class="text_block" >
+                        国家、省、市各级股权投资引导母基金，母基金参股的产业投资基金、创业投资基金,
+                        各类私募股权投资基金
+                    </div>
+                </li>
+                <li><i class="gk_icons03"></i><br><span class="text">民间投资</span>
+                    <div class="text_block" >
+                        国家、省、市各级股权投资引导母基金，母基金参股的产业投资基金、创业投资基金,
+                        各类私募股权投资基金3333333
+                    </div>
+
+                </li>
+                <li><i class="gk_icons04"></i><br><span class="text">互联网金融</span>
+                    <div class="text_block" >
+                        国家、省、市各级股权投资引导母基金，母基金参股的产业投资基金、创业投资基金,
+                        各类私募股权投资基金3333333
+                    </div>
+                </li>
+                <li><i class="gk_icons05"></i><br><span class="text">金融服务中间服务机构</span>
+                    <div class="text_block" >
+                        国家、省、市各级股权投资引导母基金，母基金参股的产业投资基金、创业投资基金,
+                        各类私募股权投资基金3333333
+                    </div>
+                </li>
             </ul>
         </div>
     </div>
@@ -152,6 +195,52 @@
         </div>
         <p class="line_h1 clearfix"><span class="middle_line"></span></p>
         <div class="mainContentBox clearfix">
+            <div class="vedio_box">
+          <div class="shipin_l">
+              <img src="img/shipin_img_03.png">
+          </div>
+          <div class="shipin_r">
+              <ul>
+                  <li><a><img src="img/shipin_img_05.png"> </a><span class="width_short">这里是这段视频文件的名称</span><i class="time">2016-06-28</i></li>
+                  <li><a><img src="img/shipin_img_05.png"> </a><span class="width_short">这里是这段视频文件的名称</span><i class="time">2016-06-28</i></li>
+                  <li><a><img src="img/shipin_img_05.png"> </a><span class="width_short">这里是这段视频文件的名称</span><i class="time">2016-06-28</i></li>
+                  <li><a><img src="img/shipin_img_05.png"> </a><span class="width_short">这里是这段视频文件的名称</span><i class="time">2016-06-28</i></li>
+                  <li><a><img src="img/shipin_img_05.png"> </a><span class="width_short">这里是这段视频文件的名称</span><i class="time">2016-06-28</i></li>
+              </ul>
+          </div>
+            </div>
+
+        </div>
+        <div class="width_1250">
+        <div class="scroll_con">
+            <div class="picbox">
+                <ul class="piclist mainlist">
+                    <li class="goodlist">
+                        <a id="example1-2" href="images/1.png"><img src="img/img_1_18.png" class="pics" /></a>
+
+                    </li>
+                    <li class="goodlist">
+                        <a   ><img src="img/img_1_20.png" class="pics" /></a>
+                    </li>
+                    <li class="goodlist">
+                        <a  ><img src="img/img_1_22.png" class="pics" /></a>
+                    </li>
+                    <li class="goodlist">
+                        <a style="overflow:hidden; display:block; float:left;"><img src="img/img_1_22.png" class="pics" /></a>
+                    </li>
+                    <li class="goodlist">
+                        <a style="overflow:hidden; display:block; float:left;"><img src="img/img_1_27.png" class="pics" /></a>
+                    </li>
+                    <li class="goodlist">
+                        <a  style="overflow:hidden; display:block; float:left;"><img src="img/img_1_29.png" class="pics" /></a>
+                    </li>
+                </ul>
+                <ul class="piclist swaplist"></ul>
+            </div>
+        </div>
+            <div class="og_prev"></div>
+            <div class="og_next"></div>
+        </div>
             </div>
          </div>
     <div class="indexFooter">
@@ -222,5 +311,14 @@
     /*$youziku.load("h2", "7153e8f8e53648419183331a7d22503b", "PingFangSC_R");*/
     /*．．．*/
     $youziku.draw();
+
+
+    $(function () {
+
+
+
+
+    });
+
 </script>
 </html>
