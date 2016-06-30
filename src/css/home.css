@@ -95,7 +95,7 @@ li {
 #focus-bubble {
   position: absolute;
   left: 50%;
-  bottom: 10px;
+  bottom: 40px;
   z-index: 999;
 }
 
@@ -377,6 +377,14 @@ li {
 .moveLeftBox .mlb2 {
   width: 388px;
   height: 258px;
+}
+.moveLeftBox .playBtn {
+  background: url(../img/indexspring.png) -307px 0px no-repeat;
+  height: 62px;
+  width: 62px;
+  position: relative;
+  left: 40%;
+  top: 32%;
 }
 
 .ci2bgBottomBox {
