@@ -277,6 +277,31 @@ $(function(){
         );
     });
 
+    ///头部点击切换页面
+    $('.headerList').each(function(index,ele){
+        $(this).click(function(){
+            $(this).addClass('tabberCurrent').siblings().removeClass('tabberCurrent');
+        });
+    });
+
+    ///浏览器活动然后显示右侧的QQ微信等
+    $(window).scroll(function() {
+        var scroll_top = $(document).scrollTop();
+        if(scroll_top == 0){
+            $('#flexQQWXMenu').fadeOut();
+        }else{
+            $('#flexQQWXMenu').fadeIn();
+        }
+
+    });
+
+    //点击返回顶部  返回
+    $('#goToTop').click(function(){
+        var speed=400;//滑动的速度
+        $('body,html').animate({ scrollTop: 0 }, speed);
+        return false;
+    });
+
 });
 /**
  * Created by Administrator on 2016/6/29.
@@ -370,20 +395,68 @@ $(function(){
 
 
 /**
+ * Created by Administrator on 2016/6/30.
+ */
+/*********************** new module Name Start **************************************
+ *@moduleName:
+ *@author:Mad-hu
+ *@desc:yuan qu fu wu js
+ *@time:2016/6/30 14:22
+ **/
+
+ /*********************** new module Name End **************************************/
+
+ $(function(){
+     //tab js
+    $('.TABTITLES').each(function(index,ele){
+        $(this).click(function(){
+            $(this).addClass('titleCurrent').siblings().removeClass('titleCurrent');
+            $('.tabContent').each(function(indexIn,ele){
+                if(index == indexIn) {
+                    $(this).fadeIn();
+                }else{
+                    $(this).hide();
+                }
+            });
+        });
+    });
+
+
+     ///转图动画
+     $('.moveBox,.moveBox2').each(function(index,ele){
+         var thisWidth= $(ele).width()/2;
+
+         var plusW = '+='+ thisWidth;
+         var cutW = '-=' + thisWidth;
+         console.log(plusW);
+
+         $(this).hover(
+
+             function () {
+                 $(this).animate({
+                     left:plusW ,
+                 }, 250, function() {
+                     // Animation complete.
+                 });
+             },
+             function () {
+                 $(this).animate({
+                     left:cutW,
+                 }, 250, function() {
+//                        $('#moveLeftBox' + index).css('left','-'+ thisWidth+'px');
+                     // Animation complete.
+                 });
+             }
+         );
+     });
+});
+
+
+/**
  * Created by Caorh on 2016/6/30.
  */
 
-$(document).ready(function () {
 
-    $('.zhsh_box_con li').hover(function () {
-        //  tol = $(".zhsh_box_con li").length;
-        //  alert(tol)
-        $(".text_block", this).stop().animate({top: '200px', opacity: '0.9'}, 500);
-    },function () {
-        $(".summary", this).stop().animate({top: '200px', opacity: '0.9'}, 500);
-
-    });
-});
 
 
 /*

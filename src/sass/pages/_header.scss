@@ -35,7 +35,7 @@ $placeholderColor:#999;
     margin: 23px 45px 0 0;
   }
   .headerTabbars{
-    float: left;
+    float: right;
     height: 90px;
   }
 
@@ -47,6 +47,7 @@ $placeholderColor:#999;
     color: black;
     text-decoration: none;
     height: 51px;
+    font-size: 16px;
     &:hover{
       color: $headerTabberCurrentColor;
       border-bottom: 1px solid $headerTabberCurrentColor;

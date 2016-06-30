@@ -115,4 +115,29 @@ $(function(){
         );
     });
 
+    ///头部点击切换页面
+    $('.headerList').each(function(index,ele){
+        $(this).click(function(){
+            $(this).addClass('tabberCurrent').siblings().removeClass('tabberCurrent');
+        });
+    });
+
+    ///浏览器活动然后显示右侧的QQ微信等
+    $(window).scroll(function() {
+        var scroll_top = $(document).scrollTop();
+        if(scroll_top == 0){
+            $('#flexQQWXMenu').fadeOut();
+        }else{
+            $('#flexQQWXMenu').fadeIn();
+        }
+
+    });
+
+    //点击返回顶部  返回
+    $('#goToTop').click(function(){
+        var speed=400;//滑动的速度
+        $('body,html').animate({ scrollTop: 0 }, speed);
+        return false;
+    });
+
 });
