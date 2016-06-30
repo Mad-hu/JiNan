@@ -359,23 +359,5 @@
     </div>
 </div>
 
-<script>
-    $(window).scroll(function() {
-        var scroll_top = $(document).scrollTop();
-        if(scroll_top == 0){
-            $('#flexQQWXMenu').fadeOut();
-        }else{
-            $('#flexQQWXMenu').fadeIn();
-        }
-
-    });
-
-    $('#goToTop').click(function(){
-        var speed=400;//滑动的速度
-        $('body,html').animate({ scrollTop: 0 }, speed);
-        return false;
-    });
-</script>
-
 </body>
 </html>

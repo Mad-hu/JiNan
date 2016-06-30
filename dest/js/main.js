@@ -284,6 +284,24 @@ $(function(){
         });
     });
 
+    ///浏览器活动然后显示右侧的QQ微信等
+    $(window).scroll(function() {
+        var scroll_top = $(document).scrollTop();
+        if(scroll_top == 0){
+            $('#flexQQWXMenu').fadeOut();
+        }else{
+            $('#flexQQWXMenu').fadeIn();
+        }
+
+    });
+
+    //点击返回顶部  返回
+    $('#goToTop').click(function(){
+        var speed=400;//滑动的速度
+        $('body,html').animate({ scrollTop: 0 }, speed);
+        return false;
+    });
+
 });
 /**
  * Created by Administrator on 2016/6/29.
