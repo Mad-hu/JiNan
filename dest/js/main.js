@@ -46,7 +46,7 @@ function checkUserNamePost(userName){
         var url = 'index.html';
         var params = {'userName':userName};
         $.post(url,params, function(data) {
-            var code = data["code"];
+            var code = data['code'];
             var msgCode = data["message"];
             //请求code为200成功  其他为不成功
             if(code == 200){
@@ -59,7 +59,7 @@ function checkUserNamePost(userName){
         }).error(function(data) {
             ///验证失败就替换为错误的X号显示。默认的
             changeCheckCodeMsg('网络异常','#signMsgID');
-        })
+        });
 }
 
 ///检测两次密码是否一致
@@ -228,6 +228,55 @@ $(function(){
         }//切换主函数
         _timer=setInterval(function(){$nextBnt.click();},5000);
     }();
+
+
+    ///缩放图片动画
+    $('.ci2bbContent').each(function(index,ele){
+        $(this).hover(
+            function () {
+                $('.imgscroll'+ index).animate({
+                    position:'relative',
+                    left:'-=25',
+                    width: '+=50',
+                    height: '+=50'
+                }, 250, function() {
+                    // Animation complete.
+                });
+            },
+            function () {
+                $('.imgscroll' + index).animate({
+                    left:'+=25',
+                    width: '-=50',
+                    height: '-=50'
+                }, 250, function() {
+                    // Animation complete.
+                });
+            }
+        );
+    });
+
+
+    ///转图动画
+    $('.moveLeftBox').each(function(index,ele){
+        $(this).hover(
+            function () {
+                $('#moveLeftBox'+ index).animate({
+                    left: '+=388',
+                }, 250, function() {
+                    // Animation complete.
+                });
+            },
+            function () {
+                $('#moveLeftBox' + index).animate({
+                    left:'+=388',
+                }, 250, function() {
+                    $('#moveLeftBox' + index).css('left','-388px');
+                    // Animation complete.
+                });
+            }
+        );
+    });
+
 });
 /**
  * Created by Administrator on 2016/6/29.
