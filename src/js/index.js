@@ -115,4 +115,11 @@ $(function(){
         );
     });
 
+    ///头部点击切换页面
+    $('.headerList').each(function(index,ele){
+        $(this).click(function(){
+            $(this).addClass('tabberCurrent').siblings().removeClass('tabberCurrent');
+        });
+    });
+
 });
