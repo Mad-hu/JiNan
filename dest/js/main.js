@@ -46,7 +46,7 @@ function checkUserNamePost(userName){
         var url = 'index.html';
         var params = {'userName':userName};
         $.post(url,params, function(data) {
-            var code = data["code"];
+            var code = data['code'];
             var msgCode = data["message"];
             //请求code为200成功  其他为不成功
             if(code == 200){
@@ -59,7 +59,7 @@ function checkUserNamePost(userName){
         }).error(function(data) {
             ///验证失败就替换为错误的X号显示。默认的
             changeCheckCodeMsg('网络异常','#signMsgID');
-        })
+        });
 }
 
 ///检测两次密码是否一致

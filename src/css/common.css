@@ -257,6 +257,40 @@ a:active, a:focus {
   outline: none;
 }
 
+body {
+  margin: 0;
+  paddding: 0;
+  font: 14px  "Myriad Set Pro","Microsoft YaHei","Helvetica Neue",Helvetica Neue,Helvetica,Hiragino Sans GB,tahoma,arial,sans-serif;
+}
+
+div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, fieldset, input, textarea, blockquote, p {
+  padding: 0;
+  margin: 0;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+li {
+  list-style-type: none;
+}
+
+img {
+  vertical-align: top;
+  border: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-size: 14px;
+  font-weight: normal;
+}
+
+address, cite, code, em, th, i {
+  font-weight: normal;
+  font-style: normal;
+}
+
 /*********************** new module Name Start **************************************
  *@moduleName:
  *@author:Mad-hu
@@ -504,5 +538,12 @@ a:active, a:focus {
   float: left;
 }
 
+/*********************** new module Name End **************************************/
+/*********************** new module Name Start **************************************
+ *@moduleName:
+ *@author:Caorh
+ *@desc:color
+ *@time:2016/6/29 17:24
+ **/
 /*********************** new module Name End **************************************/
 /*********************** new module Name End **************************************/
