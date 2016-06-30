@@ -260,7 +260,7 @@ a:active, a:focus {
 body {
   margin: 0;
   paddding: 0;
-  font: 14px/1.5  "Myriad Set Pro","Microsoft YaHei","Helvetica Neue",Helvetica Neue,Helvetica,Hiragino Sans GB,tahoma,arial,sans-serif;
+  font: 14px  "Myriad Set Pro","Microsoft YaHei","Helvetica Neue",Helvetica Neue,Helvetica,Hiragino Sans GB,tahoma,arial,sans-serif;
 }
 
 div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, fieldset, input, textarea, blockquote, p {
