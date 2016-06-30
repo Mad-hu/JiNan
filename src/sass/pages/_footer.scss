@@ -24,7 +24,10 @@
   .fli{
     float: left;
     font-size: 14px;
-    color: #fff;
+    color: #a0a0a0;
+    &:hover{
+      color: #fff;
+    }
   }
 
   .flia{
@@ -40,18 +43,27 @@
 
   .flv21{
     float: left;
-    color: #fff;
+    color: #a0a0a0;
     font-size: 14px;
+    &:hover{
+      color: #fff;
+    }
   }
   .flv22{
     float: left;
-    color: #fff;
+    color: #a0a0a0;
     font-size: 14px;
+    &:hover{
+      color: #fff;
+    }
   }
   .flv23{
     float: left;
-    color: #fff;
+    color: #a0a0a0;
     font-size: 14px;
+    &:hover{
+      color: #fff;
+    }
   }
 
   .footerList2{
@@ -79,6 +91,9 @@
 
   .f2link{
     margin-right: 35px;
+    &:hover{
+      color: #fff;
+    }
   }
 
  .footerList4{

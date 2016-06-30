@@ -129,6 +129,8 @@ li{
     float: left;
     height: 180px;
     width: 400px;
+
+
   }
 
 
@@ -140,6 +142,10 @@ li{
     -moz-box-shadow: 0px 1px 5px $indexContentBoxShadowColor;/*兼容firefox*/
     -webkit-box-shadow:0px 1px 5px $indexContentBoxShadowColor;/*兼容safari或chrome*/
     box-shadow:0px 1px 5px $indexContentBoxShadowColor;/*兼容opera或ie9*/
+
+    &:hover{
+      background-color: #0584f5;
+    }
   }
   .coni2bg2{
     background-color: #0174db;
@@ -147,6 +153,10 @@ li{
     -moz-box-shadow: 0px 1px 5px $indexContentBoxShadowColor;/*兼容firefox*/
     -webkit-box-shadow:0px 1px 5px $indexContentBoxShadowColor;/*兼容safari或chrome*/
     box-shadow:0px 1px 5px $indexContentBoxShadowColor;/*兼容opera或ie9*/
+
+    &:hover{
+      background-color: #057ee9;
+    }
   }
 
   .txtBox{
@@ -219,10 +229,19 @@ li{
 }
 
 .ci2Box{
+  position: relative;
   float: left;
   width: 388px;
   height: 258px;
   border:1px solid #eaeaea;
+  overflow: hidden;
+}
+.ci2bbContent{
+  position: absolute;
+  top: 0px;
+  width: 388px;
+  height: 258px;
+  cursor: pointer;
 }
 
 .coni2txt2{
@@ -312,12 +331,33 @@ li{
     height: 28px;
     text-align: center;
     cursor: pointer;
+    &:hover{
+      background-color: rgba(255,255,255,0.3);
+      border:none;
+    }
   }
 
   .ci2bbgItem3BtnT{
     color: #fff;
     vertical-align: middle;
     font-size: 14px;
+  }
+}
+
+.moveLeftBox{
+  width: 777px;
+  height: 258px;
+  position: absolute;
+  left: -388px;
+
+  .mlb1{
+    width: 388px;
+    height: 258px;
+    background-color: rgba(0,0,0,0.6);
+  }
+  .mlb2{
+    width: 388px;
+    height: 258px;
   }
 }
 
@@ -420,6 +460,10 @@ li{
     line-height: 22px;
     margin-top: 17px;
     cursor: pointer;
+    &:hover{
+      color: #fd7800;
+      border: 1px solid #fd7800;
+    }
   }
 }
 .ci3List{
@@ -428,12 +472,18 @@ li{
     border-bottom-style:dotted;
     border-width: 1px;
     border-color: #e1e1e1;
+    &:hover{
+      color:#fd7800;
+    }
   }
 
   .ci3liT1{
     float: left;
     line-height: 45px;
     color: #333;
+    &:hover{
+      color:#fd7800;
+    }
   }
   .ci3liT1Current{
     color: #fd7800;
