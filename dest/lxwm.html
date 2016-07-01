@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <!--让浏览器 优先使用webkit渲染，其次是ie的兼容模式，ie标准模式-->
+    <meta name="renderer" content="webkit|ie-comp|ie-stand">
+    <title>园区服务</title>
+    <script src="//cdn.bootcss.com/jquery/1.12.3/jquery.js"></script>
+    <script src="js/main.js"></script>
+    <link rel="stylesheet" href="css/style.min.css">
+    <link rel="stylesheet" href="css/iconfont/iconfont.css">
+
+    <!--ie对html5标签支持-->
+    <!--[if lt IE 9]>
+    <script type="text/javascript" src="//cdn.bootcss.com/html5shiv/r29/html5.min.js"></script>
+    <script type="text/javascript" src="//cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
+    <script src="component/PIE/PIE_IE678.js"></script>
+    <style>
+        /*html5*/
+        article, aside, dialog, footer, header, section, footer, nav, figure, menu {
+            display: block
+        }
+    </style>
+    <![endif]-->
+
+    <script type="text/javascript" src="http://cdn.webfont.youziku.com/wwwroot/js/wf/youziku.api.min.js"></script>
+    <link href='http://cdn.webfont.youziku.com/webfonts/nomal/26069/46758/57739bbff629d81044ddf252.css' rel='stylesheet'
+          type='text/css'/>
+
+
+    <!-- start 引用百度地图API  这个API只在本页引用，其他页面不可引用 start-->
+    <style type="text/css">
+        .iw_poi_title {color:#CC5522;font-size:14px;font-weight:bold;overflow:hidden;padding-right:13px;white-space:nowrap}
+        .iw_poi_content {font:12px arial,sans-serif;overflow:visible;padding-top:4px;white-space:-moz-pre-wrap;word-wrap:break-word}
+    </style>
+    <script type="text/javascript" src="http://api.map.baidu.com/api?key=&v=1.1&services=true"></script>
+    <!-- end -->
+
+</head>
+<body>
+
+<div class="main">
+    <div class="indexHeader">
+        <div class="headerTopBlack">
+            <div class="headerLists">
+                <div class="top-tell-tiem" style="width:350px;">
+                    <div class="ttiem1 ttbord">
+                        <i class="icon iconfont" style="font-size: 12px;vertical-align: middle;position: relative;top: -2px;padding: 0 5px;">&#xe604;</i>
+                        <span>0531-82078261</span>
+                    </div>
+                    <div class="ttiem1 imoTop">
+
+                    </div>
+                    <div class="ttiem1 ttbord">
+                        <i class="icon iconfont ficon">&#xe608;</i>
+                    </div>
+                </div>
+
+                <div class="login-nav-con">
+                    <div class="ttiem1 ttbord">
+                        <a href="login.html">会员登录</a>
+                    </div>
+                    <div class="ttiem1">
+                        <a href="#">简</a>
+                    </div>
+                    <div class="ttiem1 ttbord">
+                        <a href="#">繁</a>
+                    </div>
+                    <div class="ttiem1" style="border-right: 1px solid #363636;">
+                        <a href="#">En</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="headerContainer">
+            <div class="headerLists">
+                <div class="headerLogo"><img src="img/indexLog.png" alt="山东新金融产业园"></div>
+                <div class="headerTabbars">
+                    <a class="headerList " href="index.html">首页</a>
+                    <a class="headerList" href="yqgk.html">园区概括</a>
+                    <a class="headerList" href="yqdt.html">园区动态</a>
+                    <a class="headerList " href="yqfw.html">园区服务</a>
+                    <a class="headerList" href="fwpt.html">服务平台</a>
+                    <a class="headerList " href="rzqy.html">入驻企业</a>
+                    <a class="headerList tabberCurrent" href="lxwm.html">联系我们</a>
+                </div>
+                <!--<div class="headerSearch">-->
+                <!--<form class="searchForm" action="#">-->
+                <!--<input class="searchInput" type="text" placeholder="输入关键字...">-->
+
+                <!--</form>-->
+                <!--<i class="icon iconfont searchIcon">&#xe600;</i>-->
+                <!--</div>-->
+            </div>
+
+        </div>
+    </div>
+    <div class="container">
+        <div class="yqgk_con" style="border-bottom: 1px solid #e5e5e5">
+            <div class="con_dh_banner mainContentBox">
+                <div class="yqgk_title">
+                    <h3 class="yqgk_text id1_pf">联系我们</h3> <span class="yqgk_text_f css440c1aa5765d5">CONTACT US</span>
+                </div>
+                <div class="daohang_right">
+                    <span class="place-txt id1_pf">您的位置</span>
+                    <a class="hove_dh id1_pf">首页</a><i class="iconfont icon icon_dh"> &#xe601;</i> <a
+                        class="hove_dh  id1_pf">联系我们</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="mainContentBox">
+            <div class="lxwmBanner">
+                <div class="lxwmBox clearfix">
+                    <div class="lxwmT">
+                        <div class="lxwmTitle">
+                            <div class="lxwmt1">感谢您对山东新金融产业园的关注</div>
+                            <div class="lxwmt1">如果您有任何问题或意见请通过以下方式和我们联络</div>
+                        </div>
+                        <div class="lxwmContent">
+                            <div class="lxwmt2">
+                                <i class="icon iconfont">&#xe606;</i>
+                                <span style="margin-left: 5px;">地址：山东省济南市市中区英雄山路129号山东新金融产业园10号楼2楼</span>
+                            </div>
+                            <div class="lxwmt2">
+                                <i class="icon iconfont">&#xe604;</i>
+                                <span style="margin-left: 5px;">电话：0531-82078261/82078262/82078264</span>
+                            </div>
+                            <div class="lxwmt2">
+                                <i class="icon iconfont">&#xe603;</i>
+                                <span style="margin-left: 5px;">邮箱：jnfbdsc@163.com</span>
+                            </div>
+                            <div class="lxwmt2">
+                                <i class="icon iconfont">&#xe615;</i>
+                                <span style="margin-left: 5px;">邮编：250001</span>
+                            </div>
+                            <div class="wxsm">
+                                <img src="img/lxwmWX.png" alt="微信">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="lxwmImg">
+                        <img src="img/lxwmImg.png" alt="">
+                    </div>
+                </div>
+                <div class="lxwmMap">
+
+                </div>
+            </div>
+            <!--百度地图容器-->
+            <div style="width:1200px;height:330px;border:#ccc solid 1px;margin-bottom: 90px" id="dituContent"></div>
+        </div>
+
+    </div>
+</div>
+<div class="indexFooter">
+    <div class="indexFooter1">
+        <div class="footerContainer">
+            <div class="footerList1 clearfix">
+                <ul>
+                    <li class="fli"><a href="#" class="flia flia-1">首页</a></li>
+                    <li class="fli"><a href="#" class="flia flia-1">园区概括</a></li>
+                    <li class="fli"><a href="#" class="flia flia-1">园区动态</a></li>
+                    <li class="fli"><a href="#" class="flia flia-1">服务平台</a></li>
+                    <li class="fli"><a href="#" class="flia flia-1">联系我们</a></li>
+                    <li class="fli"><a href="#" class="flia">下载中心</a></li>
+                </ul>
+            </div>
+            <div class="footerList2">
+                <div class="flv21 fmg70">
+                    <i class="icon iconfont">&#xe606;</i>
+                    <span class="flv21-T">山东省济南市市中区英雄山路129号山东新金融产业园10号楼2楼</span>
+                </div>
+                <div class="flv22 fmg30">
+                    <i class="icon iconfont">&#xe604;</i>
+                    <span class="flv21-T">0531-52078261</span>
+                </div>
+                <div class="flv23">
+                    <i class="icon iconfont" style="position: relative;font-size: 30px;top: -8px;">&#xe603;</i>
+                    <span class="flv21-T" style="vertical-align: top;">jnfbdsc@163.com</span>
+                </div>
+            </div>
+            <div class="footerList3">
+                <div class="footerL3T">
+                    <span class="flt3">1995-2014 All rights reserved ：SHANGHAI YINQIAO DECORATING MATERIAL CO.LTD </span>
+                </div>
+            </div>
+            <div class="footerList4">
+                <div class="fwxbox">
+                    <i class="icon iconfont ficon">&#xe608;</i>
+                </div>
+                <div class="fqqbox">
+                    <i class="icon iconfont ficon">&#xe60a;</i>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="indexFooter2">
+        <div class="footerContainer">
+            <div class="fc2t">
+                <span>友情链接：</span>
+                <a href="#" class="f2link">市中区政府网</a>
+                <a href="#" class="f2link">山东省发改委</a>
+                <a href="#" class="f2link">山东省金融办</a>
+                <a href="#" class="f2link">山东省财金集团</a>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+
+<div class="rightMenu" style="display: none" id="flexQQWXMenu">
+    <div class="menu">
+        <i class="icon iconfont qqm">&#xe60a;</i>
+    </div>
+    <div class="menu">
+        <i class="icon iconfont qqm">&#xe608;</i>
+    </div>
+    <div class="menu ">
+        <i class="imoRight"></i>
+    </div>
+    <div class="menu" id="goToTop">
+        <i class="icon iconfont qqm">&#xe60b;</i>
+    </div>
+</div>
+
+</body>
+<script type="text/javascript">
+    //创建和初始化地图函数：
+    function initMap(){
+        createMap();//创建地图
+        setMapEvent();//设置地图事件
+        addMapControl();//向地图添加控件
+        addMarker();//向地图中添加marker
+    }
+
+    //创建地图函数：
+    function createMap(){
+        var map = new BMap.Map("dituContent");//在百度地图容器中创建一个地图
+        var point = new BMap.Point(117.011473,36.62249);//定义一个中心点坐标
+        map.centerAndZoom(point,18);//设定地图的中心点和坐标并将地图显示在地图容器中
+        window.map = map;//将map变量存储在全局
+    }
+
+    //地图事件设置函数：
+    function setMapEvent(){
+        map.enableDragging();//启用地图拖拽事件，默认启用(可不写)
+        map.enableScrollWheelZoom();//启用地图滚轮放大缩小
+        map.enableDoubleClickZoom();//启用鼠标双击放大，默认启用(可不写)
+        map.enableKeyboard();//启用键盘上下左右键移动地图
+    }
+
+    //地图控件添加函数：
+    function addMapControl(){
+        //向地图中添加缩放控件
+        var ctrl_nav = new BMap.NavigationControl({anchor:BMAP_ANCHOR_TOP_LEFT,type:BMAP_NAVIGATION_CONTROL_LARGE});
+        map.addControl(ctrl_nav);
+        //向地图中添加缩略图控件
+        var ctrl_ove = new BMap.OverviewMapControl({anchor:BMAP_ANCHOR_BOTTOM_RIGHT,isOpen:1});
+        map.addControl(ctrl_ove);
+        //向地图中添加比例尺控件
+        var ctrl_sca = new BMap.ScaleControl({anchor:BMAP_ANCHOR_BOTTOM_LEFT});
+        map.addControl(ctrl_sca);
+    }
+
+    //标注点数组
+    var markerArr = [{title:"山东新金融中心",content:"电话：0531-82078261/82078262/82078264<br/>地址：济南市英雄山路129号山东新金融产业园10号楼2楼",point:"117.010786|36.623062",isOpen:0,icon:{w:21,h:21,l:0,t:0,x:6,lb:5}}
+    ];
+    //创建marker
+    function addMarker(){
+        for(var i=0;i<markerArr.length;i++){
+            var json = markerArr[i];
+            var p0 = json.point.split("|")[0];
+            var p1 = json.point.split("|")[1];
+            var point = new BMap.Point(p0,p1);
+            var iconImg = createIcon(json.icon);
+            var marker = new BMap.Marker(point,{icon:iconImg});
+            var iw = createInfoWindow(i);
+            var label = new BMap.Label(json.title,{"offset":new BMap.Size(json.icon.lb-json.icon.x+10,-20)});
+            marker.setLabel(label);
+            map.addOverlay(marker);
+            label.setStyle({
+                borderColor:"#808080",
+                color:"#333",
+                cursor:"pointer"
+            });
+
+            (function(){
+                var index = i;
+                var _iw = createInfoWindow(i);
+                var _marker = marker;
+                _marker.addEventListener("click",function(){
+                    this.openInfoWindow(_iw);
+                });
+                _iw.addEventListener("open",function(){
+                    _marker.getLabel().hide();
+                })
+                _iw.addEventListener("close",function(){
+                    _marker.getLabel().show();
+                })
+                label.addEventListener("click",function(){
+                    _marker.openInfoWindow(_iw);
+                })
+                if(!!json.isOpen){
+                    label.hide();
+                    _marker.openInfoWindow(_iw);
+                }
+            })()
+        }
+    }
+    //创建InfoWindow
+    function createInfoWindow(i){
+        var json = markerArr[i];
+        var iw = new BMap.InfoWindow("<b class='iw_poi_title' title='" + json.title + "'>" + json.title + "</b><div class='iw_poi_content'>"+json.content+"</div>");
+        return iw;
+    }
+    //创建一个Icon
+    function createIcon(json){
+        var icon = new BMap.Icon("http://app.baidu.com/map/images/us_mk_icon.png", new BMap.Size(json.w,json.h),{imageOffset: new BMap.Size(-json.l,-json.t),infoWindowOffset:new BMap.Size(json.lb+5,1),offset:new BMap.Size(json.x,json.h)})
+        return icon;
+    }
+
+    initMap();//创建和初始化地图
+</script>
+</html>

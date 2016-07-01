@@ -525,6 +525,14 @@ address, cite, code, em, th, i {
   margin: 0 auto;
 }
 
+.MARGR20 {
+  margin-right: 20px;
+}
+
+.MARGB50 {
+  margin-bottom: 50px;
+}
+
 /*********************** new module Name End **************************************/
 /*********************** new module Name Start **************************************
  *@moduleName:

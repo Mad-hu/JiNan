@@ -2,9 +2,9 @@
 @import "compass";
 
 
-.rzqydBoxLeft{
+.rzqydBoxLeft,.bannerBoxs{
   float: left;
-  width: 869px;
+  width: auto;
   height: auto;
 }
 
@@ -71,7 +71,7 @@
 
 .newsMenuRight{
   width: 240px;
-  padding: 37px 20px 20px 25px;
+  padding: 38px 20px 20px 25px;
   background-color: #f8f8f8;
 }
 
@@ -81,13 +81,76 @@
     border-bottom-style: dotted;
     border-width: 1px;
     border-color: #e1e1e1;
-    padding: 10px 0 9px 0;
+    padding: 15px 0 9px 0;
   }
   .nmlT1{
     color: #333;
   }
   .nmlT2{
     color: #999;
+  }
+
+}
+
+.imgItems{
+  margin: 65px 0;
+  height: 1180px;
+
+}
+
+.imgItem{
+  border: 1px solid #e5e5e5;
+  width: 281px;
+  float: left;
+  background-color: #f8f8f8;
+  margin-bottom: 50px;
+}
+.imgItemCon{
+  width: 281px;
+  height: 100px;
+  text-align: center;
+  .con01{
+    font-size: 16px;
+    color: #1f1f1f;
+    margin: 23px 0 15px 0;
+  }
+  .con02Btn{
+    position: relative;
+    width: 120px;
+    height: 26px;
+    margin: 0 auto;
+    background-color: #e6e6e6;
+    line-height: 26px;
+    color: #333;
+    cursor: pointer;
+    &:hover{
+      background-color: #008aff;
+      color: #fff !important;
+    }
+  }
+
+  .iconFontSan{
+    position: absolute;
+    color: #e6e6e6;
+    &:hover{
+      color: #fff;
+    }
+  }
+}
+.imgItemMore{
+  width: 180px;
+  height: 40px;
+  color: #1f1f1f;
+  font-size: 16px;
+  text-align: center;
+  line-height: 40px;
+  @include border-radius(5px);
+  border: 1px solid #e5e5e5;
+  margin: 50px auto 100px auto;
+  cursor: pointer;
+  &:hover{
+    background-color: #fd7800;
+    color: #fff;
   }
 
 }
