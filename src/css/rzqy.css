@@ -88,6 +88,9 @@
 .newsMenuList .nmlT1 {
   color: #333;
 }
+.newsMenuList .nmlT1:hover {
+  color: #ff9933;
+}
 .newsMenuList .nmlT2 {
   color: #999;
 }
