@@ -153,11 +153,16 @@ font-size: 24px;
     color: #008aff;
     padding-top: 59px;
     text-transform: uppercase;
+
     i{
       color: #4b4b4b;
       text-transform: uppercase;
       font-style: inherit;
     }
+  }
+  .text_conmmon{
+    font-size: 18px;
+    color: #6e6e6e;
   }
 }
 .line_h1{
@@ -205,10 +210,7 @@ font-size: 24px;
     height: 260px;
     top: 201px;
     .text{
-     /* overflow: hidden;
-      text-overflow: ellipsis;
-      white-space: nowrap;*/
-      padding: 40px 26px;
+       padding: 40px 26px;
       color: #fff;
     }
   }
