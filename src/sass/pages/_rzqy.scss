@@ -1,9 +1,7 @@
 @charset "UTF-8";
 @import "compass";
 
-.articalBox{
 
-}
 .rzqydBoxLeft{
   float: left;
   width: 869px;
@@ -15,10 +13,81 @@
   width: 285px;
   height: auto;
 }
+
 .articalBox{
-  width: 100%;
+  width: 797px;
+  padding: 30px 36px;
+  background-color: #f8f8f8;
 }
+
+.articalFoot{
+  height: 19px;
+  margin: 30px 0 20px 0;
+}
+.footLeft{
+  float: left;
+}
+.footRight{
+  float: right;
+}
+.artfT1{
+  color: #a0a0a0;
+  &:hover{
+    color: #ff9933;
+  }
+}
+.articalContent{
+  padding-bottom: 15px;
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.articalTitle{
+  padding-bottom: 31px;
+  border-bottom: 1px solid #e5e5e5;
+}
+.artImg{
+  margin: 40px 0;
+ }
+.artConT{
+  font-size: 14px;
+  color:#302f2b;
+  p{
+    text-indent: 2em;
+    line-height: 23px;
+    margin-bottom: 25px;
+  }
+}
+
+
+.titleLine1{
+  font-size: 24px;
+  color: #302f2b;
+}
+.titleLine2{
+  font-size: 28px;
+  color: #cccccc;
+}
+
+
 .newsMenuRight{
   width: 240px;
   padding: 37px 20px 20px 25px;
+  background-color: #f8f8f8;
+}
+
+.newsMenuList{
+  font-size: 14px;
+  .nmLli{
+    border-bottom-style: dotted;
+    border-width: 1px;
+    border-color: #e1e1e1;
+    padding: 10px 0 9px 0;
+  }
+  .nmlT1{
+    color: #333;
+  }
+  .nmlT2{
+    color: #999;
+  }
+
 }
