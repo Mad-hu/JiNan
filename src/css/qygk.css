@@ -171,6 +171,10 @@
   text-transform: uppercase;
   font-style: inherit;
 }
+.con_zhs .text_conmmon {
+  font-size: 18px;
+  color: #6e6e6e;
+}
 
 .line_h1 {
   width: 100%;
@@ -220,9 +224,6 @@
   top: 201px;
 }
 .zhsh_box_con li .text_block .text {
-  /* overflow: hidden;
-   text-overflow: ellipsis;
-   white-space: nowrap;*/
   padding: 40px 26px;
   color: #fff;
 }
