@@ -422,7 +422,7 @@ $(function(){
     });
 
 
-     ///转图动画
+    ///转图动画
      $('.moveBox,.moveBox2').each(function(index,ele){
          var thisWidth= $(ele).width()/2;
 
@@ -459,11 +459,17 @@ $(function(){
 
 
 
-/*
-$(document).ready(function () {
-    $('.listimg').hover(function () {
-        $(".summary", this).stop().animate({top: '110px'}, {queue: false, duration: 180});
-    }, function () {
-        $(".summary", this).stop().animate({top: '165px'}, {queue: false, duration: 180});
+$(function(){
+    $(".zhsh_box_con li  .text_block").hide();
+    $(".zhsh_box_con li").hover(function(){
+        $(this).find(".text_block").stop().fadeTo(500,0.9)
+       $(this).find(".text").stop().animate({left:'0'}, {duration: 500})
+    },function(){
+        $(this).find(".text_block").stop().fadeTo(500,0)
+       $(this).find(".text").stop().animate({left:'318'}, {duration: "fast"})
+       $(this).find(".text").animate({left:'-318'}, {duration: 0})
     });
-});*/
+});
+
+
+

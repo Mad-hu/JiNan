@@ -153,11 +153,16 @@ font-size: 24px;
     color: #008aff;
     padding-top: 59px;
     text-transform: uppercase;
+
     i{
       color: #4b4b4b;
       text-transform: uppercase;
       font-style: inherit;
     }
+  }
+  .text_conmmon{
+    font-size: 18px;
+    color: #6e6e6e;
   }
 }
 .line_h1{
@@ -197,14 +202,17 @@ font-size: 24px;
   }*/
   li .text_block{
     /* display: none; */
-    background: red;
+    background: #09a0fa;
     display: block;
     width: 230px;
     margin-top: -202px;
     position: absolute;
-    height: 204px;
-    padding-top: 57px;
-    top: 461px;
+    height: 260px;
+    top: 201px;
+    .text{
+       padding: 40px 26px;
+      color: #fff;
+    }
   }
   li .text{
     display: inline-block;

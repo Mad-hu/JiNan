@@ -171,6 +171,10 @@
   text-transform: uppercase;
   font-style: inherit;
 }
+.con_zhs .text_conmmon {
+  font-size: 18px;
+  color: #6e6e6e;
+}
 
 .line_h1 {
   width: 100%;
@@ -211,14 +215,17 @@
 }
 .zhsh_box_con li .text_block {
   /* display: none; */
-  background: red;
+  background: #09a0fa;
   display: block;
   width: 230px;
   margin-top: -202px;
   position: absolute;
-  height: 204px;
-  padding-top: 57px;
-  top: 461px;
+  height: 260px;
+  top: 201px;
+}
+.zhsh_box_con li .text_block .text {
+  padding: 40px 26px;
+  color: #fff;
 }
 .zhsh_box_con li .text {
   display: inline-block;

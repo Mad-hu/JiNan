@@ -26,7 +26,7 @@
     });
 
 
-     ///转图动画
+    ///转图动画
      $('.moveBox,.moveBox2').each(function(index,ele){
          var thisWidth= $(ele).width()/2;
 
