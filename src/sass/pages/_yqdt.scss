@@ -28,16 +28,25 @@
   .time_l{
     font-size: 34px;
     color: #5e5e5e;
+    cursor: pointer;
+  }
+  .time_l:hover{
+    color: #f93;
   }
   .name_n{
     font-size: 28px;
     color: #000000;
     line-height: 95px;
+    cursor: pointer;
+  }
+  .name_n:hover{
+    color: #f93;
   }
   .con_text{
     font-size: 14px;
     line-height: 24px;
     color: #5e5e5e;
+    cursor: pointer;
   }
   .btn_qx_a{
     margin-top: 50px;
@@ -51,6 +60,10 @@
       text-align: center;
       border: 1px solid #e5e5e5;
       cursor: pointer;
+    }
+    .btn_qx_item:hover{
+      background: #008dfd;
+      color: #fff;
     }
   }
 }
@@ -97,7 +110,7 @@
         cursor: pointer;
       }
       .title_text:hover{
-        color: #008dfd;
+        color: #ff9933;
       }
       .text_t{
         width: 978px;
@@ -108,7 +121,7 @@
         cursor: pointer;
       }
       .text_t:hover{
-        color: #008dfd;
+        //color: #008dfd;
       }
     }
   }
@@ -217,7 +230,7 @@
       cursor: pointer;
     }
     li a:hover{
-     color: #008dfd;
+     color: #ff9933;
     }
   }
 }

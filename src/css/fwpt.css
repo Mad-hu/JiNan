@@ -70,6 +70,10 @@
   line-height: 43px;
   margin: 7px 0;
 }
+.proLists .tbTitle:hover {
+  color: #ff9933;
+  cursor: pointer;
+}
 .proLists .tbContent {
   width: 834px;
   font-size: 14px;

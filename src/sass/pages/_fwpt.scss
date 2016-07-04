@@ -70,12 +70,17 @@
     line-height: 43px;
     margin: 7px 0;
   }
+  .tbTitle:hover{
+    color: #ff9933;
+    cursor: pointer;
+  }
   .tbContent{
     width: 834px;
     font-size: 14px;
     color: #5e5e5e;
     line-height: 25px;
   }
+  
   .tbFoot{
     font-size: 14px;
     color: #000;
