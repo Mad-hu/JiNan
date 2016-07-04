@@ -122,7 +122,6 @@ $placeholderColor:#999;
 .wxSMBoxTop{
   border: 1px solid #e5e5e5;
   display: none;
-  @include border-radius(5px);
   padding: 10px;
   position: absolute;
   z-index: 2000;
@@ -130,7 +129,8 @@ $placeholderColor:#999;
   top: 32px;
   left: 470px;
   text-align: center;
-
+  @include border-radius(5px);
+  behavior: url(component/PIE/PIE.htc);
 }
 .sanjiao{
   width: 0px;
@@ -147,7 +147,6 @@ $placeholderColor:#999;
 .wxBLBoxTop{
   border: 1px solid #e5e5e5;
   display: none;
-  @include border-radius(5px);
   padding: 10px;
   position: absolute;
   z-index: 2000;
@@ -155,5 +154,7 @@ $placeholderColor:#999;
   top: 30px;
   left: 430px;
   text-align: center;
+  @include border-radius(5px);
+  behavior: url(component/PIE/PIE.htc);
 }
  /*********************** new module Name End **************************************/
