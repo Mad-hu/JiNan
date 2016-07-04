@@ -127,6 +127,23 @@ $(function(){
         });
     });
 
+    //头部显示二维码
+    $('.headerSMItem').each(function(index,ele){
+        $(this).hover(function(){
+            if(index == 0){
+                $('#topBL').show();
+            }else if(index == 1){
+                $('#topWX').show();
+            }
+        },function(){
+            if(index == 0){
+                $('#topBL').hide();
+            }else if(index == 1){
+                $('#topWX').hide();
+            }
+        })
+    });
+
     ///浏览器活动然后显示右侧的QQ微信等
     $(window).scroll(function() {
         var scroll_top = $(document).scrollTop();

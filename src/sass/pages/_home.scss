@@ -567,6 +567,19 @@ li{
 
      }
    }
+
+   .menuWX{
+     position: absolute;
+     display: none;
+     top: -145px;
+     left: -177px;
+     width: 177px;
+     height: 200px;
+     padding: 10px 0px;
+     background: url("../img/menuBg.png") no-repeat;
+     text-align: center;
+   }
+
  }
 
 
