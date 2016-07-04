@@ -156,3 +156,34 @@
   }
 
 }
+
+.rzqyBannerTxtBox{
+  margin: 61px 34px;
+  color: #fff;
+  position: absolute;
+  top: 0px;
+
+  .rbtTitle{
+    font-size: 36.58px;
+  }
+  .rbtLine{
+    height: 1px;
+    background-color: #fff;
+    width: 17px;
+    margin:10px 0 25px 0;
+  }
+  .rbtCon{
+    width: 342px;
+    font-size: 16px;
+    line-height: 28px;
+  }
+  .rbtBtb{
+    width: 136px;
+    height: 39px;
+    text-align: center;
+    font-size: 18px;
+    line-height: 39px;
+    background-color: #ff9933;
+    margin-top: 170px;
+  }
+}

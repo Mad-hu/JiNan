@@ -54,7 +54,7 @@ $loginBlue:#008aff;
     height: 38px;
     margin-bottom: 21px;
     @include border-radius(1px);
-    behavior: url(../component/PIE/PIE.htc);
+    behavior: url(component/PIE/PIE.htc);
   }
 
   .formIconFont{
@@ -80,6 +80,7 @@ $loginBlue:#008aff;
     color: #ccc;
     position: absolute;
     left: 1px;
+    box-sizing: content-box;
   }
 
   .formC{
@@ -112,7 +113,7 @@ $loginBlue:#008aff;
   color: #fff;
   cursor: pointer;
   @include border-radius(3px);
-  behavior: url(../component/PIE/PIE.htc);
+  behavior: url(component/PIE/PIE.htc);
   border:none;
 
 }

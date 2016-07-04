@@ -20,6 +20,7 @@
     text-align: center;
     line-height: 43px;
     font-size: 20px;
+    cursor: pointer;
   }
 
   .tabbg1{
@@ -52,6 +53,7 @@
   .leftImg{
     float: left;
     margin-right: 25px;
+    width: 300px;height: 200px;
   }
   .leftTBox{
     float: left;
@@ -107,6 +109,7 @@
   line-height: 40px;
   width: 180px;
   height: 40px;
+  cursor: pointer;
   @include border-radius(3px);
   border: 1px solid #e1e1e1;
   margin: 45px auto;

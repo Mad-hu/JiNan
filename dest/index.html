@@ -40,13 +40,40 @@
                         <i class="icon iconfont" style="font-size: 12px;vertical-align: middle;position: relative;top: -2px;padding: 0 5px;">&#xe604;</i>
                         <span>0531-82078261</span>
                     </div>
-                    <div class="ttiem1 imoTop">
+                    <div class="ttiem1 imoTop headerSMItem">
 
+                        <div class="wxBLBoxTop" id="topBL">
+                            <img src="img/wxSM.png" width="149" height="151" alt="班聊扫码">
+                            <div class="sanjiao"></div>
+                        </div>
                     </div>
-                    <div class="ttiem1 ttbord">
+                    <div class="ttiem1 ttbord headerSMItem">
                         <i class="icon iconfont ficon">&#xe608;</i>
+                        <div class="wxSMBoxTop" id="topWX">
+                            <img src="img/wxSM.png" width="149" height="151" alt="微信扫码">
+                            <div class="sanjiao"></div>
+                        </div>
                     </div>
                 </div>
+
+                <script>
+
+                    $('.headerSMItem').each(function(index,ele){
+                        $(this).hover(function(){
+                            if(index == 0){
+                                $('#topBL').show();
+                            }else if(index == 1){
+                                $('#topWX').show();
+                            }
+                        },function(){
+                            if(index == 0){
+                                $('#topBL').hide();
+                            }else if(index == 1){
+                                $('#topWX').hide();
+                            }
+                        })
+                    });
+                </script>
 
                 <div class="login-nav-con ttbord">
                     <div class="ttiem1 ">

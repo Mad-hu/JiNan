@@ -186,26 +186,27 @@ li{
       float: left;
       width: 80px;
       height: 28px;
+      line-height: 28px;
       background-color: #000;
       text-align: center;
     }
     .tbb2Box{
       float: left;
       height: 28px;
+      line-height: 28px;
       width: 32px;
       background-color: #0077e0;
       text-align: center;
     }
     .tbb2{
       color: #fff;
-      vertical-align: middle;
     }
     .tbb1{
       font-size: 13.18px;
       color: #fff;
-      vertical-align: middle;
     }
   }
+
 }
 
 .coni2img1{
@@ -218,7 +219,7 @@ li{
   width: 74px;
   height: 61px;
   margin: 25px auto 20px;
-  background: url(../img/indexspring.png) -87px 2px no-repeat;
+  background: url('../img/indexspring.png') -87px 2px no-repeat;
 }
 
 
@@ -330,16 +331,28 @@ li{
     width: 138px;
     height: 28px;
     text-align: center;
+    line-height: 28px;
     cursor: pointer;
     &:hover{
+      background:#fff;
+      filter:Alpha(opacity=30);
       background-color: rgba(255,255,255,0.3);
       border:none;
     }
   }
 
+
+  .ci2bbgItem3BtnCurrent{
+    background:#fff;
+    filter:Alpha(opacity=30);
+    background-color: rgba(255,255,255,0.3);
+    border:none;
+  }
+
+
+
   .ci2bbgItem3BtnT{
     color: #fff;
-    vertical-align: middle;
     font-size: 14px;
   }
 }
@@ -353,7 +366,8 @@ li{
   .mlb1{
     width: 388px;
     height: 258px;
-    background-color: rgba(0,0,0,0.6);
+    background-color:#000;
+    //background-color: rgba(0,0,0,0.6);
   }
   .mlb2{
     width: 388px;
@@ -361,12 +375,14 @@ li{
   }
 
   .playBtn{
-    background: url(../img/indexspring.png) -307px 0px no-repeat;
+    background: url(../img/playerIcon.png) no-repeat;
     height: 62px;
     width: 62px;
     position: relative;
-    left: 40%;
-    top: 32%;
+    left: 46%;
+    top: 35%;
+    filter:Alpha(opacity=100);
+    opacity: 1;
   }
 }
 
@@ -540,6 +556,7 @@ li{
      &:hover{
        background-color: #f35027;
      }
+
      .imoRight{
        display: block;
        width: 46px;

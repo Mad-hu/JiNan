@@ -97,6 +97,10 @@ $bColor:#0a8cff;
     height: 261px;
     float: left;
     overflow: hidden;
+    cursor: pointer;
+  }
+  .iblBox2{
+    cursor: pointer;
   }
 
   .imgBoxRight{
@@ -130,7 +134,10 @@ $bColor:#0a8cff;
     float: left;
     width: 261px;
     height: 261px;
+    filter:Alpha(opacity=80);
+    background-color: #000;
     background-color: rgba(0,0,0,0.8);
+
     text-align: center;
     color: #fff;
   }
@@ -143,22 +150,33 @@ $bColor:#0a8cff;
   }
 
   .operbga0{
-     background-color: rgba(5,81,159,0.8);
+    filter:Alpha(opacity=80);
+    background-color: #055195;
+    background-color: rgba(5,81,159,0.8);
    }
   .operbga1{
+    filter:Alpha(opacity=80);
+    background-color: #ff9933;
     background-color: rgba(255,153,51,0.8);
   }
   .operbga2{
+
+    background-color: #ef4f41;
     background-color: rgba(239,76,65,0.8);
+    filter:Alpha(opacity=80);
+
   }
   .operbga3{
+    filter:Alpha(opacity=80);
+    background-color: #30b4fc;
     background-color: rgba(48,180,252,0.8);
+
   }
   .operbga4{
+    filter:Alpha(opacity=80);
+    background-color: #0a8cff;
     background-color: rgba(10,140,255,0.8);
-  }
-  .operbga5{
-    background-color: rgba(5,81,159,0.8);
+
   }
 
   .proMImg{

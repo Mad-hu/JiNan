@@ -112,4 +112,43 @@ $placeholderColor:#999;
     overflow: hidden;
   }
 }
+
+
+.wxSMBoxTop{
+  border: 1px solid #e5e5e5;
+  display: none;
+  @include border-radius(5px);
+  padding: 10px;
+  position: absolute;
+  z-index: 2000;
+  background-color: #fff;
+  top: 32px;
+  left: 470px;
+  text-align: center;
+
+}
+.sanjiao{
+  width: 0px;
+  height: 0px;
+  border: 15px solid;
+  border-top: 10px solid transparent;
+  border-left: 7px solid transparent;
+  border-right: 7px solid transparent;
+  color: #fff;
+  position: absolute;
+  top: -17px;
+  left: 75px;
+}
+.wxBLBoxTop{
+  border: 1px solid #e5e5e5;
+  display: none;
+  @include border-radius(5px);
+  padding: 10px;
+  position: absolute;
+  z-index: 2000;
+  background-color: #fff;
+  top: 30px;
+  left: 430px;
+  text-align: center;
+}
  /*********************** new module Name End **************************************/

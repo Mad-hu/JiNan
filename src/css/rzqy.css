@@ -158,3 +158,33 @@
   background-color: #fd7800;
   color: #fff;
 }
+
+.rzqyBannerTxtBox {
+  margin: 61px 34px;
+  color: #fff;
+  position: absolute;
+  top: 0px;
+}
+.rzqyBannerTxtBox .rbtTitle {
+  font-size: 36.58px;
+}
+.rzqyBannerTxtBox .rbtLine {
+  height: 1px;
+  background-color: #fff;
+  width: 17px;
+  margin: 10px 0 25px 0;
+}
+.rzqyBannerTxtBox .rbtCon {
+  width: 342px;
+  font-size: 16px;
+  line-height: 28px;
+}
+.rzqyBannerTxtBox .rbtBtb {
+  width: 136px;
+  height: 39px;
+  text-align: center;
+  font-size: 18px;
+  line-height: 39px;
+  background-color: #ff9933;
+  margin-top: 170px;
+}

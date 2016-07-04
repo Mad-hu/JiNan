@@ -72,6 +72,8 @@ $(function(){
     $('.ci2bbContent').each(function(index,ele){
         $(this).hover(
             function () {
+                $($('.ci2bbgItem3Btn')[index]).addClass('ci2bbgItem3BtnCurrent');
+
                 $('.imgscroll'+ index).animate({
                     position:'relative',
                     left:'-=25',
@@ -82,6 +84,8 @@ $(function(){
                 });
             },
             function () {
+                $($('.ci2bbgItem3Btn')[index]).removeClass('ci2bbgItem3BtnCurrent');
+
                 $('.imgscroll' + index).animate({
                     left:'+=25',
                     width: '-=50',
@@ -93,7 +97,8 @@ $(function(){
         );
     });
 
-
+    ///转图背景颜色修改，支持IE
+    $('.mlb1').css('opacity','0.6');
     ///转图动画
     $('.moveLeftBox').each(function(index,ele){
         $(this).hover(
@@ -139,5 +144,34 @@ $(function(){
         $('body,html').animate({ scrollTop: 0 }, speed);
         return false;
     });
+
+
+    ///底部窗口不够高的时候自动在页面下边
+    lrFixFooter("div.indexFooter");
+    function lrFixFooter(obj){
+        var footer = $(obj),doc = $(document);
+        function fixFooter(){
+            if(doc.height()-4 <= window.screen.availHeight){
+                footer.css({
+                    width:"100%",
+                    position:"absolute",
+                    left:0,
+                    bottom:0
+                });
+            }else{
+                footer.css({
+                    position:"static"
+                });
+            }
+        }
+        fixFooter();
+        $(window).on('resize.footer', function(){
+            fixFooter();
+        });
+        $(window).on('scroll.footer',function(){
+            fixFooter();
+        });
+    }
+
 
 });

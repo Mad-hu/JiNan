@@ -92,6 +92,10 @@
   height: 261px;
   float: left;
   overflow: hidden;
+  cursor: pointer;
+}
+.yqfwBox .iblBox2 {
+  cursor: pointer;
 }
 .yqfwBox .imgBoxRight {
   float: right;
@@ -122,6 +126,8 @@
   float: left;
   width: 261px;
   height: 261px;
+  filter: Alpha(opacity=80);
+  background-color: #000;
   background-color: rgba(0, 0, 0, 0.8);
   text-align: center;
   color: #fff;
@@ -133,22 +139,29 @@
   text-align: center;
 }
 .yqfwBox .operbga0 {
+  filter: Alpha(opacity=80);
+  background-color: #055195;
   background-color: rgba(5, 81, 159, 0.8);
 }
 .yqfwBox .operbga1 {
+  filter: Alpha(opacity=80);
+  background-color: #ff9933;
   background-color: rgba(255, 153, 51, 0.8);
 }
 .yqfwBox .operbga2 {
+  background-color: #ef4f41;
   background-color: rgba(239, 76, 65, 0.8);
+  filter: Alpha(opacity=80);
 }
 .yqfwBox .operbga3 {
+  filter: Alpha(opacity=80);
+  background-color: #30b4fc;
   background-color: rgba(48, 180, 252, 0.8);
 }
 .yqfwBox .operbga4 {
+  filter: Alpha(opacity=80);
+  background-color: #0a8cff;
   background-color: rgba(10, 140, 255, 0.8);
-}
-.yqfwBox .operbga5 {
-  background-color: rgba(5, 81, 159, 0.8);
 }
 .yqfwBox .proMImg {
   height: 52px;
