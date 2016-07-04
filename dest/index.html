@@ -379,17 +379,48 @@
 <div class="rightMenu" style="display: none" id="flexQQWXMenu">
     <div class="menu">
         <i class="icon iconfont qqm">&#xe60a;</i>
+
     </div>
-    <div class="menu">
+    <div class="menu menuSMHover">
         <i class="icon iconfont qqm">&#xe608;</i>
+        <div class="menuWX" id="menuWX">
+            <img src="img/wxSM.png" alt="微信二维码">
+            <div><span style="color: #f35027">扫一扫</span></div>
+            <div><span style="color: #0174db">关注官方微信</span></div>
+        </div>
     </div>
-    <div class="menu ">
+    <div class="menu menuSMHover" id="menuWX">
         <i class="imoRight"></i>
+        <div class="menuWX"  style="top:-100px;" id="menuBL">
+            <img src="img/wxSM.png" alt="班聊二维码">
+            <div><span style="color: #f35027">扫一扫</span></div>
+            <div><span style="color: #0174db">关注官方班聊</span></div>
+        </div>
     </div>
     <div class="menu" id="goToTop">
         <i class="icon iconfont qqm">&#xe60b;</i>
     </div>
 </div>
+
+<script>
+ $('.menuSMHover').each(function(index,ele){
+    $(this).hover(function(){
+        if(index == 0){
+            $('#menuWX').show();
+
+        }else if(index==1){
+            $('#menuBL').show();
+        }
+    },function(){
+        if(index == 0){
+            $('#menuWX').hide();
+        }else if(index==1){
+            $('#menuBL').hide();
+
+        }
+    })
+ });
+</script>
 
 </body>
 </html>

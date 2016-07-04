@@ -512,6 +512,10 @@ address, cite, code, em, th, i {
   background: url(../img/imoImg.png) 0px 0px no-repeat;
   overflow: hidden;
 }
+.indexHeader .imoTop:hover {
+  background-size: 26px;
+  background-position: 0px -20px;
+}
 
 .wxSMBoxTop {
   border: 1px solid #e5e5e5;
