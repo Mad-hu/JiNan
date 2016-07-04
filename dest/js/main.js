@@ -309,28 +309,11 @@ $(function(){
 
 
     ///底部窗口不够高的时候自动在页面下边
-    //var bodyHeight = $(document.body).height();
-    //var windowHeight = $(window).height();
-    //function footerFix(){
-    //    if(bodyHeight < windowHeight){
-    //        $('.indexFooter').css({
-    //            position: 'absolute',
-    //            bottom: 0,
-    //            width: '100%'
-    //        });
-    //    }else{
-    //        $('.indexFooter').css({
-    //            position: 'static'
-    //        });
-    //    }
-    //}
-
-    lrFixFooter("div.indexFooter");	//调用方法：lrFixFooter("div.footerwarp"); 传入底部的类名或者ID名
-
+    lrFixFooter("div.indexFooter");
     function lrFixFooter(obj){
         var footer = $(obj),doc = $(document);
         function fixFooter(){
-            if(doc.height()-4 <= $(window).height()){
+            if(doc.height()-4 <= window.screen.availHeight){
                 footer.css({
                     width:"100%",
                     position:"absolute",
@@ -350,7 +333,6 @@ $(function(){
         $(window).on('scroll.footer',function(){
             fixFooter();
         });
-
     }
 
 
