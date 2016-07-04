@@ -191,12 +191,20 @@
       float: left;
       color: #a0a0a0;
       font-size: 14px;
+      cursor: pointer;
     }
-
+    .next_font:hover{
+      color: #ff9933;
+    }
         .lib_con{
       float: right;
       color: #a0a0a0;
       font-size: 14px;
+          cursor: pointer;
+    }
+    .lib_con:hover{
+      color: #ff9933;
+      cursor: pointer;
     }
   }
 }

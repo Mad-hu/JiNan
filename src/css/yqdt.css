@@ -186,11 +186,20 @@
   float: left;
   color: #a0a0a0;
   font-size: 14px;
+  cursor: pointer;
+}
+.con_left_q .page_wz_pre .next_font:hover {
+  color: #ff9933;
 }
 .con_left_q .page_wz_pre .lib_con {
   float: right;
   color: #a0a0a0;
   font-size: 14px;
+  cursor: pointer;
+}
+.con_left_q .page_wz_pre .lib_con:hover {
+  color: #ff9933;
+  cursor: pointer;
 }
 
 .con_right_q {
