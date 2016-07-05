@@ -564,6 +564,29 @@ address, cite, code, em, th, i {
 }
 
 /*********************** new module Name End **************************************/
+.gywmTab {
+  position: absolute;
+  top: 89px;
+  left: -139px;
+  z-index: 1000;
+  text-align: center;
+  display: none;
+  color: #fff;
+  height: 60px;
+  line-height: 60px;
+  width: 253px;
+  background: #4c4a4f;
+  font-size: 14px;
+}
+
+.gywmTab1 {
+  margin: 0 7px;
+}
+
+.gywmTab1:hover {
+  color: #ff9933;
+}
+
 /*********************** new module Name Start **************************************
  *@moduleName:
  *@author:Mad-HU
