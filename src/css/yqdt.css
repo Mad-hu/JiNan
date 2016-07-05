@@ -158,8 +158,7 @@
 .con_left_q .title_c {
   float: left;
   width: 760px;
-  margin-left: 34px;
-  margin-bottom: 35px;
+  margin: 10px 20px;
 }
 .con_left_q .title_c h3 {
   font-size: 20px;

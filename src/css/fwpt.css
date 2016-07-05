@@ -58,6 +58,7 @@
 }
 .proLists .leftTBox {
   float: left;
+  position: relative;
 }
 .proLists .tabTBox {
   width: auto;
@@ -84,6 +85,26 @@
   font-size: 14px;
   color: #000;
   margin: 15px 0px;
+}
+.proLists .tbFoot .icons_ly1 {
+  background: url(../../images/common/ong_icons_a_03.png) no-repeat;
+  display: inline-block;
+  width: 13px;
+  height: 13px;
+  margin-right: 10px;
+}
+.proLists .tbFoot .time_icons {
+  margin-left: 42px;
+  display: inline-block;
+}
+.proLists .tbFoot .time_icons .icons_c {
+  background: url(../../images/common/clock_img_icon_03.png) no-repeat;
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  margin-right: 10px;
+  line-height: 16px;
+  vertical-align: inherit;
 }
 .proLists .showInfoBtn {
   width: 76px;

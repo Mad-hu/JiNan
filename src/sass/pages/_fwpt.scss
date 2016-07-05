@@ -10,6 +10,7 @@
   height: 45px;
   width: 1200px;
   margin:47px 0 39px 0;
+
 .fw_width{
   width: 50% !important;
   }
@@ -57,6 +58,7 @@
   }
   .leftTBox{
     float: left;
+     position: relative;
   }
   .tabTBox{
     width: auto;
@@ -69,6 +71,7 @@
     color: #000;
     line-height: 43px;
     margin: 7px 0;
+
   }
   .tbTitle:hover{
     color: #ff9933;
@@ -86,6 +89,27 @@
     font-size: 14px;
     color: #000;
     margin: 15px 0px;
+
+    .icons_ly1{
+      background: url(../../images/common/ong_icons_a_03.png) no-repeat;
+      display: inline-block;
+      width: 13px;
+      height: 13px;
+      margin-right: 10px;
+    }
+    .time_icons{
+      margin-left: 42px;
+      display: inline-block;
+    .icons_c{
+      background: url(../../images/common/clock_img_icon_03.png) no-repeat;
+      display: inline-block;
+      width: 16px;
+      height: 16px;
+      margin-right: 10px;
+    line-height: 16px;
+      vertical-align: inherit;
+    }
+    }
   }
 
   .showInfoBtn{
