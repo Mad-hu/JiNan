@@ -25,7 +25,7 @@ gulp.task('compass', function() {
         .pipe(gulp.dest('./dest/styles/common/'));                               //- 输出文件本地       .pipe(rev()) //- 文件名加MD5后缀
 });
 
-//123
+
 //语法检查 任务1先检查语法
 gulp.task('jshint', function() {
     return gulp.src('src/javascripts/*.js')
