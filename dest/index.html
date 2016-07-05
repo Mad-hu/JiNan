@@ -40,20 +40,20 @@
                         <i class="icon iconfont" style="font-size: 12px;vertical-align: middle;position: relative;top: -2px;padding: 0 5px;">&#xe604;</i>
                         <span>0531-82078261</span>
                     </div>
-                    <div class="ttiem1 imoTop headerSMItem">
+                    <!--<div class="ttiem1 imoTop headerSMItem">-->
 
-                        <div class="wxBLBoxTop" id="topBL">
-                            <img src="images/common/wxSM.png" width="149" height="151" alt="班聊扫码">
-                            <div class="sanjiao"></div>
-                        </div>
-                    </div>
-                    <div class="ttiem1 ttbord headerSMItem">
-                        <i class="icon iconfont ficon">&#xe608;</i>
-                        <div class="wxSMBoxTop" id="topWX">
-                            <img src="images/common/wxSM.png" width="149" height="151" alt="微信扫码">
-                            <div class="sanjiao"></div>
-                        </div>
-                    </div>
+                    <!--<div class="wxBLBoxTop" id="topBL">-->
+                    <!--<img src="images/common/wxSM.png" width="149" height="151" alt="班聊扫码">-->
+                    <!--<div class="sanjiao"></div>-->
+                    <!--</div>-->
+                    <!--</div>-->
+                    <!--<div class="ttiem1 ttbord headerSMItem">-->
+                    <!--<i class="icon iconfont ficon">&#xe608;</i>-->
+                    <!--<div class="wxSMBoxTop" id="topWX">-->
+                    <!--<img src="images/common/wxSM.png" width="149" height="151" alt="微信扫码">-->
+                    <!--<div class="sanjiao"></div>-->
+                    <!--</div>-->
+                    <!--</div>-->
                 </div>
 
                 <script>
@@ -76,20 +76,20 @@
                 </script>
 
                 <div class="login-nav-con ttbord">
-                    <div class="ttiem1 ">
+                    <div class="ttiem1" style="border-right: 1px solid #363636;">
                         <a href="login.html">登录</a>
                     </div>
-                    <div class="ttiem1 ttbord">
+                    <div class="ttiem1">
                         <a href="login.html">注册</a>
                     </div>
                     <!--<div class="ttiem1">-->
-                        <!--<a href="#">简</a>-->
+                    <!--<a href="#">简</a>-->
                     <!--</div>-->
                     <!--<div class="ttiem1 ttbord">-->
-                        <!--<a href="#">繁</a>-->
+                    <!--<a href="#">繁</a>-->
                     <!--</div>-->
                     <!--<div class="ttiem1">-->
-                        <!--<a href="#">En</a>-->
+                    <!--<a href="#">En</a>-->
                     <!--</div>-->
                 </div>
             </div>
@@ -98,22 +98,36 @@
             <div class="headerLists">
                 <div class="headerLogo"><img src="images/common/indexLog.png" alt="山东新金融产业园"></div>
                 <div class="headerTabbars">
-                    <a class="headerList tabberCurrent" href="index.html">首页</a>
-                    <a class="headerList" href="yqgk.html">园区概括</a>
+                    <a class="headerList tabberCurrent" href="index2.html">首页</a>
                     <a class="headerList" href="yqdt.html">园区动态</a>
+                    <a class="headerList" href="fwpt.html">路演大厅</a>
+                    <a class="headerList" href="fwpt.html">园区项目</a>
+                    <a class="headerList" href="">大数据平台</a>
                     <a class="headerList" href="yqfw.html">园区服务</a>
-                    <a class="headerList" href="fwpt.html">服务平台</a>
-                    <a class="headerList" href="rzqy.html">入驻企业</a>
-                    <a class="headerList" href="lxwm.html">联系我们</a>
-                </div>
+                    <div class="headerList" href="#" id="gywmid" style="position: relative">关于我们
+                        <div class="gywmTab">
+                            <div><a href="yqgk.html"><span class="gywmTab1">园区概况</span></a></div>
+                            <div><a href="rzqy.html"><span class="gywmTab1">入驻企业</span></a></div>
+                            <div><a href="lxwm.html"><span class="gywmTab1">联系我们</span></a></div>
+                        </div>
+                    </div>
 
+                </div>
+                <script>
+                    $('#gywmid').hover(function(){
+                        $('.gywmTab').show();
+                    },function(){
+                        $('.gywmTab').hide();
+                    });
+
+                </script>
 
                 <!--<div class="headerSearch">-->
-                    <!--<form class="searchForm" action="#">-->
-                        <!--<input class="searchInput" type="text" placeholder="输入关键字...">-->
+                <!--<form class="searchForm" action="#">-->
+                <!--<input class="searchInput" type="text" placeholder="输入关键字...">-->
 
-                    <!--</form>-->
-                    <!--<i class="icon iconfont searchIcon">&#xe600;</i>-->
+                <!--</form>-->
+                <!--<i class="icon iconfont searchIcon">&#xe600;</i>-->
                 <!--</div>-->
             </div>
 
@@ -156,133 +170,56 @@
 
         </div>
 
-        <div class="indexContentBox">
-            <div class="contentItem1 clearfix">
-                <ul style="padding:0px;margin:0px;">
-                    <li class="coni1">
-                        <div class="txtBox">
-                            <div><span class="txt1">金融企业服务平台</span></div>
-                            <div><span class="txt2">为您的金融企业提供的服务平台</span></div>
-                            <div><span class="txt2">一站式服务平台</span></div>
-                        </div>
-                        <div class="txt1BtnBox">
-                            <div class="txt1Btn clearfix">
-                                <div class="tbb1Box"><span class="tbb1">进入平台</span></div>
-                                <div class="tbb2Box"><span class="tbb2"><i class="icon iconfont">&#xe601;</i> </span></div>
-                            </div>
-                        </div>
-                    </li>
-                    <li class="coni2 coni2bg1">
-                        <div class="coni2img1"></div>
-                        <div class="coni2txt1">投资机构</div>
-                        <div class="coni2txt2">INVESTMENT INSTITUTIONS</div>
-                    </li>
-                    <li class="coni2 coni2bg2">
-                        <div class="coni2img2"></div>
-                        <div class="coni2txt1">融资项目</div>
-                        <div class="coni2txt2">FINANCING PROJECT</div>
-                    </li>
-                </ul>
-            </div>
-            <div class="contentItem2">
-                <div class="ci2Box ci2right">
-                    <div class="ci2bbg1">
-                        <img src="images/common/indexCon1.jpg" style="position: relative" alt=""  class="imgscroll0">
-                        <div class="ci2bbContent">
-                            <div class="ci2bbgItem1"></div>
-                            <div class="ci2bbgItem2">投融资咨询</div>
-                            <div class="ci2bbgItem3">CONSULTING</div>
-                            <div class="ci2bbgItem4">
-                                <div class="ci2bbgItem3Btn">
-                                    <span class="ci2bbgItem3BtnT">点击进入</span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="ci2Box ci2right">
-                    <div class="ci2bbg2">
-                        <img src="images/common/indexCon2.jpg" style="position: relative" alt=""  class="imgscroll1">
-                        <div class="ci2bbContent">
-                            <div class="ci2bbgItem1-2"></div>
-                            <div class="ci2bbgItem2">信用信息</div>
-                            <div class="ci2bbgItem3">CREDIT INFORMATION</div>
-                            <div class="ci2bbgItem4">
-                                <div class="ci2bbgItem3Btn">
-                                    <span class="ci2bbgItem3BtnT">点击进入</span>
-                                </div>
-                            </div>
-                        </div>
-
-                    </div>
-                </div>
-                <div class="ci2Box">
-                    <div class="ci2bbg3">
-
-                    </div>
-                </div>
-            </div>
-
-            <div class="contentItem2">
-                <div class="ci2Box ci2right">
-                    <a href="login.html">
-                        <div class="moveLeftBox" id="moveLeftBox0">
-                            <div class="mlb1">
-                                <div class="playBtn"></div>
-                            </div>
-                            <div class="mlb2"></div>
-                        </div>
-                    </a>
-                    <div class="ci2bbg4">
-                        <div class="ci2bgBottomBox clearfix">
-                            <div class="bottomTxt1"><span>人才服务</span></div>
-                            <div class="bottomTxt2"><span>TALENT SERVICE</span></div>
-                            <div class="bottomImg"></div>
-                        </div>
-                    </div>
-                </div>
-                <div class="ci2Box ci2right">
-
-                    <a href="login.html">
-                        <div class="moveLeftBox" id="moveLeftBox1">
-                            <div class="mlb1">
-                                <div class="playBtn"></div>
-                            </div>
-                            <div class="mlb2"></div>
-                        </div>
-                    </a>
-                    <div class="ci2bbg5">
-                        <div class="ci2bgBottomBox clearfix">
-                            <div class="bottomTxt1"><span>政策服务</span></div>
-                            <div class="bottomTxt2"><span>POLICY SERVICE</span></div>
-                            <div class="bottomImg"></div>
-                        </div>
-                    </div>
-                </div>
-                <div class="ci2Box">
-                    <a href="login.html">
-                        <div class="moveLeftBox" id="moveLeftBox2">
-                            <div class="mlb1">
-                                <div class="playBtn"></div>
-                            </div>
-                            <div class="mlb2"></div>
-                        </div>
-                    </a>
-                    <div class="ci2bbg6">
-                        <div class="ci2bgBottomBox clearfix">
-                            <div class="bottomTxt1"><span>产权股份转让</span></div>
-                            <div class="bottomTxt2"><span>SHARE TRANSFER</span></div>
-                            <div class="bottomImg"></div>
-                        </div>
-                    </div>
-                </div>
-            </div>
+        <div class="indexContentBox clearfix">
             <div class="contentItem3">
-                <div class="ci3Box">
-                    <div class="ci3BoxImgBg"></div>
-                    <div class="ci3Lists">
+                <div class="ci3Box" style="background-color: #fff;height: 277px;">
+                    <div class="ci3leftBox">
+                        <div class="ci3List1" style="width: 773px;">
+                            <div class="ci3BoxImgBg2"></div>
+                            <div class="ci3lTitles2">
+                                <div class="ci3T1">
+                                    <div class="ci3T1-1">
+                                        <span class="ci3T1-1T1" style="color: #fff;">园区动态</span>
+                                        <span class="ci3T1-1T2">DYNAMIC</span>
+                                    </div>
+                                </div>
+                                <div class="ci3TAddImg">+</div>
+                            </div>
+                            <div class="ci3ListDouble">
+                                <div class="ci3List2left">
+                                    <img src="images/common/indexList1.jpg" width="279px" height="176px" alt="">
+                                </div>
+                                <div class="ci3List2right">
+                                    <ul>
+                                        <li class="ci3li clearfix">
+
+                                            <a class="ci3liT1" href="#"><i class="icon iconfont">&#xe617;</i>这是一条新闻的标题</a>
+                                            <span class="ci3liT2">2016-05-09</span>
+                                        </li>
+                                        <li class="ci3li clearfix">
+
+                                            <a class="ci3liT1" href="#"><i class="icon iconfont">&#xe617;</i>这是一条新闻的标题</a>
+                                            <span class="ci3liT2">2016-05-09</span>
+                                        </li>
+                                        <li class="ci3li clearfix">
+
+                                            <a class="ci3liT1" href="#"><i class="icon iconfont">&#xe617;</i>这是一条新闻的标题</a>
+                                            <span class="ci3liT2">2016-05-09</span>
+                                        </li>
+                                        <li class="ci3li clearfix">
+
+                                            <a class="ci3liT1" href="#"><i class="icon iconfont">&#xe617;</i>这是一条新闻的标题</a>
+                                            <span class="ci3liT2">2016-05-09</span>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="ci3rightBox">
                         <div class="ci3List1">
-                            <div class="ci3lTitles">
+                            <div class="ci3BoxImgBg2"></div>
+                            <div class="ci3lTitles2">
                                 <div class="ci3T1">
                                     <div class="ci3T1-1"><span class="ci3T1-1T1">网站公告</span></div>
                                     <div class="ci3T1-2"><span class="ci3T1-1T2">Web site announcement</span></div>
@@ -291,31 +228,234 @@
                             </div>
                             <div class="ci3List">
                                 <ul>
-                                    <li class="ci3li"><a class="ci3liT1" href="#">这是一条新闻的标题</a><span class="ci3liT2">2016-05-09</span></li>
-                                    <li class="ci3li"><a class="ci3liT1" href="#">这是一条新闻的标题</a><span class="ci3liT2">2016-05-09</span></li>
-                                    <li class="ci3li"><a class="ci3liT1 " href="#">这是一条新闻的标题</a><span class="ci3liT2">2016-05-09</span></li>
-                                    <li class="ci3li"><a class="ci3liT1" href="#">这是一条新闻的标题</a><span class="ci3liT2">2016-05-09</span></li>
-                                </ul>
-                            </div>
-                        </div>
-                        <div class="ci3List2">
-                            <div class="ci3lTitles">
-                                <div class="ci3T1">
-                                    <div class="ci3T1-1"><span class="ci3T1-1T1">园区动态</span></div>
-                                    <div class="ci3T1-2"><span class="ci3T1-1T2">The dynamic</span></div>
-                                </div>
-                                <div class="ci3TAddImg">+</div>
-                            </div>
-                            <div class="ci3List">
-                                <ul>
-                                    <li class="ci3li"><a class="ci3liT1 " href="#">这是一条新闻的标题</a><span class="ci3liT2">2016-05-09</span></li>
-                                    <li class="ci3li"><a class="ci3liT1" href="#">这是一条新闻的标题</a><span class="ci3liT2">2016-05-09</span></li>
-                                    <li class="ci3li"><a class="ci3liT1" href="#">这是一条新闻的标题</a><span class="ci3liT2">2016-05-09</span></li>
-                                    <li class="ci3li"><a class="ci3liT1" href="#">这是一条新闻的标题</a><span class="ci3liT2">2016-05-09</span></li>
+                                    <li class="ci3li">
+
+                                        <a class="ci3liT1" href="#"><i class="icon iconfont">&#xe617;</i>这是一条新闻的标题</a>
+                                        <span class="ci3liT2">2016-05-09</span>
+                                    </li>
+                                    <li class="ci3li">
+
+                                        <a class="ci3liT1" href="#"><i class="icon iconfont">&#xe617;</i>这是一条新闻的标题</a>
+                                        <span class="ci3liT2">2016-05-09</span>
+                                    </li>
+                                    <li class="ci3li">
+
+                                        <a class="ci3liT1" href="#"><i class="icon iconfont">&#xe617;</i>这是一条新闻的标题</a>
+                                        <span class="ci3liT2">2016-05-09</span>
+                                    </li>
+                                    <li class="ci3li">
+
+                                        <a class="ci3liT1" href="#"><i class="icon iconfont">&#xe617;</i>这是一条新闻的标题</a>
+                                        <span class="ci3liT2">2016-05-09</span>
+                                    </li>
                                 </ul>
                             </div>
                         </div>
                     </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="maxContentBox bgf8f8f8">
+            <div class="maxHeader">
+                <div class="con_zhs mainContentBox">
+                    <h3 class="font_text css440c1aa5765d5">ROADSHOW <i class="css440c1aa5765d5">HALL</i></h3>
+                    <span class="css440c1aa5765d5 text_conmmon">路演大厅</span>
+                </div>
+                <p class="line_h1 clearfix"><span class="middle_line"></span></p>
+            </div>
+            <div class="indexContentBox">
+                <div class="contentItem4 clearfix">
+                    <div class="con-left conItems1">
+                        <img src="images/common/indexList2.png" width="571px" height="366px" alt="">
+                    </div>
+                    <div class="con-right conItems2">
+                        <div class="indexTabTitleBox">
+                            <ul class="clearfix indexTabUl">
+                                <li  class="indexTabBg indexTabCurrent"><span>全部路演</span></li>
+                                <li  class="indexTabBg con-border-left"><span>进行中</span></li>
+                                <li  class="indexTabBg con-border-left"><span>预告中</span></li>
+                                <li  class="indexTabBg con-border-left" style="width: 158px;"><span>已结束</span></li>
+                            </ul>
+                        </div>
+                        <div class="indexTabContentBox">
+                            <ul class="itcUl clearfix">
+                                <li class="clearfix itcLi">
+                                    <div class="itcLeftBox con-left">
+                                        <div class="itcT1">
+                                            <span>深圳国家自主创新示范区科技企业常态化路演</span>
+                                        </div>
+                                        <div class="itcT2">
+                                            <span>活动时间：2016.07.07 14:00-16:00</span>
+                                        </div>
+                                    </div>
+                                    <div class="itcRightBox activeColor con-right">
+                                        <div class="itcRbtn">
+                                            <span>进行中</span>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="clearfix itcLi">
+                                    <div class="itcLeftBox con-left">
+                                        <div class="itcT1">
+                                            <span>深圳国家自主创新示范区科技企业常态化路演</span>
+                                        </div>
+                                        <div class="itcT2">
+                                            <span>活动时间：2016.07.07 14:00-16:00</span>
+                                        </div>
+                                    </div>
+                                    <div class="itcRightBox willColor con-right">
+                                        <div class="itcRbtn">
+                                            <span>进行中</span>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="clearfix itcLi">
+                                    <div class="itcLeftBox con-left">
+                                        <div class="itcT1">
+                                            <span>深圳国家自主创新示范区科技企业常态化路演</span>
+                                        </div>
+                                        <div class="itcT2">
+                                            <span>活动时间：2016.07.07 14:00-16:00</span>
+                                        </div>
+                                    </div>
+                                    <div class="itcRightBox endColor con-right">
+                                        <div class="itcRbtn">
+                                            <span>进行中</span>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="clearfix itcLi">
+                                    <div class="itcLeftBox con-left">
+                                        <div class="itcT1">
+                                            <span>深圳国家自主创新示范区科技企业常态化路演</span>
+                                        </div>
+                                        <div class="itcT2">
+                                            <span>活动时间：2016.07.07 14:00-16:00</span>
+                                        </div>
+                                    </div>
+                                    <div class="itcRightBox endColor con-right">
+                                        <div class="itcRbtn">
+                                            <span>进行中</span>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="itcLi">
+                                    <div class="itcMore">查看更多></div>
+                                </li>
+                            </ul>
+
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="maxContentBox">
+            <div class="maxHeader">
+                <div class="con_zhs mainContentBox">
+                    <h3 class="font_text css440c1aa5765d5">PARK <i class="css440c1aa5765d5">PROJECT</i></h3>
+                    <span class="css440c1aa5765d5 text_conmmon">园区项目</span>
+                </div>
+                <p class="line_h1 clearfix"><span class="middle_line"></span></p>
+            </div>
+            <div class="indexContentBox clearfix MGTOP75">
+                <div class="contentItem5">
+                    <div class="contentItem51">
+                        <div class="cit5Title">
+                            <img src="images/common/indexCon51.png" alt="园区项目">
+                        </div>
+                        <div class="cit5ContentBox">
+                            <div class="cit5ConT1">
+                                <span>融合通讯云服务</span>
+                            </div>
+                            <div class="cit5ConT2">
+                                <span>项目致力于将最前沿医械平台性科技应用于开发设计新一代本土及国际临床应用产品，同时联合临床医生战略性合作跟踪提供实时临床反馈，将顶尖的国内市...</span>
+                            </div>
+                            <div class="cit5ConT3">
+                                <img src="images/common/fangkuai.png" alt="方块">
+                                <span>互联网、计算机</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="contentItem5 MGLEFT30">
+                    <div class="contentItem51">
+                        <div class="cit5Title">
+                            <img src="images/common/indexCon52.png" alt="园区项目">
+                        </div>
+                        <div class="cit5ContentBox">
+                            <div class="cit5ConT1">
+                                <span>融合通讯云服务</span>
+                            </div>
+                            <div class="cit5ConT2">
+                                <span>项目致力于将最前沿医械平台性科技应用于开发设计新一代本土及国际临床应用产品，同时联合临床医生战略性合作跟踪提供实时临床反馈，将顶尖的国内市...</span>
+                            </div>
+                            <div class="cit5ConT3">
+                                <img src="images/common/fangkuai.png" alt="方块">
+                                <span>互联网、计算机</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="contentItem5 MGLEFT30">
+                    <div class="contentItem51">
+                        <div class="cit5Title">
+                            <img src="images/common/indexCon53.png" alt="园区项目">
+                        </div>
+                        <div class="cit5ContentBox">
+                            <div class="cit5ConT1">
+                                <span>融合通讯云服务</span>
+                            </div>
+                            <div class="cit5ConT2">
+                                <span>项目致力于将最前沿医械平台性科技应用于开发设计新一代本土及国际临床应用产品，同时联合临床医生战略性合作跟踪提供实时临床反馈，将顶尖的国内市...</span>
+                            </div>
+                            <div class="cit5ConT3">
+                                <img src="images/common/fangkuai.png" alt="方块">
+                                <span>互联网、计算机</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="contentItem5 MGLEFT30">
+                    <div class="contentItem51">
+                        <div class="cit5Title">
+                            <img src="images/common/indexCon54.png" alt="园区项目">
+                        </div>
+                        <div class="cit5ContentBox">
+                            <div class="cit5ConT1">
+                                <span>融合通讯云服务</span>
+                            </div>
+                            <div class="cit5ConT2">
+                                <span>项目致力于将最前沿医械平台性科技应用于开发设计新一代本土及国际临床应用产品，同时联合临床医生战略性合作跟踪提供实时临床反馈，将顶尖的国内市...</span>
+                            </div>
+                            <div class="cit5ConT3">
+                                <img src="images/common/fangkuai.png" alt="方块">
+                                <span>互联网、计算机</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="indexContentBox">
+                <div class="itcMore clearfix" style="margin: 50px auto;">查看更多></div>
+            </div>
+        </div>
+
+        <div class="maxContentBox bgf8f8f8">
+            <div class="maxHeader">
+                <div class="con_zhs mainContentBox">
+                    <h3 class="font_text css440c1aa5765d5">DATA <i class="css440c1aa5765d5">PLATFORM</i></h3>
+                    <span class="css440c1aa5765d5 text_conmmon">大数据平台</span>
+                </div>
+                <p class="line_h1 clearfix"><span class="middle_line"></span></p>
+            </div>
+            <div class="indexContentBox" >
+                <div class="contentItem6" style="margin: 90px 0 100px 0;">
+                    <img src="images/common/indexCon6Max.png" width="" alt="">
                 </div>
             </div>
         </div>
@@ -329,8 +469,7 @@
                         <li class="fli"><a href="#" class="flia flia-1">园区概括</a></li>
                         <li class="fli"><a href="#" class="flia flia-1">园区动态</a></li>
                         <li class="fli"><a href="#" class="flia flia-1">服务平台</a></li>
-                        <li class="fli"><a href="#" class="flia flia-1">联系我们</a></li>
-                        <li class="fli"><a href="#" class="flia">下载中心</a></li>
+                        <li class="fli"><a href="#" class="flia ">联系我们</a></li>
                     </ul>
                 </div>
                 <div class="footerList2">
@@ -352,14 +491,14 @@
                         <span class="flt3">1995-2014 All rights reserved ：SHANGHAI YINQIAO DECORATING MATERIAL CO.LTD </span>
                     </div>
                 </div>
-                <div class="footerList4">
-                    <div class="fwxbox">
-                        <i class="icon iconfont ficon">&#xe608;</i>
-                    </div>
-                    <div class="fqqbox">
-                        <i class="icon iconfont ficon">&#xe60a;</i>
-                    </div>
-                </div>
+                <!--<div class="footerList4">-->
+                <!--<div class="fwxbox">-->
+                <!--<i class="icon iconfont ficon">&#xe608;</i>-->
+                <!--</div>-->
+                <!--<div class="fqqbox">-->
+                <!--<i class="icon iconfont ficon">&#xe60a;</i>-->
+                <!--</div>-->
+                <!--</div>-->
             </div>
         </div>
         <div class="indexFooter2">
@@ -376,51 +515,51 @@
     </div>
 </div>
 
-<div class="rightMenu" style="display: none" id="flexQQWXMenu">
-    <div class="menu">
-        <i class="icon iconfont qqm">&#xe60a;</i>
+<!--<div class="rightMenu" style="display: none" id="flexQQWXMenu">-->
+    <!--<div class="menu">-->
+        <!--<i class="icon iconfont qqm">&#xe60a;</i>-->
 
-    </div>
-    <div class="menu menuSMHover">
-        <i class="icon iconfont qqm">&#xe608;</i>
-        <div class="menuWX" id="menuWX">
-            <img src="images/common/wxSM.png" alt="微信二维码">
-            <div><span style="color: #f35027">扫一扫</span></div>
-            <div><span style="color: #0174db">关注官方微信</span></div>
-        </div>
-    </div>
-    <div class="menu menuSMHover" id="menuWX">
-        <i class="imoRight"></i>
-        <div class="menuWX"  style="top:-100px;" id="menuBL">
-            <img src="images/common/wxSM.png" alt="班聊二维码">
-            <div><span style="color: #f35027">扫一扫</span></div>
-            <div><span style="color: #0174db">关注官方班聊</span></div>
-        </div>
-    </div>
-    <div class="menu" id="goToTop">
-        <i class="icon iconfont qqm">&#xe60b;</i>
-    </div>
-</div>
+    <!--</div>-->
+    <!--<div class="menu menuSMHover">-->
+        <!--<i class="icon iconfont qqm">&#xe608;</i>-->
+        <!--<div class="menuWX" id="menuWX">-->
+            <!--<img src="images/common/wxSM.png" alt="微信二维码">-->
+            <!--<div><span style="color: #f35027">扫一扫</span></div>-->
+            <!--<div><span style="color: #0174db">关注官方微信</span></div>-->
+        <!--</div>-->
+    <!--</div>-->
+    <!--<div class="menu menuSMHover" id="menuWX">-->
+        <!--<i class="imoRight"></i>-->
+        <!--<div class="menuWX"  style="top:-100px;" id="menuBL">-->
+            <!--<img src="images/common/wxSM.png" alt="班聊二维码">-->
+            <!--<div><span style="color: #f35027">扫一扫</span></div>-->
+            <!--<div><span style="color: #0174db">关注官方班聊</span></div>-->
+        <!--</div>-->
+    <!--</div>-->
+    <!--<div class="menu" id="goToTop">-->
+        <!--<i class="icon iconfont qqm">&#xe60b;</i>-->
+    <!--</div>-->
+<!--</div>-->
 
-<script>
- $('.menuSMHover').each(function(index,ele){
-    $(this).hover(function(){
-        if(index == 0){
-            $('#menuWX').show();
+<!--<script>-->
+ <!--$('.menuSMHover').each(function(index,ele){-->
+    <!--$(this).hover(function(){-->
+        <!--if(index == 0){-->
+            <!--$('#menuWX').show();-->
 
-        }else if(index==1){
-            $('#menuBL').show();
-        }
-    },function(){
-        if(index == 0){
-            $('#menuWX').hide();
-        }else if(index==1){
-            $('#menuBL').hide();
+        <!--}else if(index==1){-->
+            <!--$('#menuBL').show();-->
+        <!--}-->
+    <!--},function(){-->
+        <!--if(index == 0){-->
+            <!--$('#menuWX').hide();-->
+        <!--}else if(index==1){-->
+            <!--$('#menuBL').hide();-->
 
-        }
-    })
- });
-</script>
+        <!--}-->
+    <!--})-->
+ <!--});-->
+<!--</script>-->
 
 </body>
 </html>
