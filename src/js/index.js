@@ -1,7 +1,7 @@
 /**
  * Created by Administrator on 2016/6/26.
  */
-//banner2 plain B
+//banner2 plain B shabi
 $(function(){
     var focusBanner=function(){
         var $focusBanner=$("#focus-banner"),

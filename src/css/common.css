@@ -397,7 +397,7 @@ address, cite, code, em, th, i {
   -webkit-border-radius: 4px;
   border-radius: 4px;
   cursor: pointer;
-  behavior: url(component/PIE/PIE.htc);
+  behavior: url(javascripts/PIE/PIE.htc);
 }
 .indexFooter .fwxbox:hover, .indexFooter .fqqbox:hover {
   color: #fff;
@@ -510,7 +510,7 @@ address, cite, code, em, th, i {
   margin-left: 10px;
   height: 6px;
   margin-top: 8px;
-  background: url(../img/imoImg.png) 0px 0px no-repeat;
+  background: url(../../images/common/imoImg.png) 0px 0px no-repeat;
   overflow: hidden;
 }
 .indexHeader .imoTop:hover {
@@ -521,9 +521,6 @@ address, cite, code, em, th, i {
 .wxSMBoxTop {
   border: 1px solid #e5e5e5;
   display: none;
-  -moz-border-radius: 5px;
-  -webkit-border-radius: 5px;
-  border-radius: 5px;
   padding: 10px;
   position: absolute;
   z-index: 2000;
@@ -531,6 +528,10 @@ address, cite, code, em, th, i {
   top: 32px;
   left: 470px;
   text-align: center;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+  behavior: url(javascripts/PIE/PIE.htc);
 }
 
 .sanjiao {
@@ -549,9 +550,6 @@ address, cite, code, em, th, i {
 .wxBLBoxTop {
   border: 1px solid #e5e5e5;
   display: none;
-  -moz-border-radius: 5px;
-  -webkit-border-radius: 5px;
-  border-radius: 5px;
   padding: 10px;
   position: absolute;
   z-index: 2000;
@@ -559,6 +557,10 @@ address, cite, code, em, th, i {
   top: 30px;
   left: 430px;
   text-align: center;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+  behavior: url(javascripts/PIE/PIE.htc);
 }
 
 /*********************** new module Name End **************************************/

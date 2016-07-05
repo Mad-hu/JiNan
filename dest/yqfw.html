@@ -6,15 +6,15 @@
     <meta name="renderer" content="webkit|ie-comp|ie-stand">
     <title>园区服务</title>
     <script src="//cdn.bootcss.com/jquery/1.12.3/jquery.js"></script>
-    <script src="js/main.js"></script>
-    <link rel="stylesheet" href="css/style.min.css">
-    <link rel="stylesheet" href="css/iconfont/iconfont.css">
-
+    <script src="javascripts/main.js"></script>
+    <link rel="stylesheet" href="styles/common/style.min.css">
+    <link rel="stylesheet" href="styles/iconfont/iconfont.css">
+    <link rel="stylesheet" href="styles/common/index2.css">
     <!--ie对html5标签支持-->
     <!--[if lt IE 9]>
     <script type="text/javascript" src="//cdn.bootcss.com/html5shiv/r29/html5.min.js"></script>
     <script type="text/javascript" src="//cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
-    <script src="component/PIE/PIE_IE678.js"></script>
+    <script src="javascripts/PIE/PIE_IE678.js"></script>
     <style>
         /*html5*/
         article, aside, dialog, footer, header, section, footer, nav, figure, menu {
@@ -39,48 +39,94 @@
                         <i class="icon iconfont" style="font-size: 12px;vertical-align: middle;position: relative;top: -2px;padding: 0 5px;">&#xe604;</i>
                         <span>0531-82078261</span>
                     </div>
-                    <div class="ttiem1 imoTop">
+                    <!--<div class="ttiem1 imoTop headerSMItem">-->
 
-                    </div>
-                    <div class="ttiem1 ttbord">
-                        <i class="icon iconfont ficon">&#xe608;</i>
-                    </div>
+                    <!--<div class="wxBLBoxTop" id="topBL">-->
+                    <!--<img src="images/common/wxSM.png" width="149" height="151" alt="班聊扫码">-->
+                    <!--<div class="sanjiao"></div>-->
+                    <!--</div>-->
+                    <!--</div>-->
+                    <!--<div class="ttiem1 ttbord headerSMItem">-->
+                    <!--<i class="icon iconfont ficon">&#xe608;</i>-->
+                    <!--<div class="wxSMBoxTop" id="topWX">-->
+                    <!--<img src="images/common/wxSM.png" width="149" height="151" alt="微信扫码">-->
+                    <!--<div class="sanjiao"></div>-->
+                    <!--</div>-->
+                    <!--</div>-->
                 </div>
 
-                <div class="login-nav-con">
+                <script>
+
+                    $('.headerSMItem').each(function(index,ele){
+                        $(this).hover(function(){
+                            if(index == 0){
+                                $('#topBL').show();
+                            }else if(index == 1){
+                                $('#topWX').show();
+                            }
+                        },function(){
+                            if(index == 0){
+                                $('#topBL').hide();
+                            }else if(index == 1){
+                                $('#topWX').hide();
+                            }
+                        })
+                    });
+                </script>
+
+                <div class="login-nav-con ttbord">
+                    <div class="ttiem1 ">
+                        <a href="login.html">登录</a>
+                    </div>
                     <div class="ttiem1 ttbord">
-                        <a href="login.html">会员登录</a>
+                        <a href="login.html">注册</a>
                     </div>
-                    <div class="ttiem1">
-                        <a href="#">简</a>
-                    </div>
-                    <div class="ttiem1 ttbord">
-                        <a href="#">繁</a>
-                    </div>
-                    <div class="ttiem1" style="border-right: 1px solid #363636;">
-                        <a href="#">En</a>
-                    </div>
+                    <!--<div class="ttiem1">-->
+                    <!--<a href="#">简</a>-->
+                    <!--</div>-->
+                    <!--<div class="ttiem1 ttbord">-->
+                    <!--<a href="#">繁</a>-->
+                    <!--</div>-->
+                    <!--<div class="ttiem1">-->
+                    <!--<a href="#">En</a>-->
+                    <!--</div>-->
                 </div>
             </div>
         </div>
         <div class="headerContainer">
             <div class="headerLists">
-                <div class="headerLogo"><img src="img/indexLog.png" alt="山东新金融产业园"></div>
+                <div class="headerLogo"><img src="images/common/indexLog.png" alt="山东新金融产业园"></div>
                 <div class="headerTabbars">
-                    <a class="headerList " href="index.html">首页</a>
-                    <a class="headerList" href="yqgk.html">园区概括</a>
+                    <a class="headerList " href="index2.html">首页</a>
                     <a class="headerList" href="yqdt.html">园区动态</a>
+                    <a class="headerList" href="fwpt.html">路演大厅</a>
+                    <a class="headerList" href="fwpt.html">园区项目</a>
+                    <a class="headerList" href="">大数据平台</a>
                     <a class="headerList tabberCurrent" href="yqfw.html">园区服务</a>
-                    <a class="headerList" href="fwpt.html">服务平台</a>
-                    <a class="headerList" href="rzqy.html">入驻企业</a>
-                    <a class="headerList" href="lxwm.html">联系我们</a>
-                </div>
-                <!--<div class="headerSearch">-->
-                    <!--<form class="searchForm" action="#">-->
-                        <!--<input class="searchInput" type="text" placeholder="输入关键字...">-->
+                    <div class="headerList" href="#" id="gywmid" style="position: relative">关于我们
+                        <div class="gywmTab">
+                            <div><a href="yqgk.html"><span class="gywmTab1">园区概况</span></a></div>
+                            <div><a href="rzqy.html"><span class="gywmTab1">入驻企业</span></a></div>
+                            <div><a href="lxwm.html"><span class="gywmTab1">联系我们</span></a></div>
+                        </div>
+                    </div>
 
-                    <!--</form>-->
-                    <!--<i class="icon iconfont searchIcon">&#xe600;</i>-->
+                </div>
+                <script>
+                    $('#gywmid').hover(function(){
+                        $('.gywmTab').show();
+                    },function(){
+                        $('.gywmTab').hide();
+                    });
+
+                </script>
+
+                <!--<div class="headerSearch">-->
+                <!--<form class="searchForm" action="#">-->
+                <!--<input class="searchInput" type="text" placeholder="输入关键字...">-->
+
+                <!--</form>-->
+                <!--<i class="icon iconfont searchIcon">&#xe600;</i>-->
                 <!--</div>-->
             </div>
 
@@ -89,7 +135,7 @@
     <div class="container">
 
         <div class="yqfwBannerBox">
-            <img src="img/yqfwBanner.png" alt="banner图片">
+            <img src="images/common/yqfwBanner.png" alt="banner图片">
         </div>
 
         <div class="yqgk_con" style="border-bottom: 1px solid #e5e5e5">
@@ -180,7 +226,7 @@
                 <div class="rightBox">
                     <div class="imgBoxLeft">
                         <div class="iblBox1">
-                            <img src="img/yqfwImg1.png" width="261px" height="261px" alt="图片">
+                            <img src="images/common/yqfwImg1.png" width="261px" height="261px" alt="图片">
                             <div class="moveBox clearfix">
                                 <div class="mb1T1">
                                     <div class="qidai">建设中，敬请期待...</div>
@@ -194,7 +240,7 @@
                             </div>
                         </div>
                         <div class="iblBox1 LOMGBOTH5">
-                            <img src="img/yqfwImg2.png" width="261px" height="261px"  alt="图片">
+                            <img src="images/common/yqfwImg2.png" width="261px" height="261px"  alt="图片">
                             <div class="moveBox clearfix">
                                 <div class="mb1T1">
                                     <div class="qidai">建设中，敬请期待...</div>
@@ -208,7 +254,7 @@
                             </div>
                         </div>
                         <div class="iblBox1 LOMGTOP5">
-                            <img src="img/yqfwImg3.png" width="261px" height="261px"  alt="图片">
+                            <img src="images/common/yqfwImg3.png" width="261px" height="261px"  alt="图片">
                             <div class="moveBox clearfix">
                                 <div class="mb1T1">
                                     <div class="qidai">建设中，敬请期待...</div>
@@ -222,7 +268,7 @@
                             </div>
                         </div>
                         <div class="iblBox1 LOMGBOTH5 LOMGTOP5">
-                            <img src="img/yqfwImg4.png" width="261px" height="261px"  alt="图片">
+                            <img src="images/common/yqfwImg4.png" width="261px" height="261px"  alt="图片">
                             <div class="moveBox clearfix">
                                 <div class="mb1T1">
                                     <div class="qidai">建设中，敬请期待...</div>
@@ -238,7 +284,7 @@
                     </div>
                     <div class="imgBoxRight">
                         <div class="iblBox2">
-                            <img src="img/yqfwImg5.png" alt="图片">
+                            <img src="images/common/yqfwImg5.png" alt="图片">
                             <div class="moveBox2 clearfix">
                                 <div class="mb1T1" style="width: 313px;height: 527px;">
                                     <div class="qidai">建设中，敬请期待...</div>
@@ -266,8 +312,7 @@
                     <li class="fli"><a href="#" class="flia flia-1">园区概括</a></li>
                     <li class="fli"><a href="#" class="flia flia-1">园区动态</a></li>
                     <li class="fli"><a href="#" class="flia flia-1">服务平台</a></li>
-                    <li class="fli"><a href="#" class="flia flia-1">联系我们</a></li>
-                    <li class="fli"><a href="#" class="flia">下载中心</a></li>
+                    <li class="fli"><a href="#" class="flia ">联系我们</a></li>
                 </ul>
             </div>
             <div class="footerList2">
@@ -289,14 +334,14 @@
                     <span class="flt3">1995-2014 All rights reserved ：SHANGHAI YINQIAO DECORATING MATERIAL CO.LTD </span>
                 </div>
             </div>
-            <div class="footerList4">
-                <div class="fwxbox">
-                    <i class="icon iconfont ficon">&#xe608;</i>
-                </div>
-                <div class="fqqbox">
-                    <i class="icon iconfont ficon">&#xe60a;</i>
-                </div>
-            </div>
+            <!--<div class="footerList4">-->
+            <!--<div class="fwxbox">-->
+            <!--<i class="icon iconfont ficon">&#xe608;</i>-->
+            <!--</div>-->
+            <!--<div class="fqqbox">-->
+            <!--<i class="icon iconfont ficon">&#xe60a;</i>-->
+            <!--</div>-->
+            <!--</div>-->
         </div>
     </div>
     <div class="indexFooter2">

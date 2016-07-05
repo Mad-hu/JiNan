@@ -6,7 +6,7 @@
  **/
 
 function a(){
-    alert(123);
+    alert(121231233123);
 }
  /*********************** new module Name End **************************************/
 
@@ -163,7 +163,7 @@ $(function(){
 /**
  * Created by Administrator on 2016/6/26.
  */
-//banner2 plain B
+//banner2 plain B shabi
 $(function(){
     var focusBanner=function(){
         var $focusBanner=$("#focus-banner"),

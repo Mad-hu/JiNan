@@ -1,0 +1,734 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <!--让浏览器 优先使用webkit渲染，其次是ie的兼容模式，ie标准模式-->
+    <meta name="renderer" content="webkit|ie-comp|ie-stand">
+    <title>Title</title>
+    <script src="//cdn.bootcss.com/jquery/1.12.3/jquery.js"></script>
+    <script src="javascripts/main.js"></script>
+    <link rel="stylesheet" href="styles/common/style.min.css">
+    <link rel="stylesheet" href="styles/iconfont/iconfont.css">
+    <link rel="stylesheet" href="styles/common/index2.css">
+
+
+    <!--ie对html5标签支持-->
+    <!--[if lt IE 9]>
+    <script type="text/javascript" src="//cdn.bootcss.com/html5shiv/r29/html5.min.js"></script>
+    <script type="text/javascript" src="//cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
+    <script src="javascripts/PIE/PIE_IE678.js"></script>
+    <style>
+        /*html5*/
+        article, aside, dialog, footer, header, section, footer, nav, figure, menu {
+            display: block
+        }
+    </style>
+    <![endif]-->
+
+    <!--字体js-->
+    <script type="text/javascript" src="http://cdn.webfont.youziku.com/wwwroot/js/wf/youziku.api.min.js"></script>
+    <link href='http://cdn.webfont.youziku.com/webfonts/nomal/26069/46758/57739bbff629d81044ddf252.css' rel='stylesheet'
+          type='text/css'/>
+
+
+    <style>
+        .gywmTab{
+            position: absolute;
+            top: 89px;
+            left:0;
+            z-index: 1000;
+            color: #000;
+            background-color: #fff;
+            border: 1px solid #e5e5e5;
+            width: 113px;
+            line-height: 32px;
+            /* border-radius: 5px; */
+            text-align: center;
+            display: none;
+        }
+        .gywmTab1:hover{
+            color: #ff9933;
+        }
+    </style>
+</head>
+<body>
+
+<div class="main">
+    <div class="indexHeader">
+        <div class="headerTopBlack">
+            <div class="headerLists">
+                <div class="top-tell-tiem" style="width:350px;">
+                    <div class="ttiem1 ttbord">
+                        <i class="icon iconfont" style="font-size: 12px;vertical-align: middle;position: relative;top: -2px;padding: 0 5px;">&#xe604;</i>
+                        <span>0531-82078261</span>
+                    </div>
+                    <!--<div class="ttiem1 imoTop headerSMItem">-->
+
+                        <!--<div class="wxBLBoxTop" id="topBL">-->
+                            <!--<img src="images/common/wxSM.png" width="149" height="151" alt="班聊扫码">-->
+                            <!--<div class="sanjiao"></div>-->
+                        <!--</div>-->
+                    <!--</div>-->
+                    <!--<div class="ttiem1 ttbord headerSMItem">-->
+                        <!--<i class="icon iconfont ficon">&#xe608;</i>-->
+                        <!--<div class="wxSMBoxTop" id="topWX">-->
+                            <!--<img src="images/common/wxSM.png" width="149" height="151" alt="微信扫码">-->
+                            <!--<div class="sanjiao"></div>-->
+                        <!--</div>-->
+                    <!--</div>-->
+                </div>
+
+                <script>
+
+                    $('.headerSMItem').each(function(index,ele){
+                        $(this).hover(function(){
+                            if(index == 0){
+                                $('#topBL').show();
+                            }else if(index == 1){
+                                $('#topWX').show();
+                            }
+                        },function(){
+                            if(index == 0){
+                                $('#topBL').hide();
+                            }else if(index == 1){
+                                $('#topWX').hide();
+                            }
+                        })
+                    });
+                </script>
+
+                <div class="login-nav-con ttbord">
+                    <div class="ttiem1 ">
+                        <a href="login.html">登录</a>
+                    </div>
+                    <div class="ttiem1 ttbord">
+                        <a href="login.html">注册</a>
+                    </div>
+                    <!--<div class="ttiem1">-->
+                    <!--<a href="#">简</a>-->
+                    <!--</div>-->
+                    <!--<div class="ttiem1 ttbord">-->
+                    <!--<a href="#">繁</a>-->
+                    <!--</div>-->
+                    <!--<div class="ttiem1">-->
+                    <!--<a href="#">En</a>-->
+                    <!--</div>-->
+                </div>
+            </div>
+        </div>
+        <div class="headerContainer">
+            <div class="headerLists">
+                <div class="headerLogo"><img src="images/common/indexLog.png" alt="山东新金融产业园"></div>
+                <div class="headerTabbars">
+                    <a class="headerList tabberCurrent" href="index2.html">首页</a>
+                    <a class="headerList" href="yqdt.html">园区动态</a>
+                    <a class="headerList" href="fwpt.html">路演大厅</a>
+                    <a class="headerList" href="fwpt.html">园区项目</a>
+                    <a class="headerList" href="">大数据平台</a>
+                    <a class="headerList" href="yqfw.html">园区服务</a>
+                    <div class="headerList" href="#" id="gywmid" style="position: relative">关于我们
+                        <div class="gywmTab">
+                            <div><a href="yqgk.html"><span class="gywmTab1">园区概况</span></a></div>
+                            <div><a href="rzqy.html"><span class="gywmTab1">入驻企业</span></a></div>
+                            <div><a href="lxwm.html"><span class="gywmTab1">联系我们</span></a></div>
+                        </div>
+                    </div>
+
+                </div>
+                <script>
+                    $('#gywmid').hover(function(){
+                        $('.gywmTab').show();
+                    },function(){
+                        $('.gywmTab').hide();
+                    });
+
+                </script>
+
+                <!--<div class="headerSearch">-->
+                <!--<form class="searchForm" action="#">-->
+                <!--<input class="searchInput" type="text" placeholder="输入关键字...">-->
+
+                <!--</form>-->
+                <!--<i class="icon iconfont searchIcon">&#xe600;</i>-->
+                <!--</div>-->
+            </div>
+
+        </div>
+    </div>
+    <div class="container" style="background-color: #f7f7f7;">
+        <div class="bannerBox">
+            <div id="focus-banner">
+                <ul id="focus-banner-list" >
+                    <li>
+                        <a href="#" class="focus-banner-img">
+                            <img src="images/common/swiperImg1.jpg" width="1920px" height="472px" alt="">
+                        </a>
+                        <div class="focus-banner-text">
+                            <p></p>
+                        </div>
+                    </li>
+                    <li>
+                        <a href="#" class="focus-banner-img">
+                            <img src="images/common/swiperImg2.jpg"  width="1920px" height="472px" alt="">
+                        </a>
+                        <div class="focus-banner-text">
+                            <p></p>
+                        </div>
+                    </li>
+                    <li>
+                        <a href="#" class="focus-banner-img">
+                            <img src="images/common/swiperImg3.png" width="1920px" height="472px"  alt="">
+                        </a>
+                        <div class="focus-banner-text">
+                            <p></p>
+                        </div>
+                    </li>
+
+                </ul>
+                <a href="javascript:;" id="next-img" class="focus-handle"></a>
+                <a href="javascript:;" id="prev-img" class="focus-handle"></a>
+                <ul id="focus-bubble"></ul>
+            </div>
+
+        </div>
+
+        <div class="indexContentBox">
+            <div>
+                <div class="index_bg">
+                    <div class="index_bg_middle">
+
+                        <div class="indexContentBox" style="position: relative;height: 302px;margin-bottom: 30px;">
+                            <div class="icdaj">
+                                <div class="contentItem3">
+                                    <div class="ci3Box" style="background-color: #fff;border: 1px solid #e5e5e5;">
+                                        <div class="ci3BoxImgBg"></div>
+                                        <div class="ci3Lists">
+                                            <div class="ci3List1">
+                                                <div class="ci3lTitles">
+                                                    <div class="ci3T1">
+                                                        <div class="ci3T1-1"><span class="ci3T1-1T1">工作动态</span></div>
+                                                        <div class="ci3T1-2"><span class="ci3T1-1T2">Web site announcement</span></div>
+                                                    </div>
+                                                    <div class="ci3TAddImg">+</div>
+                                                </div>
+                                                <div class="ci3List">
+                                                    <ul>
+                                                        <li class="ci3li"><a class="ci3liT1" href="#">这是一条新闻的标题</a><span class="ci3liT2">2016-05-09</span></li>
+                                                        <li class="ci3li"><a class="ci3liT1" href="#">这是一条新闻的标题</a><span class="ci3liT2">2016-05-09</span></li>
+                                                        <li class="ci3li"><a class="ci3liT1 " href="#">这是一条新闻的标题</a><span class="ci3liT2">2016-05-09</span></li>
+                                                        <li class="ci3li"><a class="ci3liT1" href="#">这是一条新闻的标题</a><span class="ci3liT2">2016-05-09</span></li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                            <div class="ci3List2">
+                                                <div class="ci3lTitles">
+                                                    <div class="ci3T1">
+                                                        <div class="ci3T1-1"><span class="ci3T1-1T1">通知公告</span></div>
+                                                        <div class="ci3T1-2"><span class="ci3T1-1T2">The dynamic</span></div>
+                                                    </div>
+                                                    <div class="ci3TAddImg">+</div>
+                                                </div>
+                                                <div class="ci3List">
+                                                    <ul>
+                                                        <li class="ci3li"><a class="ci3liT1 " href="#">这是一条新闻的标题</a><span class="ci3liT2">2016-05-09</span></li>
+                                                        <li class="ci3li"><a class="ci3liT1" href="#">这是一条新闻的标题</a><span class="ci3liT2">2016-05-09</span></li>
+                                                        <li class="ci3li"><a class="ci3liT1" href="#">这是一条新闻的标题</a><span class="ci3liT2">2016-05-09</span></li>
+                                                        <li class="ci3li"><a class="ci3liT1" href="#">这是一条新闻的标题</a><span class="ci3liT2">2016-05-09</span></li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div style="height:25px;"></div>
+                        <div class="ly_box">
+                            <div class="index_title01">
+                                <a href="/htz/sizeActivity/list.do"><div class="index_title_font">路演大厅</div></a>
+                                <a class="index_4left_title_p" href="/htz/sizeActivity/list.do">查看更多&gt;&gt;</a>
+                                <div style="clear:both;"></div>
+                            </div>
+                            <div style="clear:both;"></div>
+                            <a href="javascript:getActivityDetail(953)" style="text-decoration: none;">
+                                <div class="index_1_image">
+                                    <img alt="" style="width:552px; height:324px;" src="http://www.chinahtz.com/fileUpload/2016-6/e8434f7d-aabc-42b8-bc14-7b4b61ceefe1.jpg">
+                                </div>
+                            </a>
+                            <div style="width:545px; float:left; padding-left:31px;">
+                                <div class="menu_yq">
+                                    <div class="on_ly">全部路演</div>
+                                    <div class="sy_all_ly" style="cursor:pointer" onclick="location='/htz/sizeActivity/list.do?listType=1'">进行中</div>
+                                    <div class="sy_all_ly" style="cursor:pointer" onclick="location='/htz/sizeActivity/list.do?listType=2'">预告中</div>
+                                    <div class="sy_all_ly" style="cursor:pointer" onclick="location='/htz/sizeActivity/list.do?listType=3'">已结束</div>
+                                    <div class="clears"></div>
+                                </div>
+                                <div class="lynew_box">
+                                    <div class="left dq_area">广东<br>深圳</div>
+                                    <div class="left sy_lytext">
+                                        <div style="width:428px;">
+                                            <p class="left infor_title_ly"><a href="javascript:getActivityDetail(953)">
+                                                深圳国家自主创新示范区科技企业常态化路演（...
+                                            </a></p>
+                                            <p class="right green_pic_ly">预告中</p>
+
+                                            <p class="clears"></p>
+                                        </div>
+                                        <p class="time_cs">活动时间：
+                                            2016.07.07 14:00-16:40
+                                        </p>
+                                    </div>
+                                    <div class="clears"></div>
+                                </div>
+                                <div class="lynew_box">
+                                    <div class="left dq_area">北京<br>海淀区</div>
+                                    <div class="left sy_lytext">
+                                        <div style="width:428px;">
+                                            <p class="left infor_title_ly"><a href="javascript:getActivityDetail(954)">
+                                                精品投后项目路演—东方富海专场（第二期）
+                                            </a></p>
+                                            <p class="right green_pic_ly">预告中</p>
+
+                                            <p class="clears"></p>
+                                        </div>
+                                        <p class="time_cs">活动时间：
+                                            2016.07.07 13:30-17:30
+                                        </p>
+                                    </div>
+                                    <div class="clears"></div>
+                                </div>
+                                <div class="lynew_box">
+                                    <div class="left dq_area">山东<br>青岛</div>
+                                    <div class="left sy_lytext">
+                                        <div style="width:428px;">
+                                            <p class="left infor_title_ly"><a href="javascript:getActivityDetail(951)">
+                                                齐鲁股权交易中心第十期网上投融资对接会暨山...
+                                            </a></p>
+                                            <p class="right green_pic_ly">预告中</p>
+
+                                            <p class="clears"></p>
+                                        </div>
+                                        <p class="time_cs">活动时间：
+                                            2016.07.06 14:00-16:30
+                                        </p>
+                                    </div>
+                                    <div class="clears"></div>
+                                </div>
+                                <div class="lynew_box">
+                                    <div class="left dq_area">北京<br>海淀区</div>
+                                    <div class="left sy_lytext">
+                                        <div style="width:428px;">
+                                            <p class="left infor_title_ly"><a href="javascript:getActivityDetail(960)">
+                                                北京科技企业投融资常态化路演——天使汇专场...
+                                            </a></p>
+                                            <p class="right green_pic_ly">预告中</p>
+
+                                            <p class="clears"></p>
+                                        </div>
+                                        <p class="time_cs">活动时间：
+                                            2016.07.06 13:30-16:40
+                                        </p>
+                                    </div>
+                                    <div class="clears"></div>
+                                </div>
+                            </div>
+                            <div style="clear:both;"></div>
+                        </div>
+
+
+
+                        <div id="enpIndex" class="index_title01">
+                            <a href="/htz/FincProj/EntpFincProj.do"><div class="index_title_font">园区项目</div></a>
+                            <a class="index_4left_title_p" href="/htz/FincProj/EntpFincProj.do">查看更多&gt;&gt;</a>
+                        </div>
+                        <div class="index_2" style="margin-right:34px;">
+                            <div class="index_2_bg">
+                                <a href="javascript:void(0)" onclick="detailentpFincProjs(1647,6921)">
+                                    <div class="index_2a" style="position:relative;">
+                                        <img src="http://www.chinahtz.com/fileUpload/2016-6/cbb0abd1-4821-420c-b8dd-9ba81c4a42d8.jpg" serverpath="" style="width: 240px;height: 120px;margin: 0 auto;margin-left: 2px;">
+                                    </div>
+                                </a>
+                                <div class="linehide">
+                                    <a class="index_2a_title " href="javascript:void(0)" title="智慧化介入医疗" onclick="detailentpFincProjs(1647,6921)">智慧化介入医疗</a>
+                                </div>
+                                <div class="index_2a_p_with"><a class="index_2a_p" href="javascript:void(0)" onclick="detailentpFincProjs(1647,6921)">
+                                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 项目致力于将最前沿医械平台性科技应用于开发设计新一代本土及国际临床应用产品，同时联合临床医生战略性合作跟踪提供实时临床反馈，将顶尖的国内市...
+                                    <!-- <script>
+                                      var jstr = function() {
+                                              var fun = function() {
+                                              /*&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 项目致力于将最前沿医械平台性科技应用于开发设计新一代本土及国际临床应用产品，同时联合临床医生战略性合作跟踪提供实时临床反馈，将顶尖的国内市...*/
+                                              }
+                                              var str = new String(fun);
+                                              str = str.substring(str.indexOf("/*") + 2,
+                                                                     str.lastIndexOf("*/"));
+                                              var nulltest = "";
+                                              if (str == null || str == "") {
+                                                  return nulltest;
+                                              } else {
+                                                      str=$("<div></div>").html(str);
+                                                      str=$(str).text();
+                                                      str=str.replace(/<\/?[^>]*>/g,"")
+                                                      str=str.replace(/[ | ]*\n/g,"")
+                                                      str=str.replace(/&nbsp;/ig,"")
+                                                   str= stringCut(str,152);
+                                                  return str;
+                                              }
+                                          }
+                                      document.write(jstr());
+                                  </script> -->
+                                </a>
+                                </div>
+                                <div class="index_2_icon01"></div><div class="index_2a_p1">广东,深圳</div>
+                                <div style="clear:both;"></div>
+                                <div class="index_2_icon02"></div><div class="index_2a_p1">医疗健康,其他</div>
+                                <div style="clear:both;"></div>
+                            </div>
+                        </div>
+                        <div class="index_2" style="margin-right:34px;">
+                            <div class="index_2_bg">
+                                <a href="javascript:void(0)" onclick="detailentpFincProjs(1641,6915)">
+                                    <div class="index_2a" style="position:relative;">
+                                        <img src="http://www.chinahtz.com/fileUpload/2016-6/b0b16cfe-bd37-489b-af21-d77b8adb84cc.jpg" serverpath="" style="width: 240px;height: 120px;margin: 0 auto;margin-left: 2px;">
+                                    </div>
+                                </a>
+                                <div class="linehide">
+                                    <a class="index_2a_title " href="javascript:void(0)" title="工业无人机" onclick="detailentpFincProjs(1641,6915)">工业无人机</a>
+                                </div>
+                                <div class="index_2a_p_with"><a class="index_2a_p" href="javascript:void(0)" onclick="detailentpFincProjs(1641,6915)">
+                                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 公司从2008年起就专注于工业无人机研发和应用。公司产品有航测领域的手抛型电动固定翼无人机、长航时四旋翼无人机、50kg载荷无人直升机、1...
+                                    <!-- <script>
+                                      var jstr = function() {
+                                              var fun = function() {
+                                              /*&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 公司从2008年起就专注于工业无人机研发和应用。公司产品有航测领域的手抛型电动固定翼无人机、长航时四旋翼无人机、50kg载荷无人直升机、1...*/
+                                              }
+                                              var str = new String(fun);
+                                              str = str.substring(str.indexOf("/*") + 2,
+                                                                     str.lastIndexOf("*/"));
+                                              var nulltest = "";
+                                              if (str == null || str == "") {
+                                                  return nulltest;
+                                              } else {
+                                                      str=$("<div></div>").html(str);
+                                                      str=$(str).text();
+                                                      str=str.replace(/<\/?[^>]*>/g,"")
+                                                      str=str.replace(/[ | ]*\n/g,"")
+                                                      str=str.replace(/&nbsp;/ig,"")
+                                                   str= stringCut(str,152);
+                                                  return str;
+                                              }
+                                          }
+                                      document.write(jstr());
+                                  </script> -->
+                                </a>
+                                </div>
+                                <div class="index_2_icon01"></div><div class="index_2a_p1">北京,大兴区</div>
+                                <div style="clear:both;"></div>
+                                <div class="index_2_icon02"></div><div class="index_2a_p1">智能硬件,智能机器人</div>
+                                <div style="clear:both;"></div>
+                            </div>
+                        </div>
+                        <div class="index_2" style="margin-right:34px;">
+                            <div class="index_2_bg">
+                                <a href="javascript:void(0)" onclick="detailentpFincProjs(1640,6913)">
+                                    <div class="index_2a" style="position:relative;">
+                                        <img src="http://www.chinahtz.com/fileUpload/2016-6/038c2abc-b377-4332-ba67-f18a3e438d02.jpg" serverpath="" style="width: 240px;height: 120px;margin: 0 auto;margin-left: 2px;">
+                                    </div>
+                                </a>
+                                <div class="linehide">
+                                    <a class="index_2a_title " href="javascript:void(0)" title="基于机器人集群的“货到人”智能订单拣选系统解决方案" onclick="detailentpFincProjs(1640,6913)">基于机器人集群的“货到人”智能订单拣选系统解决方案</a>
+                                </div>
+                                <div class="index_2a_p_with"><a class="index_2a_p" href="javascript:void(0)" onclick="detailentpFincProjs(1640,6913)">
+                                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 项目通过颠覆式的业务理念及高度整合的软件和硬件，以高效的性能、接地气的价格实现了电商仓库操作模式从“人到货”向“货到人”的转变，为客户提供...
+                                    <!-- <script>
+                                      var jstr = function() {
+                                              var fun = function() {
+                                              /*&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 项目通过颠覆式的业务理念及高度整合的软件和硬件，以高效的性能、接地气的价格实现了电商仓库操作模式从“人到货”向“货到人”的转变，为客户提供...*/
+                                              }
+                                              var str = new String(fun);
+                                              str = str.substring(str.indexOf("/*") + 2,
+                                                                     str.lastIndexOf("*/"));
+                                              var nulltest = "";
+                                              if (str == null || str == "") {
+                                                  return nulltest;
+                                              } else {
+                                                      str=$("<div></div>").html(str);
+                                                      str=$(str).text();
+                                                      str=str.replace(/<\/?[^>]*>/g,"")
+                                                      str=str.replace(/[ | ]*\n/g,"")
+                                                      str=str.replace(/&nbsp;/ig,"")
+                                                   str= stringCut(str,152);
+                                                  return str;
+                                              }
+                                          }
+                                      document.write(jstr());
+                                  </script> -->
+                                </a>
+                                </div>
+                                <div class="index_2_icon01"></div><div class="index_2a_p1">上海,宝山区</div>
+                                <div style="clear:both;"></div>
+                                <div class="index_2_icon02"></div><div class="index_2a_p1">智能硬件,智能机器人</div>
+                                <div style="clear:both;"></div>
+                            </div>
+                        </div>
+                        <div class="index_2">
+                            <div class="index_2_bg">
+                                <a href="javascript:void(0)" onclick="detailentpFincProjs(1642,6916)">
+                                    <div class="index_2a" style="position:relative;">
+                                        <img src="http://www.chinahtz.com/fileUpload/2016-6/2a897952-e460-42dd-8f90-f8b85ac578c8.png" serverpath="" style="width: 240px;height: 120px;margin: 0 auto;margin-left: 2px;">
+                                    </div>
+                                </a>
+                                <div class="linehide">
+                                    <a class="index_2a_title " href="javascript:void(0)" title="融合通讯云服务" onclick="detailentpFincProjs(1642,6916)">融合通讯云服务</a>
+                                </div>
+                                <div class="index_2a_p_with"><a class="index_2a_p" href="javascript:void(0)" onclick="detailentpFincProjs(1642,6916)">
+                                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 项目致力于为互联网和企业级客户提供基于IM的融合通讯云服务。融云核心研发团队源自飞信和三星，在IM领域具有近10年的核心技术积累。融云面向...
+                                    <!-- <script>
+                                      var jstr = function() {
+                                              var fun = function() {
+                                              /*&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 项目致力于为互联网和企业级客户提供基于IM的融合通讯云服务。融云核心研发团队源自飞信和三星，在IM领域具有近10年的核心技术积累。融云面向...*/
+                                              }
+                                              var str = new String(fun);
+                                              str = str.substring(str.indexOf("/*") + 2,
+                                                                     str.lastIndexOf("*/"));
+                                              var nulltest = "";
+                                              if (str == null || str == "") {
+                                                  return nulltest;
+                                              } else {
+                                                      str=$("<div></div>").html(str);
+                                                      str=$(str).text();
+                                                      str=str.replace(/<\/?[^>]*>/g,"")
+                                                      str=str.replace(/[ | ]*\n/g,"")
+                                                      str=str.replace(/&nbsp;/ig,"")
+                                                   str= stringCut(str,152);
+                                                  return str;
+                                              }
+                                          }
+                                      document.write(jstr());
+                                  </script> -->
+                                </a>
+                                </div>
+                                <div class="index_2_icon01"></div><div class="index_2a_p1">北京,海淀区</div>
+                                <div style="clear:both;"></div>
+                                <div class="index_2_icon02"></div><div class="index_2a_p1">互联网,云计算</div>
+                                <div style="clear:both;"></div>
+                            </div>
+                        </div>
+
+                        <div style="clear:both;"></div>
+                        <div style="height:78px;"></div>
+                        <div class="dszpt">
+                            <div id="enpIndex" class="index_title01">
+                                <a href="/htz/FincProj/EntpFincProj.do"><div class="index_title_font">大数据平台</div></a>
+                                <a class="index_4left_title_p" href="/htz/FincProj/EntpFincProj.do">查看更多&gt;&gt;</a>
+                            </div>
+                            <div class="indexContentBox" style="position: relative;height: 600px;">
+                                <div class="icdaj">
+                                    <div class="contentItem1 clearfix">
+                                        <ul style="padding:0px;margin:0px;">
+                                            <li class="coni1" style="background-color: #fff;">
+                                                <div class="txtBox">
+                                                    <div><span class="txt1">金融企业服务平台</span></div>
+                                                    <div><span class="txt2">为您的金融企业提供的服务平台</span></div>
+                                                    <div><span class="txt2">一站式服务平台</span></div>
+                                                </div>
+                                                <div class="txt1BtnBox">
+                                                    <div class="txt1Btn clearfix">
+                                                        <div class="tbb1Box"><span class="tbb1">进入平台</span></div>
+                                                        <div class="tbb2Box"><span class="tbb2"><i class="icon iconfont">&#xe601;</i> </span></div>
+                                                    </div>
+                                                </div>
+                                            </li>
+                                            <li class="coni2 coni2bg1">
+                                                <div class="coni2img1"></div>
+                                                <div class="coni2txt1">投资机构</div>
+                                                <div class="coni2txt2">INVESTMENT INSTITUTIONS</div>
+                                            </li>
+                                            <li class="coni2 coni2bg2">
+                                                <div class="coni2img2"></div>
+                                                <div class="coni2txt1">融资项目</div>
+                                                <div class="coni2txt2">FINANCING PROJECT</div>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <div class="contentItem2">
+                                        <div class="ci2Box ci2right">
+                                            <div class="ci2bbg1">
+                                                <img src="images/common/indexCon1.jpg" style="position: relative" alt=""  class="imgscroll0">
+                                                <div class="ci2bbContent">
+                                                    <div class="ci2bbgItem1"></div>
+                                                    <div class="ci2bbgItem2">投融资咨询</div>
+                                                    <div class="ci2bbgItem3">CONSULTING</div>
+                                                    <div class="ci2bbgItem4">
+                                                        <div class="ci2bbgItem3Btn">
+                                                            <span class="ci2bbgItem3BtnT">点击进入</span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="ci2Box ci2right">
+                                            <div class="ci2bbg2">
+                                                <img src="images/common/indexCon2.jpg" style="position: relative" alt=""  class="imgscroll1">
+                                                <div class="ci2bbContent">
+                                                    <div class="ci2bbgItem1-2"></div>
+                                                    <div class="ci2bbgItem2">信用信息</div>
+                                                    <div class="ci2bbgItem3">CREDIT INFORMATION</div>
+                                                    <div class="ci2bbgItem4">
+                                                        <div class="ci2bbgItem3Btn">
+                                                            <span class="ci2bbgItem3BtnT">点击进入</span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+
+                                            </div>
+                                        </div>
+                                        <div class="ci2Box">
+                                            <div class="ci2bbg3">
+
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="contentItem2">
+                                        <div class="ci2Box ci2right">
+                                            <a href="login.html">
+                                                <div class="moveLeftBox" id="moveLeftBox0">
+                                                    <div class="mlb1">
+                                                        <div class="playBtn"></div>
+                                                    </div>
+                                                    <div class="mlb2"></div>
+                                                </div>
+                                            </a>
+                                            <div class="ci2bbg4">
+                                                <div class="ci2bgBottomBox clearfix">
+                                                    <div class="bottomTxt1"><span>人才服务</span></div>
+                                                    <div class="bottomTxt2"><span>TALENT SERVICE</span></div>
+                                                    <div class="bottomImg"></div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="ci2Box ci2right">
+
+                                            <a href="login.html">
+                                                <div class="moveLeftBox" id="moveLeftBox1">
+                                                    <div class="mlb1">
+                                                        <div class="playBtn"></div>
+                                                    </div>
+                                                    <div class="mlb2"></div>
+                                                </div>
+                                            </a>
+                                            <div class="ci2bbg5">
+                                                <div class="ci2bgBottomBox clearfix">
+                                                    <div class="bottomTxt1"><span>政策服务</span></div>
+                                                    <div class="bottomTxt2"><span>POLICY SERVICE</span></div>
+                                                    <div class="bottomImg"></div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="ci2Box">
+                                            <a href="login.html">
+                                                <div class="moveLeftBox" id="moveLeftBox2">
+                                                    <div class="mlb1">
+                                                        <div class="playBtn"></div>
+                                                    </div>
+                                                    <div class="mlb2"></div>
+                                                </div>
+                                            </a>
+                                            <div class="ci2bbg6">
+                                                <div class="ci2bgBottomBox clearfix">
+                                                    <div class="bottomTxt1"><span>产权股份转让</span></div>
+                                                    <div class="bottomTxt2"><span>SHARE TRANSFER</span></div>
+                                                    <div class="bottomImg"></div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div style="clear:both;"></div>
+                        <div style="height:78px;"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="indexFooter">
+        <div class="indexFooter1">
+            <div class="footerContainer">
+                <div class="footerList1 clearfix">
+                    <ul>
+                        <li class="fli"><a href="#" class="flia flia-1">首页</a></li>
+                        <li class="fli"><a href="#" class="flia flia-1">园区概括</a></li>
+                        <li class="fli"><a href="#" class="flia flia-1">园区动态</a></li>
+                        <li class="fli"><a href="#" class="flia flia-1">服务平台</a></li>
+                        <li class="fli"><a href="#" class="flia ">联系我们</a></li>
+                    </ul>
+                </div>
+                <div class="footerList2">
+                    <div class="flv21 fmg70">
+                        <i class="icon iconfont">&#xe606;</i>
+                        <span class="flv21-T">山东省济南市市中区英雄山路129号山东新金融产业园10号楼2楼</span>
+                    </div>
+                    <div class="flv22 fmg30">
+                        <i class="icon iconfont">&#xe604;</i>
+                        <span class="flv21-T">0531-52078261</span>
+                    </div>
+                    <div class="flv23">
+                        <i class="icon iconfont" style="position: relative;font-size: 30px;top: -8px;">&#xe603;</i>
+                        <span class="flv21-T" style="vertical-align: top;">jnfbdsc@163.com</span>
+                    </div>
+                </div>
+                <div class="footerList3">
+                    <div class="footerL3T">
+                        <span class="flt3">1995-2014 All rights reserved ：SHANGHAI YINQIAO DECORATING MATERIAL CO.LTD </span>
+                    </div>
+                </div>
+                <!--<div class="footerList4">-->
+                    <!--<div class="fwxbox">-->
+                        <!--<i class="icon iconfont ficon">&#xe608;</i>-->
+                    <!--</div>-->
+                    <!--<div class="fqqbox">-->
+                        <!--<i class="icon iconfont ficon">&#xe60a;</i>-->
+                    <!--</div>-->
+                <!--</div>-->
+            </div>
+        </div>
+        <div class="indexFooter2">
+            <div class="footerContainer">
+                <div class="fc2t">
+                    <span>友情链接：</span>
+                    <a href="#" class="f2link">市中区政府网</a>
+                    <a href="#" class="f2link">山东省发改委</a>
+                    <a href="#" class="f2link">山东省金融办</a>
+                    <a href="#" class="f2link">山东省财金集团</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+<script>
+    $('.menuSMHover').each(function(index,ele){
+        $(this).hover(function(){
+            if(index == 0){
+                $('#menuWX').show();
+
+            }else if(index==1){
+                $('#menuBL').show();
+            }
+        },function(){
+            if(index == 0){
+                $('#menuWX').hide();
+            }else if(index==1){
+                $('#menuBL').hide();
+
+            }
+        })
+    });
+</script>
+
+</body>
+</html>

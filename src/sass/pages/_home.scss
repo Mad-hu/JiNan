@@ -59,7 +59,7 @@ li{
   display: block;
   width: 80px;
   height: 80px;
-  background-image: url("../img/focus_handle.png");
+  background-image: url("../../images/common/focus_handle.png");
 }
 #next-img{
   left: 2%;
@@ -97,7 +97,7 @@ li{
   -ms-border-radius: 50%;
   border:1px #fff solid;
   cursor: pointer;
-  behavior: url(component/PIE/PIE.htc);
+  behavior: url(javascripts/PIE/PIE.htc);
 }
 #focus-bubble li.current{
   background-color: #ff9933;
@@ -213,13 +213,13 @@ li{
   width: 85px;
   height: 61px;
   margin:25px auto 20px auto;
-  background:url('../img/indexspring.png') 0 0 no-repeat
+  background:url('../../images/common/indexspring.png') 0 0 no-repeat
 }
 .coni2img2{
   width: 74px;
   height: 61px;
   margin: 25px auto 20px;
-  background: url('../img/indexspring.png') -87px 2px no-repeat;
+  background: url('../../images/common/indexspring.png') -87px 2px no-repeat;
 }
 
 
@@ -263,35 +263,35 @@ li{
 .ci2bbg1 {
   width: inherit;
   height: inherit;
-  background-image: url("../img/indexCon1.jpg");
+  background-image: url("../../images/common/indexCon1.jpg");
 }
 
 .ci2bbg2 {
   width: inherit;
   height: inherit;
-  background-image: url("../img/indexCon2.jpg");
+  background-image: url("../../images/common/indexCon2.jpg");
 }
 .ci2bbg3{
   width: inherit;
   height: inherit;
-  background-image: url("../img/indexCon3.jpg");
+  background-image: url("../../images/common/indexCon3.jpg");
 }
 
 .ci2bbg4{
   width: inherit;
   height: inherit;
-  background-image: url("../img/indexCon4.jpg");
+  background-image: url("../../images/common/indexCon4.jpg");
 }
 
 .ci2bbg5{
   width: inherit;
   height: inherit;
-  background-image: url("../img/indexCon5.jpg");
+  background-image: url("../../images/common/indexCon5.jpg");
 }
 .ci2bbg6{
   width: inherit;
   height: inherit;
-  background-image: url("../img/indexCon6.jpg");
+  background-image: url("../../images/common/indexCon6.jpg");
 }
 
 .ci2bbgItem1{
@@ -299,7 +299,7 @@ li{
   width: 65px;
   height: 70px;
   padding-top: 70px;
-  background: url(../img/indexspring.png) -159px 70px no-repeat;
+  background: url(../../images/common/indexspring.png) -159px 70px no-repeat;
 }
 
 .ci2bbgItem1-2{
@@ -307,7 +307,7 @@ li{
   width: 80px;
   height: 70px;
   padding-top: 70px;
-  background: url(../img/indexspring.png) -222px 70px no-repeat;
+  background: url(../../images/common/indexspring.png) -222px 70px no-repeat;
 }
 
 .ci2bbgItem2{
@@ -375,7 +375,7 @@ li{
   }
 
   .playBtn{
-    background: url(../img/playerIcon.png) no-repeat;
+    background: url(../../images/common/playerIcon.png) no-repeat;
     height: 62px;
     width: 62px;
     position: relative;
@@ -387,7 +387,7 @@ li{
 }
 
 .ci2bgBottomBox{
-  background: url(../img/blackline.png)  repeat;
+  background: url(../../images/common/blackline.png)  repeat;
   width: 390px;
   height: 41.6px;
   position: relative;
@@ -419,7 +419,7 @@ li{
   height: 20px;
   margin: 11px;
   cursor: pointer;
-  background: url(../img/indexspring.png) 0px -125px no-repeat;
+  background: url(../../images/common/indexspring.png) 0px -125px no-repeat;
 }
 
 
@@ -436,7 +436,7 @@ li{
 }
 
 .ci3BoxImgBg{
-  background: url(../img/indexspring.png) -24px -117px no-repeat;
+  background: url(../../images/common/indexspring.png) -24px -117px no-repeat;
   width: 35px;
   height: 40px;
 }
@@ -561,7 +561,7 @@ li{
        display: block;
        width: 46px;
        height: 25px;
-       background: url(../img/imoImg.png) 9px -23px no-repeat;
+       background: url(../../images/common/imoImg.png) 9px -23px no-repeat;
        position: relative;
        top: 11px;
 
@@ -576,7 +576,7 @@ li{
      width: 177px;
      height: 200px;
      padding: 10px 0px;
-     background: url("../img/menuBg.png") no-repeat;
+     background: url("../../images/common/menuBg.png") no-repeat;
      text-align: center;
    }
 

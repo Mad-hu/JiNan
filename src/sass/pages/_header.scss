@@ -109,7 +109,7 @@ $placeholderColor:#999;
     margin-left: 10px;
     height: 6px;
     margin-top: 8px;
-    background: url(../img/imoImg.png) 0px 0px no-repeat;
+    background: url(../../images/common/imoImg.png) 0px 0px no-repeat;
     overflow: hidden;
     &:hover{
       background-size: 26px;
@@ -130,8 +130,9 @@ $placeholderColor:#999;
   left: 470px;
   text-align: center;
   @include border-radius(5px);
-  behavior: url(component/PIE/PIE.htc);
+  behavior: url(javascripts/PIE/PIE.htc);
 }
+
 .sanjiao{
   width: 0px;
   height: 0px;
@@ -155,6 +156,6 @@ $placeholderColor:#999;
   left: 430px;
   text-align: center;
   @include border-radius(5px);
-  behavior: url(component/PIE/PIE.htc);
+  behavior: url(javascripts/PIE/PIE.htc);
 }
  /*********************** new module Name End **************************************/

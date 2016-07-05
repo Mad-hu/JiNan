@@ -1,0 +1,8554 @@
+
+.clears {
+    clear: both;
+    height: 0px;
+    line-height: 0px;
+    font-size: 0px;
+    padding: 0px;
+    margin: 0px;
+}
+
+p {
+    text-indent: 0;
+}
+
+.left {
+    float: left;
+}
+
+.right {
+    float: right;
+}
+
+.space_1 {
+    height: 160px;
+    font-size: 0px;
+}
+
+.space_2 {
+    height: 15px;
+    font-size: 0px;
+    padding: 0px;
+    margin: 0px;
+}
+
+.space_3 {
+    height: 8px;
+    font-size: 0px;
+    padding: 0px;
+    margin: 0px;
+}
+
+.font_1 {
+    font-size: 26px;
+    color: #f47a2d;
+}
+
+.font_1 a {
+    color: #f47a2d;
+    text-decoration: none;
+}
+
+.font_1 a:hover {
+    color: #f47a2d;
+    text-decoration: underline;
+}
+
+.font_2 {
+    font-size: 14px;
+    color: #f47a2d;
+}
+
+.dash_fg {
+    border-bottom: dashed 1px #c8c8c8;
+    width: 1043px;
+    margin: 30px auto 30px auto;
+    font-size: 0px;
+    height: 1px;
+}
+
+.space_dashed {
+    border-bottom: dashed 1px #c8c8c8;
+    width: 100%;
+    margin: 15px 0px 10px 0px;
+    height: 1px;
+    font-size: 0px;
+}
+
+.hg_space {
+    margin: 9px 0px 0px 0px;
+}
+
+/*------------------------------------------------ï¿½ï¿½ï¿½ï¿½ï¿½Ç¹ï¿½ï¿½ï¿½ï¿½ï¿½Ê½--------------------*/
+
+.index_bg {
+    width: 100%;
+    background: #f7f7f7;
+}
+
+.bt_cs {
+    width: 1106px;
+    margin: 0px auto 0px auto;
+    text-align: left;
+    font-size: 28px;
+    font-family: microsoft yahei;
+    color: #171717;
+    height: 45px;
+    padding: 50px 0px 34px 38px;
+}
+
+.width_1104 {
+    width: 1104px;
+    border-top: solid 1px #d7dde0;
+    background: #ffffff;
+    border-left: solid 1px #d7dde0;
+    border-right: solid 1px #d7dde0;
+    margin: 0px auto;
+    padding: 0px 0px 40px 0px;
+}
+
+.width_1104_2 {
+    width: 1104px;
+    border-top: solid 1px #d7dde0;
+    background: #ffffff;
+    border-left: solid 1px #d7dde0;
+    border-right: solid 1px #d7dde0;
+    margin: 0px auto;
+    padding: 0px 0px 15px 0px;
+}
+
+.bot_yqbg {
+    width: 1106px;
+    height: 6px;
+    font-size: 0px;
+    margin: 0px auto 20px auto;
+    padding: 0px;
+    font-size: 0px;
+}
+
+.menu_yq {
+    width: 100%;
+    background: url(http://www.chinahtz.com/htz/images/bg_gray.jpg) repeat-x;
+    height: 42px;
+    margin-bottom: 20px;
+}
+
+.all_ly {
+    height: 42px;
+    line-height: 42px;
+    font-size: 16px;
+    color: #959494;
+    font-family: microsoft yahei;
+    float: left;
+}
+
+.all_ly a {
+    color: #959494;
+    text-decoration: none;
+    padding: 0px 35px;
+}
+
+.all_ly a:hover {
+    color: #4e4e4e;
+    text-decoration: none;
+}
+
+.all_ly .on_ly {
+    height: 42px;
+    padding: 0px 35px;
+    line-height: 42px;
+    font-size: 16px;
+    color: #4e4e4e;
+    border-left: solid 1px #eaeaea;
+    border-right: solid 1px #eaeaea;
+    font-family: microsoft yahei;
+    float: left;
+    background: url(http://www.chinahtz.com/htz/images/on_blue.jpg) repeat-x;
+}
+
+.one_box {
+    width: 1049px;
+    margin: 0px auto;
+    border-bottom: solid 1px #e5e4e2;
+    padding: 24px 0px;
+}
+
+.pic_left {
+    float: left;
+    width: 250px;
+    height: 180px;
+    background: url(http://www.chinahtz.com/htz/images/pic_bg.jpg) no-repeat;
+    padding-left: 6px;
+    padding-top: 8px;
+    margin-top: 8px;
+}
+
+.Information_box {
+    width: 757px;
+    float: left;
+    margin-left: 25px;
+}
+
+.Information_box3 {
+    width: 757px;
+    float: left;
+    margin-left: 25px;
+    padding-top: 30px;
+}
+
+.Information_box_2 {
+    width: 612px;
+    float: left;
+    margin-left: 25px;
+    border-right: solid 1px #e5e4e2;
+    padding-right: 20px;
+}
+
+.zan_right {
+    width: 108px;
+    float: left;
+    padding-left: 26px;
+    margin-top: 27px;
+}
+
+.zan_box {
+    width: 66px;
+}
+
+.zan_number {
+    width: 66px;
+    height: 29px;
+    background: url(http://www.chinahtz.com/htz/images/zan_text.jpg) no-repeat;
+    text-align: center;
+    color: #000000;
+    font-family: microsoft yahei;
+    line-height: 29px;
+    font-size: 14px;
+}
+
+.zan_number_2 {
+    width: 66px;
+    height: 29px;
+    background: url(http://www.chinahtz.com/htz/images/zan_text.jpg) no-repeat;
+    text-align: center;
+    color: #6c6c6c;
+    font-family: microsoft yahei;
+    line-height: 29px;
+    font-size: 14px;
+}
+
+.infor_title {
+    font-size: 20px;
+    color: #1e1e1e;
+    height: 30px;
+    font-family: microsoft yahei, Arial;
+    margin-bottom: 5px;
+}
+
+.infor_title a {
+    color: #19459d;
+    text-decoration: none;
+}
+
+.infor_title a:hover {
+    color: #1e1e1e;
+    text-decoration: underline;
+}
+
+.orange_pic {
+    width: 81px;
+    height: 30px;
+    background: url(http://www.chinahtz.com/htz/images/jxz.png) no-repeat;
+    text-align: center;
+    font-size: 15px;
+    color: #FFF;
+    font-family: microsoft yahei;
+    line-height: 30px;
+}
+
+.orange_pic a {
+    display: block;
+    text-decoration: none;
+    width: 81px;
+    height: 30px;
+    background: url(http://www.chinahtz.com/htz/images/jxz.png) no-repeat;
+    text-align: center;
+    font-size: 15px;
+    color: #FFF;
+    font-family: microsoft yahei;
+    line-height: 30px;
+}
+
+.orange_pic a:hover {
+    display: block;
+    text-decoration: none;
+    width: 81px;
+    height: 30px;
+    background: url(http://www.chinahtz.com/htz/images/jxz.png) 0px -30px no-repeat;
+    text-align: center;
+    font-size: 15px;
+    color: #FFF;
+    font-family: microsoft yahei;
+    line-height: 30px;
+}
+
+.green_pic {
+    width: 81px;
+    height: 30px;
+    background: url(http://www.chinahtz.com/htz/images/ygz.png) no-repeat;
+    text-align: center;
+    font-size: 15px;
+    color: #FFF;
+    font-family: microsoft yahei;
+    line-height: 30px;
+}
+
+.green_pic_0 {
+    width: 110px;
+    height: 30px;
+    background: url(http://www.chinahtz.com/htz/images/ygz_1.png) no-repeat;
+    text-align: center;
+    font-size: 15px;
+    color: #FFF;
+    font-family: microsoft yahei;
+    line-height: 30px;
+}
+
+.gray_pic {
+    width: 81px;
+    height: 30px;
+    background: url(http://www.chinahtz.com/htz/images/yjs.png) no-repeat;
+    text-align: center;
+    font-size: 15px;
+    color: #FFF;
+    font-family: microsoft yahei;
+    line-height: 30px;
+}
+
+.time_cs {
+    font-size: 12px;
+    color: #807f80;
+    font-family: microsoft yahei;
+    margin-bottom: 18px;
+}
+
+.ms_infor {
+    color: #585757;
+    font-size: 14px;
+    font-family: microsoft yahei;
+    margin: 0px 0px 15px 0px;
+    line-height: 24px;
+    padding: 0px 30px 0px 0px;
+    word-break: break-all;
+    word-break: normal;
+    word-wrap: break-word;
+}
+
+.ms_infor a {
+    color: #585757;
+    text-decoration: none;
+}
+
+.ms_infor a:hover {
+    color: #585757;
+    text-decoration: underline;
+}
+
+.ms_infor_l {
+    color: #585757;
+    font-size: 14px;
+    font-family: microsoft yahei;
+    margin: 0px 0px 15px 0px;
+    line-height: 24px;
+    padding: 0px 30px 0px 0px;
+    word-break: break-all;
+    word-break: normal;
+    word-wrap: break-word;
+    float: left
+}
+
+.ms_infor_r {
+    color: #585757;
+    font-size: 14px;
+    font-family: microsoft yahei;
+    margin: 0px 0px 15px 0px;
+    line-height: 24px;
+    padding: 0px 30px 0px 0px;
+    word-break: normal;
+    word-wrap: break-word;
+    float: right
+}
+
+.dw_map {
+    font-size: 13px;
+    color: #454545;
+    font-family: microsoft yahei;
+    background: url(http://www.chinahtz.com/htz/images/dt.jpg) no-repeat 0px 6px;
+    padding-left: 15px;
+    margin-right: 10px;
+}
+
+.set_pic {
+    font-size: 13px;
+    color: #454545;
+    font-family: microsoft yahei;
+    background: url(http://www.chinahtz.com/htz/images/sz.jpg) no-repeat 0px 7px;
+    padding-left: 15px;
+}
+
+.text_wz {
+    color: #585757;
+    font-size: 14px;
+    font-family: microsoft yahei;
+    width: 350px;
+    padding-right: 8px;
+}
+
+.text_wz a {
+    color: #585757;
+    text-decoration: none;
+}
+
+.text_wz a:hover {
+    color: #585757;
+    text-decoration: underline;
+}
+
+.text_style {
+    width: 750px;
+    margin: 0px 0px 0px 0px;
+}
+
+.text_style p {
+    line-height: 200%;
+}
+
+.botton_xl {
+    width: 41px;
+    height: 16px;
+    margin: 26px auto 0px auto;
+}
+
+.space_gd {
+    width: 19px;
+    height: 19px;
+    position: relative;
+    margin-left: 26px;
+    margin-top: 15px;
+}
+
+.tsxx {
+    padding: 7px 0px;
+    text-align: center;
+    position: absolute;
+    top: 28px;
+    color: #666;
+    left: -35px;
+    line-height: 18px;
+    border: solid 1px #e5e4e2;
+    width: 85px;
+    background: #f8f8f8;
+}
+
+.jt_pic {
+    position: absolute;
+    left: 3px;
+    top: 23px;
+    z-index: 100;
+}
+
+.xz_choice {
+    text-align: right;
+    padding-right: 80px;
+}
+
+.xz_choice select {
+    font-size: 14px;
+    color: #969696;
+    font-family: microsoft yahei;
+    padding: 6px;
+}
+
+.width1106 {
+    width: 1106px;
+    margin: 0px auto;
+    padding: 0px;
+}
+
+.yqxm_cs {
+    line-height: 25px;
+    color: #808080;
+    font-family: microsoft yahei;
+    font-size: 14px;
+    text-align: left;
+    padding: 18px 0px;
+    padding-left: 8px;
+}
+
+.yqxm_cs span {
+    font-size: 18px;
+    font-weight: bold;
+    font-family: microsoft yahei;
+}
+
+.yqxm_cs a {
+    color: #808080;
+    text-decoration: none;
+}
+
+.yqxm_cs a:hover {
+    color: #19459d;
+    text-decoration: underline;
+}
+
+.yqxm_1104 {
+    width: 1071px;
+    border-top: solid 1px #d7dde0;
+    background: #ffffff;
+    border-left: solid 1px #d7dde0;
+    border-right: solid 1px #d7dde0;
+    margin: 0px auto;
+    padding: 0px 0px 35px 33px;
+}
+
+.yqxm_1104_3 {
+    width: 1104px;
+    border-top: solid 1px #d7dde0;
+    background: #ffffff;
+    border-left: solid 1px #d7dde0;
+    border-right: solid 1px #d7dde0;
+    margin: 0px auto;
+    padding: 0px 0px 35px 0px;
+}
+
+.yqxm_1104_2 {
+    width: 1071px;
+    border-top: solid 1px #d7dde0;
+    background: #ffffff;
+    border-left: solid 1px #d7dde0;
+    border-right: solid 1px #d7dde0;
+    margin: 0px auto;
+    padding: 0px 0px 0px 33px;
+}
+
+.photo_box2 {
+    width: 250px;
+    height: 129px;
+    background: url(http://www.chinahtz.com/htz/images/mr_pic.jpg) no-repeat;
+    padding-left: 6px;
+    padding-top: 5px;
+    margin-top: 30px;
+}
+
+.photo_xx {
+    width: 543px;
+    padding-right: 0px;
+    padding-left: 45px;
+    padding-top: 20px;
+    padding-bottom: 25px;
+}
+
+.infor_title2 {
+    font-size: 24px;
+    color: #1e1e1e;
+    height: 30px;
+    font-family: microsoft yahei, Arial;
+    margin-bottom: 18px;
+}
+
+.ms_infor2 {
+    color: #585757;
+    font-size: 14px;
+    font-family: microsoft yahei;
+    margin: 0px;
+    line-height: 24px;
+    padding: 0px 30px 0px 0px;
+}
+
+.ms_infor2 a {
+    color: #585757;
+    text-decoration: none;
+}
+
+.ms_infor2 a:hover {
+    color: #585757;
+    text-decoration: underline;
+}
+
+.fxbox {
+    margin-top: 8px;
+}
+
+.Attention {
+    width: 92px;
+    height: 34px;
+    background: url(http://www.chinahtz.com/htz/images/gz_c.png) no-repeat 0px 0px;
+}
+
+.Attention a {
+    width: 51px;
+    height: 34px;
+    background: url(http://www.chinahtz.com/htz/images/gz_c.png) no-repeat 0px 0px;
+    font-size: 14px;
+    text-decoration: none;
+    line-height: 28px;
+    color: #FFF;
+    display: block;
+    font-family: microsoft yahei;
+    padding-left: 41px;
+}
+
+.Attention a:hover {
+    width: 51px;
+    height: 34px;
+    background: url(http://www.chinahtz.com/htz/images/gz_c.png) no-repeat 0px -34px;
+    font-size: 14px;
+    text-decoration: none;
+    line-height: 28px;
+    color: #FFF;
+    display: block;
+    font-family: microsoft yahei;
+    padding-left: 41px;
+}
+
+.letter {
+    width: 92px;
+    height: 34px;
+    background: url(http://www.chinahtz.com/htz/images/sx_c.png) no-repeat 0px 0px;
+    margin-left: 7px;
+}
+
+.letter a {
+    width: 51px;
+    height: 34px;
+    background: url(http://www.chinahtz.com/htz/images/sx_c.png) no-repeat 0px 0px;
+    font-size: 14px;
+    text-decoration: none;
+    line-height: 29px;
+    color: #FFF;
+    display: block;
+    font-family: microsoft yahei;
+    padding-left: 41px;
+}
+
+.letter a:hover {
+    width: 51px;
+    height: 34px;
+    background: url(http://www.chinahtz.com/htz/images/sx_c.png) no-repeat 0px -34px;
+    font-size: 14px;
+    text-decoration: none;
+    line-height: 29px;
+    color: #FFF;
+    display: block;
+    font-family: microsoft yahei;
+    padding-left: 41px;
+}
+
+.number_sl {
+    font-size: 13px;
+    color: #494949;
+    height: 34px;
+    line-height: 34px;
+    padding-left: 40px;
+    font-family: microsoft yahei;
+}
+
+.number_sl a {
+    color: #494949;
+    text-decoration: none;
+}
+
+.number_sl a:hover {
+    color: #494949;
+    text-decoration: underline;
+}
+
+.number_sl span {
+    color: #8e8e8e;
+}
+
+.zan_ms {
+    line-height: 18px;
+    font-size: 12px;
+    font-family: microsoft yahei;
+    color: #656565;
+    text-align: center;
+    margin-top: 12px;
+}
+
+.zan_contnet {
+    padding-left: 77px;
+    padding-top: 40px;
+}
+
+.infor_menu {
+    width: 1106px;
+    border-bottom: solid 3px #bdbdbd;
+    height: 40px;
+    margin: 35px auto 0px auto;
+    margin-bottom: 30px;
+}
+
+.infor_menu a {
+    padding: 0px 33px;
+    float: left;
+    font-size: 16px;
+    color: #3d3d3d;
+    text-decoration: none;
+}
+
+.infor_menu .on_infor {
+    padding: 0px 35px;
+    font-size: 16px;
+    color: #3d3d3d;
+    text-decoration: none;
+    color: #1688c2;
+    height: 40px;
+    display: block;
+    float: left;
+    border-bottom: solid 3px #45b0e6;
+}
+
+.yqxm_bt {
+    font-size: 26px;
+    color: #000000;
+    font-family: microsoft yahei;
+    margin-bottom: 25px;
+    padding-top: 30px;
+    padding-left: 39px;
+}
+
+.rz_content {
+    font-size: 14px;
+    line-height: 26px;
+    color: #3d3d3d;
+    font-family: microsoft yahei;
+    width: 1031px;
+    margin: 0px auto 30px auto;
+}
+
+.td_bg {
+    line-height: 35px;
+    font-size: 14px;
+    color: #3d3d3d;
+    font-family: microsoft yahei;
+    text-align: right;
+    padding-right: 25px;
+}
+
+.td_bg_1 {
+    line-height: 35px;
+    font-size: 14px;
+    color: #3d3d3d;
+    font-family: microsoft yahei;
+    text-align: left;
+    padding-left: 25px;
+}
+
+.td_bg2 {
+    line-height: 35px;
+    font-size: 14px;
+    color: #666666;
+    font-family: microsoft yahei;
+    text-align: right;
+    padding-right: 25px;
+}
+
+.bg_table tr td {
+    border-bottom: solid 1px #e1e5ea;
+}
+
+.bg_table {
+    border-top: 2px solid #45b0e6;
+    width: 505px;
+}
+
+.table_box {
+    padding-right: 29px;
+    width: 486px;
+    margin-bottom: 30px;
+}
+
+.yqxm_text {
+    width: 1020px;
+    margin: 0px auto;
+    border-bottom: solid 1px #e1e5ea;
+    padding: 10px 0px 10px 22px;
+}
+
+.yqxm_text dt {
+    border-left: solid 3px #45b0e6;
+    padding-left: 20px;
+    font-size: 14px;
+    color: #3d3d3d;
+    font-family: microsoft yahei;
+}
+
+.yqxm_text dt a {
+    color: #3d3d3d;
+    text-decoration: none;
+}
+
+.yqxm_text dt a:hover {
+    color: #3d3d3d;
+    text-decoration: underline;
+}
+
+.wzxx_284 {
+    color: #585757;
+    font-size: 14px;
+    font-family: microsoft yahei;
+    width: 280px;
+    padding-right: 8px;
+    word-break: break-all;
+    word-wrap: break-word;
+    word-break: normal;
+}
+
+.wzxx_text {
+    color: #585757;
+    font-size: 14px;
+    font-family: microsoft yahei;
+    line-height: 25px;
+    height: 25px;
+}
+
+.xqy_box {
+    width: 552px;
+    float: left;
+    text-align: center;
+    height: 42px;
+    line-height: 42px;
+    color: #959494;
+    font-size: 18px;
+    font-family: microsoft yahei;
+    cursor: pointer;
+}
+
+.xqy_box a {
+    text-decoration: none;
+    color: #959494;
+}
+
+.on_xqy .xqy_box {
+    width: 552px;
+    float: left;
+    background: #99aacc;
+    text-align: center;
+    height: 42px;
+    line-height: 42px;
+    color: #ffffff;
+    font-size: 18px;
+    font-family: microsoft yahei;
+}
+
+.name_ss {
+    width: 193px;
+    text-align: right;
+    font-size: 14px;
+    color: #333333;
+    font-family: microsoft yahei;
+    line-height: 28px;
+    padding-right: 31px;
+}
+
+.pur_reg {
+    width: 250px;
+    height: 26px;
+    border: solid 1px #dfdfdf;
+    color: #a6a6a6;
+    font-family: microsoft yahei;
+    line-height: 26px;
+    padding-left: 5px;
+}
+
+.wan_y {
+    height: 22px;
+    color: #666666;
+    border: solid 1px #ebebeb;
+    width: 115px;
+    text-align: center;
+    background: #f8f8f8;
+    font-size: 12px;
+    font-family: microsoft yahei;
+    line-height: 22px;
+}
+
+.space_qa {
+    margin: 11px 0px;
+}
+
+.space_qa2 {
+    margin: 6px 0px;
+    height: auto;
+}
+
+.slide_box {
+    width: 315px;
+    height: 5px;
+    font-size: 0px;
+    background: none repeat scroll 0 0 #ffffff;
+    border: 1px solid #99aacc;
+    border-radius: 4px;
+    margin: 9px 20px 0px 10px;
+    -moz-border-radius: 4px; /* Gecko browsers */
+    -webkit-border-radius: 4px; /* Webkit browsers */
+    border-radius: 4px; /* W3C syntax */
+}
+
+.noUi-base {
+    height: 100%;
+    width: 100%;
+    position: relative;
+}
+
+.noUi-connect {
+    background: #b7c4dc;
+}
+
+.noUi-origin {
+    border-radius: 4px;
+    -moz-border-radius: 4px; /* Gecko browsers */
+    -webkit-border-radius: 4px; /* Webkit browsers */
+    border-radius: 4px; /* W3C syntax */
+    bottom: 0px;
+    position: absolute;
+    right: 0px;
+    top: 0px;
+}
+
+.noUi-handle:before, .noUi-handle:after {
+    position: absolute;
+    top: 6px;
+    left: 14px;
+    height: auto;
+    width: 0px;
+    display: block;
+}
+
+.noUi-handle:after {
+    left: 17px;
+}
+
+.noUi-horizontal .noUi-handle {
+    height: 9px;
+    left: -1px;
+    top: -6px;
+    width: 5px;
+}
+
+.noUi-handle {
+    background: none repeat scroll 0 0 #ffffff;
+    border: 1px solid #b7c4dc;
+    border-radius: 5px;
+    -moz-border-radius: 5px; /* Gecko browsers */
+    -webkit-border-radius: 5px; /* Webkit browsers */
+    cursor: default;
+    height: 15px;
+    left: -1px;
+    top: -6px;
+    width: 5px;
+}
+
+.noUi-handle {
+    position: relative;
+    z-index: 1;
+}
+
+.noUi-target, .noUi-target * {
+    -moz-user-select: none;
+    box-sizing: border-box;
+}
+
+.noUi-background {
+    background: none repeat scroll 0 0 #fafafa;
+}
+
+.ss_box {
+    width: 106px;
+    height: 29px;
+    border: solid 1px #c1c1c1;
+    text-align: center;
+    line-height: 29px;
+    float: left;
+    color: #5c5b5b;
+    font-size: 14px;
+    font-family: microsoft yahei;
+    margin-left: 15px;
+}
+
+.ss_box a {
+    color: #5c5b5b;
+    text-decoration: none;
+}
+
+.ss_box a:hover {
+    color: #5c5b5b;
+    text-decoration: none;
+    background: #f8f8f8;
+    display: block;
+}
+
+.ssnr {
+    margin-top: 84px;
+}
+
+.ssnr_2 {
+    margin-top: 145px;
+}
+
+.ssbox_content {
+    width: 100%;
+    float: left;
+}
+
+.pact_input_select01 {
+    border: 1px solid #d6d6d6;
+    color: #777777;
+    font-size: 14px;
+    line-height: 26px;
+    height: 26px;
+    width: 220px;
+}
+
+.area_box {
+    width: 540px;
+    line-height: 24px;
+    font-size: 14px;
+    font-family: microsoft yahei;
+    color: #333333;
+}
+
+.area_box .dspan_area {
+    width: 45px;
+    display: block;
+    float: left;
+    font-size: 14px;
+    margin-right: 5px;
+    line-height: 29px;
+    height: 29px;
+    text-align: center;
+    font-family: microsoft yahei;
+    color: #ffffff;
+    text-decoration: none;
+    background: #8296bc;
+    cursor: pointer;
+}
+
+.area_box a {
+    width: 45px;
+    display: block;
+    float: left;
+    font-size: 14px;
+    margin-right: 5px;
+    line-height: 29px;
+    height: 29px;
+    text-align: center;
+    font-family: microsoft yahei;
+    color: #666666;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.area_box a:hover {
+    width: 45px;
+    display: block;
+    float: left;
+    font-size: 14px;
+    margin-right: 5px;
+    line-height: 29px;
+    height: 29px;
+    text-align: center;
+    font-family: microsoft yahei;
+    color: #ffffff;
+    text-decoration: none;
+    background: #8296bc;
+    cursor: pointer;
+}
+
+.ly_contetn {
+    background: #efefef;
+    height: 185px;
+    width: 226px;
+    padding-top: 25px;
+}
+
+.gk_line {
+    width: 1px;
+    height: 140px;
+    background: #e5e5e5;
+    float: left;
+    font-size: 0px;
+    margin-top: 36px;
+}
+
+.width83 {
+    width: 83px;
+}
+
+.width110 {
+    padding-left: 10px;
+    width: 100px;
+}
+
+.width410 {
+    width: 410px;
+}
+
+.width620 {
+    padding-left: 10px;
+    width: 610px;
+}
+
+.texrfont {
+    text-align: right;
+    font-family: microsoft yahei;
+    color: #4f4f4f;
+    line-height: 30px;
+}
+
+.textfont2 {
+    text-align: right;
+    font-family: microsoft yahei;
+    color: #4f4f4f;
+    line-height: 30px;
+    font-size: 14px;
+}
+
+.texrfont_2 {
+    color: #212121;
+    font-size: 13px;
+    line-height: 20px;
+    font-family: microsoft yahei;
+    word-break: break-all;
+    word-wrap: break-word;
+    word-break: normal;
+}
+
+.texrfont_3 {
+    color: #212121;
+    font-size: 16px;
+    line-height: 28px;
+    font-family: microsoft yahei;
+    word-break: break-all;
+    word-wrap: break-word;
+    word-break: normal;
+}
+
+.ly_box {
+    padding-top: 35px;
+}
+
+.ly_box dl {
+    padding: 5px 0px;
+}
+
+.width850 {
+    width: 850px;
+}
+
+.width850_1 {
+    width: 850px;
+    border-left: solid 1px #d6dbdf;
+    border-right: solid 1px #d6dbdf;
+    border-top: solid 1px #d6dbdf;
+    background: #fff;
+    overflow: auto;
+}
+
+.fot_grbg {
+    width: 850px;
+    height: 5px;
+    font-size: 0px;
+    margin: 0px 0px 0px 0px;
+    padding: 0px;
+    font-size: 0px;
+}
+
+.widthtext {
+    width: 815px;
+    border-bottom: solid 1px #e5e4e2;
+    padding: 25px 0px 20px 0px;
+    margin: 0px auto;
+}
+
+.right_space {
+    padding-right: 50px;
+}
+
+.jl_786 {
+    width: 786px;
+    margin: 0px auto;
+}
+
+.name_box {
+    height: 35px;
+    line-height: 35px;
+    font-size: 14px;
+    color: #666666;
+    font-family: microsoft yahei;
+    text-align: right;
+    padding-right: 25px;
+}
+
+.blue_line {
+    width: 786px;
+    margin: 45px auto 45px auto;
+    height: 2px;
+    background: #45b0e6;
+    font-size: 0px;
+}
+
+.width123 {
+    width: 123px;
+}
+
+.width532 {
+    width: 532px;
+}
+
+.jion_box {
+    padding-bottom: 30px;
+}
+
+.lyhd {
+    width: 151px;
+    height: 39px;
+    margin: 0px 10px;
+    float: left;
+    text-align: center;
+    line-height: 39px;
+    background: url(http://www.chinahtz.com/htz/images/cjly.png) 0px 0px no-repeat;
+    color: #FFF;
+    font-size: 20px;
+    font-family: microsoft yahei;
+}
+
+.lyhd a {
+    width: 151px;
+    display: block;
+    height: 39px;
+    text-align: center;
+    text-decoration: none;
+    line-height: 39px;
+    background: url(http://www.chinahtz.com/htz/images/cjly.png) 0px 0px no-repeat;
+    color: #FFF;
+    font-size: 20px;
+    font-family: microsoft yahei;
+}
+
+.lyhd a:hover {
+    width: 151px;
+    display: block;
+    height: 39px;
+    text-align: center;
+    line-height: 39px;
+    text-decoration: none;
+    background: url(http://www.chinahtz.com/htz/images/cjly.png) 0px -39px no-repeat;
+    color: #FFF;
+    font-size: 20px;
+    font-family: microsoft yahei;
+}
+
+.ztwz_xx {
+    color: #1e1e1e;
+    font-size: 20px;
+    font-family: microsoft yahei;
+    line-height: 39px;
+}
+
+.jzym_box {
+    width: 125px;
+    height: 35px;
+    margin: 0px auto 40px auto;
+    text-align: center;
+    font-size: 16px;
+    font-family: microsoft yahei;
+    color: #999;
+    line-height: 35px;
+}
+
+.jzym_box a {
+    text-decoration: none;
+    display: block;
+    width: 125px;
+    height: 35px;
+    border: solid 1px #cdcdcd;
+    color: #999;
+}
+
+.jzym_box a:hover {
+    background: #a6a6a6;
+    text-decoration: none;
+    display: block;
+    width: 125px;
+    height: 35px;
+    color: #fff;
+}
+
+.tcbox_content {
+    width: 471px;
+    margin: 24px auto 0px auto;
+}
+
+.top_pic {
+    width: 471px;
+    height: 13px;
+    font-size: 0px;
+}
+
+.xx_content {
+    width: 471px;
+    background: url(http://www.chinahtz.com/htz/images/tc_md.png) repeat-y;
+    padding: 0px 0px 30px 0px;
+}
+
+.close_box {
+    width: 20px;
+    height: 19px;
+    padding-left: 430px;
+    margin-bottom: 15px;
+}
+
+.xsxx_box {
+    font-size: 16px;
+    color: #1e1e1e;
+    font-family: microsoft yahei;
+    line-height: 25px;
+}
+
+.width355 {
+    width: 355px;
+    margin: 17px auto;
+}
+
+.width355 a {
+    color: #f47a2d;
+    text-decoration: none;
+}
+
+.width355 a:hover {
+    color: #f47a2d;
+    text-decoration: underline;
+}
+
+.botton_content {
+    width: 471px;
+    height: 79px;
+    background: url(http://www.chinahtz.com/htz/images/tc_bottom.png) no-repeat;
+    padding-top: 21px;
+}
+
+.width_130 {
+    width: 130px;
+    margin: 0px auto;
+}
+
+.bott_1 {
+    width: 130px;
+    height: 46px;
+}
+
+.bott_1 a {
+    display: block;
+    width: 130px;
+    color: #FFF;
+    text-decoration: none;
+    height: 46px;
+    font-size: 16px;
+    text-align: center;
+    font-family: microsoft yahei;
+    background: url(http://www.chinahtz.com/htz/images/gb.png) no-repeat 0px 0px;
+    line-height: 46px;
+}
+
+.bott_1 a:hover {
+    display: block;
+    width: 130px;
+    color: #FFF;
+    text-decoration: none;
+    height: 46px;
+    font-size: 16px;
+    text-align: center;
+    font-family: microsoft yahei;
+    background: url(http://www.chinahtz.com/htz/images/gb.png) 0px -46px no-repeat;
+    line-height: 46px;
+}
+
+.margin_25 {
+    padding-left: 25px;
+}
+
+.width360 {
+    width: 360px;
+    margin: 0px auto;
+}
+
+.yl_cs {
+    font-size: 14px;
+    color: #CCC;
+    font-family: microsoft yahei;
+    margin-top: 24px;
+    margin-left: 20px;
+}
+
+.yl_cs a {
+    color: #656565;
+    text-decoration: underline;
+}
+
+.yl_cs a:hover {
+    color: #313131;
+    text-decoration: underline;
+}
+
+.yl_css {
+    font-size: 14px;
+    color: #CCC;
+    font-family: microsoft yahei;
+    margin-top: 12px;
+    margin-left: 20px;
+    padding-right: 15px;
+}
+
+.yl_css a {
+    color: #656565;
+    text-decoration: underline;
+}
+
+.yl_css a:hover {
+    color: #313131;
+    text-decoration: underline;
+}
+
+.gzbox {
+    width: 793px;
+    margin: 0px auto;
+}
+
+.my_circle {
+    font-size: 18px;
+    font-family: microsoft yahei;
+    color: #383838;
+    height: 35px;
+    line-height: 35px;
+    margin: 28px 0px;
+}
+
+.more_gd {
+    font-size: 12px;
+    font-family: microsoft yahei;
+    color: #7d7d7d;
+    height: 35px;
+    line-height: 35px;
+    margin: 28px 0px;
+}
+
+.more_gd a {
+    color: #7d7d7d;
+    text-decoration: none;
+}
+
+.more_gd a:hover {
+    color: #7d7d7d;
+    text-decoration: underline;
+}
+
+.my_Information_box {
+    width: 512px;
+    float: left;
+    margin-left: 25px;
+}
+
+.my_grzx_box {
+    width: 100%;
+    border-bottom: solid 1px #e5e4e2;
+    padding: 24px 0px;
+}
+
+.text_wz2 {
+    color: #585757;
+    font-size: 14px;
+    font-family: microsoft yahei;
+    width: 295px;
+    padding-right: 8px;
+}
+
+.text_wz2 a {
+    color: #585757;
+    text-decoration: none;
+}
+
+.text_wz2 a:hover {
+    color: #585757;
+    text-decoration: underline;
+}
+
+.my_text_style {
+    height: 25px;
+}
+
+.project_zan {
+    width: 66px;
+    margin: 80px auto 0px auto;
+}
+
+.user_body_middle2 {
+    font-family: microsoft yahei, Arial;
+    width: 1108px;
+    margin: 0 auto;
+}
+
+.left_atc {
+    width: 480px;;
+    height: 46px;
+    margin-top: -46px;
+    font-weight: bold;
+    font-size: 21px;
+    font-family: microsoft yahei, Arial;
+    color: #fff;
+    background: rgba(0, 0, 0, 0.5) none repeat scroll 0 0 !important;
+    filter: Alpha(opacity=40);
+    /*opacity: 0.4;*/
+    background-color: #000000;
+    -ms-filter: 'progid:DXImageTransform.Microsoft.Alpha(opacity=40)';
+    position: absolute;
+}
+
+.left_atc_01 {
+    float: right;
+    margin-top: 15px;
+    font-size: 15px;
+    margin-right: 5px;
+}
+
+.left_atc_02 {
+    float: right;
+    margin-top: 13px;
+    width: 380px;
+    font-size: 19px;
+}
+
+.sq_ly {
+    width: 67px;
+    height: 21px;
+    text-align: center;
+    line-height: 21px;
+    background: #f37a2b;
+    color: #fff;
+    font-size: 12px;
+    position: absolute;
+    left: 2px;
+    top: 0px;
+}
+
+.sy_all_ly {
+    height: 42px;
+    color: #959494;
+    line-height: 42px;
+    font-size: 14px;
+    color: #959494;
+    font-family: microsoft yahei;
+    float: left;
+    padding: 0px 25px;
+}
+
+.on_ly {
+    height: 42px;
+    padding: 0px 25px;
+    line-height: 42px;
+    font-size: 14px;
+    color: #4e4e4e;
+    border-left: solid 1px #eaeaea;
+    border-right: solid 1px #eaeaea;
+    font-family: microsoft yahei;
+    float: left;
+    background: url(http://www.chinahtz.com/htz/images/on_blue.jpg) repeat-x;
+}
+
+.lynew_box {
+    background: #FFF;
+}
+
+.dq_area {
+    width: 88px;
+    height: 44px;
+    margin-top: 2px;
+    border-right: solid 3px #eeeeee;
+    text-align: center;
+    color: #454545;
+    font-size: 16px;
+    font-family: microsoft yahei;
+}
+
+.sy_lytext {
+    padding-left: 25px;
+}
+
+.infor_title_ly {
+    font-size: 16px;
+    color: #454545;
+    height: 28px;
+    font-family: microsoft yahei, Arial;
+}
+
+.infor_title_ly a {
+    color: #1e1e1e;
+    text-decoration: none;
+}
+
+.infor_title_ly a:hover {
+    color: #1e1e1e;
+    text-decoration: underline;
+}
+
+.oragne_pic_ly {
+    width: 59px;
+    height: 22px;
+    background: url(http://www.chinahtz.com/htz/images/small_orange.png) no-repeat;
+    text-align: center;
+    font-family: microsoft yahei;
+    font-size: 12px;
+    color: #FFF;
+    font-family: microsoft yahei;
+    line-height: 22px;
+}
+
+.green_pic_ly {
+    width: 59px;
+    height: 22px;
+    background: url(http://www.chinahtz.com/htz/images/small_green.png) no-repeat;
+    text-align: center;
+    font-family: microsoft yahei;
+    font-size: 12px;
+    color: #FFF;
+    font-family: microsoft yahei;
+    line-height: 22px;
+}
+
+.gray_pic_ly {
+    width: 59px;
+    height: 22px;
+    background: url(http://www.chinahtz.com/htz/images/small_gray.png) no-repeat;
+    text-align: center;
+    font-family: microsoft yahei;
+    font-size: 12px;
+    color: #FFF;
+    font-family: microsoft yahei;
+    line-height: 22px;
+}
+
+.width1106_2 {
+    width: 1106px;
+    margin: 0px auto 0px auto;
+    padding: 50px 0px 34px 18px;
+}
+
+.bt_cs_2 {
+    text-align: left;
+    font-size: 28px;
+    font-family: microsoft yahei;
+    color: #171717;
+    height: 45px;
+}
+
+.search_box_cs {
+    margin-right: 12px;
+    width: 207px;
+    height: 33px;
+    background: url(http://www.chinahtz.com/htz/images/ss_kk.jpg) no-repeat;
+    padding-top: 5px;
+    padding-left: 15px;
+    padding-right: 10px;
+}
+
+.srk_cs {
+    float: left;
+    width: 176px;
+    height: 30px;
+}
+
+.srk_cs input {
+    line-height: 28px;
+    height: 28px;
+    width: 176px;
+    border: 0px;
+    color: #787878;
+    font-size: 14px;
+    outline: none;
+}
+
+.ss_an {
+    float: right;
+    width: 22px;
+    padding-top: 5px;
+}
+
+.sskk {
+    width: 300px;
+    position: relative;
+}
+
+.ss_cs {
+    position: absolute;
+    right: 55px;
+    top: 7px;
+}
+
+.number_bx {
+    width: auto;
+    height: 23px;
+    background: #3b70e0;
+    -moz-border-radius: 5px; /* Gecko browsers */
+    -webkit-border-radius: 5px; /* Webkit browsers */
+    border-radius: 5px; /* W3C syntax */
+    text-align: center;
+    line-height: 23px;
+    color: #FFF;
+    font-size: 14px;
+    font-family: microsoft yahei;
+    float: left;
+    margin-right: 15px;
+    padding-left: 5px;
+    padding-right: 5px;
+
+}
+
+.zhbox {
+    float: left;
+    width: 720px
+}
+
+.ml_cs {
+    font-size: 14px;
+    color: #666666;
+    font-family: microsoft yahei;
+    color: #666666;
+    float: left;
+    height: 23px;
+    line-height: 23px;
+    margin-right: 8px;
+}
+
+.ml_cs a {
+    color: #666666;
+    text-decoration: none;
+    display: block;
+    padding: 2px 5px;
+}
+
+.ml_cs .ON_line {
+    color: #fff;
+    text-decoration: none;
+    display: block;
+    background: #3b70e0;
+    padding: 2px 5px;
+    -moz-border-radius: 5px; /* Gecko browsers */
+    -webkit-border-radius: 5px; /* Webkit browsers */
+    border-radius: 5px;
+}
+
+.ml_cs a:hover {
+    color: #fff;
+    text-decoration: none;
+    display: block;
+    background: #3b70e0;
+    padding: 2px 5px;
+    -moz-border-radius: 5px; /* Gecko browsers */
+    -webkit-border-radius: 5px; /* Webkit browsers */
+    border-radius: 5px; /* W3C syntax */
+}
+
+.xf_cs {
+    margin-top: 2px;
+}
+
+.ml_cs2 {
+    font-size: 14px;
+    color: #666666;
+    font-family: microsoft yahei;
+    color: #666666;
+    float: left;
+    height: 23px;
+    line-height: 23px;
+    width: 70px;
+}
+
+.ml_cs2 a {
+    color: #666666;
+    text-decoration: none;
+}
+
+.ml_cs2 a:hover {
+    color: #666666;
+    text-decoration: underline;
+}
+
+.font_dx {
+    font-size: 12px;
+}
+
+.ppd {
+    color: #999999;
+    font-size: 12px;
+    padding-right: 21px;
+}
+
+.ppd span {
+    color: #e46a4a;
+    font-size: 20px;
+    font-family: Century Gothic;
+}
+
+.name_xm {
+    text-align: right;
+    font-size: 14px;
+    color: #333333;
+    font-family: microsoft yahei;
+    line-height: 28px;
+    padding-right: 11px;
+    padding-left: 27px;
+}
+
+.sskk_cs {
+    width: 70px;
+    height: 30px;
+    background: url(http://www.chinahtz.com/htz/images/ssk.jpg) no-repeat;
+    line-height: 28px;
+    text-align: center;
+    font-family: microsoft yahei;
+    color: #787777;
+    margin-left: 15px;
+    font-size: 14px;
+}
+
+.sskk_cs a {
+    color: #787777;
+    text-decoration: none;
+}
+
+.sskk_cs a:hover {
+    color: #19459d;
+    text-decoration: none;
+}
+
+.qh_box {
+    width: 1104px;
+    height: 45px;
+    border-bottom: solid 3px #bdbdbd;
+    margin: 0px auto 26px auto;
+    padding: 0px;
+}
+
+.xm_menu {
+    line-height: 45px;
+    font-size: 16px;
+    color: #3d3d3d;
+    font-family: microsoft yahei;
+    width: 92px;
+    text-align: center;
+}
+
+.xm_menu a {
+    color: #3d3d3d;
+    text-decoration: none;
+}
+
+.xm_menu a:hover {
+    color: #3d3d3d;
+    text-decoration: none;
+}
+
+.xm_menu .on_xm {
+    line-height: 45px;
+    font-size: 16px;
+    color: #FFF;
+    font-family: microsoft yahei;
+    width: 92px;
+    text-align: center;
+    display: block;
+    background: #3b70e0;
+    border-radius: 10px 10px 0 0;
+}
+
+.xm_menu .on_xm a:hover {
+    color: #FFF;
+    text-decoration: none;
+}
+
+.tz_menu {
+    line-height: 45px;
+    font-size: 16px;
+    color: #3d3d3d;
+    font-family: microsoft yahei;
+    width: 182px;
+    text-align: center;
+}
+
+.tz_menu a {
+    color: #3d3d3d;
+    text-decoration: none;
+}
+
+.tz_menu a:hover {
+    color: #3d3d3d;
+    text-decoration: none;
+}
+
+.tz_menu .tz_xm {
+    line-height: 45px;
+    font-size: 16px;
+    color: #45b0e6;
+    font-family: microsoft yahei;
+    width: 182px;
+    text-align: center;
+    border-bottom: solid 3px #45b0e6;
+    display: block;
+}
+
+.tzr_box {
+    width: 512px;
+    height: 135px;
+    margin-top: 45px;
+    padding-left: 40px;
+}
+
+.photo_tx {
+    width: 114px;
+    height: 113px;
+    background: url(http://www.chinahtz.com/htz/images/rw_bj.jpg) no-repeat;
+    padding-left: 6px;
+    padding-top: 6px;
+}
+
+.namber_box {
+    padding-top: 10px;
+    padding-left: 9px;
+}
+
+.width392 {
+    width: 392px;
+}
+
+.mz_name a {
+    color: #19459d;
+    text-decoration: none;
+}
+
+.mz_name a:hover {
+    color: #19459d;
+    text-decoration: underline;
+}
+
+.padd_29 {
+    padding-left: 29px;
+}
+
+.company_name {
+    color: #19459d;
+    line-height: 21px;
+    font-family: microsoft yahei;
+    font-size: 14px;
+}
+
+.company_name a {
+    color: #19459d;
+    text-decoration: none;
+}
+
+.company_name a:hover {
+    color: #19459d;
+    text-decoration: underline;
+}
+
+.company_zc {
+    color: #515151;
+    line-height: 21px;
+    font-family: microsoft yahei;
+    font-size: 14px;
+}
+
+.tj_box {
+    color: #808080;
+    padding: 0px 20px 0px 20px;
+    text-align: center;
+}
+
+.tj_box span {
+    font-weight: bold;
+    font-size: 16px;
+    color: #333333;
+}
+
+.tj_box span a {
+    color: #333333;
+    text-decoration: none;
+}
+
+.tj_box span a:hover {
+    color: #333333;
+    text-decoration: underline;
+}
+
+.line_space {
+    font-size: 0px;
+    width: 1px;
+    height: 33px;
+    background: #d9d9d9;
+}
+
+.tz_Ly {
+    color: #515151;
+    line-height: 21px;
+    font-family: microsoft yahei;
+    font-size: 14px;
+    padding-left: 29px;
+    height: 42px;
+    width: 285px;
+}
+
+.Interest_title {
+    width: 246px;
+    height: 44px;
+    font-size: 18px;
+    font-family: microsoft yahei;
+    color: #3662c0;
+    border-bottom: solid 1px #d9d9d9;
+    line-height: 41px;
+}
+
+.more_box {
+    width: 246px;
+    height: 23px;
+    border-bottom: solid 1px #45b0e6;
+    margin-top: 40px;
+}
+
+.more_box dl {
+    width: 86px;
+    height: 23px;
+    line-height: 23px;
+    margin: 0px auto;
+    background: #45b0e6;
+    font-size: 14px;
+    color: #FFF;
+    font-family: microsoft yahei;
+    text-align: center;
+}
+
+.more_box dl a {
+    color: #FFF;
+    text-decoration: none;
+    font-size: 14px;
+    display: block;
+    background: #45b0e6;
+}
+
+.more_box dl a:hover {
+    color: #FFF;
+    text-decoration: none;
+    font-size: 14px;
+    background: #40a9de;
+}
+
+.more_box dl dt {
+    font-size: 14px;
+    background: url(http://www.chinahtz.com/htz/images/left_jt.gif) no-repeat 73px 9px;
+}
+
+.spacer_hg {
+    line-height: 30px;
+}
+
+.invet_box {
+    width: 1071px;
+    border-top: solid 1px #d7dde0;
+    background: #ffffff;
+    border-left: solid 1px #d7dde0;
+    border-right: solid 1px #d7dde0;
+    margin: 0px auto;
+    padding: 20px 0px 30px 33px;
+}
+
+.tzr_xx {
+    width: 390px;
+    margin-left: 37px;
+}
+
+.xx_bk {
+    border-bottom: solid 1px #e9e9e9;
+    height: 35px;
+    margin-bottom: 14px;
+}
+
+.gzs {
+    color: #8d8d8d;
+    font-size: 14px;
+    font-family: microsoft yahei;
+    padding-left: 36px;
+    line-height: 30px;
+}
+
+.Attention_big {
+    width: 119px;
+    height: 48px;
+    background: url(http://www.chinahtz.com/htz/images/gz_big.jpg) no-repeat 0px 0px;
+}
+
+.Attention_big a {
+    width: 64px;
+    height: 48px;
+    background: url(http://www.chinahtz.com/htz/images/gz_big.jpg) no-repeat 0px 0px;
+    font-size: 18px;
+    text-decoration: none;
+    line-height: 47px;
+    color: #FFF;
+    display: block;
+    font-family: microsoft yahei;
+    padding-left: 55px;
+}
+
+.Attention_big a:hover {
+    width: 64px;
+    height: 48px;
+    background: url(http://www.chinahtz.com/htz/images/gz_big.jpg) no-repeat 0px -48px;
+    font-size: 18px;
+    text-decoration: none;
+    line-height: 47px;
+    color: #FFF;
+    display: block;
+    font-family: microsoft yahei;
+    padding-left: 55px;
+}
+
+.letter_big {
+    width: 119px;
+    height: 48px;
+    background: url(http://www.chinahtz.com/htz/images/sx_big.jpg) no-repeat 0px 0px;
+    margin-left: 35px;
+}
+
+.letter_big a {
+    width: 64px;
+    height: 48px;
+    background: url(http://www.chinahtz.com/htz/images/sx_big.jpg) no-repeat 0px 0px;
+    font-size: 18px;
+    text-decoration: none;
+    line-height: 47px;
+    color: #FFF;
+    display: block;
+    font-family: microsoft yahei;
+    padding-left: 55px;
+}
+
+.letter_big a:hover {
+    width: 64px;
+    height: 48px;
+    background: url(http://www.chinahtz.com/htz/images/sx_big.jpg) no-repeat 0px -48px;
+    font-size: 18px;
+    text-decoration: none;
+    line-height: 47px;
+    color: #FFF;
+    display: block;
+    font-family: microsoft yahei;
+    padding-left: 55px;
+}
+
+.width410_cs {
+    width: 320px;
+    padding-left: 78px;
+    margin-top: 40px;
+}
+
+.ppd2 {
+    color: #999999;
+    font-size: 12px;
+    margin-top: 48px;
+}
+
+.ppd2 span {
+    color: #e46a4a;
+    font-size: 20px;
+    font-family: Century Gothic;
+}
+
+.tzr_name {
+    font-size: 20px;
+    color: #19459d;
+    font-family: microsoft yahei;
+    padding-bottom: 5px;
+}
+
+.tzr_zc {
+    font-size: 14px;
+    color: #515151;
+    font-family: microsoft yahei;
+    line-height: 25px;
+    padding-bottom: 8px;
+}
+
+.name_information_box {
+    padding: 25px 0px 20px 0px;
+    height: 124px;
+}
+
+.padd15 {
+    padding-left: 15px;
+    width: 90px;
+}
+
+.project_box {
+    width: 93px;
+    float: left;
+    height: 30px;
+    background: url(http://www.chinahtz.com/htz/images/l_white.jpg) no-repeat;
+    line-height: 30px;
+    text-align: center;
+    color: #FFF;
+    font-family: microsoft yahei;
+    font-size: 14px;
+}
+
+.project_box a {
+    color: #737373;
+    text-decoration: none;
+}
+
+.project_box a:hover {
+    color: #737373;
+    text-decoration: none;
+}
+
+.Investor_box {
+    width: 91px;
+    height: 30px;
+    float: left;
+    background: url(http://www.chinahtz.com/htz/images/m_blue.jpg) no-repeat;
+    line-height: 30px;
+    text-align: center;
+    color: #FFF;
+    font-family: microsoft yahei;
+    font-size: 14px;
+}
+
+.Investor_box a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.Investor_box a:hover {
+    color: #fff;
+    text-decoration: none;
+}
+
+.Achievements_box {
+    width: 93px;
+    height: 30px;
+    float: left;
+    background: url(http://www.chinahtz.com/htz/images/r_white.jpg) no-repeat;
+    line-height: 30px;
+    text-align: center;
+    color: #FFF;
+    font-family: microsoft yahei;
+    font-size: 14px;
+}
+
+.Achievements_box a {
+    color: #737373;
+    text-decoration: none;
+}
+
+.Achievements_box a:hover {
+    color: #737373;
+    text-decoration: none;
+}
+
+.project_box2 {
+    width: 93px;
+    height: 30px;
+    float: left;
+    background: url(http://www.chinahtz.com/htz/images/l_blue.jpg) no-repeat;
+    line-height: 30px;
+    text-align: center;
+    color: #FFF;
+    font-family: microsoft yahei;
+    font-size: 14px;
+}
+
+.project_box2 a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.project_box2 a:hover {
+    color: #fff;
+    text-decoration: none;
+}
+
+.Investor_box2 {
+    width: 91px;
+    height: 30px;
+    float: left;
+    background: url(http://www.chinahtz.com/htz/images/m_white.jpg) no-repeat;
+    line-height: 30px;
+    text-align: center;
+    color: #FFF;
+    font-family: microsoft yahei;
+    font-size: 14px;
+}
+
+.Investor_box2 a {
+    color: #737373;
+    text-decoration: none;
+}
+
+.Investor_box2 a:hover {
+    color: #737373;
+    text-decoration: none;
+}
+
+.Achievements_box2 {
+    width: 93px;
+    height: 30px;
+    float: left;
+    background: url(http://www.chinahtz.com/htz/images/r_blue.jpg) no-repeat;
+    line-height: 30px;
+    text-align: center;
+    color: #FFF;
+    font-family: microsoft yahei;
+    font-size: 14px;
+}
+
+.Achievements_box2 a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.Achievements_box2 a:hover {
+    color: #fff;
+    text-decoration: none;
+}
+
+.send_card {
+    width: 119px;
+    height: 36px;
+    background: url(http://www.chinahtz.com/htz/images/card_on.png) no-repeat;
+    margin-right: 7px;
+}
+
+.send_card a {
+    width: 70px;
+    height: 36px;
+    line-height: 33px;
+    padding-left: 49px;
+    display: block;
+    font-size: 14px;
+    color: #FFF;
+    font-family: microsoft yahei;
+    text-decoration: none;
+    background: url(http://www.chinahtz.com/htz/images/card_on.png) 0px 0px no-repeat;
+}
+
+.send_card a:hover {
+    width: 70px;
+    height: 36px;
+    line-height: 33px;
+    padding-left: 49px;
+    display: block;
+    font-size: 14px;
+    color: #FFF;
+    font-family: microsoft yahei;
+    text-decoration: none;
+    background: url(http://www.chinahtz.com/htz/images/card_on.png) 0px -36px no-repeat;
+}
+
+.finish_card {
+    width: 71px;
+    height: 36px;
+    background: url(http://www.chinahtz.com/htz/images/card_end.png) no-repeat;
+    margin-right: 7px;
+    color: #FFF;
+    font-size: 14px;
+    line-height: 34px;
+    padding-left: 48px;
+}
+
+.qhbt {
+    width: 793px;
+    height: 43px;
+    border-bottom: solid 3px #bdbdbd;
+    margin: 20px 0px 10px 0px;
+    padding: 0px;
+    background: #FFF;
+}
+
+.tzr_title {
+    line-height: 43px;
+    font-size: 18px;
+    color: #4a4a4a;
+    font-family: microsoft yahei;
+    width: 167px;
+    text-align: center;
+}
+
+.tzr_title a {
+    color: #4a4a4a;
+    text-decoration: none;
+}
+
+.tzr_title a:hover {
+    color: #2690c6;
+    text-decoration: none;
+}
+
+.tzr_title .tzr_title_on {
+    line-height: 43px;
+    font-size: 18px;
+    color: #2690c6;
+    font-family: microsoft yahei;
+    width: 167px;
+    text-align: center;
+    border-bottom: solid 3px #45b0e6;
+    display: block;
+}
+
+.my_card {
+    color: #444444;
+    background: url(http://www.chinahtz.com/htz/images/mp.jpg) 0px 3px no-repeat;
+    height: 20px;
+    line-height: 20px;
+    text-align: left;
+    padding-left: 30px;
+    font-size: 14px;
+    padding-right: 28px;
+    margin-top: 15px;
+}
+
+.my_card a {
+    color: #444444;
+    text-decoration: none;
+}
+
+.my_card a:hover {
+    color: #45b0e6;
+    text-decoration: none;
+}
+
+.my_card .tzr_title_on {
+    color: #2690c6;
+    font-family: microsoft yahei;
+    text-align: center;
+}
+
+.mp_content {
+    padding-bottom: 30px;
+}
+
+.card_box {
+    border-bottom: solid 1px #e5e4e2;
+    padding: 30px 0px;
+    height: 125px;
+}
+
+.card_xx {
+    width: 460px;
+    padding-left: 40px;
+    padding-right: 65px;
+}
+
+.ds_text {
+    color: #515151;
+    font-size: 14px;
+    padding-left: 30px;
+    line-height: 28px;
+    font-family: microsoft yahei;
+}
+
+.contact_box {
+    margin-top: 18px;
+}
+
+.contact_box p {
+    font-size: 14px;
+    font-family: microsoft yahei;
+    color: #515151;
+    line-height: 22px;
+}
+
+.jhmp {
+    width: 86px;
+    height: 28px;
+    margin-top: 65px;
+}
+
+.jhmp a {
+    border: solid 1px #45b0e6;
+    width: 86px;
+    height: 28px;
+    line-height: 28px;
+    text-align: center;
+    color: #45b0e6;
+    display: block;
+    text-decoration: none;
+}
+
+.jhmp a:hover {
+    border: solid 1px #45b0e6;
+    width: 86px;
+    height: 28px;
+    line-height: 28px;
+    text-align: center;
+    background: #45b0e6;
+    color: #ffffff;
+    display: block;
+    text-decoration: none;
+}
+
+.jhmp_end {
+    border: solid 1px #c2c2c2;
+    width: 86px;
+    height: 28px;
+    line-height: 28px;
+    text-align: center;
+    color: #848484;
+    margin-top: 65px;
+}
+
+.img_size {
+    width: 106px;
+    height: 106px;
+}
+
+.menu_width_complete00 {
+    text-align: center;
+    float: left;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 18px;
+    height: 71px;
+    text-decoration: none;
+    color: #1db0e8;
+}
+
+.close_btn_warmAndPrompt {
+    font-family: arial;
+    font-size: 20px;
+    font-weight: 700;
+    color: #585858;
+    text-decoration: none;
+    float: right;
+    padding-right: 4px;
+}
+
+.mz_name {
+    width: 150px;
+    overflow: hidden;
+    height: 21px;
+    white-space: nowrap;
+    -o-text-overflow: ellipsis;
+    text-overflow: ellipsis;
+    font-size: 20px;
+    font-family: microsoft yahei;
+    color: #19459d;
+    font-weight: 100;
+    padding-bottom: 3px;
+}
+
+.gzs {
+    width: 80px;
+    height: 30px;
+    overflow: hidden
+}
+
+.sortType {
+    color: #969696;
+    font-family: microsoft yahei;
+    font-size: 14px;
+    font-size: 14px;
+    border: 1px solid;
+    border-radius: 5px;
+    padding: 4px;
+    width: 150px;
+}
+
+.sortType_s {
+    float: right;
+    padding-right: 35px;
+    padding-top: 50px;
+}
+
+.sortType_l {
+    float: left;
+    width: 50%;
+}
+
+.ts {
+    height: 40px;
+    background-color: #aab8d3;
+    text-align: center;
+    padding: 10px 0 0 0;
+    margin: 0 auto;
+    color: #FFF;
+}
+
+.ts a {
+    color: #2c62aa;
+}
+
+.word {
+    text-align: center;
+    margin: 0 auto;
+    float: left;
+    padding: 7px 0 0 320px;
+}
+
+.X {
+    float: right;
+}
+
+.ts_0 {
+    width: 1080px;
+    margin: 0 auto;
+}
+
+.bfan {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin: -35px 0 0 0;
+    z-index: 1;
+    text-align: left;
+}
+
+/*è§†å±æ»šåŠ¨å›žæ”¾*/
+.hy {
+    height: 136px;
+    margin-left: 50px;
+}
+
+.any-class {
+    height: 136px;
+    float: left;
+    width: 880px;
+}
+
+.any-class ul {
+    float: left;
+}
+
+.any-class ul li {
+    float: left;
+    width: 253px;
+    height: 136px;
+    padding: 0 25px 0 25px;
+}
+
+.any-class ul li img {
+}
+
+.any-class-s {
+    height: 136px;
+    width: 609px;
+    margin: 0 auto;
+}
+
+.any-class-s ul li {
+    float: left;
+    width: 253px;
+    height: 136px;
+    padding: 0 25px 0 25px;
+}
+
+.prev {
+    float: left;
+    width: 53px;
+    height: 136px;
+    border: 0px;
+    padding: 0;
+    margin: 0;
+}
+
+.next {
+    float: left;
+    width: 53px;
+    height: 136px;
+    border: 0px;
+    padding: 0;
+    margin: 0;
+}
+
+.videoimg {
+    position: absolute;
+    top: 0;
+    left: 0
+}
+
+.videoimgDiv {
+    position: relative;
+    cursor: pointer
+}
+
+.bt {
+    font-size: 26px;
+    font-family: å¾®è½¯é›…é»‘, å®‹ä½“;
+    margin: 19px 0 0 15px;
+    color: #0d55cd;
+}
+
+.spt3 {
+    float: left;
+    margin-left: 80px;
+    cursor: pointer;
+    position: relative;
+}
+
+.time {
+    width: 500px;
+    font-size: 16px;
+    font-family: å¾®è½¯é›…é»‘, å®‹ä½“;
+    margin: 12px 0 0 15px;
+    color: #a1a1a1;
+}
+
+@charset "utf-8";
+
+a {
+    cursor: pointer;
+}
+
+img {
+    border: 0px;
+}
+
+.index_focus {
+    background: url(http://www.chinahtz.com/htz/images/index_focus.jpg) no-repeat;
+    width: 1440px;
+    height: 359px;
+    position: relative;
+    left: 50%;
+    margin-left: -720px;
+}
+
+.index_menu_bg {
+    background: url(http://www.chinahtz.com/htz/images/index_menu_bg.jpg) no-repeat;
+    width: 1440px;
+    height: 83px;
+    position: relative;
+    left: 50%;
+    margin-left: -720px;
+}
+
+.index_menu {
+    height: 83px;
+    font-size: 18px;
+    color: #FFFFFF;
+    width: 1110px;
+    position: absolute;
+    margin: auto;
+    left: 0;
+    right: 0;
+}
+
+.index_menu_width01 {
+    padding-left: 30px;
+    padding-right: 30px;
+    height: 83px;
+    float: left;
+    text-align: center;
+    line-height: 48px;
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+.index_menu_width {
+    width: 122px;
+    height: 83px;
+    float: left;
+    text-align: center;
+    line-height: 48px;
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+.index_menu_width02 {
+    padding-left: 30px;
+    padding-right: 30px;
+    height: 83px;
+    float: left;
+    text-align: center;
+    line-height: 48px;
+    text-decoration: none;
+    color: #FFFFFF;
+    background-color: #f7f7f7;
+    color: #1db0e8;
+}
+
+a.index_menu_width01:hover {
+    background-color: #f7f7f7;
+    color: #1db0e8;
+}
+
+a.index_menu_width01:active {
+    background-color: #f7f7f7;
+    color: #1db0e8;
+}
+
+a.index_menu_width:hover {
+    background-color: #f7f7f7;
+    color: #1db0e8;
+}
+
+a.index_menu_width:active {
+    background-color: #f7f7f7;
+    color: #1db0e8;
+}
+
+.index_menu_icon {
+    background-color: #FFFFFF;
+    width: 122px;
+    height: 24px;
+    margin: 0 auto;
+    padding-top: 11px;
+    margin: 0 auto;
+}
+
+.index_menu_icon01 {
+    background-image: url(http://www.chinahtz.com/htz/images/index_icon01.png);
+    width: 24px;
+    height: 24px;
+    margin: 0 auto;
+    margin-top: 11px;
+}
+
+.index_menu_icon02 {
+    background-image: url(http://www.chinahtz.com/htz/images/index_icon02.png);
+    width: 24px;
+    height: 24px;
+    margin: 0 auto;
+    margin-top: 11px;
+}
+
+.index_menu_icon03 {
+    background-image: url(http://www.chinahtz.com/htz/images/index_icon03.png);
+    width: 24px;
+    height: 24px;
+    margin: 0 auto;
+    margin-top: 11px;
+}
+
+.index_menu_icon04 {
+    background-image: url(http://www.chinahtz.com/htz/images/index_icon04.png);
+    width: 24px;
+    height: 24px;
+    margin: 0 auto;
+    margin-top: 11px;
+}
+
+.index_menu_icon05 {
+    background-image: url(http://www.chinahtz.com/htz/images/index_icon05.png);
+    width: 24px;
+    height: 24px;
+    margin: 0 auto;
+    margin-top: 11px;
+}
+
+.index_menu_icon06 {
+    background-image: url(http://www.chinahtz.com/htz/images/index_icon06.png);
+    width: 24px;
+    height: 24px;
+    margin: 0 auto;
+    margin-top: 11px;
+}
+
+.index_menu_icon07 {
+    background-image: url(http://www.chinahtz.com/htz/images/index_icon07.png);
+    width: 24px;
+    height: 24px;
+    margin: 0 auto;
+    margin-top: 11px;
+}
+
+.index_menu_icon08 {
+    background-image: url(http://www.chinahtz.com/htz/images/index_icon08.png);
+    width: 24px;
+    height: 24px;
+    margin: 0 auto;
+    margin-top: 11px;
+}
+
+.index_menu_icon09 {
+    background-image: url(http://www.chinahtz.com/htz/images/index_icon09.png);
+    width: 24px;
+    height: 24px;
+    margin: 0 auto;
+    margin-top: 11px;
+}
+
+.index_menu_icon011 {
+    background-image: url(http://www.chinahtz.com/htz/images/top_icon1.png);
+    width: 24px;
+    height: 24px;
+    margin: 0 auto;
+    margin-top: 11px;
+}
+
+.index_menu_icon021 {
+    background-image: url(http://www.chinahtz.com/htz/images/top_icon2.png);
+    width: 24px;
+    height: 24px;
+    margin: 0 auto;
+    margin-top: 11px;
+}
+
+.index_menu_icon031 {
+    background-image: url(http://www.chinahtz.com/htz/images/top_icon3.png);
+    width: 24px;
+    height: 24px;
+    margin: 0 auto;
+    margin-top: 11px;
+}
+
+.index_menu_icon041 {
+    background-image: url(http://www.chinahtz.com/htz/images/top_icon4.png);
+    width: 24px;
+    height: 24px;
+    margin: 0 auto;
+    margin-top: 11px;
+}
+
+.index_menu_icon051 {
+    background-image: url(http://www.chinahtz.com/htz/images/top_icon5.png);
+    width: 24px;
+    height: 24px;
+    margin: 0 auto;
+    margin-top: 11px;
+}
+
+.index_menu_icon061 {
+    background-image: url(http://www.chinahtz.com/htz/images/top_icon6.png);
+    width: 24px;
+    height: 24px;
+    margin: 0 auto;
+    margin-top: 11px;
+}
+
+.index_menu_icon071 {
+    background-image: url(http://www.chinahtz.com/htz/images/top_icon7.png);
+    width: 24px;
+    height: 24px;
+    margin: 0 auto;
+    margin-top: 11px;
+}
+
+.index_menu_icon081 {
+    background-image: url(http://www.chinahtz.com/htz/images/top_icon8.png);
+    width: 24px;
+    height: 24px;
+    margin: 0 auto;
+    margin-top: 11px;
+}
+
+.index_menu_icon091 {
+    background-image: url(http://www.chinahtz.com/htz/images/top_icon9.png);
+    width: 24px;
+    height: 24px;
+    margin: 0 auto;
+    margin-top: 11px;
+}
+
+.index_bg {
+    background-color: #f7f7f7;
+    width: 100%;
+}
+
+.index_bg_middle {
+    background-color: #f7f7f7;
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.index_title {
+    margin-top: 36px;
+    margin-bottom: 23px;
+    overflow: hidden;
+    width: 860px;
+    margin-left: 15px;
+}
+
+.index_title01 {
+    margin-top: 36px;
+    margin-bottom: 35px;
+    overflow: hidden;
+    width: 1115px;
+}
+
+.index_title_icon01 {
+    background: url(http://www.chinahtz.com/htz/images/index_title_icon01.png) no-repeat;
+    width: 36px;
+    height: 36px;
+    float: left;
+}
+
+.index_title_icon02 {
+    background: url(http://www.chinahtz.com/htz/images/index_title_icon02.png) no-repeat;
+    width: 36px;
+    height: 36px;
+    float: left;
+}
+
+.index_title_icon03 {
+    background: url(http://www.chinahtz.com/htz/images/index_title_icon03.png) no-repeat;
+    width: 36px;
+    height: 36px;
+    float: left;
+}
+
+.index_title_icon04 {
+    background: url(http://www.chinahtz.com/htz/images/index_title_icon04.png) no-repeat;
+    width: 36px;
+    height: 36px;
+    float: left;
+}
+
+.index_title_icon05 {
+    background: url(http://www.chinahtz.com/htz/images/index_title_icon05.png) no-repeat;
+    width: 36px;
+    height: 36px;
+    float: left;
+}
+
+.index_title_font {
+    font-size: 28px;
+    color: #171717;
+    float: left;
+    margin-left: 10px;
+    font-weight: bold;
+    line-height: 36px;
+    width: 180px;
+    text-decoration: none;
+}
+
+.index_title_p {
+    font-size: 12px;
+    color: #3e3e3e;
+    font-family: 宋体, Arial;
+    float: right;
+    line-height: 36px;
+    width: 180px;
+    text-align: right;
+    padding-right: 25px;
+    text-decoration: none;
+}
+
+.index_1_image {
+    width: 480px;
+    height: 324px;
+    float: left;
+}
+
+.index_1_bg {
+    width: 605px;
+    height: 324px;
+    float: right;
+    background-color: #FFFFFF;
+}
+
+.index_1_date_time {
+    float: left;
+    margin-left: 10px;
+    margin-top: 30px;
+    width: 100px;
+    text-align: center;
+    height: 48px;
+    background-color: #FFFFFF;
+    padding-right: 15px;
+    border-right: 4px solid #eeeeee;
+}
+
+.index_1_date {
+    font-size: 18px;
+    color: #515567;
+    background-color: #f6f6f6;
+    line-height: 28px;
+}
+
+.index_1_time {
+    font-size: 10px;
+    color: #515567;
+    background-color: #f6f6f6;
+    line-height: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.index_1_font {
+    margin-left: 15px;
+    width: 450px;
+    float: left;
+    margin-top: 28px;
+}
+
+.index_1_font01 {
+    font-size: 19px;
+    color: #284da2;
+    margin-bottom: 8px;
+    text-decoration: none;
+}
+
+a.index_1_font01:hover {
+    text-decoration: underline;
+}
+
+.index_1_font02 {
+    font-size: 12px;
+    color: #807f80;
+    line-height: 20px;
+    text-decoration: none;
+}
+
+.index_2 {
+    float: left;
+}
+
+.index_2_bg {
+    width: 274px;
+    height: 365px;
+    background-color: #FFFFFF;
+    font-size: 18px;
+    color: #284da2;
+    overflow: hidden;
+    box-shadow: 0px 2px 5px #BBBBBB;
+}
+
+.index_tz {
+    width: 251px;
+    height: 165px;
+    background-color: #FFFFFF;
+    font-size: 18px;
+    color: #284da2;
+    overflow: hidden;
+    text-align: center;
+    box-shadow: 0px 2px 5px #BBBBBB;
+}
+
+.index_2_p_div {
+    margin-bottom: 7px;
+}
+
+.index_2a {
+    width: 243px;
+    height: 111px;
+    margin: 0 auto;
+    margin-top: 5px;
+}
+
+.index_2b {
+    background: url(http://www.chinahtz.com/htz/images/index_2b.jpg) no-repeat;
+    width: 243px;
+    height: 111px;
+    margin: 0 auto;
+    margin-top: 3px;
+}
+
+.index_2c {
+    background: url(http://www.chinahtz.com/htz/images/index_2c.jpg) no-repeat;
+    width: 243px;
+    height: 111px;
+    margin: 0 auto;
+    margin-top: 3px;
+}
+
+.index_2d {
+    background: url(http://www.chinahtz.com/htz/images/index_2d.jpg) no-repeat;
+    width: 243px;
+    height: 111px;
+    margin: 0 auto;
+    margin-top: 3px;
+}
+
+.index_2a_title {
+    width: 200px;
+    line-height: 45px;
+    margin-top: 10px;
+    text-align: left;
+    margin: 0 auto;
+    margin-top: 3px;
+    color: #284da2;
+    padding-left: 25px;
+    text-decoration: none;
+}
+
+.index_tz_title {
+    width: 200px;
+    line-height: 45px;
+    color: #284da2;
+    text-decoration: none;
+}
+
+a.index_2a_title:hover {
+    text-decoration: underline;
+}
+
+.index_2a_p_with_enp {
+    width: 200px;
+    margin: 0 auto;
+    height: 130px;
+    word-wrap: break-word;
+    word-break: normal;
+}
+
+.index_2a_p_with {
+    width: 200px;
+    margin: 0 auto;
+    height: 130px;
+    word-wrap: break-word;
+    word-break: normal;
+}
+
+.index_2a_p_with_one {
+    width: 200px;
+    margin: 0 auto;
+    height: 96px;
+    word-wrap: break-word;
+    word-break: normal;
+    margin-bottom: 15px;
+}
+
+.index_2a_p_with_two {
+    width: 200px;
+    margin: 0 auto;
+    height: 50px;
+    margin-bottom: 15px;
+}
+
+.index_2a_p_with_two_x {
+    width: 200px;
+    margin: 0 auto 5px;
+    height: 40px;
+}
+
+.index_2a_p {
+    line-height: 24px;
+    vertical-align: middle;
+    font-size: 12px;
+    color: #515151;
+    text-decoration: none;
+}
+
+.index_2a_p_x {
+    line-height: 22px;
+    vertical-align: middle;
+    font-size: 12px;
+    color: #515151;
+    text-decoration: none;
+}
+
+.index_2a_p1 {
+    width: 200px;
+    line-height: 29px;
+    font-size: 12px;
+    color: #515151;
+    word-break: keep-all; /* 不换行 */
+    white-space: nowrap; /* 不换行 */
+    overflow: hidden; /* 内容超出宽度时隐藏超出部分的内容 */
+    text-overflow: ellipsis; /* 当对象内文本溢出时显示省略标记(...) ；需与overflow:hidden;一起使用。*/
+}
+
+.index_2_icon01 {
+    background: url(http://www.chinahtz.com/htz/images/index_2_icon01.png) no-repeat;
+    width: 20px;
+    height: 20px;
+    float: left;
+    margin-left: 10px;
+    margin-top: 5px;
+}
+
+.index_2_icon02 {
+    background: url(http://www.chinahtz.com/htz/images/index_2_icon02.png) no-repeat;
+    width: 20px;
+    height: 20px;
+    float: left;
+    margin-left: 10px;
+    margin-top: 5px;
+}
+
+.index_2a_button {
+    background: url(http://www.chinahtz.com/htz/images/index_2a_button.png) no-repeat;
+    width: 250px;
+    height: 47px;
+    line-height: 47px;
+    text-align: center;
+    color: #FFFFFF;
+    margin-top: 10px;
+    border: 0px;
+    font-size: 15px;
+    font-family: 微软雅黑, 宋体, Arial;
+
+}
+
+button.index_2a_button:hover {
+    background: url(http://www.chinahtz.com/htz/images/index_2a_button_a.png) no-repeat;
+    width: 250px;
+    height: 47px;
+    cursor: pointer;
+}
+
+.index_3a {
+    background: url(http://www.chinahtz.com/htz/images/index_3a.jpg) no-repeat;
+    width: 243px;
+    height: 111px;
+    margin: 0 auto;
+    margin-top: 5px;
+}
+
+.index_3b {
+    background: url(http://www.chinahtz.com/htz/images/index_3b.jpg) no-repeat;
+    width: 243px;
+    height: 111px;
+    margin: 0 auto;
+    margin-top: 3px;
+}
+
+.index_3c {
+    background: url(http://www.chinahtz.com/htz/images/index_3c.jpg) no-repeat;
+    width: 243px;
+    height: 111px;
+    margin: 0 auto;
+    margin-top: 3px;
+}
+
+.index_3d {
+    background: url(http://www.chinahtz.com/htz/images/index_3d.jpg) no-repeat;
+    width: 243px;
+    height: 111px;
+    margin: 0 auto;
+    margin-top: 3px;
+}
+
+.index_4a {
+    background: url(http://www.chinahtz.com/htz/images/index_4a.jpg) no-repeat;
+    width: 243px;
+    height: 111px;
+    margin: 0 auto;
+    margin-top: 5px;
+}
+
+.index_4b {
+    background: url(http://www.chinahtz.com/htz/images/index_4b.jpg) no-repeat;
+    width: 243px;
+    height: 111px;
+    margin: 0 auto;
+    margin-top: 3px;
+}
+
+.index_4c {
+    background: url(http://www.chinahtz.com/htz/images/index_4c.jpg) no-repeat;
+    width: 243px;
+    height: 111px;
+    margin: 0 auto;
+    margin-top: 3px;
+}
+
+.index_4d {
+    background: url(http://www.chinahtz.com/htz/images/index_4d.jpg) no-repeat;
+    width: 243px;
+    height: 111px;
+    margin: 0 auto;
+    margin-top: 3px;
+}
+
+.index_3_icon01 {
+    background: url(http://www.chinahtz.com/htz/images/index_3_icon01.png) no-repeat;
+    width: 20px;
+    height: 20px;
+    float: left;
+    margin-left: 5px;
+    margin-top: 2px;
+}
+
+.index_3_icon02 {
+    background: url(http://www.chinahtz.com/htz/images/index_3_icon02.png) no-repeat;
+    width: 20px;
+    height: 20px;
+    float: left;
+    margin-left: 5px;
+    margin-top: 4px;
+}
+
+.index_4left {
+    float: left;
+    width: 540px;
+}
+
+.index_4left_title {
+    text-align: center;
+    line-height: 48px;
+    font-family: 微软雅黑, 宋体;
+    height: 42px;
+    width: 135px;
+    margin-top: 1px;
+    color: #0880c2;
+    font-size: 18px;
+    float: left;
+    background: url(http://www.chinahtz.com/htz/images/index_tabe_bg01.png) no-repeat;
+}
+
+.index_4left_title_p {
+    color: #0880c2;
+    font-size: 12px;
+    line-height: 38px;
+    padding-right: 30px;
+    font-family: 宋体;
+    text-decoration: none;
+    float: right;
+}
+
+.form_right {
+    margin-right: 15px;
+}
+
+a.index_4left_title_p:hover {
+    color: #0880c2;
+    font-size: 12px;
+    line-height: 38px;
+    padding-right: 30px;
+    text-decoration: underline;
+    font-family: 宋体;
+    float: right;
+}
+
+.index_4left_bg {
+    width: 494px;
+    height: 320px;
+    background-color: #FFFFFF;
+    border: 1px solid #e6e6e6;
+    padding-left: 22px;
+    padding-right: 22px;
+    padding-top: 20px;
+    box-shadow: 0px 2px 0px #BBBBBB;
+    overflow: hidden;
+    border-top: none;
+}
+
+.index_4left_image {
+    width: 149px;
+    height: 96px;
+    float: left;
+    margin-right: 25px;
+    margin-bottom: 27px;
+}
+
+.index_4left_title_a {
+    color: #284da2;
+    text-decoration: none;
+}
+
+a.index_4left_title_a:hover {
+    text-decoration: underline;
+}
+
+.index_4left_title_right {
+    width: 318px;
+    line-height: 45px;
+    margin-top: 10px;
+    text-align: left;
+    margin: 0 auto;
+    margin-top: 3px;
+    font-size: 18px;
+    color: #284da2;
+    float: left;
+}
+
+.index_4left_p_right {
+    font-size: 12px;
+    color: #515151;
+    line-height: 20px;
+    text-decoration: none;
+}
+
+.index_4left_icon {
+    background: url(http://www.chinahtz.com/htz/images/index_4left_icon.png) no-repeat;
+    width: 16px;
+    height: 16px;
+    float: left;
+    margin-top: 7px;
+    margin-right: 5px;
+}
+
+.index_4left_line {
+    height: 32px;
+    margin-top: 1px;
+    border-bottom: 1px solid #f4f4f4;
+
+}
+
+.index_4left_p {
+    color: #454545;
+    font-size: 16px;
+    height: 35px;
+    margin-top: 4px;
+    text-decoration: none;
+    float: left;
+    width: 395px;
+}
+
+a.index_4left_p:hover {
+    text-decoration: underline;
+}
+
+.index_4left_p_time {
+    color: #777676;
+    font-size: 12px;
+    line-height: 20px;
+    margin-top: 6px;
+    float: right;
+}
+
+.index_4right {
+    float: right;
+    width: 539px;
+}
+
+.index_4right_title {
+    color: #0880c2;
+    font-size: 18px;
+    line-height: 38px;
+    margin-left: 25px;
+    float: left;
+}
+
+.index_4right_title_p {
+    color: #0880c2;
+    font-size: 12px;
+    line-height: 38px;
+    padding-right: 15px;
+    font-family: 宋体;
+    text-decoration: none;
+    float: right;
+}
+
+.index_4right_bg {
+    width: 494px;
+    height: 320px;
+    background-color: #FFFFFF;
+    border: 1px solid #e6e6e6;
+    padding-left: 22px;
+    padding-right: 22px;
+    padding-top: 20px;
+    box-shadow: 0px 2px 1px #BBBBBB;
+}
+
+.index_4right_p {
+    color: #454545;
+    font-size: 16px;
+    height: 32px;
+    margin-top: 8px;
+    width: 430px;
+}
+
+.index_4right_p01 {
+    color: #807f80;
+    font-size: 12px;
+    line-height: 20px;
+    float: right;
+    margin-bottom: 10px;
+    float: left;
+    font-family: 宋体;
+    text-decoration: none;
+}
+
+.index_4right_p_a {
+    text-decoration: none;
+    color: #454545;
+}
+
+a.index_4right_p_a:hover {
+    text-decoration: underline;
+}
+
+.index_4right_p_time {
+    color: #777676;
+    font-size: 12px;
+    line-height: 20px;
+    margin-top: -28px;
+    float: right;
+    width: 70px;
+}
+
+.index_4right_line {
+    border-bottom: 1px solid #EFEFEF;
+    height: 86px;
+    margin-bottom: 20px;
+    width: 470px;
+}
+
+.index_5 img {
+    width: 244px;
+    height: 128px;
+    margin: 0 auto;
+    margin-top: 4px;
+    border: 3px solid #E6E6E6;
+}
+
+.index_5 {
+    float: left;
+    font-size: 12px;
+    color: #666666;
+    line-height: 20px;
+    width: 250px;
+}
+
+.index_5_bg {
+    width: 249px;
+    height: 136px;
+/ / background-color: #e6e6e6;
+/ / overflow: hidden;
+}
+
+.index_5_title {
+    width: 235px;
+    font-size: 18px;
+    color: #000;
+    line-height: 36px;
+    text-decoration: none;
+    margin-top: 8px;
+}
+
+a.index_5_title:hover {
+    text-decoration: underline;
+}
+
+.index_5_p {
+    width: 235px;
+    color: #666666;
+    text-decoration: none;
+}
+
+/*企业项目*/
+.item_bg {
+    width: 1165px;
+    height: auto;
+    margin: 0 auto;
+}
+
+.item_left_body {
+    float: left;
+    width: 860px;
+    font-family: 微软雅黑, 宋体, Arial;
+}
+
+.item_2_bg {
+    width: 254px;
+    height: 382px;
+    background-color: #FFFFFF;
+    font-size: 17px;
+    color: #284da2;
+    overflow: hidden;
+    box-shadow: 0px 2px 1px #BBBBBB;
+    border: 1px solid #d5dbdf;
+/ / border-radius: 8 px;
+}
+
+.item_2a_title {
+    width: 230px;
+    line-height: 45px;
+    margin-top: 10px;
+    text-align: left;
+    margin: 0 auto;
+    color: #0880c2;
+    font-size: 17px;
+    padding-left: 11px;
+    text-decoration: none;
+}
+
+a.item_2a_title:hover {
+    text-decoration: underline;
+}
+
+.item_2a_p {
+    width: 230px;
+    margin-top: 10px;
+    margin: 0 auto;
+    padding-bottom: 10px;
+    margin-left: 12px;
+    width: 220px;
+}
+
+.item_2a_p_a {
+    line-height: 24px;
+    font-size: 12px;
+    color: #515151;
+    font-family: 宋体, Arial;
+    text-decoration: none;
+}
+
+.item_left_page {
+    margin-top: 60px;
+    margin-bottom: 80px;
+    height: 26px;
+    width: 835px;
+    text-align: right;
+}
+
+.item_left_page_725 {
+    margin-top: 60px;
+    margin-bottom: 80px;
+    height: 26px;
+    width: 735px;
+    text-align: right;
+}
+
+.item_image04 {
+    background: url(http://www.chinahtz.com/htz/images/item_image04.png) no-repeat;
+    width: 243px;
+    height: 111px;
+    margin: 0 auto;
+    margin-top: 5px;
+}
+
+.item_image05 {
+    background: url(http://www.chinahtz.com/htz/images/item_image05.png) no-repeat;
+    width: 243px;
+    height: 111px;
+    margin: 0 auto;
+    margin-top: 5px;
+}
+
+.item_image06 {
+    background: url(http://www.chinahtz.com/htz/images/item_image06.png) no-repeat;
+    width: 243px;
+    height: 111px;
+    margin: 0 auto;
+    margin-top: 5px;
+}
+
+.item_image07 {
+    background: url(http://www.chinahtz.com/htz/images/item_image07.png) no-repeat;
+    width: 243px;
+    height: 111px;
+    margin: 0 auto;
+    margin-top: 5px;
+}
+
+.item_image08 {
+    background: url(http://www.chinahtz.com/htz/images/item_image08.png) no-repeat;
+    width: 243px;
+    height: 111px;
+    margin: 0 auto;
+    margin-top: 5px;
+}
+
+.item_image09 {
+    background: url(http://www.chinahtz.com/htz/images/item_image09.png) no-repeat;
+    width: 243px;
+    height: 111px;
+    margin: 0 auto;
+    margin-top: 5px;
+}
+
+.item_menudiv {
+    border: #cccccc solid 1px;
+    background: #f5f5f5;
+    height: 781px;
+    box-shadow: 0px 2px 1px #BBBBBB;
+    margin-top: 60px;
+}
+
+.item_title_font {
+    font-size: 28px;
+    color: #171717;
+    float: left;
+    margin-left: 10px;
+    line-height: 36px;
+    width: 120px;
+    font-weight: bold;
+}
+
+.item_title_p {
+    font-size: 12px;
+    color: #666666;
+    font-family: 宋体, Arial;
+    line-height: 18px;
+    height: 18px;
+    float: left;
+    margin-top: 16px;
+}
+
+/*投资机构*/
+.fund_2a_title {
+    width: 240px;
+    line-height: 45px;
+    margin-top: 8px;
+    text-align: left;
+    padding-left: 11px;
+    font-size: 18px;
+}
+
+.fund_2a_title_a {
+    color: #284da2;
+    text-decoration: none;
+}
+
+a.fund_2a_title_a:hover {
+    text-decoration: underline;
+}
+
+.fund_2a_p {
+    width: 220px;
+    line-height: 22px;
+    font-size: 12px;
+    padding-left: 12px;
+    color: #515151;
+}
+
+.fund_2a_p_a {
+    color: #515151;
+    text-decoration: none;
+}
+
+.fund_image05 {
+    background: url(http://www.chinahtz.com/htz/images/fund_image05.png) no-repeat;
+    width: 243px;
+    height: 111px;
+    margin: 0 auto;
+    margin-top: 3px;
+}
+
+.fund_image06 {
+    background: url(http://www.chinahtz.com/htz/images/fund_image06.png) no-repeat;
+    width: 243px;
+    height: 111px;
+    margin: 0 auto;
+    margin-top: 3px;
+}
+
+.fund_image07 {
+    background: url(http://www.chinahtz.com/htz/images/fund_image07.png) no-repeat;
+    width: 243px;
+    height: 111px;
+    margin: 0 auto;
+    margin-top: 3px;
+}
+
+.fund_image08 {
+    background: url(http://www.chinahtz.com/htz/images/fund_image08.png) no-repeat;
+    width: 243px;
+    height: 111px;
+    margin: 0 auto;
+    margin-top: 3px;
+}
+
+.fund_image09 {
+    background: url(http://www.chinahtz.com/htz/images/fund_image09.png) no-repeat;
+    width: 243px;
+    height: 111px;
+    margin: 0 auto;
+    margin-top: 3px;
+}
+
+.fund_3_icon02 {
+    background: url(http://www.chinahtz.com/htz/images/index_3_icon02.png) no-repeat;
+    width: 20px;
+    height: 20px;
+    float: left;
+    margin-left: 5px;
+    margin-top: 4px;
+}
+
+.fund_2_bg {
+    width: 254px;
+    height: 390px;
+    background-color: #FFFFFF;
+    font-size: 18px;
+    color: #284da2;
+    overflow: hidden;
+    box-shadow: 0px 2px 1px #BBBBBB;
+    border: 1px solid #d5dbdf;
+/ / border-radius: 8 px;
+    padding-top: 10px;
+}
+
+.normal_01 {
+    background: url(http://www.chinahtz.com/htz/images/normal_01.png) no-repeat;
+    width: 243px;
+    height: 111px;
+    margin: 0 auto;
+    margin-top: 5px;
+}
+
+.normal_02 {
+    background: url(http://www.chinahtz.com/htz/images/normal_02.png) no-repeat;
+    width: 243px;
+    height: 111px;
+    margin: 0 auto;
+    margin-top: 5px;
+}
+
+.normal_03 {
+    background: url(http://www.chinahtz.com/htz/images/normal_03.png) no-repeat;
+    width: 243px;
+    height: 111px;
+    margin: 0 auto;
+    margin-top: 5px;
+}
+
+.normal_04 {
+    background: url(http://www.chinahtz.com/htz/images/normal_04.png) no-repeat;
+    width: 243px;
+    height: 111px;
+    margin: 0 auto;
+    margin-top: 5px;
+}
+
+.normal_05 {
+    background: url(http://www.chinahtz.com/htz/images/normal_05.png) no-repeat;
+    width: 243px;
+    height: 111px;
+    margin: 0 auto;
+    margin-top: 5px;
+}
+
+.normal_06 {
+    background: url(http://www.chinahtz.com/htz/images/normal_06.png) no-repeat;
+    width: 243px;
+    height: 111px;
+    margin: 0 auto;
+    margin-top: 5px;
+}
+
+.normal_07 {
+    background: url(http://www.chinahtz.com/htz/images/normal_07.png) no-repeat;
+    width: 243px;
+    height: 111px;
+    margin: 0 auto;
+    margin-top: 5px;
+}
+
+.normal_08 {
+    background: url(http://www.chinahtz.com/htz/images/normal_08.png) no-repeat;
+    width: 243px;
+    height: 111px;
+    margin: 0 auto;
+    margin-top: 5px;
+}
+
+.normal_09 {
+    background: url(http://www.chinahtz.com/htz/images/normal_09.png) no-repeat;
+    width: 243px;
+    height: 111px;
+    margin: 0 auto;
+    margin-top: 5px;
+}
+
+.index_icon_top_img {
+    margin-left: 1042px;
+    padding-top: 15px;
+    width: 122px;
+    height: 71px;
+}
+
+.icon_top_img {
+    top: 10px;
+    height: 61px;
+    width: 122px;
+    margin-left: 1082px;
+    padding-top: 15px;
+}
+
+.icon_top_img:hover {
+    top: 10px;
+    height: 61px;
+    width: 122px;
+    margin-left: 1082px;
+    padding-top: 15px;
+    background: rgb(60, 68, 107);
+}
+
+.icon_top_img_001 {
+    margin-left: 0px;
+    box-shadow: 1px 1px 5px 1px;
+    width: 48px;
+    height: 48px;
+    border-radius: 3px;
+}
+
+.icon_top {
+    position: absolute;
+    z-index: 111;
+    display: none;
+}
+
+.icon_top_imga {
+    margin-right: 0px;
+
+}
+
+.icon_top_bg {
+    width: 122px;
+    height: 62px;
+    background: #3c446b;
+    text-align: center;
+}
+
+.icon_top_li_icon {
+    background: url(http://www.chinahtz.com/htz/images/home_top_icon.png) no-repeat;
+    width: 16px;
+    height: 272px;
+    margin-left: 24px;
+    float: left;
+    margin-top: 10px;
+}
+
+.icon_top_li_icon_x {
+    background: url(http://www.chinahtz.com/htz/images/home_top_icon0.png) no-repeat;
+    width: 16px;
+    height: 272px;
+    margin-left: 24px;
+    float: left;
+    margin-top: 10px;
+}
+
+.icon_top_li_icon_1 {
+    background: url(http://www.chinahtz.com/htz/images/home_top_icon1.png) no-repeat;
+    width: 16px;
+    height: 272px;
+    margin-left: 24px;
+    float: left;
+    margin-top: 10px;
+}
+
+.icon_top_ul {
+    margin-left: 10px;
+    color: #ccc;
+    font-size: 13px;
+    height: 20px;
+    text-decoration: none;
+}
+
+a.icon_top_ul:hover {
+    color: #fff;
+}
+
+.icon_top_ul_a {
+    float: left;
+    margin-top: 5px;
+    line-height: 26px;
+    text-align: left;
+}
+
+#aa {
+
+    position: relative;
+}
+
+.core_border {
+    border: solid 1px rgb(140, 193, 235);
+    border-width: 1px;
+    width: 800px;
+    margin-left: 33px;
+    padding-top: 40px;
+    padding-bottom: 30px;
+    margin-bottom: 50px;
+}
+
+
+@charset "utf-8";
+/* CSS Document */
+img {
+    border: 0px;
+}
+
+.index_focus {
+    background: url(http://www.chinahtz.com/htz/images/index_focus.jpg) no-repeat;
+    width: 1440px;
+    height: 378px;
+    margin: 0 auto;
+    overflow: auto;
+}
+
+.index_menu_bg {
+    background: url(http://www.chinahtz.com/htz/images/index_menu_bg.jpg) no-repeat;
+    width: 1440px;
+    height: 83px;
+    position: relative;
+    left: 50%;
+    margin-left: -720px;
+}
+
+.index_menu {
+    height: 83px;
+    font-size: 18px;
+    color: #FFFFFF;
+    width: 1110px;
+    position: absolute;
+    margin: auto;
+    left: 0;
+    right: 0;
+}
+
+.index_menu_width01 {
+    padding-left: 30px;
+    padding-right: 30px;
+    height: 83px;
+    float: left;
+    text-align: center;
+    line-height: 48px;
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+.index_menu_width {
+    width: 122px;
+    height: 83px;
+    float: left;
+    text-align: center;
+    line-height: 48px;
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+.index_menu_width02 {
+    padding-left: 30px;
+    padding-right: 30px;
+    height: 83px;
+    float: left;
+    text-align: center;
+    line-height: 48px;
+    text-decoration: none;
+    color: #FFFFFF;
+    background-color: #f7f7f7;
+    color: #1db0e8;
+}
+
+a.index_menu_width01:hover {
+    background-color: #f7f7f7;
+    color: #1db0e8;
+}
+
+a.index_menu_width01:active {
+    background-color: #f7f7f7;
+    color: #1db0e8;
+}
+
+a.index_menu_width:hover {
+    background-color: #f7f7f7;
+    color: #1db0e8;
+}
+
+a.index_menu_width:active {
+    background-color: #f7f7f7;
+    color: #1db0e8;
+}
+
+.index_menu_icon {
+    background-color: #FFFFFF;
+    width: 122px;
+    height: 24px;
+    margin: 0 auto;
+    padding-top: 11px;
+    margin: 0 auto;
+}
+
+.index_menu_icon01 {
+    background-image: url(http://www.chinahtz.com/htz/images/index_icon01.png);
+    width: 24px;
+    height: 24px;
+    margin: 0 auto;
+    margin-top: 11px;
+}
+
+.index_menu_icon02 {
+    background-image: url(http://www.chinahtz.com/htz/images/index_icon02.png);
+    width: 24px;
+    height: 24px;
+    margin: 0 auto;
+    margin-top: 11px;
+}
+
+.index_menu_icon03 {
+    background-image: url(http://www.chinahtz.com/htz/images/index_icon03.png);
+    width: 24px;
+    height: 24px;
+    margin: 0 auto;
+    margin-top: 11px;
+}
+
+.index_menu_icon04 {
+    background-image: url(http://www.chinahtz.com/htz/images/index_icon04.png);
+    width: 24px;
+    height: 24px;
+    margin: 0 auto;
+    margin-top: 11px;
+}
+
+.index_menu_icon05 {
+    background-image: url(http://www.chinahtz.com/htz/images/index_icon05.png);
+    width: 24px;
+    height: 24px;
+    margin: 0 auto;
+    margin-top: 11px;
+}
+
+.index_menu_icon06 {
+    background-image: url(http://www.chinahtz.com/htz/images/index_icon06.png);
+    width: 24px;
+    height: 24px;
+    margin: 0 auto;
+    margin-top: 11px;
+}
+
+.index_menu_icon07 {
+    background-image: url(http://www.chinahtz.com/htz/images/index_icon07.png);
+    width: 24px;
+    height: 24px;
+    margin: 0 auto;
+    margin-top: 11px;
+}
+
+.index_menu_icon08 {
+    background-image: url(http://www.chinahtz.com/htz/images/index_icon08.png);
+    width: 24px;
+    height: 24px;
+    margin: 0 auto;
+    margin-top: 11px;
+}
+
+.index_menu_icon09 {
+    background-image: url(http://www.chinahtz.com/htz/images/index_icon09.png);
+    width: 24px;
+    height: 24px;
+    margin: 0 auto;
+    margin-top: 11px;
+}
+
+.index_menu_icon011 {
+    background-image: url(http://www.chinahtz.com/htz/images/top_icon1.png);
+    width: 24px;
+    height: 24px;
+    margin: 0 auto;
+    margin-top: 11px;
+}
+
+.index_menu_icon021 {
+    background-image: url(http://www.chinahtz.com/htz/images/top_icon2.png);
+    width: 24px;
+    height: 24px;
+    margin: 0 auto;
+    margin-top: 11px;
+}
+
+.index_menu_icon031 {
+    background-image: url(http://www.chinahtz.com/htz/images/top_icon3.png);
+    width: 24px;
+    height: 24px;
+    margin: 0 auto;
+    margin-top: 11px;
+}
+
+.index_menu_icon041 {
+    background-image: url(http://www.chinahtz.com/htz/images/top_icon4.png);
+    width: 24px;
+    height: 24px;
+    margin: 0 auto;
+    margin-top: 11px;
+}
+
+.index_menu_icon051 {
+    background-image: url(http://www.chinahtz.com/htz/images/top_icon5.png);
+    width: 24px;
+    height: 24px;
+    margin: 0 auto;
+    margin-top: 11px;
+}
+
+.index_menu_icon061 {
+    background-image: url(http://www.chinahtz.com/htz/images/top_icon6.png);
+    width: 24px;
+    height: 24px;
+    margin: 0 auto;
+    margin-top: 11px;
+}
+
+.index_menu_icon071 {
+    background-image: url(http://www.chinahtz.com/htz/images/top_icon7.png);
+    width: 24px;
+    height: 24px;
+    margin: 0 auto;
+    margin-top: 11px;
+}
+
+.index_menu_icon081 {
+    background-image: url(http://www.chinahtz.com/htz/images/top_icon8.png);
+    width: 24px;
+    height: 24px;
+    margin: 0 auto;
+    margin-top: 11px;
+}
+
+.index_menu_icon091 {
+    background-image: url(http://www.chinahtz.com/htz/images/top_icon9.png);
+    width: 24px;
+    height: 24px;
+    margin: 0 auto;
+    margin-top: 11px;
+}
+
+.index_bg {
+    background-color: #f7f7f7;
+    width: 100%;
+}
+
+.index_title {
+    margin-top: 36px;
+    margin-bottom: 23px;
+    overflow: hidden;
+    width: 860px;
+    margin-left: 15px;
+}
+
+.index_title01 {
+    margin-top: 0;
+    margin-bottom: 26px;
+    overflow: hidden;
+    width: 100%;
+}
+
+.index_title_icon01 {
+    background: url(http://www.chinahtz.com/htz/images/index_title_icon01.png) no-repeat;
+    width: 36px;
+    height: 36px;
+    float: left;
+}
+
+.index_title_icon02 {
+    background: url(http://www.chinahtz.com/htz/images/index_title_icon02.png) no-repeat;
+    width: 36px;
+    height: 36px;
+    float: left;
+}
+
+.index_title_icon03 {
+    background: url(http://www.chinahtz.com/htz/images/index_title_icon03.png) no-repeat;
+    width: 36px;
+    height: 36px;
+    float: left;
+}
+
+.index_title_icon04 {
+    background: url(http://www.chinahtz.com/htz/images/index_title_icon04.png) no-repeat;
+    width: 36px;
+    height: 36px;
+    float: left;
+}
+
+.index_title_icon05 {
+    background: url(http://www.chinahtz.com/htz/images/index_title_icon05.png) no-repeat;
+    width: 36px;
+    height: 36px;
+    float: left;
+}
+
+.index_title_font {
+    font-size: 28px;
+    color: #171717;
+    float: left;
+    margin-left: 10px;
+    font-weight: bold;
+    line-height: 36px;
+    width: 180px;
+    text-decoration: none;
+}
+
+.index_title_p {
+    font-size: 12px;
+    color: #3e3e3e;
+    font-family: 宋体, Arial;
+    float: right;
+    line-height: 36px;
+    width: 180px;
+    text-align: right;
+    padding-right: 25px;
+    text-decoration: none;
+}
+
+.index_1_image {
+    width: 552px;
+    height: 324px;
+    float: left;
+}
+
+.index_1_bg {
+    width: 588px;
+    height: 324px;
+    float: right;
+    background-color: #FFFFFF;
+}
+
+.index_1_date_time {
+    float: left;
+    margin-left: 10px;
+    margin-top: 30px;
+    width: 100px;
+    text-align: center;
+    height: 48px;
+    background-color: #FFFFFF;
+    padding-right: 15px;
+    border-right: 4px solid #eeeeee;
+}
+
+.index_1_date {
+    font-size: 18px;
+    color: #515567;
+    background-color: #ffffff;
+    line-height: 28px;
+}
+
+.index_1_time {
+    font-size: 10px;
+    color: #515567;
+    background-color: #ffffff;
+    line-height: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.index_1_font {
+    margin-left: 15px;
+    width: 433px;
+    float: left;
+    margin-top: 28px;
+}
+
+.index_1_font01 {
+    font-size: 19px;
+    color: #284da2;
+    margin-bottom: 8px;
+    text-decoration: none;
+}
+
+a.index_1_font01:hover {
+    text-decoration: underline;
+}
+
+.index_1_font02 {
+    font-size: 12px;
+    color: #807f80;
+    line-height: 20px;
+    text-decoration: none;
+}
+
+.index_2 {
+    float: left;
+}
+
+.index_2_p_div {
+    margin-bottom: 7px;
+}
+
+.index_2a {
+    width: 243px;
+    height: 111px;
+    margin: 0 auto;
+    margin-top: 5px;
+}
+
+.index_2b {
+    background: url(http://www.chinahtz.com/htz/images/index_2b.jpg) no-repeat;
+    width: 243px;
+    height: 111px;
+    margin: 0 auto;
+    margin-top: 3px;
+}
+
+.index_2c {
+    background: url(http://www.chinahtz.com/htz/images/index_2c.jpg) no-repeat;
+    width: 243px;
+    height: 111px;
+    margin: 0 auto;
+    margin-top: 3px;
+}
+
+.index_2d {
+    background: url(http://www.chinahtz.com/htz/images/index_2d.jpg) no-repeat;
+    width: 243px;
+    height: 111px;
+    margin: 0 auto;
+    margin-top: 3px;
+}
+
+a.index_2a_title:hover {
+    text-decoration: underline;
+}
+
+.index_2a_p_with_enp {
+    width: 200px;
+    margin: 0 auto;
+    height: 130px;
+    word-wrap: break-word;
+    word-break: normal;
+}
+
+.index_2a_p_with {
+    width: 200px;
+    margin: 0 auto;
+    height: 130px;
+    word-wrap: break-word;
+    word-break: normal;
+}
+
+.index_2a_p_with_one {
+    width: 200px;
+    margin: 0 auto;
+    height: 96px;
+    word-wrap: break-word;
+    word-break: normal;
+    margin-bottom: 15px;
+}
+
+.index_2a_p_with_two {
+    width: 200px;
+    margin: 0 auto;
+    height: 45px;
+    margin-bottom: 15px;
+}
+
+.index_2a_p {
+    line-height: 24px;
+    vertical-align: middle;
+    font-size: 12px;
+    color: #515151;
+    text-decoration: none;
+}
+
+.index_2a_p1 {
+    width: 200px;
+    line-height: 29px;
+    font-size: 12px;
+    color: #515151;
+    word-break: keep-all; /* 不换行 */
+    white-space: nowrap; /* 不换行 */
+    overflow: hidden; /* 内容超出宽度时隐藏超出部分的内容 */
+    text-overflow: ellipsis; /* 当对象内文本溢出时显示省略标记(...) ；需与overflow:hidden;一起使用。*/
+}
+
+.index_2_icon01 {
+    background: url(http://www.chinahtz.com/htz/images/index_2_icon01.png) no-repeat;
+    width: 20px;
+    height: 20px;
+    float: left;
+    margin-left: 10px;
+    margin-top: 5px;
+}
+
+.index_2_icon02 {
+    background: url(http://www.chinahtz.com/htz/images/index_2_icon02.png) no-repeat;
+    width: 20px;
+    height: 20px;
+    float: left;
+    margin-left: 10px;
+    margin-top: 5px;
+}
+
+.index_2a_button {
+    background: url(http://www.chinahtz.com/htz/images/index_2a_button.png) no-repeat;
+    width: 250px;
+    height: 47px;
+    line-height: 47px;
+    text-align: center;
+    color: #FFFFFF;
+    margin-top: 10px;
+    border: 0px;
+    cursor: pointer;
+
+}
+
+button.index_2a_button:hover {
+    background: url(http://www.chinahtz.com/htz/images/index_2a_button_a.png) no-repeat;
+    width: 250px;
+    height: 47px;
+    cursor: pointer;
+}
+
+.index_3a {
+    background: url(http://www.chinahtz.com/htz/images/index_3a.jpg) no-repeat;
+    width: 243px;
+    height: 111px;
+    margin: 0 auto;
+    margin-top: 5px;
+}
+
+.index_3b {
+    background: url(http://www.chinahtz.com/htz/images/index_3b.jpg) no-repeat;
+    width: 243px;
+    height: 111px;
+    margin: 0 auto;
+    margin-top: 3px;
+}
+
+.index_3c {
+    background: url(http://www.chinahtz.com/htz/images/index_3c.jpg) no-repeat;
+    width: 243px;
+    height: 111px;
+    margin: 0 auto;
+    margin-top: 3px;
+}
+
+.index_3d {
+    background: url(http://www.chinahtz.com/htz/images/index_3d.jpg) no-repeat;
+    width: 243px;
+    height: 111px;
+    margin: 0 auto;
+    margin-top: 3px;
+}
+
+.index_4a {
+    background: url(http://www.chinahtz.com/htz/images/index_4a.jpg) no-repeat;
+    width: 243px;
+    height: 111px;
+    margin: 0 auto;
+    margin-top: 5px;
+}
+
+.index_4b {
+    background: url(http://www.chinahtz.com/htz/images/index_4b.jpg) no-repeat;
+    width: 243px;
+    height: 111px;
+    margin: 0 auto;
+    margin-top: 3px;
+}
+
+.index_4c {
+    background: url(http://www.chinahtz.com/htz/images/index_4c.jpg) no-repeat;
+    width: 243px;
+    height: 111px;
+    margin: 0 auto;
+    margin-top: 3px;
+}
+
+.index_4d {
+    background: url(http://www.chinahtz.com/htz/images/index_4d.jpg) no-repeat;
+    width: 243px;
+    height: 111px;
+    margin: 0 auto;
+    margin-top: 3px;
+}
+
+.index_3_icon01 {
+    background: url(http://www.chinahtz.com/htz/images/index_3_icon01.png) no-repeat;
+    width: 20px;
+    height: 20px;
+    float: left;
+    margin-left: 5px;
+    margin-top: 2px;
+}
+
+.index_3_icon02 {
+    background: url(http://www.chinahtz.com/htz/images/index_3_icon02.png) no-repeat;
+    width: 20px;
+    height: 20px;
+    float: left;
+    margin-left: 5px;
+    margin-top: 4px;
+}
+
+.index_4left {
+    float: left;
+    width: 540px;
+    border: solid 1px #e7e7e7;
+    background: #FFF;
+    box-shadow: 0 1px 0px #bbbbbb
+}
+
+.index_4left_title {
+    background: none transparent scroll repeat 0% 0%;
+    font-family: 微软雅黑, 宋体;
+    color: #ff450e;
+    font-size: 18px;
+    line-height: 38px;
+    margin-left: 0;
+    float: left;
+    height: 0;
+    margin-top: 0;
+    width: 135px;
+}
+
+.index_4left_title_p {
+    color: #959595;
+    font-size: 12px;
+    line-height: 38px;
+    padding-right: 30px;
+    font-family: 宋体;
+    text-decoration: none;
+    float: right;
+}
+
+.form_right {
+    margin-right: 15px;
+}
+
+a.index_4left_title_p:hover {
+    color: #0880c2;
+    font-size: 12px;
+    line-height: 38px;
+    padding-right: 30px;
+    text-decoration: underline;
+    font-family: 宋体;
+    float: right;
+}
+
+.index_4left_bg {
+    width: 494px;
+    height: 320px;
+    background-color: #FFFFFF;
+    padding-left: 22px;
+    padding-right: 22px;
+    padding-top: 20px;
+    overflow: hidden;
+}
+
+.index_4left_image {
+    width: 149px;
+    height: 96px;
+    float: left;
+    margin-right: 25px;
+    margin-bottom: 27px;
+}
+
+.index_4left_title_a {
+    color: #284da2;
+    text-decoration: none;
+}
+
+a.index_4left_title_a:hover {
+    text-decoration: underline;
+}
+
+.index_4left_title_right {
+    width: 318px;
+    line-height: 45px;
+    margin-top: 10px;
+    text-align: left;
+    margin: 0 auto;
+    margin-top: 3px;
+    font-size: 18px;
+    color: #284da2;
+    float: left;
+}
+
+.index_4left_title_right_x {
+    width: 368px;
+    line-height: 45px;
+    margin-top: 10px;
+    text-align: left;
+    margin: 0 auto;
+    font-size: 18px;
+    color: #284da2;
+    float: left;
+}
+
+.index_4left_p_right {
+    font-size: 12px;
+    color: #515151;
+    line-height: 20px;
+    text-decoration: none;
+}
+
+.index_4left_icon {
+    background: url(http://www.chinahtz.com/htz/images/index_4left_icon.png) no-repeat;
+    width: 16px;
+    height: 16px;
+    float: left;
+    margin-top: 7px;
+    margin-right: 5px;
+}
+
+.index_4left_line {
+    height: 35px;
+    margin-top: 1px;
+    border-bottom: 1px solid #f4f4f4;
+
+}
+
+.index_4left_line_x {
+    height: 32px;
+    margin-top: 5px;
+    border-bottom: 1px solid #f4f4f4;
+
+}
+
+.index_4left_line_xy {
+    height: 32px;
+    margin-top: 5px;
+    border-bottom: 1px solid #f4f4f4;
+
+}
+
+.index_4left_p {
+    color: #454545;
+    font-size: 16px;
+    height: 40px;
+    margin-top: 4px;
+    text-decoration: none;
+    float: left;
+    width: 395px;
+}
+
+.index_4left_p_x {
+    color: #454545;
+    font-size: 16px;
+    height: 30px;
+    margin-top: 4px;
+    text-decoration: none;
+    float: left;
+    width: 100%;
+}
+
+a.index_4left_p:hover {
+    text-decoration: underline;
+}
+
+.index_4left_p_time {
+    color: #777676;
+    font-size: 12px;
+    line-height: 20px;
+    margin-top: 6px;
+    float: right;
+}
+
+.index_4right {
+    float: right;
+    width: 540px;
+}
+
+.index_4right_title {
+    color: #0880c2;
+    font-size: 18px;
+    line-height: 38px;
+    margin-left: 25px;
+    float: left;
+}
+
+.index_4right_title_p {
+    color: #0880c2;
+    font-size: 12px;
+    line-height: 38px;
+    padding-right: 15px;
+    font-family: 宋体;
+    text-decoration: none;
+    float: right;
+}
+
+.index_4right_bg {
+    width: 494px;
+    height: 320px;
+    background-color: #FFFFFF;
+    border: 1px solid #e6e6e6;
+    padding-left: 22px;
+    padding-right: 22px;
+    padding-top: 20px;
+    box-shadow: 0px 2px 1px #BBBBBB;
+}
+
+.index_4right_p {
+    color: #454545;
+    font-size: 16px;
+    height: 32px;
+    margin-top: 8px;
+    width: 430px;
+}
+
+.index_4right_p01 {
+    color: #807f80;
+    font-size: 12px;
+    line-height: 20px;
+    float: right;
+    margin-bottom: 10px;
+    float: left;
+    font-family: 宋体;
+    text-decoration: none;
+}
+
+.index_4right_p_a {
+    text-decoration: none;
+    color: #454545;
+}
+
+a.index_4right_p_a:hover {
+    text-decoration: underline;
+}
+
+.index_4right_p_time {
+    color: #777676;
+    font-size: 12px;
+    line-height: 20px;
+    margin-top: -28px;
+    float: right;
+    width: 70px;
+}
+
+.index_4right_line {
+    border-bottom: 1px solid #EFEFEF;
+    height: 86px;
+    margin-bottom: 20px;
+    width: 470px;
+}
+
+.index_5 img {
+    width: 244px;
+    height: 128px;
+    margin: 0 auto;
+    margin-top: 4px;
+    border: 3px solid #E6E6E6;
+}
+
+.index_5 {
+    float: left;
+    font-size: 12px;
+    color: #666666;
+    line-height: 20px;
+    width: 250px;
+}
+
+.index_5_bg {
+    width: 249px;
+    height: 136px;
+/ / background-color: #e6e6e6;
+/ / overflow: hidden;
+}
+
+.index_5_title {
+    width: 235px;
+    font-size: 18px;
+    color: #000;
+    line-height: 36px;
+    text-decoration: none;
+    margin-top: 8px;
+}
+
+a.index_5_title:hover {
+    text-decoration: underline;
+}
+
+.index_5_p {
+    width: 235px;
+    color: #666666;
+    text-decoration: none;
+}
+
+/*企业项目*/
+.item_bg {
+    width: 1165px;
+    height: auto;
+    margin: 0 auto;
+}
+
+.item_left_body {
+    float: left;
+    width: 860px;
+    font-family: 微软雅黑, 宋体, Arial;
+}
+
+.item_2_bg {
+    width: 254px;
+    height: 382px;
+    background-color: #FFFFFF;
+    font-size: 17px;
+    color: #284da2;
+    overflow: hidden;
+    box-shadow: 0px 2px 1px #BBBBBB;
+    border: 1px solid #d5dbdf;
+/ / border-radius: 8 px;
+}
+
+.item_2a_title {
+    width: 230px;
+    line-height: 45px;
+    margin-top: 10px;
+    text-align: left;
+    margin: 0 auto;
+    color: #0880c2;
+    font-size: 17px;
+    padding-left: 11px;
+    text-decoration: none;
+}
+
+a.item_2a_title:hover {
+    text-decoration: underline;
+}
+
+.item_2a_p {
+    width: 230px;
+    margin-top: 10px;
+    margin: 0 auto;
+    padding-bottom: 10px;
+    margin-left: 12px;
+    width: 220px;
+}
+
+.item_2a_p_a {
+    line-height: 24px;
+    font-size: 12px;
+    color: #515151;
+    font-family: 宋体, Arial;
+    text-decoration: none;
+}
+
+.item_left_page {
+    margin-top: 60px;
+    margin-bottom: 80px;
+    height: 26px;
+    width: 835px;
+    text-align: right;
+}
+
+.item_left_page_725 {
+    margin-top: 60px;
+    margin-bottom: 80px;
+    height: 26px;
+    width: 735px;
+    text-align: right;
+}
+
+.item_image04 {
+    background: url(http://www.chinahtz.com/htz/images/item_image04.png) no-repeat;
+    width: 243px;
+    height: 111px;
+    margin: 0 auto;
+    margin-top: 5px;
+}
+
+.item_image05 {
+    background: url(http://www.chinahtz.com/htz/images/item_image05.png) no-repeat;
+    width: 243px;
+    height: 111px;
+    margin: 0 auto;
+    margin-top: 5px;
+}
+
+.item_image06 {
+    background: url(http://www.chinahtz.com/htz/images/item_image06.png) no-repeat;
+    width: 243px;
+    height: 111px;
+    margin: 0 auto;
+    margin-top: 5px;
+}
+
+.item_image07 {
+    background: url(http://www.chinahtz.com/htz/images/item_image07.png) no-repeat;
+    width: 243px;
+    height: 111px;
+    margin: 0 auto;
+    margin-top: 5px;
+}
+
+.item_image08 {
+    background: url(http://www.chinahtz.com/htz/images/item_image08.png) no-repeat;
+    width: 243px;
+    height: 111px;
+    margin: 0 auto;
+    margin-top: 5px;
+}
+
+.item_image09 {
+    background: url(http://www.chinahtz.com/htz/images/item_image09.png) no-repeat;
+    width: 243px;
+    height: 111px;
+    margin: 0 auto;
+    margin-top: 5px;
+}
+
+.item_menudiv {
+    border: #cccccc solid 1px;
+    background: #f5f5f5;
+    height: 781px;
+    box-shadow: 0px 2px 1px #BBBBBB;
+    margin-top: 60px;
+}
+
+.item_title_font {
+    font-size: 28px;
+    color: #171717;
+    float: left;
+    margin-left: 10px;
+    line-height: 36px;
+    width: 120px;
+    font-weight: bold;
+}
+
+.item_title_p {
+    font-size: 12px;
+    color: #666666;
+    font-family: 宋体, Arial;
+    line-height: 18px;
+    height: 18px;
+    float: left;
+    margin-top: 16px;
+}
+
+/*投资机构*/
+.fund_2a_title {
+    width: 240px;
+    line-height: 45px;
+    margin-top: 8px;
+    text-align: left;
+    padding-left: 11px;
+    font-size: 18px;
+}
+
+.fund_2a_title_a {
+    color: #284da2;
+    text-decoration: none;
+}
+
+a.fund_2a_title_a:hover {
+    text-decoration: underline;
+}
+
+.fund_2a_p {
+    width: 220px;
+    line-height: 22px;
+    font-size: 12px;
+    padding-left: 12px;
+    color: #515151;
+}
+
+.fund_2a_p_a {
+    color: #515151;
+    text-decoration: none;
+}
+
+.fund_image05 {
+    background: url(http://www.chinahtz.com/htz/images/fund_image05.png) no-repeat;
+    width: 243px;
+    height: 111px;
+    margin: 0 auto;
+    margin-top: 3px;
+}
+
+.fund_image06 {
+    background: url(http://www.chinahtz.com/htz/images/fund_image06.png) no-repeat;
+    width: 243px;
+    height: 111px;
+    margin: 0 auto;
+    margin-top: 3px;
+}
+
+.fund_image07 {
+    background: url(http://www.chinahtz.com/htz/images/fund_image07.png) no-repeat;
+    width: 243px;
+    height: 111px;
+    margin: 0 auto;
+    margin-top: 3px;
+}
+
+.fund_image08 {
+    background: url(http://www.chinahtz.com/htz/images/fund_image08.png) no-repeat;
+    width: 243px;
+    height: 111px;
+    margin: 0 auto;
+    margin-top: 3px;
+}
+
+.fund_image09 {
+    background: url(http://www.chinahtz.com/htz/images/fund_image09.png) no-repeat;
+    width: 243px;
+    height: 111px;
+    margin: 0 auto;
+    margin-top: 3px;
+}
+
+.fund_3_icon02 {
+    background: url(http://www.chinahtz.com/htz/images/index_3_icon02.png) no-repeat;
+    width: 20px;
+    height: 20px;
+    float: left;
+    margin-left: 5px;
+    margin-top: 4px;
+}
+
+.fund_2_bg {
+    width: 254px;
+    height: 390px;
+    background-color: #FFFFFF;
+    font-size: 18px;
+    color: #284da2;
+    overflow: hidden;
+    box-shadow: 0px 2px 1px #BBBBBB;
+    border: 1px solid #d5dbdf;
+/ / border-radius: 8 px;
+    padding-top: 10px;
+}
+
+.normal_01 {
+    background: url(http://www.chinahtz.com/htz/images/normal_01.png) no-repeat;
+    width: 243px;
+    height: 111px;
+    margin: 0 auto;
+    margin-top: 5px;
+}
+
+.normal_02 {
+    background: url(http://www.chinahtz.com/htz/images/normal_02.png) no-repeat;
+    width: 243px;
+    height: 111px;
+    margin: 0 auto;
+    margin-top: 5px;
+}
+
+.normal_03 {
+    background: url(http://www.chinahtz.com/htz/images/normal_03.png) no-repeat;
+    width: 243px;
+    height: 111px;
+    margin: 0 auto;
+    margin-top: 5px;
+}
+
+.normal_04 {
+    background: url(http://www.chinahtz.com/htz/images/normal_04.png) no-repeat;
+    width: 243px;
+    height: 111px;
+    margin: 0 auto;
+    margin-top: 5px;
+}
+
+.normal_05 {
+    background: url(http://www.chinahtz.com/htz/images/normal_05.png) no-repeat;
+    width: 243px;
+    height: 111px;
+    margin: 0 auto;
+    margin-top: 5px;
+}
+
+.normal_06 {
+    background: url(http://www.chinahtz.com/htz/images/normal_06.png) no-repeat;
+    width: 243px;
+    height: 111px;
+    margin: 0 auto;
+    margin-top: 5px;
+}
+
+.normal_07 {
+    background: url(http://www.chinahtz.com/htz/images/normal_07.png) no-repeat;
+    width: 243px;
+    height: 111px;
+    margin: 0 auto;
+    margin-top: 5px;
+}
+
+.normal_08 {
+    background: url(http://www.chinahtz.com/htz/images/normal_08.png) no-repeat;
+    width: 243px;
+    height: 111px;
+    margin: 0 auto;
+    margin-top: 5px;
+}
+
+.normal_09 {
+    background: url(http://www.chinahtz.com/htz/images/normal_09.png) no-repeat;
+    width: 243px;
+    height: 111px;
+    margin: 0 auto;
+    margin-top: 5px;
+}
+
+.index_icon_top_img {
+    margin-left: 1042px;
+    padding-top: 15px;
+    width: 122px;
+    height: 71px;
+}
+
+.icon_top_img {
+    margin-left: 1082px;
+    padding-top: 15px;
+    width: 122px;
+    height: 71px;
+}
+
+.icon_top_img_001 {
+    margin-left: 0px;
+
+}
+
+.icon_top {
+    position: absolute;
+    z-index: 111;
+    display: none;
+}
+
+.icon_top_imga {
+    margin-right: 0px;
+
+}
+
+.icon_top_bg {
+    width: 122px;
+    height: 62px;
+    background: #3c446b;
+    text-align: center;
+}
+
+.icon_top_li_icon {
+    background: url(http://www.chinahtz.com/htz/images/home_top_icon.png) no-repeat;
+    width: 16px;
+    height: 272px;
+    margin-left: 24px;
+    float: left;
+    margin-top: 10px;
+}
+
+.icon_top_li_icon_x {
+    background: url(http://www.chinahtz.com/htz/images/home_top_icon0.png) no-repeat;
+    width: 16px;
+    height: 272px;
+    margin-left: 24px;
+    float: left;
+    margin-top: 10px;
+}
+
+.icon_top_li_icon_1 {
+    background: url(http://www.chinahtz.com/htz/images/home_top_icon1.png) no-repeat;
+    width: 16px;
+    height: 272px;
+    margin-left: 24px;
+    float: left;
+    margin-top: 10px;
+}
+
+.icon_top_ul {
+    margin-left: 10px;
+    color: #ccc;
+    font-size: 13px;
+    height: 20px;
+    text-decoration: none;
+}
+
+a.icon_top_ul:hover {
+    color: #fff;
+}
+
+.icon_top_ul_a {
+    float: left;
+    margin-top: 5px;
+    line-height: 26px;
+    text-align: left;
+}
+
+#aa {
+
+    position: relative;
+}
+
+.core_border {
+    border: solid 1px rgb(140, 193, 235);
+    border-width: 1px;
+    width: 800px;
+    margin-left: 33px;
+    padding-top: 40px;
+    padding-bottom: 30px;
+    margin-bottom: 50px;
+}
+
+/*--banner 导航--*/
+#banner_btm {
+    width: 100%;
+    min-width: 1220px;
+    height: 83px;
+    background: #4764a5;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    filter: Alpha(Opacity=75);
+    Opacity: 0.75;
+}
+
+#navigation {
+    width: 100%;
+    min-width: 1220px;
+    height: 83px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+
+#index_nav {
+    width: 1098px;
+    height: 83px;
+    margin: 0 auto;
+    position: relative;
+    z-index: 9999;
+}
+
+#index_nav li {
+    width: 122px;
+    height: 83px;
+    float: left;
+    text-align: center;
+}
+
+#index_nav li a {
+    display: block;
+    width: 122px;
+    height: 83px;
+    background: none;
+    font-size: 18px;
+    color: #f7f7f7;
+    text-decoration: none;
+}
+
+#index_nav li a:hover {
+    display: block;
+    width: 122px;
+    height: 83px;
+    background: #f7f7f7;
+    color: #4764a5;
+    text-decoration: none;
+}
+
+#index_nav li a p {
+    display: block;
+    clear: both;
+    width: 122px;
+    height: 45px;
+}
+
+#index_nav li a p.a1 {
+    background: url(http://www.chinahtz.com/htz/images/nav_01.png) no-repeat center 15px #f7f7f7;
+    color: #1db0e8;
+    text-decoration: none;
+}
+
+#index_nav li a#curr {
+    display: block;
+    width: 122px;
+    height: 83px;
+    background: #f7f7f7;
+    color: #4764a5;
+    text-decoration: none;
+}
+
+/*
+#index_nav li a p.a1 { background:url(http://www.chinahtz.com/htz/images/index_icon01.png) no-repeat center 15px;}*/
+#index_nav li a p.a2 {
+    background: url(http://www.chinahtz.com/htz/images/index_icon02.png) no-repeat center 15px;
+}
+
+#index_nav li a p.a3 {
+    background: url(http://www.chinahtz.com/htz/images/index_icon03.png) no-repeat center 15px;
+}
+
+#index_nav li a p.a4 {
+    background: url(http://www.chinahtz.com/htz/images/index_icon04.png) no-repeat center 15px;
+}
+
+#index_nav li a p.a5 {
+    background: url(http://www.chinahtz.com/htz/images/index_icon05.png) no-repeat center 15px;
+}
+
+#index_nav li a p.a6 {
+    background: url(http://www.chinahtz.com/htz/images/index_icon06.png) no-repeat center 15px;
+}
+
+#index_nav li a p.a7 {
+    background: url(http://www.chinahtz.com/htz/images/index_icon07.png) no-repeat center 15px;
+}
+
+#index_nav li a p.a8 {
+    background: url(http://www.chinahtz.com/htz/images/index_icon08.png) no-repeat center 15px;
+}
+
+#index_nav li a p.a9 {
+    background: url(http://www.chinahtz.com/htz/images/index_icon09.png) no-repeat center 15px;
+}
+
+/*#index_nav li a:hover p.a1 { background:url(http://www.chinahtz.com/htz/images/top_icon1.png) no-repeat center 15px;}*/
+#index_nav li a:hover p.a2 {
+    background: url(http://www.chinahtz.com/htz/images/nav_02.png) no-repeat center 15px;
+}
+
+#index_nav li a:hover p.a3 {
+    background: url(http://www.chinahtz.com/htz/images/nav_03.png) no-repeat center 15px;
+}
+
+#index_nav li a:hover p.a4 {
+    background: url(http://www.chinahtz.com/htz/images/nav_04.png) no-repeat center 15px;
+}
+
+#index_nav li a:hover p.a5 {
+    background: url(http://www.chinahtz.com/htz/images/nav_05.png) no-repeat center 15px;
+}
+
+#index_nav li a:hover p.a6 {
+    background: url(http://www.chinahtz.com/htz/images/nav_06.png) no-repeat center 15px;
+}
+
+#index_nav li a:hover p.a7 {
+    background: url(http://www.chinahtz.com/htz/images/nav_07.png) no-repeat center 15px;
+}
+
+#index_nav li a:hover p.a8 {
+    background: url(http://www.chinahtz.com/htz/images/nav_08.png) no-repeat center 15px;
+}
+
+#index_nav li a:hover p.a9 {
+    background: url(http://www.chinahtz.com/htz/images/nav_09.png) no-repeat center 15px;
+}
+
+/*-----------------------新增2014.9.30--------------------*/
+
+.men_cd {
+    width: 890px;
+    height: 31px;
+    margin: 10px auto 0px auto;
+}
+
+.men_cd dl {
+    float: left;
+    width: 86px;
+    height: 31px;
+    line-height: 31px;
+    padding: 0px 20px;
+}
+
+.menu_ys {
+    color: #FFF;
+    font-size: 17px;
+    text-align: center;
+    font-family: 微软雅黑;
+    width: 86px;
+    height: 31px;
+    line-height: 31px;
+}
+
+.menu_ys a {
+    text-decoration: none;
+    color: #FFF;
+}
+
+.menu_ys a:hover {
+    color: #FFF;
+    font-size: 17px;
+    text-align: center;
+    font-family: 微软雅黑;
+    width: 86px;
+    height: 31px;
+    line-height: 31px;
+    display: block;
+    text-decoration: none;
+    color: #FFF;
+    background: url(http://www.chinahtz.com/htz/images/botton_blue.png) no-repeat;
+}
+
+.menu_ys .on_menu {
+    color: #FFF;
+    font-size: 17px;
+    text-align: center;
+    font-family: 微软雅黑;
+    width: 86px;
+    background: url(http://www.chinahtz.com/htz/images/botton_blue.png) no-repeat;
+    display: block;
+    height: 31px;
+    line-height: 31px;
+}
+
+.weixin {
+    position: fixed;
+    right: 0;
+    bottom: 0
+}
+
+.ly_box {
+    border: solid 1px #e2e2e2;
+    background: #FFF;
+    width: 1156px;
+    padding: 26px 24px 26px 18px;
+    margin-bottom: 45px;
+}
+
+.ly_box2 {
+    border: solid 1px #e2e2e2;
+    background: #FFF;
+    width: 1110px;
+    padding: 26px 0px;
+    margin-bottom: 45px;
+    margin-top: 47px;
+}
+
+.Investor_box_tzr {
+    width: 253px;
+    height: 312px;
+    background: #FFF;
+    overflow: hidden;
+    box-shadow: 0px 2px 5px #BBBBBB;
+}
+
+.investor_pic {
+    width: 160px;
+    height: 160px;
+    margin: 22px auto 0px auto;
+    padding: 0px;
+    font-size: 0px;
+}
+
+.investor_pic img {
+    width: 160px;
+    height: 160px;
+    border-radius: 50%;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+}
+
+.investor_name {
+    font-family: microsoft yahei;
+    font-size: 22px;
+    color: #000000;
+    text-align: center;
+    margin: 18px 0px 6px 0px;
+}
+
+.investor_Brief {
+    color: #818181;
+    font-size: 14px;
+    text-align: center;
+    line-height: 25px;
+    font-family: microsoft yahei;
+}
+
+@charset "utf-8";
+/* CSS Document */
+* {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+.tab1 {
+    width: 494px;
+    margin: 0px;
+    margin-top: 4px;
+}
+
+.tab_menu {
+    height: 42px;
+    font-size: 14px;
+    width: 541px;
+}
+
+.tab_menu li {
+    float: left;
+    text-align: center;
+    line-height: 42px;
+    cursor: pointer;
+    color: #444444;
+    overflow: hidden;
+    background: url(http://www.chinahtz.com/htz/css/images/index_tabe_bg02.png) no-repeat;
+    height: 42px;
+    width: 120px;
+    font-size: 18px;
+    font-family: 微软雅黑, 宋体;
+    margin-top: 1px;
+}
+
+.tab_menu li.off {
+    color: #0880c2;
+    text-align: center;
+    font-size: 18px;
+    line-height: 48px;
+    font-family: 微软雅黑, 宋体;
+    background: url(http://www.chinahtz.com/htz/css/images/index_tabe_bg01.png) no-repeat;
+    height: 42px;
+    width: 135px;
+    margin-top: 1px;
+}
+
+.tab_menudiv {
+    background-color: #FFFFFF;
+    border: 1px solid #E6E6E6;
+    box-shadow: 0 2px 0 #BBBBBB;
+    height: 315px;
+    padding-left: 20px;
+    padding-right: 22px;
+    padding-top: 22px;
+    width: 472px;
+    border-top: none;
+}
+
+.tab_menudiv div {
+    padding: 0px;
+}
+
+@charset "utf-8";
+/* CSS Document */
+html, body {
+    margin: 0px;
+    -webkit-text-size-adjust: none;
+}
+
+a {
+    cursor: pointer;
+}
+
+/*注册*/
+.body_middle_login {
+    width: 1130px;
+    margin: 0 auto;
+}
+
+.hei_h1 {
+    height: 28px;
+    width: 100%;
+}
+
+.hei_h2 {
+    height: 180px;
+    width: 100%;
+}
+
+.home_login {
+    width: 1103px;
+    height: 671px;
+    margin: 0 auto;
+    background-image: url(http://www.chinahtz.com/htz/images/loginbg.jpg);
+    background-repeat: no-repeat;
+}
+
+.home_login1 {
+    font-size: 16px;
+    color: #fff;
+    margin-top: 58px;
+    margin-left: 280px;
+    float: left;
+    width: 535px;
+}
+
+.home_login2 {
+    width: 1103px;
+    height: 765px;
+    margin: 0 auto;
+    background-image: url(http://www.chinahtz.com/htz/images/loginbg.jpg);
+    background-repeat: no-repeat;
+}
+
+a.home_login_botblue:link {
+    float: left;
+    background-image: url(http://www.chinahtz.com/htz/images/login_bot_blue.jpg);
+    width: 266px;
+    height: 50px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+a.home_login_botblue:visited {
+    float: left;
+    background-image: url(http://www.chinahtz.com/htz/images/login_bot_blue_act.jpg);
+    width: 266px;
+    height: 50px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+a.home_login_botblue:hover {
+    float: left;
+    background-image: url(http://www.chinahtz.com/htz/images/login_bot_blue_act.jpg);
+    width: 266px;
+    height: 50px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+a.home_login_botblue:active {
+    float: left;
+    background-image: url(http://www.chinahtz.com/htz/images/login_bot_blue_act.jpg);
+    width: 266px;
+    height: 50px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+a.home_login_botred:link {
+    float: right;
+    background-image: url(http://www.chinahtz.com/htz/images/login_bot_red.jpg);
+    width: 266px;
+    height: 50px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+a.home_login_botred:visited {
+    float: right;
+    background-image: url(http://www.chinahtz.com/htz/images/login_bot_red_act.jpg);
+    width: 266px;
+    height: 50px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+a.home_login_botred:hover {
+    float: right;
+    background-image: url(http://www.chinahtz.com/htz/images/login_bot_red_act.jpg);
+    width: 266px;
+    height: 50px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+a.home_login_botred:active {
+    float: right;
+    background-image: url(http://www.chinahtz.com/htz/images/login_bot_red_act.jpg);
+    width: 266px;
+    height: 50px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.home_login_botgray {
+    background-image: url(http://www.chinahtz.com/htz/images/login_bot_gray.jpg);
+    background-repeat: no-repeat;
+    width: 288px;
+    height: 41px;
+    border: 0px;
+    margin-left: 80px;
+}
+
+.loginline1 {
+    width: 960px;
+    height: 1px;
+    background-color: #CCCCCC;
+    margin: 0 auto;
+}
+
+.loginline {
+    width: 800px;
+    height: 1px;
+    background-image: url(http://www.chinahtz.com/htz/images/line.jpg);
+    margin-left: 147px;
+    margin-bottom: 45px;
+
+}
+
+.homelogin_table {
+    font-size: 14px;
+    color: #777777;
+    margin-left: 300px;
+    border: 0px;
+    font-family: 微软雅黑, 宋体, Arial;
+
+}
+
+.homelogin_td_font {
+    width: 79px;
+    padding-right: 24px;
+    text-align: right;
+    line-height: 32px;
+    float: left;
+}
+
+.homelogin_td_font_xgsj {
+    width: 152px;
+    padding-right: 24px;
+    text-align: right;
+    line-height: 32px;
+}
+
+.homelogin_td_font01 {
+    float: left;
+    width: 16px;
+    height: 16px;
+    margin-top: 10px;
+    margin-bottom: 0px;
+    margin-left: 148px;
+    margin-right: 0px;
+    padding: 0px;
+}
+
+.homelogin_input_select01 {
+    width: 120px;
+    height: 32px;
+    line-height: 32px;
+    font-size: 14px;
+    padding: 0px;
+    border: 1px solid #d6d6d6;
+    border-radius: 5px;
+    -moz-border-radius: 5px; /* Old Firefox */
+    margin: 0;
+    float: left;
+    color: #777777;
+    margin-bottom: 15px;
+}
+
+.logininput {
+    width: 240px;
+    height: 30px;
+    font-size: 14px;
+    padding: 0px;
+    border: 1px solid #d6d6d6;
+    border-radius: 5px;
+    -moz-border-radius: 5px; /* Old Firefox */
+    color: #777777;
+    padding: 0px 2px;
+    margin-bottom: 15px;
+}
+
+.logininput01 {
+    width: 100px;
+    height: 30px;
+    font-size: 14px;
+    padding: 0px;
+    border: 1px solid #d6d6d6;
+    border-radius: 5px;
+    -moz-border-radius: 5px; /* Old Firefox */
+    color: #777777;
+    padding: 0px 2px;
+    float: left;
+    margin-bottom: 15px;
+}
+
+.loginimg {
+    float: left;
+    margin-left: 8px;
+}
+
+.loginfont {
+    height: 30px;
+    line-height: 30px;
+    float: left;
+    margin-left: 8px;
+}
+
+.loginfont01 {
+    height: 16px;
+    line-height: 16px;
+    float: left;
+    color: #424242;
+    font-size: 12px;
+    margin-top: 10px;
+    margin-bottom: 40px;
+    margin-left: 5px;
+}
+
+.homelogin_table1 {
+    width: 500px;
+    font-size: 12px;
+    margin-left: 300px;
+    border: 0px;
+    font-family: 宋体, Arial;
+    margin: 0 auto;
+    padding: 25px 0 0 0;
+    text-align: center;
+}
+
+/*登陆*/
+.home_login_01a {
+    width: 1094px;
+    height: 510px;
+    margin: 0 auto;
+    background-image: url(http://www.chinahtz.com/htz/images/loginbg01.jpg);
+    background-repeat: no-repeat;
+}
+
+.homelogin_table_a {
+    font-size: 14px;
+    color: #777777;
+    margin-left: 396px;
+    border: 0px;
+    width: 330px;
+
+}
+
+.logininput01_a {
+    width: 280px;
+    height: 40px;
+    font-size: 14px;
+    border: 1px solid #d6d6d6;
+    border-radius: 5px;
+    -moz-border-radius: 5px; /* Old Firefox */
+    color: #777777;
+    padding-left: 50px;
+    background: url(http://www.chinahtz.com/htz/images/loginico1.jpg) no-repeat;
+    background-color: #FFFFFF;
+    margin-bottom: 15px;
+}
+
+.logininput02_a {
+    width: 280px;
+    height: 40px;
+    font-size: 14px;
+    border: 1px solid #d6d6d6;
+    border-radius: 5px;
+    -moz-border-radius: 5px; /* Old Firefox */
+    color: #777777;
+    padding-left: 50px;
+    background: url(http://www.chinahtz.com/htz/images/loginico2.jpg) no-repeat;
+    background-color: #FFFFFF;
+    margin-bottom: 15px;
+}
+
+.logintext {
+    color: #424242;
+    font-size: 12px;
+    line-height: 16px;
+    width: 85px;
+    text-align: left;
+    float: left;
+    margin-top: 10px;
+    padding-left: 5px;
+}
+
+.logintext1 {
+    float: left;
+    width: 16px;
+    height: 16px;
+    margin-top: 10px;
+    margin-bottom: 0px;
+    margin-left: 8px;
+    margin-right: 0px;
+    padding: 0px;
+}
+
+.logintext001 {
+    float: right;
+    color: #424242;
+    font-size: 12px;
+    line-height: 16px;
+    width: 85px;
+    text-align: right;
+    margin-top: 10px;
+    padding-right: 210px;
+    margin-bottom: 20px;
+}
+
+.home_login_botgray1 {
+    background-image: url(http://www.chinahtz.com/htz/images/login_bot_gray1.jpg);
+    background-repeat: no-repeat;
+    width: 288px;
+    height: 41px;
+    border: 0px;
+    margin-left: 0px;
+}
+
+/*找回密码*/
+.home_find {
+    width: 1103px;
+    height: 438px;
+    margin: 0 auto;
+    border: 1px #D5DBDF solid;
+    background-color: #FFFFFF;
+    -moz-box-shadow: 0px 3px 5px #ccc; /* Safari和Chrome浏览器 */
+    -webkit-box-shadow: 0px 3px 5px #ccc; /* 火狐浏览器 */
+    box-shadow: 0px 3px 5px #ccc;
+}
+
+.home_find_font {
+    font-family: 微软雅黑, 宋体, Arial;
+    font-size: 20px;
+    color: #3b70e1;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    margin-left: 288px;
+}
+
+.home_find_input {
+    width: 270px;
+    height: 38px;
+    font-size: 14px;
+    border: 1px solid #d6d6d6;
+    border-radius: 5px;
+    -moz-border-radius: 5px; /* Old Firefox */
+    color: #777777;
+    padding-left: 50px;
+    background-color: #F6F6F6
+}
+
+/*table修改css*/
+.home_find_inputa {
+    width: 268px;
+    height: 36px;
+    font-size: 14px;
+    border: 1px solid #d6d6d6;
+    border-radius: 5px;
+    -moz-border-radius: 5px; /* Old Firefox */
+    color: #777777;
+    background: url(http://www.chinahtz.com/htz/images/policy__find_inputa.jpg) repeat-x;
+    padding: 0px;
+    float: left;
+}
+
+.home_find_p {
+    font-size: 14px;
+    float: left;
+    color: #3c3c3c;
+    height: 36px;
+    line-height: 36px;
+    margin-left: 320px;
+}
+
+/*table修改css*/
+.home_find_input01 {
+    height: 38px;
+    line-height: 38px;
+    font-size: 12px;
+    color: #999999;
+}
+
+.home_find_botton01 {
+    width: 278px;
+    height: 41px;
+    background-color: #3b70e1;
+    color: #FFFFFF;
+    text-decoration: none;
+    font-family: 微软雅黑, 宋体, Arial;
+    font-size: 20px;
+    line-height: 41px;
+    text-align: center;
+    border: 0px;
+    margin-top: 12px;
+    margin-left: 472px;
+    border-radius: 5px;
+}
+
+/*政策法规*/
+.body {
+    width: 100%;
+    background-color: #FFFFFF;
+}
+
+.body_middle_bg {
+    background-color: #FFFFFF;
+    width: 1130px;
+    margin: 0 auto;
+
+}
+
+.left_body_policy {
+    float: left;
+    width: 780px;
+    padding-top: 20px;
+    font-family: 微软雅黑, 宋体, Arial;
+
+}
+
+.policy_title_p01 {
+    color: #999999;
+    font-size: 16px;
+    text-decoration: none;
+    height: 40px;
+    line-height: 40px;
+    padding-right: 30px;
+}
+
+a.policy_title_p01:hover {
+    color: #3400ff;
+}
+
+.policy_title {
+    margin-bottom: 20px;
+    height: 40px;
+}
+
+.policy_title_icon01 {
+    background: url(http://www.chinahtz.com/htz/images/policy_ico1.jpg) no-repeat;
+    width: 27px;
+    height: 33px;
+    float: left;
+}
+
+.policy_title_font {
+    font-size: 28px;
+    color: #171717;
+    float: left;
+    margin-left: 10px;
+    font-weight: bold;
+    line-height: 36px;
+    width: 180px;
+}
+
+.policy_img {
+    float: left;
+    font-size: 12px;
+    font-family: "宋体";
+    width: 165px;
+    margin-top: 40px;
+    line-height: 25px;
+    text-align: center
+}
+
+.policy_1a {
+    background: url(http://www.chinahtz.com/htz/images/policy_img1.jpg) no-repeat;
+    width: 165px;
+    height: 110px;
+}
+
+.policy_2a {
+    background: url(http://www.chinahtz.com/htz/images/policy_img2.jpg) no-repeat;
+    width: 165px;
+    height: 110px;
+}
+
+.policy_3a {
+    background: url(http://www.chinahtz.com/htz/images/policy_img3.jpg) no-repeat;
+    width: 165px;
+    height: 110px;
+}
+
+.policy_4a {
+    background: url(http://www.chinahtz.com/htz/images/policy_img4.jpg) no-repeat;
+    width: 165px;
+    height: 110px;
+}
+
+.policy_line {
+    width: 730px;
+    height: 155px;
+    border-bottom: 1px solid #CCCCCC;
+    /* margin-bottom:20px; */
+}
+
+.policy_line_on_title {
+    height: 20px;
+}
+
+.policy_title_font01 {
+    margin-bottom: 10px;
+}
+
+.policy_p {
+    color: #333333;
+    font-size: 19px;
+    height: 32px;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+a.policy_p:hover {
+    text-decoration: underline;
+}
+
+.policy_p01 {
+    color: #888888;
+    font-size: 14px;
+    line-height: 25px;
+    margin-bottom: 5px;
+    font-family: 宋体;
+    text-decoration: none;
+}
+
+.policy_p_time {
+    color: #888888;
+    font-size: 12px;
+    line-height: 20px;
+    float: right;
+    width: 50px;
+    font-family: 宋体;
+}
+
+div.policy_line:hover {
+    background-color: #f6f6f6;
+}
+
+.right_body_policy {
+    float: right;
+    width: 275px;
+    height: 590px;
+    font-family: 微软雅黑, 宋体, Arial;
+}
+
+.serch {
+    height: 114px;
+    background-color: #F5F5F5;
+    border: 1px solid #d5dbdf;
+}
+
+.serch_ico {
+    background-image: url(http://www.chinahtz.com/htz/images/policy_ico2.jpg);
+    width: 27px;
+    height: 27px;
+    float: left;
+    line-height: 27px;
+    margin-right: 15px;
+    margin-top: 20px;
+    margin-left: 15px
+
+}
+
+.serch_text {
+    height: 27px;
+    float: left;
+    line-height: 27px;
+    font-size: 16px;
+    font-family: "微软雅黑";
+    color: #333333;
+    margin-top: 20px;
+}
+
+.serch_input {
+    width: 161px;
+    height: 30px;
+    font-size: 14px;
+    border: 1px solid #d6d6d6;
+    color: #777777;
+    padding: 0px 5px;
+    margin-right: 5px;
+    margin-left: 15px;
+    float: left;
+    margin-top: 10px;
+
+}
+
+.serch_input_botton {
+    width: 65px;
+    height: 30px;
+    line-height: 30px;
+    font-size: 14px;
+    padding: 0px;
+    border: 1px solid #d6d6d6;
+    float: left;
+    font-size: 14px;
+    font-family: "微软雅黑";
+    color: #333333;
+    background-color: #FFFFFF;
+    margin-top: 10px;
+    text-align: center
+}
+
+.policy_attention_line {
+    height: 60px;
+    border-bottom: 1px solid #CCCCCC;
+    margin-bottom: 20px;
+}
+
+.policy_attention_tit {
+    color: #3662C0;
+    font-size: 18px;
+    font-family: "微软雅黑";
+    padding-top: 25px
+}
+
+a.policy_attention_p:link {
+    color: #454545;
+    font-size: 12px;
+    line-height: 30px;
+    font-family: 宋体;
+    text-decoration: none
+}
+
+a.policy_attention_p:visited {
+    color: #454545;
+    font-size: 12px;
+    line-height: 30px;
+    font-family: 宋体;
+    text-decoration: none
+}
+
+a.policy_attention_p:hover {
+    text-decoration: underline;
+}
+
+a.policy_attention_p:active {
+    color: #454545;
+    font-size: 12px;
+    line-height: 30px;
+    font-family: 宋体;
+    text-decoration: none
+}
+
+/*园区详情*/
+.left_park_body {
+    float: left;
+    width: 820px;
+    border: 1px solid #d5dbdf;
+    font-family: 微软雅黑, 宋体, Arial;
+    margin-top: 52px;
+    margin-bottom: 132px;
+    box-shadow: 0px 2px 1px #BBBBBB;
+    height: auto;
+    overflow: hidden;
+
+}
+
+.park_img {
+    width: 368px;
+    height: 200px;
+    margin: 40px;
+    float: left
+}
+
+.park_p {
+    width: 345px;
+    float: left;
+    margin-top: 50px;
+}
+
+.park_p01 {
+    height: 50px;
+    line-height:: 50px;
+    font-family: "微软雅黑";
+    font-size: 25px;
+    color: #0880C2;
+}
+
+.park_p02 {
+    height: 40px;
+    line-height:: 40px;
+    font-family: "微软雅黑";
+    font-size: 14px;
+    color: #5A5757;
+}
+
+.line {
+    height: 10px;
+    border-bottom: 1px solid #CCCCCC;
+    margin-bottom: 20px;
+}
+
+.park_intr_tit {
+    background-color: #707390;
+    width: 94px;
+    height: 27px;
+    line-height: 27px;
+    text-align: center;
+    color: #FFFFFF;
+    font-family: "微软雅黑";
+    font-size: 18px;
+    margin-top: 40px;
+    margin-left: 40px;
+}
+
+.park_intr_img01 {
+    background-image: url(http://www.chinahtz.com/htz/images/park_img05.jpg);
+    width: 15px;
+    height: 29px;
+    margin-top: 100px;
+    margin-right: 20px;
+    margin-left: 50px;
+    float: left
+}
+
+.park_intr_img02 {
+    background-image: url(http://www.chinahtz.com/htz/images/park_img02.jpg);
+    width: 221px;
+    height: 167px;
+    margin-right: 20px;
+    margin-top: 30px;
+    margin-bottom: 60px;
+    float: left
+}
+
+.park_intr_img03 {
+    background-image: url(http://www.chinahtz.com/htz/images/park_img03.jpg);
+    width: 221px;
+    height: 167px;
+    margin-right: 20px;
+    margin-top: 30px;
+    margin-bottom: 60px;
+    float: left
+}
+
+.park_intr_img04 {
+    background-image: url(http://www.chinahtz.com/htz/images/park_img04.jpg);
+    width: 221px;
+    height: 167px;
+    margin-right: 20px;
+    margin-top: 30px;
+    margin-bottom: 60px;
+    float: left
+}
+
+.park_intr_img05 {
+    background-image: url(http://www.chinahtz.com/htz/images/park_img06.jpg);
+    width: 15px;
+    height: 29px;
+    margin-top: 100px;
+    margin-right: 20px;
+    float: left
+}
+
+.right_body {
+    float: right;
+    width: 245px;
+    height: 1209px;
+    /* border:1px solid #d5dbdf; */
+    font-family: 微软雅黑, 宋体, Arial;
+    margin-top: 52px;
+    margin-bottom: 132px;
+    /* background-color:#f5f5f5; */
+}
+
+.home_right_image01 {
+    width: 240px;
+    height: 120px;
+    margin-top: 25px;
+    margin-left: 3px;
+}
+
+.home_right_image01_title {
+    color: #0880c2;
+    width: 220px;
+    font-size: 18px;
+    line-height: 24px;
+    margin-left: 13px;
+}
+
+.home_right_avatar_number0 {
+    margin-top: 18px;
+    margin-left: 10px;
+    font-size: 18px;
+}
+
+.home_right_avatar_bottom {
+    float: left;
+    width: 37px;
+    height: 42px;
+    padding-left: 5px;
+    border-right: 1px solid #e6e6e6;
+    margin-bottom: 33px;
+}
+
+.home_right_avatar_number01 {
+    color: #333333;
+    font-family: 宋体, Arial;
+    font-size: 12px;
+    line-height: 20px;
+}
+
+.home_right_hr {
+    width: 215px;
+    height: 1px;
+    background-color: #dddddd;
+    border-bottom: 1px solid #fff;
+    margin: 0 auto;
+}
+
+.home_right_introduction {
+    font-family: 宋体, Arial;
+    color: #284da2;
+    font-size: 14px;
+    height: 30px;
+    line-height: 30px;
+    margin-left: 32px;
+    margin-top: 24px;
+}
+
+.home_right_introduction_font {
+    font-family: 宋体, Arial;
+    font-size: 14px;
+    height: 120px;
+    line-height: 24px;
+    margin-left: 32px;
+    width: 190px;
+}
+
+.home_right_li_icon {
+    background: url(http://www.chinahtz.com/htz/images/home_right_icon.png) no-repeat;
+    width: 16px;
+    height: 230px;
+    margin-left: 38px;
+    float: left;
+    margin-top: 35px;
+}
+
+.home_right_li_icon_1 {
+    background: url(http://www.chinahtz.com/htz/images/home_right_icon_1.png) no-repeat;
+    width: 16px;
+    height: 268px;
+    margin-left: 38px;
+    float: left;
+    margin-top: 37px;
+}
+
+.home_right_ur {
+    margin-top: 30px;
+    margin-left: 10px;
+    float: left;
+}
+
+/*拓人脉广场—投资人*/
+.left_investor_body {
+    float: left;
+    width: 864px;
+    font-family: 微软雅黑, 宋体, Arial;
+    /*margin-top:36px;*/
+    margin-bottom: 132px;
+}
+
+.investor_title {
+    margin-bottom: 5px;
+}
+
+.investor_title_icon01 {
+    background: url(http://www.chinahtz.com/htz/images/investor_tit_ico01.jpg) no-repeat;
+    width: 35px;
+    height: 32px;
+    margin-left: 10px;
+    float: left;
+}
+
+.investor_title_font {
+    font-size: 21px;
+    font-family: "微软雅黑";
+    color: #3B70E1;
+    float: left;
+    margin-left: 5px;
+    height: 32px;
+    line-height: 32px;
+    font-weight: bold;
+}
+
+.investor_title_icon02 {
+    background: url(http://www.chinahtz.com/htz/images/investor_tit_ico02.jpg) no-repeat;
+    width: 35px;
+    height: 32px;
+    margin-left: 40px;
+    float: left;
+}
+
+.investor_title_font01 {
+    font-size: 21px;
+    font-family: "微软雅黑";
+    color: #383838;
+    float: left;
+    margin-left: 0px;
+    height: 30px;
+    line-height: 30px;
+}
+
+.tit_line {
+    background: url(http://www.chinahtz.com/htz/images/user2_left_hr1.png) no-repeat;
+    width: 826px;
+    height: 25px;
+    margin-bottom: 3px;
+
+}
+
+.box1 {
+    width: 251px;
+    height: 210px;
+    border: 1px #EAEDEF solid;
+    margin-top: 20px;
+    box-shadow: 0px 2px 1px #EDEDED;
+    float: left;
+    margin-right: 35px;
+}
+
+.investor_01 {
+    width: 106px;
+    height: 106px;
+    margin: 10px 20px;
+    float: left
+}
+
+.investor_02 {
+
+    width: 106px;
+    height: 106px;
+    margin: 10px 20px;
+    float: left
+}
+
+.investor_03 {
+
+    width: 106px;
+    height: 106px;
+    margin: 10px 20px;
+    float: left
+}
+
+.investor_04 {
+
+    width: 106px;
+    height: 106px;
+    margin: 10px 20px;
+    float: left
+}
+
+.investor_05 {
+
+    width: 106px;
+    height: 106px;
+    margin: 10px 20px;
+    float: left
+}
+
+.investor_06 {
+
+    width: 106px;
+    height: 106px;
+    margin: 10px 20px;
+    float: left
+}
+
+.investor_07 {
+
+    width: 106px;
+    height: 106px;
+    margin: 10px 20px;
+    float: left
+}
+
+.investor_08 {
+
+    width: 106px;
+    height: 106px;
+    margin: 10px 20px;
+    float: left
+}
+
+.investor_09 {
+
+    width: 106px;
+    height: 106px;
+    margin: 10px 20px;
+    float: left
+}
+
+.investor_10 {
+
+    width: 106px;
+    height: 106px;
+    margin: 10px 20px;
+    float: left
+}
+
+.investor_11 {
+
+    width: 106px;
+    height: 106px;
+    margin: 10px 20px;
+    float: left
+}
+
+.investor_12 {
+
+    width: 106px;
+    height: 106px;
+    margin: 10px 20px;
+    float: left
+}
+
+.investor_name {
+    color: #284DA2;
+    text-decoration: none;
+}
+
+a.investor_name:hover {
+    text-decoration: underline;
+}
+
+.investor_font {
+    margin-top: 20px;
+    font-family: "微软雅黑";
+    font-size: 18px;
+    color: #284DA2;
+    float: left;
+    height: 30px;
+    line-height: 24px;
+}
+
+.investor_t {
+    line-height: 20px;
+    font-size: 12px;
+    font-family: "宋体";
+    padding: 0 20px 20px 20px;
+    color: #515151;
+    font-family: "微软雅黑";
+    width: 204px;
+    height: 80px;
+    word-wrap: break-word;
+    word-break: normal;
+
+}
+
+.investor_t_a {
+    text-decoration: none;
+    color: #000;
+}
+
+.home_right_avatar {
+    width: 80px;
+    height: 78px;
+    margin-top: 25px;
+    margin-right: 20px;
+    margin-left: 32px;
+}
+
+.home_right_avatar_font {
+    margin-top: 18px;
+    line-height: 20px;
+    font-size: 14px;
+}
+
+.home_right_avatar_name {
+    color: #0880c2;
+    width: 220px;
+    font-size: 18px;
+    line-height: 24px;
+    margin-left: 13px;
+}
+
+/*正文*/
+.text_tit {
+    font-family: "微软雅黑";
+    font-size: 28px;
+    color: #161616;
+    text-align: center;
+}
+
+.text_new {
+    color: #898989;
+    font-family: "黑体";
+    font-size: 12px;
+    text-align: center;
+    height: 60px;
+    line-height: 60px
+}
+
+.text_line {
+    border-bottom: 1px #CCCCCC solid;
+    height: 10px;
+}
+
+.text_con {
+    font-size: 16px;
+    color: #3F3F3F;
+    text-indent: 0.5em;
+    line-height: 30px;
+}
+
+.text_con p {
+    color: #4b4a4a;
+    font-family: "微软雅黑";
+    font-size: 14px;
+    line-height: 200%;
+    text-indent: 2em;
+}
+
+/*拓人脉广场-融资人*/
+.financier_title_icon01 {
+    background: url(http://www.chinahtz.com/htz/images/financier_tit_ico01.jpg) no-repeat;
+    width: 35px;
+    height: 32px;
+    margin-left: 10px;
+    float: left;
+}
+
+.financier_title_font {
+    font-size: 21px;
+    font-family: "微软雅黑";
+    color: #383838;
+    float: left;
+    margin-left: 5px;
+    height: 32px;
+    line-height: 32px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a.financier_title_font:hover {
+    color: # #3B70E1;
+    text-decoration: none;
+}
+
+.financier_title_icon02 {
+    background: url(http://www.chinahtz.com/htz/images/financier_tit_ico02.jpg) no-repeat;
+    width: 35px;
+    height: 32px;
+    margin-left: 40px;
+    float: left;
+}
+
+.financier_title_font01 {
+    font-size: 21px;
+    font-family: "微软雅黑";
+    color: #3B70E1;
+    float: left;
+    margin-left: 0px;
+    height: 32px;
+    line-height: 32px;
+}
+
+.tit_line01 {
+    background: url(http://www.chinahtz.com/htz/images/financier_line.jpg) no-repeat;
+    width: 826px;
+    height: 25px;
+    margin-bottom: 3px;
+}
+
+.tit_line01x {
+    background: url(http://www.chinahtz.com/htz/images/financier_line_01x.jpg) no-repeat;
+    width: 826px;
+    height: 25px;
+    margin-bottom: 3px;
+}
+
+.financier_01 {
+    background-image: url(http://www.chinahtz.com/htz/images/financier01.jpg);
+    width: 106px;
+    height: 106px;
+    margin: 10px 20px;
+    float: left
+}
+
+.financier_02 {
+    background-image: url(http://www.chinahtz.com/htz/images/financier02.jpg);
+    width: 106px;
+    height: 106px;
+    margin: 10px 20px;
+    float: left
+}
+
+.financier_03 {
+    background-image: url(http://www.chinahtz.com/htz/images/financier03.jpg);
+    width: 106px;
+    height: 106px;
+    margin: 10px 20px;
+    float: left
+}
+
+.financier_04 {
+    background-image: url(http://www.chinahtz.com/htz/images/financier04.jpg);
+    width: 106px;
+    height: 106px;
+    margin: 10px 20px;
+    float: left
+}
+
+.financier_05 {
+    background-image: url(http://www.chinahtz.com/htz/images/financier05.jpg);
+    width: 106px;
+    height: 106px;
+    margin: 10px 20px;
+    float: left
+}
+
+.financier_06 {
+    background-image: url(http://www.chinahtz.com/htz/images/financier06.jpg);
+    width: 106px;
+    height: 106px;
+    margin: 10px 20px;
+    float: left
+}
+
+.financier_07 {
+    background-image: url(http://www.chinahtz.com/htz/images/financier07.jpg);
+    width: 106px;
+    height: 106px;
+    margin: 10px 20px;
+    float: left
+}
+
+.financier_08 {
+    background-image: url(http://www.chinahtz.com/htz/images/financier08.jpg);
+    width: 106px;
+    height: 106px;
+    margin: 10px 20px;
+    float: left
+}
+
+.financier_09 {
+    background-image: url(http://www.chinahtz.com/htz/images/financier09.jpg);
+    width: 106px;
+    height: 106px;
+    margin: 10px 20px;
+    float: left
+}
+
+.financier_10 {
+    background-image: url(http://www.chinahtz.com/htz/images/financier10.jpg);
+    width: 106px;
+    height: 106px;
+    margin: 10px 20px;
+    float: left
+}
+
+.financier_11 {
+    background-image: url(http://www.chinahtz.com/htz/images/financier11.jpg);
+    width: 106px;
+    height: 106px;
+    margin: 10px 20px;
+    float: left
+}
+
+.financier_12 {
+    background-image: url(http://www.chinahtz.com/htz/images/financier12.jpg);
+    width: 106px;
+    height: 106px;
+    margin: 10px 20px;
+    float: left
+}
+
+.financier_right_avatar {
+    width: 97px;
+    height: 98px;
+    background: url(http://www.chinahtz.com/htz/images/user_right_avatar.png) no-repeat;
+    float: left;
+    margin-top: 25px;
+    margin-right: 20px;
+    margin-left: 32px;
+}
+
+.financier_right_avatar_name {
+    color: #284DA2;
+    font-family: "微软雅黑";
+    font-size: 18px;
+    line-height: 24px;
+}
+
+.financier_right_avatar_name01 {
+    color: #284DA2;
+    font-family: "微软雅黑";
+    font-size: 14px;
+    line-height: 24px;
+}
+
+.financier_right_avatar_number0 {
+    margin-top: 18px;
+    margin-left: 20px;
+    font-size: 18px;
+}
+
+/*拓人脉广场*/
+.investor_13 {
+    background-image: url(http://www.chinahtz.com/htz/images/investor13.jpg);
+    width: 106px;
+    height: 106px;
+    margin: 10px 20px;
+    float: left
+}
+
+.investor_14 {
+
+    width: 106px;
+    height: 106px;
+    margin: 10px 20px;
+    float: left
+}
+
+/*投资人*/
+.connection_title_font {
+    font-size: 28px;
+    font-family: "微软雅黑";
+    color: #171717;
+    float: left;
+    margin-left: 5px;
+    height: 36px;
+    line-height: 36px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.connection_title_icon01 {
+    background: url(http://www.chinahtz.com/htz/images/index_title_icon02.png) no-repeat;
+    width: 36px;
+    height: 36px;
+    margin-left: 10px;
+    float: left;
+}
+
+.connection_title_icon02 {
+    background: url(http://www.chinahtz.com/htz/images/index_title_icon04.png) no-repeat;
+    width: 36px;
+    height: 36px;
+    margin-left: 10px;
+    float: left;
+}
+
+.connection_user_left_title {
+    font-size: 18px;
+    color: #171717;
+    margin-top: 35px;
+    margin-left: 35px;
+    line-height: 32px;
+}
+
+.connection_user_left_hr1 {
+    background: url(http://www.chinahtz.com/htz/images/user_left_hr1_a.png) no-repeat;
+    width: 826px;
+    height: 25px;
+}
+
+.connection_user_left_avatar01 {
+    width: 50px;
+    height: 50px;
+    float: left;
+    margin-top: 30px;
+    margin-left: 10px;
+}
+
+.connection_user_left_avatar_title {
+    font-size: 14px;
+    color: #000;
+    margin-top: 25px;
+    margin-left: 20px;
+    line-height: 24px;
+    float: left;
+    width: 730px;
+}
+
+.connection_user_left_a {
+    text-decoration: none;
+    color: #515151
+}
+
+a.connection_user_left_a:hover {
+    color: #0000ff;
+}
+
+.connection_user_left_avatar_p {
+    font-size: 14px;
+    color: #515151;
+    margin-top: 10px;
+    line-height: 20px;
+    float: left;
+}
+
+.connection_user_left_avatar_p01 {
+    font-size: 14px;
+    color: #d17d97;
+    float: left;
+    margin-top: 10px;
+    line-height: 20px;
+    text-decoration: none;
+}
+
+a.connection_user_left_avatar_p01:hover {
+    color: #0000ff;
+}
+
+.connection_user_right_a {
+    font-family: 宋体, Arial;
+    font-size: 12px;
+    height: 20px;
+    line-height: 20px;
+    color: #d17d97;
+    float: left;
+    margin-top: 10px;
+}
+
+.connection_user_right_a1 {
+    font-family: 宋体, Arial;
+    font-size: 12px;
+    height: 20px;
+    line-height: 20px;
+    color: #d17d97;
+    float: right;
+    margin-top: 10px;
+}
+
+.connection_user_left_hr2 {
+    width: 800px;
+    height: 1px;
+    background-color: #eaeaea;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+.connection_user_text_bg {
+    background: url(http://www.chinahtz.com/htz/images/user_text_bg.jpg) no-repeat;
+    width: 730px;
+    height: 129px;
+    margin-top: 10px;
+}
+
+.connection_user_left_avatar02 {
+    background: url(http://www.chinahtz.com/htz/images/user_left_avatar02.png) no-repeat;
+    width: 50px;
+    height: 50px;
+    float: left;
+    margin-top: 25px;
+    margin-left: 17px;
+}
+
+.connection_user_left_avatar03 {
+    width: 50px;
+    height: 50px;
+    float: left;
+    margin-top: 25px;
+    margin-left: 17px;
+}
+
+.connection_user_text2 {
+    float: left;
+    margin-left: 20px;
+    width: 600px;
+}
+
+.connection_user_left_avatar_title01 {
+    font-size: 14px;
+    color: #000;
+    margin-top: 20px;
+    line-height: 24px;
+    float: left;
+}
+
+.connection_user_right_a {
+    font-family: 宋体, Arial;
+    font-size: 12px;
+    height: 20px;
+    line-height: 20px;
+    color: #d17d97;
+    float: left;
+    margin-top: 10px;
+}
+
+.connection_user_right_a1 {
+    font-family: 宋体, Arial;
+    font-size: 12px;
+    height: 20px;
+    line-height: 20px;
+    color: #d17d97;
+    float: right;
+    margin-top: 10px;
+}
+
+/*分页*/
+.user_left_page {
+    margin-top: 60px;
+    margin-bottom: 60px;
+    text-align: right;
+}
+
+.loading {
+    margin: 0 auto;
+    position: fixed;
+    z-index: 10000;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0.4;
+    filter: alpha(opacity=40);
+    background: url(/http://www.chinahtz.com/htz/images/loading.gif) no-repeat center;;
+    background-color: rgba(0, 0, 0, 0);
+}
+
+.button {
+    width: 288px;
+    height: 41px;
+    margin-left: 130px;
+    line-height: 41px;
+}
+
+.button a {
+    width: 280px;
+    height: 41px;
+    display: block;
+    font-size: 20px;
+    line-height: 41px;
+    color: #FFF;
+    text-align: center;
+    text-decoration: none;
+    font-family: 'Microsoft Yahei', '宋体';
+    border-radius: 5px;
+}
+
+.button a:hover {
+    text-decoration: none;
+}
+
+.gray {
+    background: #979797;
+}
+
+.blue {
+    background: #3b70e1;
+}
+
+/* 超过三张图片 翻页 */
+.pre_intr {
+    background-image: url(http://www.chinahtz.com/htz/images/park_img07.jpg);
+    width: 15px;
+    height: 29px;
+    margin-top: 100px;
+    margin-right: 20px;
+    margin-left: 50px;
+    float: left;
+}
+
+.next_intr {
+    background-image: url(http://www.chinahtz.com/htz/images/park_img08.jpg);
+    width: 15px;
+    height: 29px;
+    margin-top: 100px;
+    margin-right: 20px;
+    float: left;
+}
+
+.duty_span {
+    color: #284DA2;
+    margin-left: 25px;
+}
+
+.men_link {
+    margin-left: 40px;
+    margin-top: 30px;
+}
+
+.men_link_right {
+    margin-left: 20px;
+    margin-top: 30px;
+}
+
+.style_menu {
+    text-align: left;
+    margin-left: 8px;
+}
+
+.space_hj {
+    margin-left: 10px;
+}
+
+.top_tu {
+    height: 350px;
+    background-color: #105ee4;
+    text-align: center;
+}
+
+.text_dh {
+    height: 91px;
+    margin-top: 44px;
+}
+
+.text_width {
+    width: 717px;
+    height: 91px;
+    margin: 0 auto;
+    background: url(http://www.chinahtz.com/htz/images/dh_1.jpg) repeat-x;
+}
+
+.text_width2 {
+    width: 292px;
+    height: 91px;
+    margin: 0 auto;
+    background: url(http://www.chinahtz.com/htz/images/dh_1.jpg) repeat-x;
+}
+
+.zc_b {
+    margin-right: 132px;
+    _margin-right: 133px;
+    float: left;
+}
+
+.qy_h {
+    float: left;
+    margin-right: 132px;
+    _margin-right: 132px;
+}
+
+.xm_h {
+    float: left;
+    margin-right: 132px;
+    _margin-right: 132px;
+}
+
+.sh_h {
+    _margin: 0px;
+    float: left
+}
+
+.text {
+    width: 890px;
+    border: 1px solid #c3c3c3;
+    margin: 0 auto;
+    margin-top: 29px;
+    padding: 48px 0 35px 0;
+    font-family: 微软雅黑, 宋体;
+    font-size: 14px;
+}
+
+.text_1 {
+    width: 520px;
+    margin: 0 auto;
+}
+
+.dx {
+    _vertical-align: -1px;
+    vertical-align: -2px;
+}
+
+.mc {
+    margin: 24px;
+}
+
+.kong {
+    padding-right: 28px;
+}
+
+.investor_Brief2 {
+    color: #818181;
+    font-size: 14px;
+    text-align: center;
+    line-height: 30px;
+    font-family: microsoft yahei;
+    text-align: left;
+}
+
+.investor_name {
+    font-family: microsoft yahei;
+    font-size: 22px;
+    color: #000000;
+    text-align: center;
+    margin: 18px 0px 6px 0px;
+}
+
+.investor_pic2 {
+    width: 100px;
+    height: 100px;
+    margin: 30px auto 0px auto;
+    padding: 0px;
+    font-size: 0px;
+}
+
+.investor_pic2 img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+}
+
+.homelogin_table_a {
+    margin: 0 auto 0 auto;
+    padding-left: 150px;
+}
+
+.homelogin_table_a .logininput01_a, .homelogin_table_a .logininput02_a {
+    height: auto;
+    margin-bottom: 15px;
+    padding-bottom: 14px;
+    line-height: 20px;
+    padding-top: 10px;
+    float: left;
+}
+
+@charset "utf-8";
+/* CSS Document */
+
+html, body {
+    margin: 0px;
+    -webkit-text-size-adjust: none;
+}
+
+a {
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.body_middle {
+    width: 1130px;
+    margin: 0 auto;
+}
+
+/*home_left*/
+.left_body {
+    float: left;
+    width: 870px;
+    border: 1px solid #d5dbdf;
+    font-family: 微软雅黑, 宋体, Arial;
+    margin-top: 52px;
+    margin-bottom: 132px;
+    box-shadow: 0px 2px 1px #BBBBBB;
+}
+
+.home_title_bg {
+    height: 64px;
+    border-bottom: 1px solid #d5dbdf;
+    background-color: #fcfcfc;
+    line-height: 64px;
+    font-size: 16px;
+    color: #383838;
+}
+
+.home_left_icon1 {
+    background: url(http://www.chinahtz.com/htz/images/home_left_icon1.png) no-repeat;
+    width: 25px;
+    height: 24px;
+    margin-left: 24px;
+    margin-right: 10px;
+    margin-top: 18px;
+    float: left;
+}
+
+.home_table {
+    font-size: 14px;
+    color: #777777;
+    margin-left: 190px;
+    border: 0px;
+}
+
+.left_checkbox {
+    width: 400px;
+    height: 345px;
+    font-size: 14px;
+    padding: 0px;
+    border: 0px solid #d6d6d6;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    color: #777777;
+    padding: 0px 0px;
+    float: left;
+    margin-bottom: 15px;
+    margin-top: 6px;
+    font-family: 微软雅黑, 宋体, Arial;
+}
+
+.invtpersn_checkbox {
+    width: 80px;
+    font-size: 14px;
+    padding: 0px;
+    border: 0px solid #d6d6d6;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    color: #777777;
+    padding: 0px 2px;
+    float: left;
+    margin-bottom: 15px;
+    margin-top: 6px;
+    font-family: 微软雅黑, 宋体, Arial;
+
+}
+
+.new9 {
+    width: 346px;
+    text-align: right;
+}
+
+.checkboxLable {
+    display: inline-block;
+    width: 130px;
+    height: 25px;
+}
+
+.right_input {
+    width: 210px;
+    height: 30px;
+    line-height: 30px;
+    font-size: 14px;
+    padding: 0px;
+    border: 1px solid #d6d6d6;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    color: #777777;
+    padding: 0px 2px;
+}
+
+/*
+.home_td_font01
+{
+width:90px;
+padding-right:24px;
+text-align:right;
+margin-top:46px;
+margin-bottom:60px;
+}
+.home_td_font_tilte
+{
+font-size:24px;
+color:#3b70e1;
+margin-top:38px;
+margin-bottom:60px;
+}
+.home_td_fonta
+{
+width:105px;
+padding-right:24px;
+text-align:right;
+line-height:32px;
+}
+.home_td_font02
+{
+color:red;
+}
+.left_input
+{
+width:238px;
+height:30px;
+line-height:30px;
+font-size:14px;
+padding:0px;
+border:1px solid #d6d6d6;
+border-radius:5px;
+-moz-border-radius:5px;
+color:#777777;
+padding:0px 2px;
+}
+.left_input_bottom
+{
+height:15px;
+width:auto;
+}
+.left_input_select01
+{
+width:118px;
+height:32px;
+line-height:32px;
+font-size:14px;
+padding:0px;
+border:1px solid #d6d6d6;
+border-radius:5px;
+-moz-border-radius:5px;
+margin:0;
+float:left;
+color:#777777;
+}
+.left_input_select
+{
+width:244px;
+height:32px;
+line-height:32px;
+font-size:14px;
+padding:0px;
+border:1px solid #d6d6d6;
+border-radius:5px;
+-moz-border-radius:5px;
+margin:0;
+color:#777777;
+}
+.left_input01
+{
+width:157px;
+height:30px;
+line-height:30px;
+font-size:14px;
+padding:0px;
+border:1px solid #d6d6d6;
+border-radius:5px;
+-moz-border-radius:5px;
+color:#777777;
+float:left;
+padding:0px 2px;
+}
+*/
+
+/*替换table更新代码*/
+.home_td_font01 {
+    text-align: right;
+    float: left;
+    width: 275px;
+    margin-top: 46px;
+    margin-bottom: 60px;
+    color: #777777;
+    padding-right: 25px;
+    font-size: 14px;
+}
+
+.home_td_font_tilte {
+    font-size: 24px;
+    color: #3b70e1;
+    margin-top: 38px;
+    margin-bottom: 60px;
+    float: left;
+}
+
+.home_td_fonta {
+    text-align: right;
+    float: left;
+    width: 275px;
+    color: #777777;
+    padding-right: 25px;
+    font-size: 14px;
+    line-height: 32px;
+    float: left;
+}
+
+.home_td_font02 {
+    color: red;
+}
+
+.left_input {
+    width: 238px;
+    height: 30px;
+/ / line-height: 30 px;
+    font-size: 14px;
+    padding: 0px;
+    border: 1px solid #d6d6d6;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    color: #777777;
+    padding: 0px 2px;
+    float: left;
+    margin-bottom: 15px;
+    font-family: 微软雅黑, 宋体, Arial;
+}
+
+.left_input_select01 {
+    width: 118px;
+
+    padding: 5px 0 6px 0;
+    font-size: 14px;
+
+    border: 1px solid #d6d6d6;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    margin: 0;
+    float: left;
+    color: #777777;
+    font-family: 微软雅黑, 宋体, Arial;
+    margin: 7px 0 6px 0;
+    *margin: 5px 0 0px 0;
+}
+
+.left_input_select {
+    width: 244px;
+    height: 32px;
+    line-height: 32px;
+    font-size: 14px;
+    padding: 0px;
+    border: 1px solid #d6d6d6;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    margin: 0;
+    color: #777777;
+    margin-bottom: 15px;
+    font-family: 微软雅黑, 宋体, Arial;
+}
+
+.left_input01 {
+    width: 157px;
+    height: 30px;
+/ / line-height: 30 px;
+    font-size: 14px;
+    padding: 0px;
+    border: 1px solid #d6d6d6;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    color: #777777;
+    float: left;
+    padding: 0px 2px;
+    margin-bottom: 15px;
+    font-family: 微软雅黑, 宋体, Arial;
+}
+
+/*替换table更新代码_end*/
+
+.home_td_font {
+    width: 90px;
+    padding-right: 24px;
+    text-align: right;
+    line-height: 32px;
+}
+
+.home_left_logo, .home_left_logo001 {
+    width: 243px;
+    height: 113px;
+    float: left;
+}
+
+.home_left_logo {
+    margin-bottom: 40px;
+}
+
+.home_left_logo001 {
+    margin-bottom: 15px;
+}
+
+.home_left_icon2 {
+    width: 83px;
+    float: left;
+}
+
+.home_left_button_picking {
+    width: 80px;
+    height: 32px;
+    background-color: #3b70e1;
+    color: #FFFFFF;
+    text-decoration: none;
+    font-family: 宋体, Arial;
+    font-size: 14px;
+    line-height: 32px;
+    text-align: center;
+    float: left;
+}
+
+.home_left_button_picking01 {
+    margin-left: 15px;
+    width: 80px;
+    height: 32px;
+    background-color: #3b70e1;
+    color: #FFFFFF;
+    text-decoration: none;
+    font-family: 宋体, Arial;
+    font-size: 14px;
+    line-height: 32px;
+    text-align: center;
+    float: left;
+}
+
+.home_left_button_edit {
+    width: 80px;
+    height: 32px;
+    background-color: #ed5f59;
+    text-decoration: none;
+    color: #FFFFFF;
+    font-family: 宋体, Arial;
+    font-size: 14px;
+    line-height: 32px;
+    text-align: center;
+    float: left;
+    margin-left: 13px;
+}
+
+.home_td_font_edit {
+    line-height: 32px;
+    font-size: 12px;
+    font-family: 宋体, Arial;
+    padding-left: 15px;
+    color: #a7a7a7;
+    width: 370px;
+    float: left;
+    margin-bottom: 25px;
+}
+
+.home_left_button001 {
+    width: 65px;
+    height: 32px;
+    background-color: #3b70e1;
+    color: #FFFFFF;
+    text-decoration: none;
+    font-family: 宋体, Arial;
+    font-size: 14px;
+    line-height: 32px;
+    text-align: center;
+    float: left;
+    margin-top: 80px;
+    margin-left: 16px;
+}
+
+.home_left_button002 {
+    width: 65px;
+    height: 32px;
+    background-color: #ed5f59;
+    text-decoration: none;
+    color: #FFFFFF;
+    font-family: 宋体, Arial;
+    font-size: 14px;
+    line-height: 32px;
+    text-align: center;
+    float: left;
+    margin-top: 80px;
+    margin-left: 13px;
+}
+
+.home_left_button01 {
+    width: 65px;
+    height: 32px;
+    background-color: #3b70e1;
+    color: #FFFFFF;
+    text-decoration: none;
+    font-family: 宋体, Arial;
+    font-size: 14px;
+    line-height: 32px;
+    text-align: center;
+    float: left;
+    margin-top: 50px;
+    margin-left: 16px;
+}
+
+.home_left_button02 {
+    width: 65px;
+    height: 32px;
+    background-color: #ed5f59;
+    text-decoration: none;
+    color: #FFFFFF;
+    font-family: 宋体, Arial;
+    font-size: 14px;
+    line-height: 32px;
+    text-align: center;
+    float: left;
+    margin-top: 50px;
+    margin-left: 13px;
+}
+
+.home_left_button03, .home_left_button03_add {
+    background-color: #3b70e1;
+    color: #FFFFFF;
+    text-decoration: none;
+    font-family: 宋体, Arial;
+    font-size: 14px;
+    line-height: 32px;
+    text-align: center;
+    float: left;
+    margin-left: 16px;
+}
+
+.home_left_button03 {
+    width: 65px;
+    height: 32px;
+}
+
+.home_left_button03_add {
+    width: 90px;
+    height: 32px;
+    margin-bottom: 15px;
+}
+
+.home_left_button004 {
+    width: 288px;
+    height: 42px;
+    background-color: #3b70e1;
+    color: #FFFFFF;
+    text-decoration: none;
+    font-family: 微软雅黑, 宋体, Arial;
+    font-size: 21px;
+    line-height: 42px;
+    text-align: center;
+    margin-top: 630px;
+    float: left;
+    margin-bottom: 230px;
+}
+
+.home_left_button004a {
+    width: 288px;
+    height: 42px;
+    background-color: #3b70e1;
+    color: #FFFFFF;
+    text-decoration: none;
+    font-family: 微软雅黑, 宋体, Arial;
+    font-size: 21px;
+    line-height: 42px;
+    text-align: center;
+    margin-top: 630px;
+    float: left;
+    margin-bottom: 191px;
+}
+
+.home_left_button04 {
+    width: 288px;
+    height: 42px;
+    background-color: #3b70e1;
+    color: #FFFFFF;
+    text-decoration: none;
+    font-family: 微软雅黑, 宋体, Arial;
+    font-size: 21px;
+    line-height: 42px;
+    text-align: center;
+    margin-top: 42px;
+    float: left;
+    margin-bottom: 120px;
+    border-radius: 5px;
+}
+
+.left_textarea, .left_textarea001 {
+    width: 500px;
+    height: 165px;
+    line-height: 30px;
+    font-size: 14px;
+    padding: 0px;
+    border: 1px solid #d6d6d6;
+    border-radius: 5px;
+    -moz-border-radius: 5px; /* Old Firefox */
+    color: #777777;
+    padding: 0px 2px;
+    resize: none;
+    font-family: 微软雅黑, 宋体, Arial;
+}
+
+.left_textarea001 {
+    margin-bottom: 15px;
+}
+
+/*home_right*/
+.right_body01 {
+    float: right;
+    width: 246px;
+    height: 864px;
+    border: 1px solid #d5dbdf;
+    font-family: 微软雅黑, 宋体, Arial;
+    margin-top: 52px;
+    margin-bottom: 132px;
+    background-color: #f5f5f5;
+}
+
+.right_body {
+    float: right;
+    width: 245px;
+    height: 1211px;
+    /* border:1px solid #d5dbdf;  */
+    font-family: 微软雅黑, 宋体, Arial;
+    margin-top: 52px;
+    margin-bottom: 132px;
+    /* background-color:#f5f5f5;  */
+}
+
+.home_right_avatar {
+    margin-top: 25px;
+    margin-right: 20px;
+    margin-left: 32px;
+}
+
+.home_right_image01 {
+    width: 240px;
+    height: 120px;
+    margin-top: 3px;
+    margin-left: 3px;
+}
+
+.home_right_image01_title {
+    color: #0880c2;
+    width: 220px;
+    font-size: 18px;
+    line-height: 24px;
+    margin-left: 13px;
+}
+
+.home_right_avatar_font {
+    margin-top: 18px;
+    line-height: 20px;
+    font-size: 14px;
+}
+
+.home_right_avatar_name {
+    color: #0880c2;
+    width: 220px;
+    font-size: 18px;
+    line-height: 24px;
+    margin-left: 25px;
+}
+
+.home_right_avatar_bottom {
+    float: left;
+    width: 37px;
+    height: 42px;
+    padding-left: 5px;
+    border-right: 1px solid #e6e6e6;
+    margin-bottom: 33px;
+}
+
+.home_right_avatar_bottom01 {
+    float: left;
+    width: 37px;
+    height: 42px;
+    padding-left: 5px;
+    margin-bottom: 33px;
+}
+
+.home_right_avatar_number {
+    margin-top: 18px;
+    margin-left: 26px;
+    font-size: 18px;
+}
+
+.home_right_avatar_number0 {
+    margin-top: 18px;
+    margin-left: 10px;
+    font-size: 18px;
+}
+
+.home_right_avatar_number01 {
+    color: #333333;
+    font-family: 宋体, Arial;
+    font-size: 12px;
+    line-height: 20px;
+}
+
+.home_right_hr {
+    width: 215px;
+    height: 1px;
+    background-color: #dddddd;
+    border-bottom: 1px solid #fff;
+    margin: 0 auto;
+}
+
+.home_right_introduction {
+    font-family: 宋体, Arial;
+    color: #284da2;
+    font-size: 14px;
+    height: 30px;
+    line-height: 30px;
+    margin-left: 32px;
+    margin-top: 24px;
+}
+
+.home_right_introduction_font {
+    font-family: 宋体, Arial;
+    font-size: 14px;
+    height: 120px;
+    line-height: 24px;
+    margin-left: 32px;
+    width: 190px;
+    color: #383737;
+}
+
+.home_right_font {
+    font-family: 宋体, Arial;
+    color: #284da2;
+    font-size: 14px;
+    height: 30px;
+    line-height: 30px;
+    margin-left: 32px;
+    margin-top: 24px;
+}
+
+.home_right_li_icon {
+    background: url(http://www.chinahtz.com/htz/images/home_right_icon.png) no-repeat;
+    width: 16px;
+    height: 268px;
+    margin-left: 38px;
+    float: left;
+    margin-top: 37px;
+}
+
+.home_right_li_icon_y {
+    background: url(http://www.chinahtz.com/htz/images/home_right_icon0.png) no-repeat;
+    width: 16px;
+    height: 268px;
+    margin-left: 38px;
+    float: left;
+    margin-top: 37px;
+}
+
+.home_right_li_icon_1 {
+    background: url(http://www.chinahtz.com/htz/images/home_right_icon1.png) no-repeat;
+    width: 16px;
+    height: 268px;
+    margin-left: 38px;
+    float: left;
+    margin-top: 37px;
+}
+
+.home_right_ur {
+    margin-top: 30px;
+    margin-left: 10px;
+    float: left;
+}
+
+.home_right_li {
+    padding-left: 10px;
+    font-family: 宋体, Arial;
+    color: #284da2;
+    font-size: 14px;
+    height: 30px;
+    line-height: 30px;
+    text-decoration: none;
+}
+
+a.home_right_li:hover {
+    font-family: 宋体, Arial;
+    color: #284da2;
+    font-size: 14px;
+    height: 30px;
+    line-height: 30px;
+    text-decoration: underline;
+}
+
+.home_right_a {
+    padding-left: 10px;
+    font-family: 宋体, Arial;
+    color: #284da2;
+    font-size: 14px;
+    height: 30px;
+    line-height: 30px;
+    color: #ed5f59;
+    text-decoration: none;
+}
+
+a.home_right_a:hover {
+    text-decoration: underline;
+}
+
+/*公司用户-企业项目.html*/
+/*table调整代码
+.home_user_font
+{
+font-size:14px;
+color:#777777;
+margin-left:65px;
+line-height:106px;
+float:left;
+}
+.home_td_fontb
+{
+width:115px;
+padding-right:24px;
+text-align:right;
+line-height:32px;
+}
+*/
+.home_td_data {
+    text-align: left;
+    float: left;
+    width: 300px;
+    color: #777777;
+    padding-right: 25px;
+    font-size: 14px;
+    line-height: 32px;
+    float: left;
+    text-decoration: underline;
+}
+
+.home_td_data_delete {
+    width: 30px;
+    text-align: left;
+    float: left;
+    color: #3b70e1;
+    padding-right: 25px;
+    font-size: 14px;
+    line-height: 32px;
+    float: left;
+}
+
+.home_user_font {
+    float: left;
+    padding-left: 60px;
+    margin-top: 46px;
+    margin-bottom: 60px;
+    color: #777777;
+    font-size: 14px;
+}
+
+.home_td_fontb {
+    text-align: right;
+    width: 275px;
+    color: #777777;
+    padding-right: 25px;
+    font-size: 14px;
+    line-height: 32px;
+    float: left;
+}
+
+.home_td_font_tilte01 {
+    font-size: 24px;
+    color: #3b70e1;
+    line-height: 106px;
+    float: left;
+    margin-left: 30px;
+}
+
+.tabbed_content {
+    background-color: #f7f7f7;
+    width: 810px;
+    margin: 0 auto;
+    margin-bottom: 60px;
+}
+
+.tabbed_content01 {
+    background-color: #f7f7f7;
+    width: 810px;
+    margin: 0 auto;
+    margin-bottom: 50px;
+}
+
+.tabbed_content02 {
+    background-color: #f7f7f7;
+    width: 810px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+
+.tabss {
+    height: 37px;
+    position: relative;
+    font-family: Microsoft Yahei, 宋体;
+    font-size: 14px;
+}
+
+.tabss .moving_bg {
+    background-color: #3b70e1;
+    background-image: url(http://www.chinahtz.com/htz/images/arrow_down_green.jpg);
+    position: absolute;
+    width: 115px;
+    z-index: 190;
+    left: 0;
+    padding-bottom: 29px;
+    background-position: bottom left;
+    background-repeat: no-repeat;
+    color: #FFFFFF;
+}
+
+.tabss .tab_item {
+    display: block;
+    float: left;
+    width: 115px;
+    color: #000;
+    text-align: center;
+    z-index: 200;
+    position: relative;
+    cursor: pointer;
+    line-height: 37px;
+    text-decoration: none;
+}
+
+.tabbed_content .slide_content {
+    overflow: hidden;
+}
+
+.home_photo_mobile {
+    width: 20px;
+    height: 20px;
+    margin: 16px 0px 0px 5px;
+    float: left;
+}
+
+.home_photo_delete {
+    background: url(http://www.chinahtz.com/htz/images/home_photo_delete.png) no-repeat;
+    width: 20px;
+    height: 20px;
+}
+
+.home_photo_bg {
+    width: 465px;
+    height: 55px;
+    background-color: #f4f4f4;
+    margin-bottom: 10px;
+}
+
+.home_photo_img {
+    width: 60px;
+    height: 45px;
+    background-color: #dadada;
+    float: left;
+    margin: 4px 10px;
+    border: 1px solid #d6d6d6;
+}
+
+.invtpersn_textarea {
+    width: 450px;
+    height: 190px;
+    background-color: #fff;
+    float: left;
+    margin: 4px 0px;
+    padding: 0px;
+    border: 1px solid #d6d6d6;
+    line-height: 18px;
+    resize: none;
+    font-family: 微软雅黑, 宋体, Arial;
+    font-size: 14px;
+    color: #777777;
+    margin-bottom: 15px;
+}
+
+.home_photo_textarea {
+    width: 310px;
+    height: 45px;
+    background-color: #fff;
+    float: left;
+    margin: 4px 0px;
+    padding: 0px;
+    border: 1px solid #d6d6d6;
+    line-height: 18px;
+    resize: none;
+    font-family: 微软雅黑, 宋体;
+    font-size: 12px;
+}
+
+.home_photo_delete {
+    background: url(http://www.chinahtz.com/htz/images/home_photo_delete.png) no-repeat;
+    width: 16px;
+    height: 16px;
+    float: left;
+    margin: 20px 0px 0px 10px;
+}
+
+.terms_contentx {
+    width: 900px;
+    margin: 50px auto 50px;
+    font-family: 微软雅黑, 宋体, Arial;
+    font-size: 14px;
+    padding: 30px 80px 80px;
+    color: #333;
+}
+
+/*服务条款*/
+.terms_content {
+    width: 800px;
+    margin: 50px auto 50px;
+    border: 1px solid #ccc;
+    box-shadow: 0px 2px 1px #BBBBBB;
+    font-family: 微软雅黑, 宋体, Arial;
+    font-size: 14px;
+    padding: 30px 80px 80px;
+    color: #333;
+}
+
+.terms_content p {
+    margin: 0px;
+    padding: 0px;
+    line-height: 24px;
+}
+
+.terms_content h4 {
+    font-size: 15px;
+    padding: 5px 0px 2px;
+    margin: 0px;
+}
+
+.terms_content h1 {
+    border-bottom: 1px solid #dbd6d0;
+    font-size: 24px;
+    padding: 10px 0 10px 0px;
+    margin-bottom: 15px;
+}
+
+.terms_content h3 {
+    font-size: 18px;
+    padding: 18px 0 6px 0px;
+    margin: 0px;
+}
+
+.prompt h2 {
+    color: red;
+    line-height: 32px;
+    font-size: 16px;
+    background: #eee;
+    padding-left: 30px;
+    font-weight: 100;
+}
+
+.terms_left {
+    float: left;
+}
+
+.terms_right {
+    float: left;
+    margin-left: 200px;
+}
+
+.reg_hr {
+    background: url(http://www.chinahtz.com/htz/images/act_hr.jpg) no-repeat;
+
+}
+
+.addicon {
+    float: right;
+    margin-right: 30px;
+}
+
+.delicon {
+    float: right;
+    margin-right: 30px;
+}
+
+.titleEll {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.side_nav {
+    font-family: '宋体', Arial;
+    padding-left: 38px;
+    margin-top: 30px;
+}
+
+.side_nav li {
+    color: #284da2;
+    font-size: 14px;
+    height: 16px;
+    line-height: 16px;
+    margin-bottom: 14px;
+    clear: both;
+    background: url(http://www.chinahtz.com/htz/images/side_nav_icon.png) no-repeat;
+    padding-left: 20px;
+}
+
+.side_nav li.l1 {
+    background-position: 0px -2px;
+}
+
+.side_nav li.l2 {
+    background-position: 0px -46px;
+}
+
+.side_nav li.l3 {
+    background-position: 0px -17px;
+}
+
+.side_nav li.l4 {
+    background-position: 0px -32px;
+}
+
+.side_nav li a {
+    color: #284da2;
+    text-decoration: none;
+}
+
+.side_nav li a:hover {
+    color: #284da2;
+    text-decoration: underline;
+}
+
+.side_nav li a#curr {
+    color: #ED5F59;
+    text-decoration: none;
+}
+
+.modal-footer {
+    border-top: 1px solid #e5e5e5;
+    text-align: center;
+    background-color: #f7f7f7;
+}
+
+.btn-primary {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    height: 25px;
+    margin: 8px 15px;
+    width: 70px;
+}
+
+.text_dh2 {
+    width: 347px;
+    height: 37px;
+    margin: 0 auto;
+    border-radius: 10px;
+    border: 1px solid #d6d6d6;
+    margin-bottom: 15px;
+}
+
+.text_dh2 ul li {
+    float: left;
+    width: 86px;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 37px;
+    font-family: 微软雅黑, 宋体;
+    font-size: 14px;
+}
+
+.right_li {
+    border-right: 1px solid #d6d6d6;
+}
+
+.right_blue {
+    background-color: #3b70e2;
+    color: #FFF;
+    border-radius: 10px 0 0 10px;
+}
+
+.right_blue2 {
+    background-color: #3b70e2;
+    color: #FFF;
+}
+
+.right_blue a {
+    color: #FFF;
+}
+
+.right_blue2 a {
+    color: #FFF;
+}
+
+.dh2_word {
+    width: 350px;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 12px;
+    font-family: 微软雅黑, 宋体;
+    margin-bottom: 41px;
+}
+
+.gywmTab {
+    position: absolute;
+    top: 89px;
+    left: 0;
+    z-index: 1000;
+    color: #000;
+    background-color: #fff;
+    border: 1px solid #e5e5e5;
+    width: 113px;
+    line-height: 32px;
+    /* border-radius: 5px; */
+    text-align: center;
+    display: none;
+}
+
+.gywmTab1:hover {
+    color: #ff9933;
+}

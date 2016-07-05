@@ -42,7 +42,7 @@
 .yqdt_Con .yq_dt_con_i .left_text .name_n {
   font-size: 28px;
   color: #000000;
-  line-height: 95px;
+  margin: 15px 0;
   cursor: pointer;
 }
 .yqdt_Con .yq_dt_con_i .left_text .name_n:hover {

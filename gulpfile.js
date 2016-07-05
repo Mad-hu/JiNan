@@ -22,13 +22,13 @@ gulp.task('compass', function() {
         .pipe(minifycss())
         .pipe(gulp.dest('./src/css/minincss'))
         .pipe(concat('style.min.css'))                            //- 合并后的文件名
-        .pipe(gulp.dest('./dest/css/'));                               //- 输出文件本地       .pipe(rev()) //- 文件名加MD5后缀
+        .pipe(gulp.dest('./dest/styles/common/'));                               //- 输出文件本地       .pipe(rev()) //- 文件名加MD5后缀
 });
 
 
 //语法检查 任务1先检查语法
 gulp.task('jshint', function() {
-    return gulp.src('src/js/*.js')
+    return gulp.src('src/javascripts/*.js')
         .pipe(jshint())
         .pipe(jshint.reporter('default'));
 });
@@ -36,10 +36,10 @@ gulp.task('jshint', function() {
 
 //压缩 js  这里有问题 任务1 2 完成开始压缩js压缩后修改文件名
 gulp.task('minifyjs',['miniconcat'], function() {
-    return gulp.src('dest/js/main.js')      //需要操作的文件
+    return gulp.src('dest/javascripts/main.js')      //需要操作的文件
         .pipe(rename({suffix: '.min'}))   //rename压缩后的文件名
         .pipe(uglify())    //压缩
-        .pipe(gulp.dest('dest/js'))       //输出到文件夹
+        .pipe(gulp.dest('dest/javascripts'))       //输出到文件夹
 });
 
 
@@ -47,7 +47,7 @@ gulp.task('minifyjs',['miniconcat'], function() {
 gulp.task('miniconcat', function() {
     return gulp.src('src/js/*.js')      //需要操作的文件
         .pipe(concat('main.js'))    //合并所有js到main.js
-        .pipe(gulp.dest('dest/js'));  //输出
+        .pipe(gulp.dest('dest/javascripts'));  //输出
 });
 
 // 保证js语法检测完成，sass编译完成

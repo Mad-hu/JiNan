@@ -117,6 +117,7 @@
   height: 40px;
   cursor: pointer;
   @include border-radius(3px);
+  behavior: url(javascripts/PIE/PIE.htc);
   border: 1px solid #e1e1e1;
   margin: 45px auto;
 }

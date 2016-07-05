@@ -111,7 +111,7 @@
    margin-left: 17px;
    @include border-radius(4px);
    cursor: pointer;
-   behavior: url(component/PIE/PIE.htc);
+   behavior: url(javascripts/PIE/PIE.htc);
    &:hover{
      color: #fff;
      border-color: #fff;
