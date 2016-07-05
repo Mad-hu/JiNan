@@ -45,3 +45,4 @@ Temporary Items
 .idea
 .sass-cache
 node_modules
+gulpfile.js
