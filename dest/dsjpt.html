@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <!--让浏览器 优先使用webkit渲染，其次是ie的兼容模式，ie标准模式-->
+    <meta name="renderer" content="webkit|ie-comp|ie-stand">
+    <title>Title</title>
+    <script src="//cdn.bootcss.com/jquery/1.12.3/jquery.js"></script>
+    <script src="javascripts/main.js"></script>
+    <link rel="stylesheet" href="styles/common/style.min.css">
+    <link rel="stylesheet" href="styles/iconfont/iconfont.css">
+
+    <!--ie对html5标签支持-->
+    <!--[if lt IE 9]>
+    <script type="text/javascript" src="//cdn.bootcss.com/html5shiv/r29/html5.min.js"></script>
+    <script type="text/javascript" src="//cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
+    <script src="javascripts/PIE/PIE_IE678.js"></script>
+    <style>
+        /*html5*/
+        article, aside, dialog, footer, header, section, footer, nav, figure, menu {
+            display: block
+        }
+    </style>
+    <![endif]-->
+
+    <!--字体js-->
+    <script type="text/javascript" src="http://cdn.webfont.youziku.com/wwwroot/js/wf/youziku.api.min.js"></script>
+    <link href='http://cdn.webfont.youziku.com/webfonts/nomal/26069/46758/57739bbff629d81044ddf252.css' rel='stylesheet'
+          type='text/css'/>
+
+</head>
+<body>
+
+<div class="main">
+    <div class="indexHeader">
+        <div class="headerTopBlack">
+            <div class="headerLists">
+                <div class="top-tell-tiem" style="width:350px;">
+                    <div class="ttiem1 ttbord">
+                        <i class="icon iconfont" style="font-size: 12px;vertical-align: middle;position: relative;top: -2px;padding: 0 5px;">&#xe604;</i>
+                        <span>0531-82078261</span>
+                    </div>
+                    <!--<div class="ttiem1 imoTop headerSMItem">-->
+
+                    <!--<div class="wxBLBoxTop" id="topBL">-->
+                    <!--<img src="images/common/wxSM.png" width="149" height="151" alt="班聊扫码">-->
+                    <!--<div class="sanjiao"></div>-->
+                    <!--</div>-->
+                    <!--</div>-->
+                    <!--<div class="ttiem1 ttbord headerSMItem">-->
+                    <!--<i class="icon iconfont ficon">&#xe608;</i>-->
+                    <!--<div class="wxSMBoxTop" id="topWX">-->
+                    <!--<img src="images/common/wxSM.png" width="149" height="151" alt="微信扫码">-->
+                    <!--<div class="sanjiao"></div>-->
+                    <!--</div>-->
+                    <!--</div>-->
+                </div>
+
+                <script>
+
+                    $('.headerSMItem').each(function(index,ele){
+                        $(this).hover(function(){
+                            if(index == 0){
+                                $('#topBL').show();
+                            }else if(index == 1){
+                                $('#topWX').show();
+                            }
+                        },function(){
+                            if(index == 0){
+                                $('#topBL').hide();
+                            }else if(index == 1){
+                                $('#topWX').hide();
+                            }
+                        })
+                    });
+                </script>
+
+                <div class="login-nav-con ttbord">
+                    <div class="ttiem1" style="border-right: 1px solid #363636;">
+                        <a href="login.html">登录</a>
+                    </div>
+                    <div class="ttiem1">
+                        <a href="login.html">注册</a>
+                    </div>
+                    <!--<div class="ttiem1">-->
+                    <!--<a href="#">简</a>-->
+                    <!--</div>-->
+                    <!--<div class="ttiem1 ttbord">-->
+                    <!--<a href="#">繁</a>-->
+                    <!--</div>-->
+                    <!--<div class="ttiem1">-->
+                    <!--<a href="#">En</a>-->
+                    <!--</div>-->
+                </div>
+            </div>
+        </div>
+        <div class="headerContainer">
+            <div class="headerLists">
+                <div class="headerLogo"><img src="images/common/indexLog.png" alt="山东新金融产业园"></div>
+                <div class="headerTabbars">
+                    <a class="headerList tabberCurrent" href="index.html">首页</a>
+                    <a class="headerList" href="yqdt.html">园区动态</a>
+                    <a class="headerList" href="lydt.html">路演大厅</a>
+                    <a class="headerList " href="fwpt.html">园区项目</a>
+                    <a class="headerList " href="index.html#abcd">大数据平台</a>
+                    <a class="headerList" href="yqfw.html">园区服务</a>
+                    <div class="headerList" href="#" id="gywmid" style="position: relative">关于我们
+                        <div class="gywmTab">
+                            <span><a href="yqgk.html"><span class="gywmTab1">园区概况</span></a></span>
+                            <span><a href="rzqy.html"><span class="gywmTab1">入驻企业</span></a></span>
+                            <span><a href="lxwm.html"><span class="gywmTab1">联系我们</span></a></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <div class="container">
+        <div class="maxContentBox bgf8f8f8">
+            <div class="maxHeader">
+                <img src="images/common/dataHeaderImg.jpg" width="1920px" height="320px" alt="">
+            </div>
+            <div class="indexContentBox" >
+                <div class="contentItem6" style="padding: 90px 0 100px 0;">
+                    <div id="subjects">
+                        <div class="g-wrap">
+                            <a class="item-1" target="_blank" href="#" idx="1">
+                    <span class="p1">
+                    <img src="images/common/indexData1.png" alt="">
+                    </span>
+                                <div class=" g-wrap-p2-p">
+                                    <div>
+                                        <p>建设中</p>
+                                    </div>
+                                    <div>
+                                        <p>敬请期待</p>
+                                    </div>
+                                </div>
+                            </a>
+                            <a class="item-2" target="_blank" href="#" idx="2">
+                    <span class="p1">
+                    <img src="images/common/indexData2.png" alt="">
+                    </span>
+                                <div class=" g-wrap-p2-p">
+                                    <div>
+                                        <p>建设中</p>
+                                    </div>
+                                    <div>
+                                        <p>敬请期待</p>
+                                    </div>
+                                </div>
+                            </a>
+                            <a class="item-3" target="_blank" href="#" idx="3">
+                    <span class="p1">
+                        <img src="images/common/indexData3.png" alt="">
+                        </span>
+                                <div class=" g-wrap-p2-p">
+                                    <div>
+                                        <p>建设中</p>
+                                    </div>
+                                    <div>
+                                        <p>敬请期待</p>
+                                    </div>
+                                </div>
+                            </a>
+                            <a class="item-4" target="_blank" href="#" idx="4">
+                    <span class="p1">
+                        <img src="images/common/indexData4.png" alt="">
+                        </span>
+                                <div class=" g-wrap-p2-p">
+                                    <div>
+                                        <p>建设中</p>
+                                    </div>
+                                    <div>
+                                        <p>敬请期待</p>
+                                    </div>
+                                </div>
+                            </a>
+                            <a class="item-5" target="_blank" href="#" idx="5">
+                    <span class="p1">
+                        <img src="images/common/indexData5.png" alt="">
+                        </span>
+                                <div class=" g-wrap-p2-p">
+                                    <div>
+                                        <p>建设中</p>
+                                    </div>
+                                    <div>
+                                        <p>敬请期待</p>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script>
+        // 滑块控制
+        (function() {
+            var sup = document.getElementById('subjects').getElementsByTagName('div')[0],
+                    items = sup.getElementsByTagName('a'),
+                    len = items.length;
+            // base  = 70,
+            // width_s = parseInt(getComputedStyle(sup).width);
+            // width_i = width_s / len,
+            // left    = null,
+            // style   = null,
+            // lefts = [],  // 普通模式下各元素的位置
+            // styles  = [];
+
+            $(window).on('load', function() {
+                sup.className = "g-wrap ready state-0";
+            })
+
+            // 存储常用变量, 绑定事件
+            for (var i = 0, elem = null; i < len; i++) {
+                elem = items[i];
+                // styles.push(elem.style);
+                // lefts.push(width_i*i);
+                elem.setAttribute('idx', i + 1);
+                bind(elem, 'mouseover', hoverOn);
+            }
+            // 元素逐个出现
+            initItems(0, len, 200);
+
+            // 事件绑定函数
+            bind(sup, 'mouseout', function() {
+                // for (i=0; i<len; i++) {
+                // styles[i].left = lefts[i] + 'px';
+                // }
+                sup.className = "g-wrap state-0";
+            });
+
+            // 控制元素逐个出现
+            function initItems(idx, len, delay) {
+                if (idx === len) return;
+                // style = styles[idx];
+                // style.left = lefts[idx] + "px";
+                // style.opacity = "1";
+                setTimeout(function() {
+                    initItems(idx + 1, len, delay);
+                }, delay);
+            }
+
+            // 函数绑定
+            function bind(elem, evn, func) {
+                if ('addEventListener' in elem) {
+                    bind = function(elem, evn, func) {
+                        elem.addEventListener(evn, func, false);
+                    }
+                } else {
+                    bind = function(elem, evn, func) {
+                        elem['on' + evn] = func;
+                    }
+                }
+                bind(elem, evn, func);
+            }
+
+            //元素 mouseover 事件处理
+            var i = 0,
+                    flag = false;
+
+            function hoverOn() {
+                // for(i=0, flag=false; i<len; i++) {
+                //     temp = items[i];
+                //     style = styles[i];
+                //     if (temp === this) {
+                //         flag = true;
+                //         style.left = lefts[i] - (i*base) + "px";
+                //     } else {
+                //         style.left = lefts[i] + (flag?(len-i)*base:-(i*base)) + "px";
+                //     }
+                // }
+                sup.className = "g-wrap state-" + this.getAttribute('idx');
+            }
+        }());
+    </script>
+    <div class="indexFooter">
+        <div class="indexFooter1">
+            <div class="footerContainer">
+                <div class="footerList1 clearfix">
+                    <ul>
+                        <li class="fli"><a href="#" class="flia flia-1">首页</a></li>
+                        <li class="fli"><a href="#" class="flia flia-1">园区概括</a></li>
+                        <li class="fli"><a href="#" class="flia flia-1">园区动态</a></li>
+                        <li class="fli"><a href="#" class="flia flia-1">服务平台</a></li>
+                        <li class="fli"><a href="#" class="flia ">联系我们</a></li>
+
+                    </ul>
+                </div>
+                <div class="footerList2">
+                    <div class="flv21 fmg70">
+                        <i class="icon iconfont">&#xe606;</i>
+                        <span class="flv21-T">山东省济南市市中区英雄山路129号山东新金融产业园10号楼2楼</span>
+                    </div>
+                    <div class="flv22 fmg30">
+                        <i class="icon iconfont">&#xe604;</i>
+                        <span class="flv21-T">0531-52078261</span>
+                    </div>
+                    <div class="flv23">
+                        <i class="icon iconfont" style="position: relative;font-size: 30px;top: -8px;">&#xe603;</i>
+                        <span class="flv21-T" style="vertical-align: top;">jnfbdsc@163.com</span>
+                    </div>
+                </div>
+                <div class="footerList3">
+                    <div class="footerL3T">
+                        <span class="flt3">1995-2014 All rights reserved ：SHANGHAI YINQIAO DECORATING MATERIAL CO.LTD </span>
+                    </div>
+                </div>
+                <!--<div class="footerList4">-->
+                <!--<div class="fwxbox">-->
+                <!--<i class="icon iconfont ficon">&#xe608;</i>-->
+                <!--</div>-->
+                <!--<div class="fqqbox">-->
+                <!--<i class="icon iconfont ficon">&#xe60a;</i>-->
+                <!--</div>-->
+                <!--</div>-->
+            </div>
+        </div>
+        <div class="indexFooter2">
+            <div class="footerContainer">
+                <div class="fc2t">
+                    <span>友情链接：</span>
+                    <a href="#" class="f2link">市中区政府网</a>
+                    <a href="#" class="f2link">山东省发改委</a>
+                    <a href="#" class="f2link">山东省金融办</a>
+                    <a href="#" class="f2link">山东省财金集团</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>
