@@ -176,8 +176,8 @@ $(function(){
             bannerLength=$bannerList.length,
             _index=0,
             _timer="";
-
-        var _height=472;
+        var bili = $(window).width()/1920;
+        var _height=400*bili;
         $focusBanner.height(_height);
         $bannerImg.height(_height);
 
@@ -352,6 +352,21 @@ $(function(){
         });
     }
 
+    var tabTitleObj = $('.indexTabUl li');
+    var tabContentObj = $('.indexTabContentBox ul');
+    tabTitleObj.each(function(index,ele){
+        $(this).click(function(){
+            $(this).addClass('indexTabCurrent').siblings().removeClass('indexTabCurrent');
+
+            $(tabContentObj[index]).show().siblings().hide();
+        });
+    });
+
+    $('#gywmid').hover(function(){
+        $('.gywmTab').show();
+    },function(){
+        $('.gywmTab').hide();
+    });
 
 });
 /**
