@@ -297,13 +297,15 @@
   width: 1285px;
   position: relative;
   overflow: hidden;
-  margin-left: 42px;
+  margin: 0 auto;
+  text-align: center;
 }
 
 .picbox {
-  width: 1224px;
+  width: 1221px;
   height: 520px;
   background: #fff;
+  margin: 0 auto;
   overflow: hidden;
   position: relative;
 }
@@ -333,7 +335,7 @@
 
 .swaplist {
   position: absolute;
-  left: -4000px;
+  left: -1221px;
   top: 0px;
 }
 
@@ -349,7 +351,7 @@
 
 .og_prev {
   background-position: 0 0;
-  left: -5px;
+  left: -18px;
 }
 
 .og_prev:hover {
@@ -358,7 +360,7 @@
 
 .og_next {
   background-position: -48px 0;
-  right: -8px;
+  right: -14px;
 }
 
 .og_next:hover {
