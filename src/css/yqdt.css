@@ -34,10 +34,6 @@
 .yqdt_Con .yq_dt_con_i .left_text .time_l {
   font-size: 34px;
   color: #5e5e5e;
-  cursor: pointer;
-}
-.yqdt_Con .yq_dt_con_i .left_text .time_l:hover {
-  color: #f93;
 }
 .yqdt_Con .yq_dt_con_i .left_text .name_n {
   font-size: 28px;

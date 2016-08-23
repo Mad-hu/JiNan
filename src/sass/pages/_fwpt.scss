@@ -90,6 +90,7 @@
     color: #000;
     margin: 15px 0px;
 
+
     .icons_ly1{
       background: url(../../images/common/ong_icons_a_03.png) no-repeat;
       display: inline-block;
@@ -144,5 +145,10 @@
   behavior: url(javascripts/PIE/PIE.htc);
   border: 1px solid #e1e1e1;
   margin: 45px auto;
+
+  &:hover{
+    background: #007cea;
+    color: #fff;
+  }
 }
  /*********************** new module Name End **************************************/

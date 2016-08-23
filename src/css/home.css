@@ -485,7 +485,7 @@ li {
   line-height: 42px;
 }
 .ci3List2right .ci3li:hover {
-  color: #fd7800;
+  color: #cee8ff;
 }
 .ci3List2right .ci3liT1 {
   float: left;
@@ -625,7 +625,7 @@ li {
   width: 46px;
   height: 190px;
   position: fixed;
-  top: 50%;
+  top: 80%;
   right: 10%;
 }
 .rightMenu .qqm {
@@ -752,9 +752,6 @@ li {
   color: #a0a0a0;
   cursor: pointer;
 }
-.indexTabContentBox .itcT2:hover {
-  color: #ff9933;
-}
 .indexTabContentBox .itcUl {
   padding: 5px 30px 20px 48px;
 }
@@ -815,18 +812,12 @@ li {
   line-height: 20px;
   cursor: pointer;
 }
-.contentItem51 .cit5ConT2:hover {
-  color: #ff9933;
-}
 .contentItem51 .cit5ConT3 {
   position: absolute;
   line-height: 13px;
   color: #000;
   cursor: pointer;
   top: 173px;
-}
-.contentItem51 .cit5ConT3:hover {
-  color: #ff9933;
 }
 
 .contentItem5 {
