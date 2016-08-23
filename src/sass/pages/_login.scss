@@ -21,6 +21,15 @@ $loginBlue:#008aff;
   margin-top: 87px;
   padding: 33px 50px 93px 46px;
 
+  .text-fdpword{
+    float: right;
+    margin-top: 9px;
+    color: #6f6f6f;
+    cursor: pointer;
+  }
+  .text-fdpword:hover{
+    color: orange;
+  }
   .ltLeft{
     float: left;
     font-size: 18px;

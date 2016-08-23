@@ -24,6 +24,15 @@
   margin-top: 87px;
   padding: 33px 50px 93px 46px;
 }
+.loginBox .text-fdpword {
+  float: right;
+  margin-top: 9px;
+  color: #6f6f6f;
+  cursor: pointer;
+}
+.loginBox .text-fdpword:hover {
+  color: orange;
+}
 .loginBox .ltLeft {
   float: left;
   font-size: 18px;
