@@ -22,7 +22,18 @@ gulp.task('compass', function() {
         .pipe(minifycss())
         .pipe(gulp.dest('./src/css/minincss'))
         .pipe(concat('style.min.css'))                            //- 合并后的文件名
+        //.pipe(gulp.dest('E:/workspace/eclipse/newFinance/newFinanceWeb/src/main/webapp/styles/common'));
         .pipe(gulp.dest('./dest/styles/common/'));                               //- 输出文件本地       .pipe(rev()) //- 文件名加MD5后缀
+});
+//E:/workspace/eclipse/newFinance/newFinanceWeb/src/main/webapp/styles/common
+
+///压缩第二首页的css
+gulp.task('cssyshb',function(){
+    gulp.src('./dest/styles/common/index2.css')
+        .pipe(minifycss())
+        .pipe(gulp.dest('./dest/styles/common/index2-min-css'))
+        .pipe(concat('style2.min.css'))
+        .pipe(gulp.dest('./dest/styles/common/index2-min-css'));
 });
 
 
@@ -52,7 +63,7 @@ gulp.task('miniconcat', function() {
 
 // 保证js语法检测完成，sass编译完成
 gulp.task('default',['jshint','compass'],function() {
-    gulp.start('miniconcat','minifyjs');
+    gulp.start('miniconcat','minifyjs','cssyshb');
     // 监听sass文件变化
     gulp.watch('./src/sass/**/*.scss', function(){
         gulp.start('compass');

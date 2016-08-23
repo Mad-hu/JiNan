@@ -141,6 +141,10 @@
   border: 1px solid #e1e1e1;
   margin: 45px auto;
 }
+.showPageMore:hover {
+  background: #007cea;
+  color: #fff;
+}
 
 /*********************** new module Name End **************************************/
 /*********************** new module Name End **************************************/
