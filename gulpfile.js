@@ -21,9 +21,12 @@ gulp.task('compass', function() {
         }))
         .pipe(minifycss())
         .pipe(gulp.dest('./src/css/minincss'))
-        .pipe(concat('style.min.css'))                            //- 合并后的文件名
-        .pipe(gulp.dest('./dest/styles/common/'));                               //- 输出文件本地       .pipe(rev()) //- 文件名加MD5后缀
+        .pipe(concat('style.min.css'))                            //- 合并后的文件名.
+    .pipe(gulp.dest('./dest/styles/common/'));                               //- 输出文件本地       .pipe(rev()) //- 文件名加MD5后缀
+        //.pipe(gulp.dest('E:/work/workspace/newFinance/newFinanceWeb/src/main/webapp/styles/common'));
 });
+
+//E:\work\workspace\newFinance\newFinanceWeb\src\main\webapp\styles\common
 
 
 //语法检查 任务1先检查语法

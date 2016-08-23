@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <!--让浏览器 优先使用webkit渲染，其次是ie的兼容模式，ie标准模式-->
+    <meta name="renderer" content="webkit|ie-comp|ie-stand">
+    <title>Title</title>
+    <script src="//cdn.bootcss.com/jquery/1.12.3/jquery.js"></script>
+    <script src="javascripts/main.js"></script>
+    <link rel="stylesheet" href="styles/common/style.min.css">
+    <link rel="stylesheet" href="styles/iconfont/iconfont.css">
+    <!--<link rel="stylesheet" href="styles/common/index2.css">-->
+
+    <!--ie对html5标签支持-->
+    <!--[if lt IE 9]>
+    <script type="text/javascript" src="//cdn.bootcss.com/html5shiv/r29/html5.min.js"></script>
+    <script type="text/javascript" src="//cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
+    <script src="javascripts/PIE/PIE_IE678.js"></script>
+    <style>
+        /*html5*/
+        article, aside, dialog, footer, header, section, footer, nav, figure, menu {
+            display: block
+        }
+    </style>
+    <![endif]-->
+
+    <script type="text/javascript" src="http://cdn.webfont.youziku.com/wwwroot/js/wf/youziku.api.min.js"></script>
+    <link href='http://cdn.webfont.youziku.com/webfonts/nomal/26069/46758/57739bbff629d81044ddf252.css' rel='stylesheet'
+          type='text/css'/>
+</head>
+<body>
+<div class="main">
+    <div class="indexHeader">
+        <div class="headerTopBlack">
+            <div class="headerLists">
+                <div class="top-tell-tiem" style="width:350px;">
+                    <div class="ttiem1 ttbord">
+                        <i class="icon iconfont" style="font-size: 12px;vertical-align: middle;position: relative;top: -2px;padding: 0 5px;">&#xe604;</i>
+                        <span>0531-82078261</span>
+                    </div>
+                    <!--<div class="ttiem1 imoTop headerSMItem">-->
+
+                    <!--<div class="wxBLBoxTop" id="topBL">-->
+                    <!--<img src="images/common/wxSM.png" width="149" height="151" alt="班聊扫码">-->
+                    <!--<div class="sanjiao"></div>-->
+                    <!--</div>-->
+                    <!--</div>-->
+                    <!--<div class="ttiem1 ttbord headerSMItem">-->
+                    <!--<i class="icon iconfont ficon">&#xe608;</i>-->
+                    <!--<div class="wxSMBoxTop" id="topWX">-->
+                    <!--<img src="images/common/wxSM.png" width="149" height="151" alt="微信扫码">-->
+                    <!--<div class="sanjiao"></div>-->
+                    <!--</div>-->
+                    <!--</div>-->
+                </div>
+
+                <script>
+
+                    $('.headerSMItem').each(function(index,ele){
+                        $(this).hover(function(){
+                            if(index == 0){
+                                $('#topBL').show();
+                            }else if(index == 1){
+                                $('#topWX').show();
+                            }
+                        },function(){
+                            if(index == 0){
+                                $('#topBL').hide();
+                            }else if(index == 1){
+                                $('#topWX').hide();
+                            }
+                        })
+                    });
+                </script>
+
+                <div class="login-nav-con ttbord">
+                    <div class="ttiem1 ">
+                        <a href="login.html">登录</a>
+                    </div>
+                    <div class="ttiem1 ttbord">
+                        <a href="login.html">注册</a>
+                    </div>
+                    <!--<div class="ttiem1">-->
+                    <!--<a href="#">简</a>-->
+                    <!--</div>-->
+                    <!--<div class="ttiem1 ttbord">-->
+                    <!--<a href="#">繁</a>-->
+                    <!--</div>-->
+                    <!--<div class="ttiem1">-->
+                    <!--<a href="#">En</a>-->
+                    <!--</div>-->
+                </div>
+            </div>
+        </div>
+        <div class="headerContainer">
+            <div class="headerLists">
+                <div class="headerLogo"><img src="images/common/indexLog.png" alt="山东新金融产业园"></div>
+                <div class="headerTabbars">
+                    <a class="headerList " href="index.html">首页</a>
+                    <a class="headerList " href="yqdt.html">园区动态</a>
+                    <a class="headerList " href="lydt.html">路演大厅</a>
+                    <a class="headerList " href="fwpt.html">园区项目</a>
+                    <a class="headerList " href="index.html#abcd">大数据平台</a>
+                    <a class="headerList" href="yqfw.html">园区服务</a>
+                    <div class="headerList" href="#" id="gywmid" style="position: relative">关于我们
+                        <div class="gywmTab">
+                            <span><a href="yqgk.html"><span class="gywmTab1">园区概况</span></a></span>
+                            <span><a href="rzqy.html"><span class="gywmTab1">入驻企业</span></a></span>
+                            <span><a href="lxwm.html"><span class="gywmTab1">联系我们</span></a></span>
+                        </div>
+                    </div>
+
+                </div>
+                <script>
+                    $('#gywmid').hover(function(){
+                        $('.gywmTab').show();
+                    },function(){
+                        $('.gywmTab').hide();
+                    });
+
+                </script>
+
+                <!--<div class="headerSearch">-->
+                <!--<form class="searchForm" action="#">-->
+                <!--<input class="searchInput" type="text" placeholder="输入关键字...">-->
+
+                <!--</form>-->
+                <!--<i class="icon iconfont searchIcon">&#xe600;</i>-->
+                <!--</div>-->
+            </div>
+
+        </div>
+    </div>
+   <div class="container">
+    <div class="jn_findpassword">
+      <div class="findpassword_c">
+       <div class="find-pd">
+           <div class="find-pd_title">
+       <div class="title-ws">
+        忘记密码
+       </div>
+               <div class="find-wsd-con">
+
+               <div id="sflex04" class="stepflex width918-rzb clearfix">
+                   <dl class="first doing width306-add">
+                       <dt class="s-num">1</dt>
+                       <dd class="s-text">验证身份<s></s></dd>
+                       <dd></dd>
+                   </dl>
+                   <dl class="normal doing width306-add">
+                       <dt class="s-num">2</dt>
+                       <dd class="s-text">设置新密码</dd>
+                   </dl>
+
+                   <dl class="last  width306-add">
+                       <dt class="s-num">&nbsp;</dt>
+                       <dd class="s-text">完成<b></b></dd>
+                   </dl>
+               </div>
+          <div class="mn-top23">
+              <!--验证码-->
+          <div class="form-box-fd">
+          <div class="box1-same">
+              <input class="input-text-f" type="text" placeholder="请输入邮箱"/>
+              <div class="tishi-jn">
+                 邮箱错误
+              </div>
+          </div>
+              <div class="box1-same">
+                  <input class="input-text-f short_text-iput" type="text" placeholder="邮箱验证码"/>  <span class="hqyz_i">获取验证码</span>
+                  <div class="tishi-jn">
+                      验证码错误
+                  </div>
+              </div>
+              <div class="box1-same1">
+                  <a class="btn_bg-c">下一步</a>
+              </div>
+          </div>
+              <!--设置密码-->
+              <div class="form-box-fd">
+                  <div class="box1-same">
+                      <input class="input-text-f" type="text" placeholder="设置新的交易密码，6-16位字母和数字的组合"/>
+                      <div class="tishi-jn">
+                          设置新的交易密码，6-16位字母和数字的组合
+                      </div>
+                  </div>
+                  <div class="box1-same">
+                      <input class="input-text-f" type="text" placeholder=" 再次输入新的交易密码，6-16位字母和数字的组合"/>
+                      <div class="tishi-jn">
+                          再次输入新的交易密码，6-16位字母和数字的组合
+                      </div>
+                  </div>
+                  <div class="box1-same1">
+                      <a class="btn_bg-c">下一步</a>
+                  </div>
+
+
+
+                  </div>
+              <!--设置密码-->
+              <div class="form-box-fd">
+                  <div class="img-imgbg">
+                  <img src="images/common/secconu_03.png"></div>
+                  <p class="text-cente-s">您的密码已经设置成功！</p>
+                  <div class="box1-same1">
+                      <a class="btn_bg-c">重新登录</a>
+                  </div>
+
+                  </div>
+
+               </div>
+          </div>
+       </div>
+    </div>
+      </div>
+   </div>
+   </div>
+    </div>
+</body>
+</html>

@@ -404,9 +404,7 @@ $(function(){
 
     $('.piclist').css('width', w + 'px');//ul宽度
     $('.swaplist').html($('.mainlist').html());//复制内容
-
     $('.og_next').click(function(){
-
         if($('.swaplist,.mainlist').is(':animated')){
             $('.swaplist,.mainlist').stop(true,true);
         }
@@ -418,7 +416,6 @@ $(function(){
                 $('.mainlist').animate({left: ml - 1221+ 'px'},'slow');//默认图片滚动
                 if(ml==(w-1221)* -1){//默认图片最后一屏时
                     $('.swaplist').animate({left: '0px'},'slow');//交换图片滚动
-
                 }
             }else{//交换图片显示时
                 $('.mainlist').css({left: '1221px'})//默认图片放在显示区域右
@@ -430,11 +427,9 @@ $(function(){
         }
     })
     $('.og_prev').click(function(){
-
         if($('.swaplist,.mainlist').is(':animated')){
             $('.swaplist,.mainlist').stop(true,true);
         }
-
         if($('.mainlist li').length>3){
             ml = parseInt($('.mainlist').css('left'));
             sl = parseInt($('.swaplist').css('left'));
@@ -453,13 +448,6 @@ $(function(){
             }
         }
     });
-
-    $('.goodlist').hover(function(){
-        $('.exchange',this).show();
-    },function(){
-        $('.exchange',this).hide();
-    });
-
 });
 
 
@@ -537,7 +525,7 @@ $(function(){
     },function(){
         $(this).find(".text_block").stop().fadeTo(500,0)
        $(this).find(".text").stop().animate({left:'318'}, {duration: "fast"})
-       $(this).find(".text").animate({left:'-318'}, {duration: 0})
+
     });
 });
 

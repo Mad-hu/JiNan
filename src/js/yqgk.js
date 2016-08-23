@@ -13,7 +13,7 @@ $(function(){
     },function(){
         $(this).find(".text_block").stop().fadeTo(500,0)
        $(this).find(".text").stop().animate({left:'318'}, {duration: "fast"})
-       $(this).find(".text").animate({left:'-318'}, {duration: 0})
+
     });
 });
 
